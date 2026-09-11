@@ -1,0 +1,18 @@
+{#-
+  Hidden fields every Web3Forms form carries. Context variables (set by the caller):
+    w3f_key      access key to post to (falls back to site default)
+    w3f_subject  email subject
+    w3f_phone    tracking number the visitor saw (shown again on /thank-you)
+    w3f_short    contractor short name (shown on /thank-you)
+    w3f_extra    object of extra hidden fields (contractor, project, ...)
+-#}
+{%- set _key = w3f_key if w3f_key else site.form.defaultAccessKey -%}
+<input type="hidden" name="access_key" value="{{ _key }}">
+<input type="hidden" name="subject" value="{{ w3f_subject }}">
+<input type="hidden" name="from_name" value="{{ site.form.fromName }}">
+<input type="hidden" name="redirect" value="{{ site.url }}/thank-you?p={{ w3f_phone | phoneDigits }}{% if w3f_short %}&c={{ w3f_short | urlencode }}{% endif %}">
+<input type="hidden" name="source_url" value="{{ site.url }}{{ page.url | cleanUrl }}">
+{%- if w3f_phone %}<input type="hidden" name="service_line" value="{{ w3f_phone }}">{% endif %}
+{%- for k, v in (w3f_extra or {}) %}{% if v %}
+<input type="hidden" name="{{ k }}" value="{{ v }}">{% endif %}{% endfor %}
+<input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">

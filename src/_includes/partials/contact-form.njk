@@ -1,0 +1,71 @@
+{#-
+  Port of common/contact_form.blade.php — the wide "Request A Free Estimate" block at the
+  bottom of city pages. On Laravel this form had no submit handler (§8 of the plan); here it
+  posts to Web3Forms like the sidebar box. Context: est_* variables (same as estimate-sidebar).
+-#}
+{%- set short = est_contractor.shortName if est_contractor else null -%}
+{%- set w3f_key = est_contractor.web3formsKey if (est_contractor and est_contractor.leadsToContractor) else "" -%}
+{%- set w3f_subject = ("Estimate request — " + short + (" (" + est_city.name + ", " + est_state.name + ")" if est_city else "")) if short else "Estimate request — CuredInPlacePipe.net" -%}
+{%- set w3f_phone = est_phone -%}
+{%- set w3f_short = short -%}
+{%- set w3f_extra = { contractor: est_contractor.name if est_contractor else "", form: "city page bottom form" } -%}
+<div class="row contact-form-top">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="contact-form-thumb">
+            <img src="/images/cipp/cipp-camera-inspection.jpg" alt="Sewer camera inspection before CIPP lining" style="background-color: white;">
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="contact-form-box style-two">
+            <div class="quote-section-title section-b text-left">
+                <h5>GET A QUOTE</h5>
+                <h2>Request A Free Estimate</h2>
+                <div class="em_bar_bg text-left"></div>
+            </div>
+
+            <form id="quote_form" action="https://api.web3forms.com/submit" method="POST" data-w3f>
+                {% include "partials/web3forms-fields.njk" %}
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name *" required style="height: 50px; border-radius: 5px; border: 1px solid #e0e0e0; padding: 15px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-3">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email *" required style="height: 50px; border-radius: 5px; border: 1px solid #e0e0e0; padding: 15px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-3">
+                            <input type="text" name="phone" class="form-control" placeholder="Your Phone *" required style="height: 50px; border-radius: 5px; border: 1px solid #e0e0e0; padding: 15px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group mb-3">
+                            <input type="text" name="city" class="form-control" placeholder="Your City *" value="{{ est_city.name if est_city else '' }}" required style="height: 50px; border-radius: 5px; border: 1px solid #e0e0e0; padding: 15px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="form-group mb-3">
+                            <input type="text" name="state" class="form-control" placeholder="Your State *" value="{{ est_state.name if est_state else '' }}" required style="height: 50px; border-radius: 5px; border: 1px solid #e0e0e0; padding: 15px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="form-group mb-3">
+                            <textarea name="message" cols="30" rows="5" class="form-control" placeholder="Your Project Details *" required style="border-radius: 5px; border: 1px solid #e0e0e0; padding: 15px;"></textarea>
+                        </div>
+                    </div>
+                    {% if site.form.turnstileSiteKey %}<div class="col-lg-12"><div class="cf-turnstile" data-sitekey="{{ site.form.turnstileSiteKey }}" data-size="flexible"></div></div>{% endif %}
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <button type="submit" id="quote_submit" class="btn btn-primary" style="width: 100%; height: 50px; background-color: #fc9615; border: none; border-radius: 5px; font-size: 16px; font-weight: 600;">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div id="status"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1035 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+a.logo_img img {
+    width: 100% !important;
+}
+a.main_sticky img {
+    width: 100%!important;
+}
+.dreamit_menu > ul > li > a {
+    font-size: 15px !important;
+    margin: 30px 6px !important;
+}
+a.dtbtn {
+    font-size: 14px !important;
+    padding: 10px 20px !important;
+}
+.socails-icon ul {
+    padding-left: 18px!important;
+    margin-top: 4px!important;
+}
+.socails-icon ul li a {
+    height: inherit!important;
+    width: inherit!important;
+    line-height: inherit!important;
+    background: transparent !important;
+    color: #fc9615!important
+}
+.slider-content h1 {
+    font-size: 50px!important;
+}
+.dreamit-section-title h2 {
+    font-size: 26px !important;
+}
+.dreamit-feature-single-box {
+    padding: 20px 15px 0px;
+}
+.feature-box-title h2 {
+    font-size: 20px;
+}
+.feature-box-title p {
+    font-size: 13px;
+}
+.elementor-widget-title h2 {
+    font-size: 17px;
+}
+.about-content-text p {
+    font-size: 15px;
+}
+.service-area {
+    padding: 90px 0  70px;
+}
+.testimonial-text {
+    font-size: 15px;
+}
+.video-icon2 {
+    left: 32% !important;
+}
+.video-icon {
+    top: 98px;
+}
+.style-two.dreamit_nav_manu {
+    display: none;
+}
+.why-choose-us-thumb {
+    margin-top: 0;
+}
+.call-center-single-box {
+    margin-top: 72px;
+}
+.style-two .feature-box-title h2 {
+    font-size: 18px;
+}
+.style-three .team-title h2 {
+    font-size: 18px;
+}
+.style-two .testimonial-text p {
+    width: 100%;
+    font-size: 15px;
+}
+.row.testi-background {
+    margin-top: 0;
+}
+.dreamit-single-testimonial-thumb img {
+    width: 100%;
+}
+.blog_page_title h4 {
+    font-size: 17px;
+}
+.team-title h3 {
+    font-size: 17px;
+}
+.elementor-widget-title1 h2 {
+    font-size: 30px;
+}
+.why-choose-us-title3 h2 {
+    font-size: 17px;
+}
+.style-two .elementor-widget-title h2 {
+    font-size: 16px;
+}
+.team-title h3 {
+    font-size: 17px;
+}
+.blog_page_title h4 {
+    font-size: 17px;
+}
+.blog-page-title h2 {
+    font-size: 25px;
+}
+.blog_description p {
+    font-size: 15px;
+}
+.tag-item .all-days ul li, .tag-item .all-date ul li {
+    width: 35px;
+}
+
+.index2-slider-area .slider-content .heading .box{
+    height: 135px;
+}
+
+.intro-section .right-content .shape-image {
+    display: none;
+}
+.index2-testi-section .owl-nav {
+    display: none;
+}
+.index2-service-section .accordion .accordion-content .left-content .list .icon-box p {
+    font-size: 15px;
+}
+.protfolio-section .single-protfolio .protfolio-image .text-box h4 {
+    font-size: 18px;
+}
+.elementor-widget-title {
+    margin-left: 10px;
+}
+.elementor-widget-title p {
+    font-size: 15px;
+}
+.dreamit_nav_manu.sticky a.dtbtn {
+    font-weight: 500;
+}
+.dreamit-section-title p {
+    padding: 0px 15px 5px;
+    font-size: 15px;
+}
+.row.pricing-left {
+    margin-left: -140px;
+}
+.pricing-body ul li {
+    font-size: 15px;
+}
+span.tk {
+    font-size: 48px;
+}
+.dreamit-pricing-title h2 {
+    font-size: 26px;
+}
+.progress-title p {
+    font-size: 15px;
+}
+.index2-slider-area .slider-content p {
+    width: 80%;
+}
+
+
+
+}
+
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+ .style-three.dreamit_nav_manu {
+    display: none;
+}   
+.slider-content h1 {
+    font-size: 45px!important;
+}
+.dreamit-section-title h2 {
+    font-size: 24px!important;
+}
+.about-button a {
+    font-size: 15px!important;
+    padding: 6px 17px!important;
+}
+.dreamit-single-brand-thumb1 img {
+    width: inherit !important;
+}
+.dreamit-single-counter-box {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+.dreamit-about-thumb.pr-40 {
+    padding: 0 0 0 0 !important;
+}
+.stat-levels {
+    max-width: 85% !important;
+    padding: 17px 40px 35px 40px !important;
+    margin-top: -18px !important;
+}
+.header-top-area {
+    display: none !important;
+}
+
+.feature-box-title h2 {
+    font-size: 20px;
+}
+.feature-box-title p {
+    font-size: 15px;
+}
+.service-area {
+    padding: 60px 0  75px;
+}
+.dreamit-service-title h2 {
+    font-size: 20px;
+}
+.dreamit-service-title p {
+    font-size: 15px;
+}
+.dreamit-service-title1 p {
+    font-size: 15px;
+}
+.single-process-thumb:before {
+    height: 124% !important;
+}
+.video-icon2 {
+    left: 42% !important;
+}
+.row.pricing-left {
+    margin-left: 0px !important;
+}
+.from-box1 button a {
+    padding: 13px 30px !important;
+}
+.subscribe-title h2 {
+    font-size: 29px !important;
+}
+.subscribe-title h4 {
+    font-size: 22px;
+}
+.video-icon3 {
+    left: 100%;
+}
+.call-center-content h2 {
+    font-size: 25px !important;
+    line-height: 25px;
+}
+.call-center-single-box {
+    margin-top: 90px;
+}
+.style-two.dreamit_nav_manu {
+    display: none;
+}
+.testimonial-text {
+    font-size: 15px;
+}
+.hero-text span {
+    font-size: 28px;
+}
+.video-icon {
+    top: 100px;
+}
+.why-choose-us-thumb {
+    margin-top: 0;
+}
+.elementor-widget-title1 h2 {
+    font-size: 22px;
+}
+.why-choose-us-title3 h2 {
+    font-size: 17px;
+}
+.widget .team-title h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.why-choose-us-title3 h2 {
+    font-size: 17px ;
+}
+.widget-download-title h2 {
+    font-size: 30px;
+}
+.style-two .elementor-widget-title h2 {
+    font-size: 18px;
+}
+.stat-levels h6 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.stat-1 > .stat-bar-rating span {
+    right: -20px;
+}
+.breatcumb-title h2 {
+    font-size: 40px;
+}
+.blog-page-title h2 {
+    font-size: 17px;
+}
+.tag-item .all-days ul li, .tag-item .all-date ul li {
+    width: 48px;
+}
+.pricing-area.bgtb {
+    background: #0B2653 !important;
+}
+.dreamit_nav_manu {
+    display: none;
+}
+
+.index2-slider-area .slider-content .heading .box{
+    height: 120px;
+}
+
+.intro-section .right-content h4 {
+    margin-top: 40px;
+}
+
+.index2-service-section .accordion .accordion-content .left-content .button{
+    margin-bottom: 40px;
+}
+
+.index2-team-section .single-team.last-item{
+    margin-top: 81px;
+}
+
+.index2-about-section .left-content .shape-image {
+    display: none;
+}
+
+.index2-about-section .right-content {
+    margin-top: 60px;
+}
+
+.index2-testi-section .owl-nav {
+    display: none;
+}
+
+.index2-testi-section .right-content {
+    display: none;
+}
+
+.index2-subscrib-section .title {
+    margin-bottom: 30px;
+}
+.index2-service-section .accordion .accordion-tabs button {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+ .style-three.dreamit_nav_manu {
+    display: none;
+}  
+.pricing-area.bgtb {
+    background: #0B2653 !important;
+}   
+.slider-content h1 {
+    font-size: 35px!important;
+}
+.dreamit-section-title h2 {
+    font-size: 28px!important;
+} 
+.dreamit-single-brand-thumb1 img {
+    width: inherit!important;
+}
+.dreamit-single-counter-box {
+    text-align: center !important;
+    margin-top: 25px !important;
+}
+.service-area {
+    padding: 60px 0  60px;
+}
+
+.single_blog_thumb img {
+    width: 100% !important;
+}
+.quick-button-button {
+    text-align: right !important;
+}
+.quick-button-button a {
+      margin-top: 0px !important;
+}
+.slider-three .slider-thumb {
+    margin-left: inherit !important;
+    margin-top: inherit !important;
+}
+.header-top-area {
+    display: none !important;
+}
+.col-lg-6.col-md-6.col-sm-12.left-why-choose-us {
+    margin-left: 0 !important;
+}
+.dreamit-section-title.text-left {
+    text-align: center !important;
+}
+.style-two.contact-form-box {
+    margin: 0 !important;
+}
+.slider-content p {
+    width: 70% !important;
+}
+.single-process-thumb:before {
+    height: 125% !important;
+}
+.dreamit-logo img {
+    width: 43% !important;
+}
+.video-icon2 {
+    left: 56% !important;
+}
+.row.pricing-left {
+    margin-left: 0 !important;
+}
+.portfolio_nav ul li {
+    font-size: 15px;
+    padding: 12px 18px;
+}
+.call-center-content h2 {
+    font-size: 28px !important;
+    line-height: 30px;
+}
+.call-center-title p {
+    font-size: 20px;
+}
+.style-two.dreamit_nav_manu {
+    display: none;
+}
+.why-choose-us-thumb {
+    margin-top: 0;
+}
+.video-icon {
+    top: 98px;
+}
+.style-two .testimonial-text p {
+    width: 100%;
+}
+.progress-number {
+    right: 190px;
+}
+.breatcumb-title h2 {
+    font-size: 40px;
+}
+.subscribe-title h2 {
+    font-size: 34px;
+}
+.style-two .dreamit-section-title {
+    text-align: center !important;
+}
+.text-left .em_bar_bg {
+    margin: 22px auto 30px;
+}
+.tag-item .all-days ul li, .tag-item .all-date ul li {
+    width: 60px;
+}
+.portfolio-details-title h3 {
+    font-size: 25px;
+}
+.kc-portfolio-title h2 {
+    font-size: 22px;
+}
+.dreamit_nav_manu {
+    display: none;
+}
+.why-choose-us-thumb1 img {
+    width: 100%;
+}
+.video-icon4 {
+    left: 45%;
+    top: -30%;
+}
+.style-two.why-choose-us-area .video-icon {
+    top: 52px;
+    left: 20%;
+    width: 0%;
+}
+.why-choose-us-thumb1 {
+    margin-top: 10px;
+}
+
+.index2-slider-area .slider-content .heading .box{
+    height: 95px;
+}
+
+.intro-section .right-content h4 {
+    margin-top: 40px;
+}
+
+.intro-section .right-content .shape-image img{
+    display: none;
+}
+
+.index2-service-section .service-title {
+    display: block;
+}
+
+.index2-service-section .service-title .index2-button {
+    margin-top: 45px;
+}
+
+.index2-service-section .accordion .accordion-content .left-content .button{
+    margin-bottom: 40px;
+}
+
+.index2-team-section .single-team.last-item{
+    margin-top: 81px;
+}
+
+.index2-about-section .left-content .shape-image {
+    display: none;
+}
+
+.index2-about-section .right-content {
+    margin-top: 60px;
+}
+
+.index2-testi-section .owl-nav {
+    display: none;
+}
+
+.index2-testi-section .right-content {
+    display: none;
+}
+
+.index2-team-section .team-title {
+    display: block;
+}
+
+.index2-team-section .team-title .index2-button {
+    margin-top: 45px;
+}
+
+.index2-team-section .single-team.middle-item {
+    margin-top: 81px;
+}
+
+.index2-blog-section .blog-title h2 {
+    font-size: 35px;
+}
+
+.index2-subscrib-section .title {
+    margin-bottom: 30px;
+}
+.index2-service-section .accordion .accordion-tabs button {
+    margin-bottom: 20px;
+}
+.index2-team-section .single-team .team-image .icon-box {
+    right: 21px;
+}
+
+
+
+}
+
+
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+   
+ .style-three.dreamit_nav_manu {
+    display: none;
+} 
+.pricing-area.bgtb {
+    background: #0B2653 !important;
+}
+ .header-top-area {
+    display: none !important;
+}    
+.slider-content h1 {
+    font-size: 24px !important;
+}
+.slider-content h4 {
+    font-size: 16px;
+}
+.dreamit-section-title h2 {
+    font-size: 20px !important;
+}
+.dreamit-single-brand-thumb1 img {
+    width: inherit!important;
+}
+.dreamit-single-counter-box {
+    text-align: center !important;
+    margin-top: 25px !important;
+}  
+.quick-button-title h1 {
+    font-size: 26px !important;
+}
+.quick-button-button a {
+      margin-top: 10px !important;
+}
+.dreamit-about-thumb1 img {
+    width: 100% !important;
+}
+.testimonial-text {
+    font-size: 15px;
+}
+.testi-icon:before {
+    left: 43px;
+}
+.testi-icon:after {
+    right: 42px;
+}
+.blog_description p {
+    font-size: 15px;
+}
+.slider-thumb img {
+    width: 100% !important;
+}
+.slider-three .slider-thumb {
+    margin-left: inherit !important;
+    margin-top: inherit !important;
+}
+.breatcumb-title h2 {
+    font-size: 25px !important;
+    margin-bottom: 5px !important;
+}
+.portfolio_nav ul li {
+    border: medium none;
+    font-size: 14px !important;
+}
+.dreamit-section-title-text h3 {
+    font-size: 22px !important;
+}
+.dreamit-section-title-text h5 {
+    font-size: 16px;
+}
+.call-do-action-title h1 {
+    font-size: 29px !important;
+}
+.call-do-action-title p {
+    font-size: 18px !important;
+}
+.style-two.contact-form-box {
+    margin: 0 !important;
+}
+.slider4 .slider-content p, .slider5 .slider-content p {
+    width: 100% !important;
+    font-size: 15px;
+}
+.slider4.slider-area .video-icon2 {
+    top: -55% !important;
+    left: 38%;
+}
+.video-icon2 {
+    top: 100% !important;
+}
+.row.pricing-left {
+    margin-left: 0 !important;
+}
+.subscribe-title h2 {
+    font-size: 24px !important;
+}
+.subscribe-title h4 {
+    font-size: 16px !important;
+}
+.from-box1 button a {
+    padding: 11px 17px !important;
+}
+.from-box1 input {
+    padding: 5px 8px !important;
+}
+.col-lg-6.col-md-6.col-sm-12.left-why-choose-us {
+    margin-left: 0;
+}
+.portfolio_nav ul li {
+    padding: 12px 24px;
+}
+.call-center-content h2 {
+    font-size: 22px !important;
+    line-height: 26px;
+}
+.call-center-single-box {
+    margin-top: 75px;
+}
+.row.pricing-left {
+    margin-left: 0;
+}
+.slider-content {
+    text-align: center;
+}
+.slider-content p {
+    margin: 20px auto 20px;
+    width: 100%;
+    font-size: 15px;
+}
+.slider3.slider-area .video-icon4 {
+    left: 50%;
+    top: 120%;;
+}
+.dreamit-section-title h5 {
+    font-size: 12px;
+}
+.blog_page_title h4 {
+    font-size: 17px;
+}
+.style-two.dreamit_nav_manu {
+    display: none;
+}
+.why-choose-us-thumb {
+    margin-top: 0;
+}
+.video-icon {
+    left: 23%;
+    top: 98px;
+}
+.style-two .testi-titile h2 {
+    font-size: 14px;
+}
+.why-choose-us-title3 h2 {
+    font-size: 17px;
+}
+.elementor-widget-title1 h2 {
+    font-size: 20px;
+}
+.dreamit-logo img {
+    width: 55%;
+}
+.dreamit-section-title p {
+    padding: 0px 0 5px 25px;
+}
+.style-two .testimonial-text p {
+    width: 100%;
+    font-size: 15px;
+}
+.tag-item .all-days ul li, .tag-item .all-date ul li {
+    width: 64px;
+    height: 30px;
+}
+.portfolio-details-title h3 {
+    font-weight: 600;
+}
+.kc-portfolio-title h2 {
+    font-size: 22px;
+}
+.dreamit_nav_manu {
+    display: none;
+}
+.row.testi-background {
+    padding: 60px 15px 65px 22px;
+}
+.index2-slider-area .slider-content .heading .box{
+    display: none;
+}
+
+.index2-slider-area .slider-content .heading h1{
+    margin-left: 0px;
+}
+
+.index2-slider-area .slider-content .slider-video2 .video-icon4 {
+    left: 21%;
+}
+
+.index2-slider-area .slider-content .slider-video2 p{
+    margin-left: 22px;
+}
+
+.intro-section .right-content h4 {
+    margin-top: 40px;
+}
+
+.intro-section .right-content .shape-image img{
+    display: none;
+}
+
+.index2-service-section .service-title {
+    display: block;
+}
+
+.index2-service-section .service-title .index2-button {
+    margin-top: 45px;
+}
+
+.index2-service-section .accordion .accordion-content .left-content .button{
+    margin-bottom: 40px;
+}
+
+.index2-team-section .team-title {
+    display: block;
+}
+
+.index2-team-section .team-title .index2-button {
+    margin-top: 45px;
+}
+
+.index2-team-section .single-team.middle-item {
+    margin-top: 81px;
+}
+
+.index2-team-section .single-team.last-item{
+    margin-top: 81px;
+}
+
+.index2-about-section .left-content .shape-image{
+    display: none;
+}
+
+.index2-about-section .right-content {
+    margin-top: 60px;
+}
+
+.protfolio-section .portfolio_nav .portfolio_menu .menu-filtering {
+    text-align: center;
+}
+
+.index2-testi-section .owl-nav {
+    display: none;
+}
+
+.index2-testi-section .right-content {
+    display: none;
+}
+
+.index2-subscrib-section .title {
+    margin-bottom: 30px;
+}
+.index2-subscrib-section .title h2 {
+    font-size: 20px;
+}
+.index2-blog-section .index2-blog-slider .blog-slider-item .text-content .text h2 {
+    font-size: 20px;
+}
+.index2-blog-section .blog-title h2 {
+    font-size: 20px;
+}
+.index2-blog-section .blog-title h4 {
+    font-size: 12px;
+}
+.index2-team-section .team-title h2 {
+    font-size: 20px;
+}
+.index2-team-section .team-title h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.index2-testi-section .left-content .title h2 {
+    font-size: 20px;
+}
+.index2-testi-section .left-content .imdex-2-testi-slider .slider-item h3 {
+    font-size: 15px;
+}
+.index2-testi-section .left-content .title h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.index2-about-section .right-content .icon-section .icon-text h3 {
+    font-size: 19px;
+}
+.index2-about-section .right-content h2 {
+    font-size: 20px;
+}
+.index2-about-section .right-content h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.protfolio-section .single-protfolio .protfolio-image .text-box h4 {
+    font-size: 17px;
+}
+.protfolio-section .single-protfolio .protfolio-image .text-box p {
+    font-size: 14px;
+}
+.protfolio-section .protfolio-title h2 {
+    font-size: 22px;
+}
+.protfolio-section .protfolio-title h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.counter-section .counter-content h2 {
+    font-size: 55px;
+}
+.counter-section .counter-content .counter-text h3 {
+    font-size: 18px;
+}
+.index2-service-section .accordion .accordion-content .left-content h2 {
+    font-size: 20px;
+}
+.index2-service-section .service-title h2 {
+    font-size: 20px;
+}
+.index2-service-section .service-title h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.intro-section .right-content h2 {
+    font-size: 20px;
+}
+.intro-section .right-content h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.index2-slider-area .slider-content p {
+    font-size: 18px;
+    width: 100%;
+}
+.owl-carousel:hover .owl-prev {
+    left: 0;
+}
+.owl-carousel:hover .owl-next {
+    right: 0;
+}
+.index2-slider-area .slider-video2 p {
+    font-size: 18px !important;
+    right: -10px;
+}
+.slider-button {
+    float: inherit;
+    margin-bottom: 15px;
+}
+.hero-text span {
+    font-size: 26px;
+}
+.elementor-widget-title h2 {
+    font-size: 17px;
+}
+.dreamit-service-title h2 {
+    font-size: 18px;
+}
+.dreamit-service-title1 h2 {
+    font-size: 18px;
+}
+.dreamit-service-title p {
+    font-size: 14px;
+}
+.style-two.service-area {
+    padding: 75px 0  80px;
+}
+.style-two .service-button a {
+    font-size: 14px;
+    font-weight: 500;
+}
+.why-choose-us-thumb1 img {
+    width: 100%;
+}
+.why-choose-us-thumb1 {
+    margin-top: 25px;
+}
+.process-title p {
+    font-size: 14px;
+}
+.case-study-title h2 {
+    font-size: 15px;
+}
+.case-study-title p {
+    font-size: 14px;
+}
+.style-two.why-choose-us-area .slider-video {
+    padding: 99px 0;
+}
+.style-two.why-choose-us-area {
+    padding: 0 0px 92px;
+}
+.dreamit-section-title p {
+    font-size: 15px;
+}
+.style-two .why-choose-us-title h2 {
+    font-size: 18px;
+}
+.style-two .why-choose-us-title p {
+    font-size: 15px;
+}
+
+.style-two .feature-box-title h2 {
+    font-size: 18px;
+}
+.feature-box-title p {
+    font-size: 14px;
+}
+.style-two .feature-button a {
+    font-size: 13px;
+}
+.elementor-widget-title p {
+    font-size: 15px;
+}
+.about-content-text p {
+    font-size: 15px;
+}
+.dreamit-pricing-title h2 {
+    font-size: 27px;
+}
+span.tk {
+    font-size: 50px;
+}
+.pricing-body ul li {
+    font-size: 16px;
+}
+.pricing-button a {
+    font-size: 15px;
+    font-weight: 500;
+}
+.progress-title p {
+    font-size: 15px;
+}
+.from-box1 button {
+    padding: 16px 17px;
+    font-size: 13px;
+}
+.dreamit-single-testimonial-thumb img {
+    width: 100%;
+}
+.row.testi-background {
+    margin-top: 30px;
+}
+.footer-socail-info p {
+    font-size: 14px;
+}
+.index2-service-section .accordion .accordion-content .left-content .list .icon-box p {
+    font-size: 14px;
+}
+.protfolio-section .portfolio_nav .portfolio_menu ul li {
+    margin-bottom: 12px;
+}
+.footer-bottom-content-copy p {
+    text-align: center;
+}
+
+
+}
+
+

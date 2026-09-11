@@ -1,0 +1,83 @@
+---
+layout: layouts/base.njk
+permalink: /all-contractors.html
+pageTitle: "Find a CIPP Contractor by City & State"
+pageDescription: "Browse verified CIPP (cured-in-place pipe) contractors by city and state. Find trenchless sewer repair professionals serving your area."
+clickcease: true
+---
+{#- Port of resources/views/home/all_contractors.blade.php -#}
+{%- set hero_image = "/images/cipp/cipp-camera-inspection.jpg" -%}
+{% include "partials/breadcrumb-css.njk" %}
+<style>
+	@media (min-width:1200px) {
+		.container2 {
+			max-width: 1350px;
+		}
+}
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breatcumb-content text-center">
+					<div class="breatcumb-title">
+						<h1>Find a CIPP Contractor by City &amp; State</h1>
+					</div>
+					<div class="breatcumb-content-text">
+						<ul>
+							<li><a href="/">home</a> <i class="fas fa-angle-right"></i> <span>All Contractors</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="blog_area style-two pt-5">
+	<div class="container container2">
+		<div class="row">
+			<div class="col-12 mb-5">
+				<h4 class="text-center">All Contractors</h4>
+			</div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12">
+			    {% for d in model.allContractors %}
+			    <div class="mb-5 directory-state">
+			        <h3 style="font-size:22px; border-bottom:2px solid #fc9615; padding-bottom:6px;">{{ d.state.name }}</h3>
+
+			        {% if d.contractors.length %}
+			        <p style="margin:8px 0 12px;">
+			            <b>Verified installer{{ '' if d.contractors.length == 1 else 's' }}:</b>
+			            {% for c in d.contractors %}
+			                <a href="{{ c.url }}">{{ c.short }}</a>{% if not loop.last %}, {% endif %}
+			            {% endfor %}
+			        </p>
+			        {% endif %}
+
+			        <div class="row">
+			        {% for c in d.cities %}
+			            <div class="col-6 col-md-3 mb-1">
+			                <a href="{{ c.url }}">{{ c.name }}</a>
+			                {% if c.projectCount %}<span style="font-size:12px; color:#777;">({{ c.projectCount }} {{ "project" | plural(c.projectCount) }})</span>{% endif %}
+			            </div>
+			        {% endfor %}
+			        </div>
+			    </div>
+			    {% endfor %}
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="contact-form-area mb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<!--city details-->
+			</div>
+		</div>
+	</div>
+</div>

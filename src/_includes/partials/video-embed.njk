@@ -1,0 +1,22 @@
+{#- Port of common/video/_embed.blade.php — full embed + VideoObject schema, ONLY on the process page -#}
+<style>
+    .cipp-video-embed { position:relative; width:100%; padding-top:56.25%; background:#000; border-radius:8px; overflow:hidden; margin:0 0 28px; box-shadow:0 8px 26px rgba(0,0,0,.12); }
+    .cipp-video-embed iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+</style>
+<div class="cipp-video-embed">
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ video.youtubeId }}?rel=0&modestbranding=1" title="{{ video.title }}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<script type="application/ld+json">
+{{ {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": video.title,
+    "description": video.description,
+    "thumbnailUrl": ["https://i.ytimg.com/vi/" + video.youtubeId + "/maxresdefault.jpg", "https://i.ytimg.com/vi/" + video.youtubeId + "/hqdefault.jpg"],
+    "uploadDate": video.uploadDate,
+    "duration": video.duration,
+    "contentUrl": "https://www.youtube.com/watch?v=" + video.youtubeId,
+    "embedUrl": "https://www.youtube-nocookie.com/embed/" + video.youtubeId,
+    "publisher": { "@type": "Organization", "name": "Cured In Place Pipe", "url": site.url + "/" }
+} | jsonld | safe }}
+</script>

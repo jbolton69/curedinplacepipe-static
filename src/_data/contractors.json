@@ -1,0 +1,1025 @@
+[
+  {
+    "id": 2,
+    "slug": "tsr-trenchless",
+    "name": "TSR Trenchless, Inc.",
+    "shortName": "TSR Trenchless",
+    "tagline": "Trenchless sewer lining and pipe bursting across Southern California",
+    "about": "TSR Trenchless is a Southern California trenchless contractor that has been rehabilitating sewer and drain lines without excavation for well over a decade. Owner Robert (Bob) Biedermann first saw cured-in-place lining in the early 1990s and concluded then that it would replace dig-and-replace as the standard way to fix a sewer. The company self-performs both CIPP lining and pipe bursting and recommends whichever suits the pipe, rather than steering every job toward one method.\n\nThe crews have lined and burst hundreds of lines, from 30-foot residential laterals in 4-inch cast iron and clay to municipal mains running thousands of feet at diameters up to 36 inches, including multi-connection HOA collectors and 8-inch mains with dozens of laterals reinstated robotically from inside the pipe. TSR owns its lining, bursting, hydro-jetting and camera equipment outright, which keeps pricing competitive and lets most residential jobs start the day of the inspection and finish the same day.\n\nBased in San Juan Capistrano, TSR serves Orange County, Los Angeles County, San Diego County, Ventura and Santa Barbara, the Inland Empire and the rest of Southern California, with local numbers for each service area. Lining work is backed by TSR's 25-year warranty.",
+    "certifications": "Self-performed CIPP lining (inversion and pull-in) and HDPE pipe bursting; robotic lateral reinstatement; sewer camera inspection and hydro-jetting; residential through municipal diameters (4\" to 36\").",
+    "serviceAreasText": "Los Angeles County,\r\nOrange County,\r\nSan Diego County,\r\nVentura County,\r\nRiverside County,\r\nSan Bernardino County,\r\nSanta Barbara County,",
+    "website": "https://tsrtrenchless.com",
+    "googleLink": "https://share.google/HqAXe1D5BPAvHZ8wb",
+    "googleRating": "5.0",
+    "googleReviewCount": 78,
+    "hqCity": "San Juan Capistrano",
+    "hqState": "CA",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "/images/cipp/tsr-trenchless-logo.png",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "310-340-2515",
+    "email": "tsrtrenchless@gmail.com",
+    "leadsToContractor": true,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(949) 267-3595",
+        "sort": 0
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 1,
+        "city": "Los Angeles",
+        "areaLabel": "Los Angeles",
+        "phone": "310-340-2515",
+        "sort": 1
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Orange County",
+        "phone": "(949) 267-3595",
+        "sort": 1
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 6,
+        "city": "Santa Monica",
+        "areaLabel": "Santa Monica",
+        "phone": "310-340-2515",
+        "sort": 2
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Los Angeles County",
+        "phone": "(310) 340-2515",
+        "sort": 2
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 14,
+        "city": "Long Beach",
+        "areaLabel": "Long Beach",
+        "phone": "310-340-2515",
+        "sort": 3
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "San Diego County",
+        "phone": "(858) 212-0070",
+        "sort": 3
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 18,
+        "city": "Pasadena",
+        "areaLabel": "Pasadena",
+        "phone": "310-340-2515",
+        "sort": 4
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Ventura County",
+        "phone": "(877) 759-5082",
+        "sort": 4
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 27,
+        "city": "West Los Angeles",
+        "areaLabel": "West Los Angeles",
+        "phone": "310-340-2515",
+        "sort": 5
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Santa Barbara County",
+        "phone": "(877) 759-5082",
+        "sort": 5
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 36,
+        "city": "Burbank",
+        "areaLabel": "Burbank",
+        "phone": "310-340-2515",
+        "sort": 6
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Riverside County",
+        "phone": "(877) 759-5082",
+        "sort": 6
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 38,
+        "city": "Culver City",
+        "areaLabel": "Culver City",
+        "phone": "310-340-2515",
+        "sort": 7
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "San Bernardino County",
+        "phone": "(877) 759-5082",
+        "sort": 7
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 43,
+        "city": "Glendale",
+        "areaLabel": "Glendale",
+        "phone": "310-340-2515",
+        "sort": 8
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 44,
+        "city": "Hollywood",
+        "areaLabel": "Hollywood",
+        "phone": "310-340-2515",
+        "sort": 9
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 3,
+        "city": "Ventura",
+        "areaLabel": "Ventura",
+        "phone": "(877) 759-5082",
+        "sort": 10
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 33,
+        "city": "Bakersfield",
+        "areaLabel": "Bakersfield",
+        "phone": "(877) 759-5082",
+        "sort": 11
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 23,
+        "city": "San Diego",
+        "areaLabel": "San Diego",
+        "phone": "(858) 212-0070",
+        "sort": 12
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 120,
+        "city": "Allied Gardens",
+        "areaLabel": "Allied Gardens",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 32,
+        "city": "Anaheim",
+        "areaLabel": "Anaheim",
+        "phone": "(949) 267-3595",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 121,
+        "city": "Arcadia",
+        "areaLabel": "Arcadia",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 122,
+        "city": "Beverly Hills",
+        "areaLabel": "Beverly Hills",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 123,
+        "city": "Canoga Park",
+        "areaLabel": "Canoga Park",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 124,
+        "city": "Chula Vista",
+        "areaLabel": "Chula Vista",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 125,
+        "city": "Encino",
+        "areaLabel": "Encino",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 40,
+        "city": "Fountain Valley",
+        "areaLabel": "Fountain Valley",
+        "phone": "(949) 267-3595",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 126,
+        "city": "Granada Hills",
+        "areaLabel": "Granada Hills",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 127,
+        "city": "Hillcrest",
+        "areaLabel": "Hillcrest",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 128,
+        "city": "La Jolla",
+        "areaLabel": "La Jolla",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 129,
+        "city": "La Mesa",
+        "areaLabel": "La Mesa",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 130,
+        "city": "Laguna Beach",
+        "areaLabel": "Laguna Beach",
+        "phone": "(949) 267-3595",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 131,
+        "city": "Oxnard",
+        "areaLabel": "Oxnard",
+        "phone": "(877) 759-5082",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 132,
+        "city": "Pacific Beach",
+        "areaLabel": "Pacific Beach",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 133,
+        "city": "Riverside",
+        "areaLabel": "Riverside",
+        "phone": "(877) 759-5082",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 134,
+        "city": "Santee",
+        "areaLabel": "Santee",
+        "phone": "(858) 212-0070",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 135,
+        "city": "Sherman Oaks",
+        "areaLabel": "Sherman Oaks",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 136,
+        "city": "Studio City",
+        "areaLabel": "Studio City",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 137,
+        "city": "Thousand Oaks",
+        "areaLabel": "Thousand Oaks",
+        "phone": "(877) 759-5082",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 138,
+        "city": "Westlake Village",
+        "areaLabel": "Westlake Village",
+        "phone": "(877) 759-5082",
+        "sort": 99
+      },
+      {
+        "stateId": 4,
+        "state": "California",
+        "cityId": 139,
+        "city": "Woodland Hills",
+        "areaLabel": "Woodland Hills",
+        "phone": "(310) 340-2515",
+        "sort": 99
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "cityId": null,
+        "cityName": null,
+        "author": "Jonathan T.",
+        "stars": 5,
+        "reviewDate": "2026-06",
+        "service": "Sewer repair",
+        "body": "Bob and his team were extremely professional. They came out and inspected the issue and recommended we put in liner. They came out the next week and finished the work in a day. They were quick and communicative the whole process, making sure we were okay with how the stucco and concrete looked. If we have any more sewer issues I will definitely give them a call again.",
+        "source": "google",
+        "sort": 0
+      },
+      {
+        "id": 2,
+        "cityId": null,
+        "cityName": null,
+        "author": "Andrew P.",
+        "stars": 5,
+        "reviewDate": "2026-05",
+        "service": "Sewer repair",
+        "body": "I contacted TSR after getting a sky-high estimate from a general plumbing company - Bob was fast, professional, personable, and he & his crew led by Boris did a fantastic job. Quite happy with their company & I wish more contractors had this level of service & honesty.",
+        "source": "google",
+        "sort": 1
+      },
+      {
+        "id": 3,
+        "cityId": 6,
+        "cityName": "Santa Monica",
+        "author": "Ryan K.",
+        "stars": 5,
+        "reviewDate": "2026-02",
+        "service": "Outdoor plumbing system repair, Sewer repair",
+        "body": "We engaged Bob and his team at TSR for work in Santa Monica to evaluate a roughly 120-foot sewer lateral installed around 1925. The line had multiple structural issues consistent with aging infrastructure, and there was an immediate problem at the city connection that, at first glance, appeared to require excavation into city property just to correct that single section. Bob's team responded quickly and approached the situation with a trenchless sewer rehabilitation strategy that fundamentally changed the outcome. Through their technical execution and specialized methods, they were able to correct the issue at the city tie-in, restore alignment across the full 120-foot run, and install a new structural liner backed by a 20-year warranty. The net result: no excavation into city property, no need to unearth and relay 120 feet of lateral, and a fully rehabilitated line at a fraction of the cost of even limited city-side excavation. If you're dealing with legacy sewer infrastructure, especially pre-war lines, TSR understands how to solve the problem without defaulting to a backhoe.",
+        "source": "google",
+        "sort": 2
+      },
+      {
+        "id": 4,
+        "cityId": null,
+        "cityName": null,
+        "author": "Christine N.",
+        "stars": 5,
+        "reviewDate": "2026-01",
+        "service": "Epoxy lining",
+        "body": "Bob brings expertise and competitive pricing for the epoxy liner. His team accommodated our busy schedules and got the job done in half a day!",
+        "source": "google",
+        "sort": 3
+      },
+      {
+        "id": 5,
+        "cityId": null,
+        "cityName": null,
+        "author": "Dr. Anne",
+        "stars": 5,
+        "reviewDate": "2025-12",
+        "service": "Outdoor plumbing system repair",
+        "body": "What a relief and pleasure to work with Bob of TSR Trenchless. I wish I had found him years ago. This was a major project and he made it look effortless. Consideration was given to our plants and the entire process explained professionally. His workers were efficient, tidy, and made sure our home was left in excellent condition. I highly recommend TSR.",
+        "source": "google",
+        "sort": 4
+      },
+      {
+        "id": 6,
+        "cityId": null,
+        "cityName": "Corona",
+        "author": "Kylie",
+        "stars": 5,
+        "reviewDate": "2025-11",
+        "service": "Outdoor plumbing system repair",
+        "body": "Almost a year ago we bought a house in Corona and our exterior drain lines were backed up causing water to get into our garage from our side door every time it rained. Every time there was a chance of rain I would get anxiety worrying about if our garage was going to flood. Several months ago I paid almost $2k for a different company to hydro jet out the pipes and found out that they had really bad root intrusion and the pipe was basically falling apart. That company (not TSR Trenchless) quoted $30k to rip up our driveway and replace the drain pipes. DIY solutions were not helping the issue so I contacted TSR Trenchless and they relined our pipes (without digging up anything) before a huge storm rolled in! And the best part is they fixed our issue for less than 1/5 of the cost of the other company's quote and offered a better warranty on the work. Bob was very honest about expectations for the project and was very knowledgeable about what was needed for our situation. Our final cost was within the range of the initial quote and Bob's team did the job in a timely manner. My only regret is that I did not call them sooner!",
+        "source": "google",
+        "sort": 5
+      },
+      {
+        "id": 7,
+        "cityId": null,
+        "cityName": null,
+        "author": "Kathy C.",
+        "stars": 5,
+        "reviewDate": "2025-08",
+        "service": "Commercial sewer repair",
+        "body": "My plumbing problem needed an immediate solution and Bob at TSR came through with flying colors. My small mixed use (commercial/residential) property needed the sewer line fixed quickly and efficiently and that's exactly what Bob did. I've been through this before with my own home and relied on input from my previous sewer contractor on how to approach the problem and reviewed the TSR quote with him to make sure everything looked fine. My call for help went out to TSR on Thursday around noon and his crew started the job Monday morning and wrapped it up that afternoon as planned. I am very pleased.",
+        "source": "google",
+        "sort": 6
+      },
+      {
+        "id": 8,
+        "cityId": null,
+        "cityName": null,
+        "author": "Todd J.",
+        "stars": 5,
+        "reviewDate": "2025-08",
+        "service": "CIPP pipe lining",
+        "body": "Our sewer line (cast iron and clay) had root intrusion and was at the end of its lifetime (70 yrs). After being surprised by the cost of our first quote for lining our system we searched more thoroughly and obtained three more quotes. Two of the four companies provided a thorough overview of what was required. Bob provided a ballpark cost estimate by phone based on our description and visited in person with a sample of what the liner looks like. His phone estimate was very close to the final price, which was significantly less than the other vendors. Bob was very patient in answering our questions in person and remotely prior to installation. Boris did an outstanding job lining our system. It was complete in one day. The only other contender was more expensive and felt the project would take 2-3 days. This was an expensive project, and we wanted it done right the first time. TSR did an excellent job at the lowest price.",
+        "source": "google",
+        "sort": 7
+      },
+      {
+        "id": 9,
+        "cityId": null,
+        "cityName": null,
+        "author": "Jason M.",
+        "stars": 5,
+        "reviewDate": "2025-08",
+        "service": "CIPP pipe lining",
+        "body": "My house was built in 1979 and was plagued with root intrusion on a regular basis. I called multiple big name plumbers and kept receiving quotes that were so high to complete the repair that I was forced to keep doing less expensive band aid repairs that just kept putting off the real issue. I finally contacted TSR who not only showed up promptly but were able to give me a quote that was more than half the price of the big name companies. Within the same week of the initial call they came to my house, dug a hole, cleaned out all the root intrusion, relined my pipes, and gave me a twenty year guarantee on the work completed. They showed me video footage of the before and after ensuring my peace of mind that the problem no longer existed. I could not be happier with the results and would recommend them to anyone who is having a sewage drain issue. So glad I found TSR",
+        "source": "google",
+        "sort": 8
+      },
+      {
+        "id": 10,
+        "cityId": 23,
+        "cityName": "San Diego",
+        "author": "Chris",
+        "stars": 5,
+        "reviewDate": "2024-08",
+        "service": "CIPP pipe lining",
+        "body": "Excellent experience with Bob and his crew. Price was several thousands under a name brand plumbing company in San Diego. His guys were awesome. They were punctual, neat and respected plants and property, work was competently and efficiently performed, in and out in 5 hours flat. Don't go to a plumbing company who does everything. TSR specializes in CIPP. I hope we never need them again, but if we do, I'll be calling Bob.",
+        "source": "google",
+        "sort": 9
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "cpc-trenchless",
+    "name": "CPC Trenchless, LLC",
+    "shortName": "CPC Trenchless",
+    "tagline": "",
+    "about": "",
+    "certifications": "",
+    "serviceAreasText": "We Service The Entire State of Texas\r\nHouston, San Antonio, Austin, Dallas,\r\nFort Worth, Arlington, Plano, Corpus Christi\r\nAnd All Surrounding Counties & Cities",
+    "website": "https://cpc-trenchless.com",
+    "googleLink": "",
+    "googleRating": null,
+    "googleReviewCount": null,
+    "hqCity": "",
+    "hqState": "",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(346) 644-6780",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 9,
+        "state": "Texas",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(346) 644-6780",
+        "sort": 0
+      },
+      {
+        "stateId": 9,
+        "state": "Texas",
+        "cityId": 47,
+        "city": "Corpus Christi",
+        "areaLabel": "Corpus Christi",
+        "phone": "(726) 200-5808",
+        "sort": 1
+      },
+      {
+        "stateId": 9,
+        "state": "Texas",
+        "cityId": 54,
+        "city": "San Antonio",
+        "areaLabel": "San Antonio",
+        "phone": "(726) 200-5808",
+        "sort": 2
+      },
+      {
+        "stateId": 9,
+        "state": "Texas",
+        "cityId": 49,
+        "city": "El Paso",
+        "areaLabel": "El Paso",
+        "phone": "(346) 644-6780",
+        "sort": 3
+      },
+      {
+        "stateId": 9,
+        "state": "Texas",
+        "cityId": 52,
+        "city": "Houston",
+        "areaLabel": "Houston",
+        "phone": "(346) 644-6780",
+        "sort": 4
+      },
+      {
+        "stateId": 9,
+        "state": "Texas",
+        "cityId": 45,
+        "city": "Austin",
+        "areaLabel": "Austin",
+        "phone": "(512) 270-6145",
+        "sort": 5
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 54,
+    "slug": "all-sewer-and-plumbing-services",
+    "name": "All Sewer and Plumbing Services, LLC",
+    "shortName": "All Sewer and Plumbing Services",
+    "tagline": "Colorado's early adopter of trenchless sewer lining, serving the Denver metro and statewide",
+    "about": "All Sewer and Plumbing Services (formerly operating as Sewer Solutions) has offered trenchless sewer rehabilitation across Colorado since 2009, when owner Jeff Haug trained on and purchased Perma-Liner lining equipment at a time when almost no one in the state was offering the technology. The company has since completed hundreds of lining jobs for residential, commercial and industrial customers.\n\nBeyond sewer laterals the crews have lined pool plumbing, storm drains and roof drains, and provide the full trenchless toolkit: camera inspection, hydro-jetting, cured-in-place lining and pipe bursting. Dedicated trenchless trucks and crews run out of the north Denver metro, with most work in the Denver and Boulder areas, and the company will travel anywhere in Colorado for a lining project. Most situations can be assessed over the phone before a free on-site quote.",
+    "certifications": "Perma-Liner trained; CIPP lining, pipe bursting, hydro-jetting, camera inspection; residential, commercial and industrial.",
+    "serviceAreasText": "We Service The Entire State of Colorado:\r\nEl Paso County, Denver County, Arapahoe County,\r\nJefferson County,Adams County, Douglas County,\r\nLarimer County, Weld County, Boulder County,\r\nPueblo County\r\nAnd All Other Surrounding Counties & Cities",
+    "website": "https://sewer-solutions.com",
+    "googleLink": "https://maps.google.com/?cid=12475710023021445620",
+    "googleRating": "4.9",
+    "googleReviewCount": 269,
+    "hqCity": "Westminster",
+    "hqState": "CO",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "/images/cipp/all-sewer-and-plumbing-logo.png",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(720) 606-6223",
+    "email": "info@allsewerservices.com",
+    "leadsToContractor": true,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(720) 606-6223",
+        "sort": 0
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Denver Metro",
+        "phone": "(720) 606-6223",
+        "sort": 1
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Boulder County",
+        "phone": "(720) 606-6223",
+        "sort": 2
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Adams County",
+        "phone": "(720) 606-6223",
+        "sort": 3
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Arapahoe County",
+        "phone": "(720) 606-6223",
+        "sort": 4
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Jefferson County",
+        "phone": "(720) 606-6223",
+        "sort": 5
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Statewide Colorado",
+        "phone": "(720) 606-6223",
+        "sort": 6
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 55,
+        "city": "Arvada",
+        "areaLabel": "Arvada",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 57,
+        "city": "Boulder",
+        "areaLabel": "Boulder",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 140,
+        "city": "Centennial",
+        "areaLabel": "Centennial",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 59,
+        "city": "Denver",
+        "areaLabel": "Denver",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 141,
+        "city": "Lafayette",
+        "areaLabel": "Lafayette",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 142,
+        "city": "Lakewood",
+        "areaLabel": "Lakewood",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 143,
+        "city": "Littleton",
+        "areaLabel": "Littleton",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      },
+      {
+        "stateId": 10,
+        "state": "Colorado",
+        "cityId": 144,
+        "city": "Thornton",
+        "areaLabel": "Thornton",
+        "phone": "(720) 606-6223",
+        "sort": 99
+      }
+    ],
+    "reviews": [
+      {
+        "id": 11,
+        "cityId": null,
+        "cityName": null,
+        "author": "Brean Small",
+        "stars": 5,
+        "reviewDate": "2026-08",
+        "service": "Sewer inspection",
+        "body": "Ben was amazing! Very fast and an excellent communicator and helped us figure out exactly what needed to be done to keep our Sewer in Top Shape, and avoid any unexpected large expense in the future highly recommend!",
+        "source": "google",
+        "sort": 0
+      },
+      {
+        "id": 12,
+        "cityId": null,
+        "cityName": null,
+        "author": "R Davis",
+        "stars": 5,
+        "reviewDate": "2026-07",
+        "service": "Sewer line cleaning",
+        "body": "Had All Sewer and Plumbing Services come out to remove tree roots in my sewer line. Ben was a very knowledgeable, helpful, and friendly guy. He walked through all the possible remediations after thoroughly cleaning the line! I’m a retired contractor, and would highly recommend Ben and All Sewer and Plumbing Services!",
+        "source": "google",
+        "sort": 1
+      },
+      {
+        "id": 13,
+        "cityId": null,
+        "cityName": null,
+        "author": "Jenni Cooke",
+        "stars": 5,
+        "reviewDate": "2026-06",
+        "service": "Sewer repair",
+        "body": "What a great experience from the first phone call to job complete. The crew was on time, professional, and left everything clean when they were done. best of all, problem solved with confidence that we won’t have a future issue. Thanks to Ben and the All Sewer crew for making a challenging situation a positive experience.",
+        "source": "google",
+        "sort": 2
+      },
+      {
+        "id": 14,
+        "cityId": null,
+        "cityName": null,
+        "author": "Julie Naegel",
+        "stars": 5,
+        "reviewDate": "2026-06",
+        "service": "Sewer line cleaning",
+        "body": "We had Elroy come out to help clean our sewer line. He was punctual, kind and very knowledgeable about explaining what he saw and any next steps to protect pipes in the future. He was very quick with the service. I highly recommend this company and Elroy.",
+        "source": "google",
+        "sort": 3
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "the-trenchless-guys",
+    "name": "The Trenchless Guys, LLC",
+    "shortName": "The Trenchless Guys",
+    "tagline": "",
+    "about": "",
+    "certifications": "",
+    "serviceAreasText": "We Service The Entire State of Ohio\r\nFranklin County, Cuyahoga County, Hamilton County,\r\nSummit County, Montgomery County, Lucas County,\r\nButler County, Stark County, Lorain County, Warren County\r\nAnd All Other Surrounding Counties & Cities",
+    "website": "",
+    "googleLink": "",
+    "googleRating": null,
+    "googleReviewCount": null,
+    "hqCity": "",
+    "hqState": "",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(877) 474-0056",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 11,
+        "state": "Ohio",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 474-0056",
+        "sort": 0
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 71,
+    "slug": "simple-drain-repairs",
+    "name": "Simple Drain Repairs, Inc.",
+    "shortName": "Simple Drain Repairs",
+    "tagline": "",
+    "about": "",
+    "certifications": "",
+    "serviceAreasText": "We Service The Entire State of Pennsylvania\r\nPhiladelphia, Allentown, Altoona, Bethlehem,\r\nErie, Lancaster, Levittown, Scranton,\r\nAnd All Other Surrounding Counties & Cities",
+    "website": "",
+    "googleLink": "",
+    "googleRating": null,
+    "googleReviewCount": null,
+    "hqCity": "",
+    "hqState": "",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(877) 407-4157",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 12,
+        "state": "Pennsylvania",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 407-4157",
+        "sort": 0
+      },
+      {
+        "stateId": 3,
+        "state": "New Jersey",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 407-4157",
+        "sort": 1
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 89,
+    "slug": "new-england-pipe-restoration",
+    "name": "New England Pipe Restoration, Inc.",
+    "shortName": "New England Pipe Restoration",
+    "tagline": "",
+    "about": "",
+    "certifications": "",
+    "serviceAreasText": "We Service The Entire State of Massachusetts.\r\nBoston, Brockton, Cambridge, Fall River, Lowell,\r\nLynn, New Bedford, Quincy, Springfield, Waltham\r\nWorcester, And All Surrounding Cities & Counties.",
+    "website": "",
+    "googleLink": "",
+    "googleRating": null,
+    "googleReviewCount": null,
+    "hqCity": "",
+    "hqState": "",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(877) 627-4401",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 14,
+        "state": "Massachusetts",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 627-4401",
+        "sort": 0
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 99,
+    "slug": "american-trenchless-technologies",
+    "name": "American Trenchless Technologies, Inc.",
+    "shortName": "American Trenchless Technologies",
+    "tagline": "100% trenchless sewer rehabilitation for the greater Chicago area, based in DeKalb",
+    "about": "American Trenchless Technologies is owned and operated by Mark Carpenter, who ran a Ben Franklin Plumbing franchise that led the network in trenchless sales for years before founding a company devoted entirely to trenchless work. Based in DeKalb, the company serves Chicago and its suburbs and is one of the most recommended trenchless contractors in northern Illinois.\n\nThe work is mostly residential lateral lining, but the crews have completed demanding commercial projects as well. One example: relining all of the piping of a badly deteriorated 1970s swimming pool at a Harry Weese-designed home, shaped like an ear of corn for its original owner, DeKalb Corn, and finishing in time for a family's 80th birthday party. The company has invested in current lining machines, high-pressure jetters and video inspection equipment and runs experienced crews for complex jobs.",
+    "certifications": "CIPP lining, hydro-jetting, sewer camera inspection; residential and commercial; former Ben Franklin Plumbing franchise owner-operator.",
+    "serviceAreasText": "We Service The Entire State of Illinois.\r\nChicago, Aurora, Cicero, Elgin, Joliet,\r\nPeoria, Rockford, Springfield,\r\nAnd All Surrounding Cities & Counties.",
+    "website": "",
+    "googleLink": "",
+    "googleRating": null,
+    "googleReviewCount": null,
+    "hqCity": "DeKalb",
+    "hqState": "IL",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(877) 895-4088",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 15,
+        "state": "Illinois",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 895-4088",
+        "sort": 0
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 107,
+    "slug": "fletch-barney-trenchless",
+    "name": "Fletch Barney Trenchless, LLC",
+    "shortName": "Fletch Barney Trenchless",
+    "tagline": "Georgia's first trenchless sewer contractor, since 1995",
+    "about": "Alan Fletcher started his full-service plumbing company in 1991 and in 1995 became the first contractor in Georgia to offer trenchless sewer and drain rehabilitation. Thirty years on, Fletch Barney is regularly called in by engineers to consult on difficult sewer infrastructure designs and repairs, and to train other contractors on the technology.\n\nThe company is one of a small number in North America cleared to perform trenchless and plumbing work inside nuclear facilities, a credential that involves stringent background checks and requirements. For homeowners the approach is the same as for engineers: assess the line with a camera, explain the options plainly, and recommend the most economical fix, whether that is a cleaning, a camera inspection or a full lining.",
+    "certifications": "Trenchless sewer and drain rehabilitation since 1995; consultant and trainer to engineers and contractors; cleared for work inside U.S. nuclear facilities.",
+    "serviceAreasText": "We Service The Entire State of Georgia.\r\nAtlanta, Athens, Augusta, Columbus,\r\nMarietta, Macon, Roswell, Sandy Springs,\r\nSavannah, And All Surrounding Cities & Counties.",
+    "website": "",
+    "googleLink": "",
+    "googleRating": null,
+    "googleReviewCount": null,
+    "hqCity": "Atlanta",
+    "hqState": "GA",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(877) 959-0155",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 16,
+        "state": "Georgia",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 959-0155",
+        "sort": 0
+      }
+    ],
+    "reviews": []
+  }
+]

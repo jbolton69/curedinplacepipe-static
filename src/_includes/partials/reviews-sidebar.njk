@@ -1,0 +1,56 @@
+{#-
+  Port of contractor/_reviews_sidebar.blade.php.
+  Context: rv_contractor (raw contractor), rv_reviews (array), rv_city (city|null), rv_rating (text|null)
+-#}
+{%- set short = rv_contractor.shortName -%}
+{%- set gLink = rv_contractor.googleLink -%}
+{%- set count = rv_contractor.googleReviewCount -%}
+{% if gLink or rv_reviews.length %}
+<div class="contact-form-box style-two reviews-box" style="max-width:100%; margin:16px 0 0; padding:14px;">
+    <div class="reviews-head">
+        <img src="/images/google_reviews.png" alt="Google reviews" class="reviews-glogo" onerror="this.style.display='none'">
+        <div>
+            <div class="reviews-stars" aria-label="{{ rv_contractor.googleRating or 5 }} out of 5 stars">{% for i in (5 | range) %}<i class="fa fa-star"></i>{% endfor %}</div>
+            <div class="reviews-summary">
+                {% if rv_rating %}{{ rv_rating }} rating {% endif %}
+                {% if count %} · {{ count }} Google reviews {% endif %}
+            </div>
+        </div>
+    </div>
+
+    {% if rv_reviews.length %}
+        <h6 class="reviews-title">{{ ('What ' + rv_city.name + ' customers say') if rv_city else ('What customers say about ' + short) }}</h6>
+        {% for r in rv_reviews %}
+            <figure class="review">
+                <div class="review-stars">{% for i in (r.starsCount | range) %}<i class="fa fa-star"></i>{% endfor %}</div>
+                <blockquote>“{{ r.body | words(55) }}”</blockquote>
+                <figcaption>
+                    <b>{{ r.author }}</b>
+                    {% if r.cityName %} · {{ r.cityName }}{% endif %}
+                    {% if r.dateLabel %} · {{ r.dateLabel }}{% endif %}
+                </figcaption>
+            </figure>
+        {% endfor %}
+    {% else %}
+        <p class="reviews-blurb">See what {{ short }} customers across {{ rv_contractor.hqState or 'the area' }} say about their trenchless sewer work.</p>
+    {% endif %}
+
+    {% if gLink %}
+        <a href="{{ gLink }}" target="_blank" rel="noopener nofollow" class="btn btn-sm contractor-reviews-btn reviews-cta">
+            {{ 'Read all reviews on Google' if rv_reviews.length else 'Read our reviews on Google' }}
+        </a>
+    {% endif %}
+</div>
+<style>
+    .reviews-head { display:flex; align-items:center; gap:10px; border-bottom:1px solid #eee; padding-bottom:10px; margin-bottom:10px; }
+    .reviews-glogo { max-width:70px; height:auto; }
+    .reviews-stars, .review-stars { color:#ffc107; font-size:14px; letter-spacing:1px; }
+    .reviews-summary { font-size:13px; color:#555; }
+    .reviews-title { font-size:14px; font-weight:700; margin:6px 0 8px; }
+    .review { margin:0 0 12px; }
+    .review blockquote { font-size:13.5px; line-height:1.55; color:#444; margin:4px 0 6px; padding:0; border:0; font-style:italic; }
+    .review figcaption { font-size:12px; color:#777; }
+    .reviews-blurb { font-size:13.5px; color:#555; }
+    .reviews-cta { display:block; text-align:center; margin-top:6px; }
+</style>
+{% endif %}

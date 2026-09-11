@@ -1,0 +1,444 @@
+{#-
+  Port of resources/views/common/navigations/site_header.blade.php + site_footer.blade.php.
+  Every page sets: pageTitle (without the " | Find Contractors" suffix — added here, exactly
+  like the Blade header did), pageDescription, optional canonical, noindex, clickcease.
+-#}
+{%- set finalTitle = ((pageTitle or site.name) | replace(site.titleSuffix, "") | trim) + site.titleSuffix -%}
+{%- set canonicalUrl = canonical or (site.url + (page.url | cleanUrl)) -%}
+{%- set isNoindex = (noindex == true or noindex == "true") or (pg.noindex if pg else false) -%}
+{%- set schemaObj = schema or (pg.schema if pg else null) -%}
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="robots" content="{% if isNoindex %}noindex, follow{% else %}index, follow{% endif %}">
+
+<title>{{ finalTitle }}</title>
+
+<meta name="description" content="{{ pageDescription or '' }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ finalTitle }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ canonicalUrl }}">
+<meta property="og:description" content="{{ pageDescription or '' }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ finalTitle }}">
+<meta name="twitter:description" content="{{ pageDescription or '' }}">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="{{ canonicalUrl }}">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="56x56" href="{{ site.favicon }}">
+
+<!-- CSS Files -->
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/nivo-slider.css">
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/animated-text.css">
+<link rel="stylesheet" href="/css/all.min.css">
+<link rel="stylesheet" href="/css/flaticon.css">
+<link rel="stylesheet" href="/css/theme-default.css">
+<link rel="stylesheet" href="/css/meanmenu.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/owl.transitions.css">
+<link rel="stylesheet" href="/venobox/venobox.css">
+<link rel="stylesheet" href="/css/widget.css">
+<link rel="stylesheet" href="/css/responsive.css">
+<link rel="stylesheet" href="/css/slick.css">
+<link rel="stylesheet" href="/css/slick-theme.css">
+
+<script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4 }}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{ site.ga4 }}');
+</script>
+{% if site.form.turnstileSiteKey %}
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+{% endif %}
+
+<style>
+    .slider-content h1 { font-size: 45px; }
+    .blog_area .owl-carousel .owl-item img,
+    .single_blog_thumb img { height: 350px; width: 100%; object-fit: cover; }
+    .popular-post-thumb img { height: 100px; width: 200px; object-fit: cover; }
+    .dreamit-feature-single-box2:before {
+        background: url("/images/resource/commercial.jpg") no-repeat center/cover;
+    }
+    .mean-container .mean-bar::before {
+        content: "";
+        background-image: url("{{ site.logo }}");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 80px; height: 80px;
+        position: absolute; top: 5px; left: 10px;
+    }
+    .mean-container .mean-bar { min-height: 85px; }
+    .dreamit-section-title h2 { font-size: 30px; }
+    .logo img { width: 55%; }
+    .breatcumb-title h1 { font-size: 55px; font-weight: 600; margin-bottom: 10px; color: #fff; }
+    /* Web3Forms + Turnstile bits that had no equivalent in the Laravel build */
+    .cf-turnstile { margin: 6px 0 10px; }
+    .form-note { font-size: 12px; color: #777; margin-top: 6px; }
+</style>
+
+<meta name="google-site-verification" content="{{ site.googleSiteVerification }}" />
+{% if schemaObj %}
+<script type="application/ld+json">{{ schemaObj | jsonld | safe }}</script>
+{% endif %}
+</head>
+<body>
+{% if clickcease and site.clickcease %}
+<!--  ClickCease.com tracking-->
+      <script type='text/javascript'>var script = document.createElement('script');
+      script.async = true; script.type = 'text/javascript';
+      var target = 'https://www.clickcease.com/monitor/stat.js';
+      script.src = target;var elem = document.head;elem.appendChild(script);
+      </script>
+      <noscript>
+      <a href='https://www.clickcease.com' rel='nofollow'><img src='https://monitor.clickcease.com' alt='ClickCease'/></a>
+      </noscript>
+<!--  ClickCease.com tracking-->
+{% endif %}
+
+<!--==================================================-->
+<!-- Start Top Header Bar (Visible on ALL pages) -->
+<!--==================================================-->
+<div class="header-top-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8">
+                <div class="dreamit-header-menu-address">
+                    <ul>
+                        <li><a href="#"><i class="far fa-envelope"></i> {{ site.email }}</a></li>
+                        <li><span><i class="fas fa-map-marker-alt"></i>Nationwide CIPP Contractors</span></li>
+                        <li><a href="#"><i class="fas fa-phone"></i>{{ site.phone }}</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <div class="dreamit-header-top-socail">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--==================================================-->
+<!-- End Top Header Bar -->
+<!--==================================================-->
+
+
+<!-- MAIN MENU -->
+<div id="sticky-header" class="dreamit_nav_manu">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+                <div class="logo">
+                    <a href="/"><img src="{{ site.logo }}" alt="Cured In Place Pipe"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <nav class="dreamit_menu">
+                    <ul class="nav_scroll">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="javascript:void(0)">Information</a>
+                            <ul class="sub-menu">
+                                {% for info in collections.navPages %}
+                                <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+
+                    <div class="header-button">
+                        <a class="search-box-outer dtbtn" href="javascript:void(0)">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu-area d-md-block d-lg-none">
+    <div class="mobile-menu">
+        <nav class="dreamit_menu">
+            <ul class="nav_scroll">
+                <li><a href="/">Home</a></li>
+                <li><a href="javascript:void(0)">Information</a>
+                    <ul class="sub-menu">
+                        {% for info in collections.navPages %}
+                        <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+{{ content | safe }}
+
+<!--==================================================-->
+<!-- Footer Middle Area -->
+<!--==================================================-->
+<div class="footer-middle style_two pt-80 pb-3">
+    <div class="container">
+        <div class="row">
+
+            <!-- Logo + Tagline -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="widget widgets-company-info">
+                    <div class="dreamit-logo">
+                        <a class="logo_img" href="/" title="Cured In Place Pipe">
+                            <img src="{{ site.logo }}" alt="Footer Logo">
+                        </a>
+                    </div>
+
+                    <div class="company-info-desc pr-2">
+                        <p>{{ site.tagline }}</p>
+                    </div>
+
+                    <div class="company_icon">
+                        <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Useful Pages -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="widget widget-nav-menu pl-2">
+                    <h4 class="widget-title">Useful Pages</h4>
+                    <div class="menu-quick-link-content">
+                        <ul class="menu">
+                            {% for info in collections.navPages %}
+                            <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
+                            {% endfor %}
+                            <li><a href="/all-contractors">All Contractors</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Posts -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="widget-footer-title">
+                    <h2>Recent Posts</h2>
+                </div>
+
+                {% for post in collections.posts | limit(2) %}
+                <div class="footer-recent-post style-two">
+                    <div class="footer-recent-post-thumb">
+                        <a href="{{ post.url | cleanUrl }}">
+                            <img src="{{ post.data.featuredImage }}"
+                                 alt="{{ post.data.title }}"
+                                 style="width:80px;height:80px;object-fit:cover;">
+                        </a>
+                    </div>
+
+                    <div class="footer-recent-post-title">
+                        <h4><a href="{{ post.url | cleanUrl }}">{{ post.data.title }}</a></h4>
+                        <span>{{ post.date | dateMDY }}</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Quick Contact -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div id="footer-widget-address">
+                    <div class="footer-widget-address-inner">
+                        <h4 class="widget-title">Quick Contact</h4>
+
+                        <div class="footer-inner pr-2">
+                            <div class="footer-socail-icon">
+                                <i class="fa fa-globe"></i>
+                            </div>
+                            <div class="footer-socail-info">
+                                <p>
+                                    <span>Email:</span><br>
+                                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="footer-inner pr-2">
+                            <div class="dreamit-button">
+                                <a href="/contact">Free Estimates</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-inner pr-2">
+                            <div class="search-box-outer dreamit-button">
+                                <a href="javascript:void(0)">Find Contractors</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="row footer-bottom mt-50">
+            <div class="col-lg-6 col-md-6">
+                <div class="footer-bottom-content-copy">
+                    <p>Copyright © CuredInPlacePipe | All rights reserved.</p>
+                </div>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Scroll to Top -->
+<div class="scroll-area">
+    <div class="top-wrap">
+        <div class="go-top-btn-wraper">
+            <div class="go-top go-top-button">
+                <i class="fas fa-arrow-up"></i><i class="fas fa-arrow-up"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Search Popup -->
+<style>
+    .search-popup { background-color: rgba(252,150,21,0.9); }
+</style>
+
+<div class="search-popup">
+    <button class="close-search style-two">
+        <i class="far fa-times-circle"></i>
+    </button>
+
+    <button class="close-search">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <form method="post" action="#" style="background-color:transparent;" onsubmit="return false;">
+        <h3 class="text-center text-white mb-4">Find Contractors</h3>
+
+        <div class="form-group mb-2">
+            <select class="form-control" id="find_states_field" onchange="fetch_installers(this)" required>
+                <option value="">Select a state</option>
+                {% for st in model.findStates %}
+                <option value="{{ st.name }}">{{ st.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <select class="form-control" id="find_contractors_field" required onchange="go_to_installer()">
+                <option value="">Select a state first</option>
+            </select>
+        </div>
+        <p class="text-center text-white mt-3" style="font-size:13px; opacity:.85;">Every installer listed is license-checked and CIPP-verified. Or <a href="/all-contractors" style="color:#fff; text-decoration:underline;">browse all installers by city</a>.</p>
+    </form>
+</div>
+
+{% include "partials/video-lightbox.njk" %}
+
+<!--====================-->
+<!-- JS (Optimized Load) -->
+<!--====================-->
+<script src="/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/wow.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/venobox/venobox.min.js"></script>
+<script src="/js/animated-text.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="/js/jquery.nivo.slider.pack.js"></script>
+<script src="/js/jquery.meanmenu.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/rs6.min.js"></script>
+<script src="/js/rbtools.min.js"></script>
+<script src="/js/jquery.scrollUp.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/jquery.barfiller.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('.blog_list.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        smartSpeed: 700,
+        responsive: {
+            0:   { items: 1 },
+            600: { items: 2 },
+            1000:{ items: 3 }
+        }
+    });
+});
+</script>
+
+<script>
+// Search overlay: verified installers covering a state → profile links.
+// Replaces POST /fetch-installers with data baked in at build time.
+var INSTALLERS_BY_STATE = {{ model.installersByState | jsonld | safe }};
+function go_to_installer() {
+    var slug = $("#find_contractors_field").val();
+    if (slug) window.location = "/contractor/" + slug;
+}
+function fetch_installers(el) {
+    var field = $("#find_contractors_field");
+    var rows = INSTALLERS_BY_STATE[$(el).val()] || [];
+    if (!rows.length) { field.html("<option value=''>No verified installer yet</option>"); return; }
+    var html = "<option value='' selected>Select a verified installer</option>";
+    rows.forEach(function (r) { html += "<option value='" + r.slug + "'>" + $('<div>').text(r.name).html() + "</option>"; });
+    field.html(html);
+    // Exactly one installer in the state: go straight to the profile.
+    if (rows.length === 1) window.location = "/contractor/" + rows[0].slug;
+}
+</script>
+
+<script>
+// Forms post to Web3Forms (https://web3forms.com) with a redirect to /thank-you.
+// Buttons are disabled while the browser submits so a double-tap can't send twice.
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('form[data-w3f]').forEach(function (form) {
+        form.addEventListener('submit', function () {
+            var btn = form.querySelector('button[type="submit"]');
+            if (btn) { btn.disabled = true; btn.dataset.label = btn.innerHTML; btn.innerHTML = 'Sending...'; }
+        });
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "curedinplacepipe-static",
+  "version": "1.0.0",
+  "description": "curedinplacepipe.net — static Eleventy build of the CIPP Verified Installer directory (migrated from Laravel/Hostinger to Cloudflare Pages)",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "blog:import": "node tools/import-soro.mjs",
+    "check:urls": "node tools/check-urls.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "fast-xml-parser": "^5.11.1",
+    "turndown": "^7.2.4"
+  }
+}

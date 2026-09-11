@@ -1,0 +1,35 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+{#-
+  Same inclusion rules and order as app/Services/SitemapGenerator.php, minus
+  /find-contractors (it returned 500 and now 301s to /all-contractors):
+  home, static pages, every /p/ page (including unpublished, as before), published
+  posts (newest first, lastmod = posted_on), every city, profiles WITH about copy,
+  landers of those profiles. URLs have no trailing slash and no .html.
+-#}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>{{ site.url }}/</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>1.0</priority></url>
+<url><loc>{{ site.url }}/about</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.70</priority></url>
+<url><loc>{{ site.url }}/contact</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.70</priority></url>
+<url><loc>{{ site.url }}/blog</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.90</priority></url>
+<url><loc>{{ site.url }}/all-contractors</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.90</priority></url>
+{%- for p in collections.infoPages %}
+<url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc><priority>0.70</priority></url>
+{%- endfor %}
+{%- for p in collections.posts %}
+<url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc><lastmod>{{ p.date | isoDate }}</lastmod><priority>0.80</priority></url>
+{%- endfor %}
+{%- for c in model.cities %}
+<url><loc>{{ site.url }}{{ c.url }}</loc><priority>0.80</priority></url>
+{%- endfor %}
+{%- for pg in model.contractorPages %}{% if pg.inSitemap %}
+<url><loc>{{ site.url }}{{ pg.url }}</loc><priority>0.80</priority></url>
+{%- endif %}{% endfor %}
+{%- for pg in model.projectPages %}{% if pg.inSitemap %}
+<url><loc>{{ site.url }}{{ pg.url }}</loc>{% if pg.p.updatedAt %}<lastmod>{{ pg.p.updatedAt | isoDate }}</lastmod>{% endif %}<priority>0.80</priority></url>
+{%- endif %}{% endfor %}
+</urlset>

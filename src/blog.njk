@@ -1,0 +1,66 @@
+---
+layout: layouts/base.njk
+permalink: /blog.html
+pageTitle: "Blog"
+pageDescription: "CIPP and trenchless sewer repair guides, industry news, and verified contractor spotlights from CuredInPlacePipe.net."
+---
+{#- Port of resources/views/blog/index.blade.php (6 latest posts, like the controller) -#}
+<style>
+    .breatcumb-area {
+        background: #f1f6fc url("/images/resource/case.jpg");
+    }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breatcumb-content text-center">
+					<div class="breatcumb-title">
+						<h1>Our Blog</h1>
+					</div>
+					<div class="breatcumb-content-text">
+						<ul>
+							<li><a href="/">home</a> <i class="fas fa-angle-right"></i> <span>Blog</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="blog_area style-two">
+	<div class="container">
+		<div class="row">
+            {% for post in collections.posts | limit(6) %}
+			<div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single_blog">
+						<div class="single_blog_thumb">
+							<a href="{{ post.url | cleanUrl }}"><img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}" /></a>
+							<div class="dreamit-meta-blog-top">
+								<ul>
+									<li><a href="{{ post.url | cleanUrl }}">{{ post.data.category }}</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="single_blog_content">
+							<div class="dreamit_blog_meta">
+								<a href="{{ post.url | cleanUrl }}">{{ post.data.category }}</a>
+							</div>
+							<div class="post-categories">
+								<a href="{{ post.url | cleanUrl }}">{{ post.date | dateMDY }}</a>
+							</div>
+							<div class="blog_page_title">
+								<h4><a href="{{ post.url | cleanUrl }}">{{ post.data.title }}</a></h4>
+							</div>
+							<div class="blog_description">
+								<p>{{ post.templateContent | plain | substr(90) }}...</p>
+							</div>
+						</div>
+				</div>
+			</div>
+            {% endfor %}
+		</div>
+	</div>
+</div>

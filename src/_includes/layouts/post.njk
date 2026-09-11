@@ -1,0 +1,93 @@
+---
+layout: layouts/base.njk
+---
+{#- Port of resources/views/blog/post.blade.php -#}
+<style>
+    .breatcumb-area {
+        background: #f1f6fc url("/images/resource/case.jpg");
+    }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breatcumb-content text-center">
+					<div class="breatcumb-title">
+						<h1>{{ title }}</h1>
+					</div>
+					<div class="breatcumb-content-text">
+						<ul>
+							<li><a href="/">home</a> <i class="fas fa-angle-right"></i> <a href="/blog">blog</a> <i class="fas fa-angle-right"></i> <span>{{ title }}</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- BLOG AREA -->
+<div class="blog_area blog-details-area rs pt-115 pb-90" id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="dreamit-single-blog-box">
+							<div class="dreamit-sigle-tmumb">
+								<img src="{{ featuredImage }}" alt="{{ title }}">
+							</div>
+							<div class="em-blog-content">
+								<div class="meta-blog">
+									<a href="#">{{ category }}</a>
+									<span>{{ page.date | dateMDY }}</span>
+								</div>
+								<div class="meta-blog-right"></div><br>
+								<div class="blog-page-title pt-3">
+                                    {{ content | safe }}
+                                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class=" col-lg-4 col-md-12 col-sm-12 col-xs-12 sidebar-right content-widget pdsr">
+				<div class="blog-left-side widget">
+					<div class="widget-sidebar-box">
+						<div class="widget-sidebar-title text-left pb-20">
+							<h2>Recent Post</h2>
+							<div class="em_bar_bg text-left1"></div>
+						</div>
+                        {% for post in collections.posts | exceptUrl(page.url) | limit(5) %}
+						<div class="popular-post-box">
+							<div class="popular-post-box-inner d-flex">
+								<div class="popular-post-thumb">
+									<a href="{{ post.url | cleanUrl }}"><img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}" style="max-width:100%;"></a>
+								</div>
+								<div class="popular-post-content">
+									<a href="{{ post.url | cleanUrl }}">{{ post.data.title }}</a>
+									<span>{{ post.date | dateMDY }}</span>
+								</div>
+							</div>
+						</div>
+                        {% endfor %}
+					</div>
+					<div class="widget-sidebar-box-two">
+						<div class="widget-sidebar-title text-left pb-20">
+							<h2>Categories</h2>
+							<div class="em_bar_bg text-left1"></div>
+						</div>
+						<div class="categories-content">
+							<ul>
+                                {% for cat in blogCategories %}
+								<li><a href="/blog">{{ cat.name }}</a></li>
+                                {% endfor %}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

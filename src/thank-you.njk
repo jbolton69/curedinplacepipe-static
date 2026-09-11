@@ -1,0 +1,72 @@
+---
+layout: layouts/base.njk
+permalink: /thank-you.html
+pageTitle: "Request Received"
+pageDescription: "Your estimate request has been received. We will contact you within 24 hours."
+noindex: true
+excludeFromSitemap: true
+---
+{#-
+  Network rule for every form thank-you page: promise contact within 24 hours, then push
+  the visitor to CALL NOW on the tracking number they were just looking at. The form
+  redirects here with ?p=<digits>&c=<contractor short name>; without them the page still
+  reads correctly and points to the contact page.
+-#}
+<style>
+    .breatcumb-area { background: #f1f6fc url("/images/resource/case.jpg"); }
+    .ty-box { border:2px solid #fc9615; background:#fff7ec; border-radius:10px; padding:28px 30px; margin:0 auto 30px; max-width:760px; text-align:center; }
+    .ty-box h2 { font-size:26px; margin-bottom:10px; }
+    .ty-phone { display:inline-block; font-size:34px; font-weight:800; color:#fc9615; margin:10px 0 4px; }
+    .ty-phone:hover { color:#e8850f; }
+    .ty-cta { font-weight:700; color:#222; font-size:18px; }
+    .ty-note { color:#666; font-size:14px; }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breatcumb-content text-center">
+					<div class="breatcumb-title"><h1>Thank You</h1></div>
+					<div class="breatcumb-content-text">
+						<ul><li><a href="/">home</a> <i class="fas fa-angle-right"></i> <span>Request received</span></li></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact-form-area pt-100 pb-90">
+	<div class="container">
+		<div class="ty-box">
+			<h2>We will contact you within 24 hours.</h2>
+			<p>Your request has been received<span id="ty-who"></span>. A member of the team will be in touch within 24 hours.</p>
+			<div id="ty-call" hidden>
+				<p class="ty-note" style="margin-top:14px;">Need it faster? Our friendly staff is standing by.</p>
+				<a id="ty-phone" class="ty-phone" href="#"></a>
+				<div class="ty-cta">Estimates are free. Call now.</div>
+			</div>
+			<div id="ty-nophone">
+				<p class="ty-note" style="margin-top:14px;">Need it faster? <a href="/all-contractors">Find the verified installer for your state</a> and call the number on their profile — estimates are free.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+(function () {
+    var q = new URLSearchParams(location.search);
+    var p = (q.get('p') || '').replace(/\D/g, '');
+    var c = q.get('c') || '';
+    if (c) document.getElementById('ty-who').textContent = ' by ' + c;
+    if (p.length >= 10) {
+        var d = p.slice(-10);
+        var pretty = '(' + d.slice(0, 3) + ') ' + d.slice(3, 6) + '-' + d.slice(6);
+        var a = document.getElementById('ty-phone');
+        a.textContent = pretty; a.href = 'tel:' + d;
+        document.getElementById('ty-call').hidden = false;
+        document.getElementById('ty-nophone').hidden = true;
+    }
+})();
+</script>

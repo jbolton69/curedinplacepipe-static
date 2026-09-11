@@ -1,0 +1,19 @@
+{#- Port of contractor/_project_row.blade.php. Context: row (projectRow view-model from model.js) -#}
+<a href="{{ row.url }}" class="project-row">
+    <div class="project-row-media">
+        {% if row.photo %}
+            <img src="{{ row.photo.src }}" alt="{{ row.photo.alt }}" loading="lazy">
+        {% else %}
+            <div class="project-row-stat">
+                <span class="project-row-stat-num">{{ row.stat }}</span>
+                <span class="project-row-stat-label">{{ row.statLabel }}</span>
+            </div>
+        {% endif %}
+    </div>
+    <div class="project-row-body">
+        <div class="project-row-meta">{{ row.meta }}{% if row.completedLabel %} · {{ row.completedLabel }}{% endif %}</div>
+        <h4 class="project-row-title">{{ row.title }}</h4>
+        {% if row.summary %}<p class="project-row-summary">{{ row.summary170 }}</p>{% endif %}
+        <span class="project-row-link">View project <i class="fas fa-angle-right"></i></span>
+    </div>
+</a>

@@ -1,0 +1,70 @@
+{#-
+  Port of contractor/_estimate_sidebar.blade.php.
+  Sidebar "Request a Free Estimate" box, attributed to a contractor when one is known.
+  Shared by the city page, contractor profile and project landers.
+  Context: est_contractor (raw contractor|null) est_phone est_city est_state est_project
+-#}
+{%- set short = est_contractor.shortName if est_contractor else null -%}
+{%- set w3f_key = est_contractor.web3formsKey if (est_contractor and est_contractor.leadsToContractor) else "" -%}
+{%- set w3f_subject = ("Estimate request — " + short + (" (" + est_city.name + ", " + est_state.name + ")" if est_city else (" (" + est_state.name + ")" if est_state else ""))) if short else "Estimate request — CuredInPlacePipe.net" -%}
+{%- set w3f_phone = est_phone -%}
+{%- set w3f_short = short -%}
+{%- set w3f_extra = { contractor: est_contractor.name if est_contractor else "", project: est_project.title if est_project else "" } -%}
+<div class="contact-form-box style-two estimate-box" style="max-width:100%; margin:0px; padding:12px;">
+    <div class="dreamit-section-title section-b text-left">
+        <h5>GET A QUOTE</h5>
+        {% if short %}
+            <h2 style="font-size:22px;">Request a Free Estimate from {{ short }}</h2>
+        {% else %}
+            <h2>Request A Free Estimate</h2>
+        {% endif %}
+        <div class="em_bar_bg text-left"></div>
+    </div>
+
+    {% if est_contractor %}
+        <div class="estimate-contractor mb-3">
+            {% if est_contractor.logo %}
+                <img src="{{ est_contractor.logo }}" alt="{{ est_contractor.name }} logo" style="max-height:48px; max-width:160px;" class="mb-2" onerror="this.style.display='none'">
+            {% endif %}
+            <div class="estimate-verified">
+                <img src="/images/favicon.png" alt="" style="max-width:20px; vertical-align:middle;">
+                <span>Verified CIPP Installer</span>
+            </div>
+            {% if est_phone %}
+                <a href="tel:{{ est_phone | phoneDigits }}" class="estimate-phone">
+                    <i class="fa fa-phone"></i> {{ est_phone }}
+                </a>
+                {% if est_state %}<div class="estimate-phone-note">{{ est_state.name }} service line</div>{% endif %}
+                <div class="estimate-call-cta">Estimates are free. Call now.</div>
+            {% endif %}
+        </div>
+    {% endif %}
+
+    <form action="https://api.web3forms.com/submit" method="POST" id="quote2_form" data-w3f>
+        {% include "partials/web3forms-fields.njk" %}
+        <div class="row">
+            <div class="col-12"><div class="from-box"><input type="text" placeholder="Your Name *" name="name" required></div></div>
+            <div class="col-12"><div class="from-box"><input type="email" placeholder="Your Email *" name="email" required></div></div>
+            <div class="col-12"><div class="from-box"><input type="text" placeholder="Your Phone *" name="phone" required></div></div>
+            <div class="col-12"><div class="from-box"><input type="text" placeholder="Your City *" name="city" value="{{ est_city.name if est_city else '' }}" required></div></div>
+            <div class="col-12"><div class="from-box"><input type="text" placeholder="Your State *" name="state" value="{{ est_state.name if est_state else '' }}" required></div></div>
+            <div class="col-12"><div class="from-box"><textarea name="message" cols="30" rows="6" placeholder="Your Project Details *" required></textarea></div></div>
+            <div class="col-12">
+                {% if site.form.turnstileSiteKey %}<div class="cf-turnstile" data-sitekey="{{ site.form.turnstileSiteKey }}" data-size="flexible"></div>{% endif %}
+                <div class="contact-button text-center">
+                    <button type="submit" id="quote2_submit">{{ 'Request Estimate' if short else 'Send' }}</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div id="status"></div>
+</div>
+
+<style>
+    .estimate-contractor { border-bottom: 1px solid #eee; padding-bottom: 12px; }
+    .estimate-verified { font-size: 13px; color: #555; margin-bottom: 6px; }
+    .estimate-phone { display:block; font-size: 22px; font-weight: 700; color: #fc9615; }
+    .estimate-phone:hover { color: #e8850f; }
+    .estimate-phone-note { font-size: 12px; color: #777; }
+    .estimate-call-cta { font-size: 14px; font-weight: 700; color: #333; margin-top: 4px; }
+</style>

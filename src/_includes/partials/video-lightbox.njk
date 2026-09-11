@@ -1,0 +1,52 @@
+{#- Port of common/video/_lightbox.blade.php. Included once in the base layout. Open with openCippVideo() -#}
+<style>
+    #cipp-video-lb { position:fixed; inset:0; background:rgba(10,12,20,.88); z-index:99999; display:none; align-items:center; justify-content:center; padding:24px; }
+    #cipp-video-lb.open { display:flex; }
+    #cipp-video-lb .lb-inner { width:min(960px, 100%); }
+    #cipp-video-lb .lb-frame { position:relative; width:100%; padding-top:56.25%; background:#000; border-radius:8px; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,.5); }
+    #cipp-video-lb iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+    #cipp-video-lb .lb-bar { display:flex; justify-content:space-between; align-items:center; color:#fff; margin-bottom:10px; gap:12px; }
+    #cipp-video-lb .lb-bar h4 { color:#fff; font-size:16px; margin:0; font-weight:600; }
+    #cipp-video-lb .lb-close { background:transparent; border:0; color:#fff; font-size:30px; line-height:1; cursor:pointer; padding:0 6px; }
+    #cipp-video-lb .lb-cta { margin-top:14px; text-align:center; }
+    #cipp-video-lb .lb-cta a { display:inline-block; background:#fc9615; color:#fff; padding:10px 24px; border-radius:5px; font-weight:600; }
+    #cipp-video-lb .lb-cta a:hover { background:#e07f05; color:#fff; }
+    .cipp-video-btn i { margin-right:6px; }
+</style>
+<div id="cipp-video-lb" role="dialog" aria-modal="true" aria-label="{{ video.title }}" onclick="if(event.target===this) closeCippVideo()">
+    <div class="lb-inner">
+        <div class="lb-bar">
+            <h4>{{ video.title }}</h4>
+            <button type="button" class="lb-close" aria-label="Close" onclick="closeCippVideo()">&times;</button>
+        </div>
+        <div class="lb-frame" id="cipp-video-frame"></div>
+        <div class="lb-cta">
+            <a href="/contact" onclick="return cippVideoCta(this)">Request a Free Estimate</a>
+        </div>
+    </div>
+</div>
+<script>
+function openCippVideo(){
+    var lb=document.getElementById('cipp-video-lb'), fr=document.getElementById('cipp-video-frame');
+    if(!fr.firstChild){
+        var i=document.createElement('iframe');
+        i.src='https://www.youtube-nocookie.com/embed/{{ video.youtubeId }}?autoplay=1&rel=0&modestbranding=1';
+        i.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        i.allowFullscreen=true; i.title={{ video.title | dump | safe }};
+        fr.appendChild(i);
+    }
+    lb.classList.add('open'); document.body.style.overflow='hidden';
+}
+function closeCippVideo(){
+    var lb=document.getElementById('cipp-video-lb'), fr=document.getElementById('cipp-video-frame');
+    lb.classList.remove('open'); document.body.style.overflow='';
+    fr.innerHTML='';   // stops playback
+}
+function cippVideoCta(a){
+    closeCippVideo();
+    var f=document.querySelector('#quote2_form, #quote_form, form[action*="contact"]');
+    if(f){ f.scrollIntoView({behavior:'smooth'}); var first=f.querySelector('input[type=text],input[type=email]'); if(first) setTimeout(function(){first.focus();},500); return false; }
+    return true;   // no form on this page: go to /contact
+}
+document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeCippVideo(); });
+</script>

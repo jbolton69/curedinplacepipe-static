@@ -1,0 +1,277 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: model.cityPages
+  size: 1
+  alias: pg
+permalink: "{{ pg.url }}.html"
+clickcease: true
+eleventyComputed:
+  pageTitle: "{{ pg.title | safe }}"
+  pageDescription: "{{ pg.description | safe }}"
+  h1: "{{ pg.h1 | safe }}"
+---
+{#- Port of resources/views/home/find_contractors.blade.php -#}
+{%- set hero_image = "/images/cipp/cipp-old-pipe.jpg" -%}
+{% include "partials/breadcrumb-css.njk" %}
+<style>
+    @media (min-width:1200px) {
+        .container2 {
+            max-width: 1350px;
+        }
+    }
+
+    /* Normalize spacing for city landing page content */
+    .city-content p {
+        margin: 0 0 10px;
+        line-height: 1.6;
+    }
+
+    .city-content h2,
+    .city-content h3,
+    .city-content h4,
+    .city-content h5 {
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // 1) Clean up empty paragraphs in the city content
+    document.querySelectorAll('.city-content p').forEach(function (p) {
+        var cleaned = p.innerHTML.replace(/&nbsp;|\s|<br>/gi, '');
+        if (cleaned === '') {
+            p.remove();
+        }
+    });
+
+    // 2) Smooth scroll handler for "Read Our Google Reviews" buttons
+    document.querySelectorAll('.reviews-trigger').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var target = document.querySelector('[class^="elfsight-app-"]');
+            if (!target) {
+                target = document.getElementById('googleReviewsSection');
+            }
+            if (target) {
+                var y = target.getBoundingClientRect().top + window.pageYOffset - 120;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+        });
+    });
+});
+</script>
+
+<!--==================================================-->
+<!-- start	softech slider Area -->
+<!--==================================================-->
+<div class="breatcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breatcumb-content text-center">
+					<div class="breatcumb-title">
+						<h1>CIPP Lining Contractors in {{ pg.city.name }}, {{ pg.state.name }}</h1>
+					</div>
+					<div class="breatcumb-content-text">
+						<ul>
+							<li><a href="/">home</a> <i class="fas fa-angle-right"></i> <span>CIPP Contractors</span> <i class="fas fa-angle-right"></i> <span>{{ pg.state.name }}</span> <i class="fas fa-angle-right"></i> <span>{{ pg.city.name }}</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- End	softech slider Area -->
+<!--==================================================-->
+
+<!--==================================================-->
+<!-- Start  Blog Area -->
+<!--==================================================-->
+<div class="blog_area style-two pt-5">
+	<div class="container container2">
+		<div class="row">
+			<div class="col-12 mb-5">
+				<h4 class="text-center">Verified CIPP Contractor Serving in <b>{{ pg.city.name }}</b>, <b>{{ pg.state.name }}</b></h4>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-12 d-none d-md-block">
+				{% if pg.serviceAreasText %}
+				<div class="contact-form-box style-two text-center mb-5 pt-4 pb-4" style="max-width:100%; margin:0px; padding:12px;">
+				<h6 class="mb-3">Service Areas</h6>
+
+				{{ pg.serviceAreasText }}
+				</div>
+				{% endif %}
+
+				<div class="contact-form-box style-two text-center pt-4 pb-4" style="max-width:100%; margin:0px; padding:12px;">
+				<h6 class="mb-3">CIPP Sewer Pipe Lining Services For:</h6>
+
+				Residential<br>
+				Commercial<br>
+				Industrial<br>
+				Colleges<br>
+				Schools<br>
+				Real Estate<br>
+				Restuarants<br>
+				Property Management<br>
+				Hospitals<br>
+				Casinos<br>
+				HOA's &amp; More...
+				</div>
+			</div>
+
+			<div class="col-lg-7 col-md-7 col-sm-12">
+
+            {# Completed projects in this city by verified installers (one lander per job) #}
+            {% if pg.projects.length %}
+            {% include "partials/project-row-css.njk" %}
+            <h3 style="font-size:20px;" class="mb-3">Completed CIPP projects in {{ pg.city.name }}</h3>
+            <div class="project-rows mb-5">
+                {% for row in pg.projects %}
+                    {% include "partials/project-row.njk" %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {# Verified installers serving this city / state #}
+            {% if pg.cards.length %}
+			<div class="row" style="padding:0px; margin:0px;">
+			{% for card in pg.cards %}
+			{% set cn = card.c %}
+			<div class="col-lg-12 col-md-12 col-sm-12" style="padding:0px;">
+                <div class="single_blog mb-5" style="border:1px solid #fc9615;">
+						<div class="single_blog_thumb2 float-left mr-4">
+							{% if cn.slug %}<a href="/contractor/{{ cn.slug }}">{% endif %}
+							<img src="{{ cn.logo or '/images/favicon.png' }}" alt="{{ cn.name }} — CIPP lining contractor" />
+							{% if cn.slug %}</a>{% endif %}
+						</div>
+						<div class="single_blog_content2 float-left">
+							<div class="blog_page_title">
+								<h4>
+								    {% if cn.slug %}<a href="/contractor/{{ cn.slug }}">{{ cn.name }}</a>{% else %}{{ cn.name }}{% endif %}
+								    <img src="/images/favicon.png" alt="Verified CIPP Installer" style="max-width: 40px;">
+								</h4>
+							</div>
+<div class="blog_description contractor-header-meta">
+
+    {% if card.phone %}
+    <p class="mb-1">
+        <a href="tel:{{ card.phone | phoneDigits }}"><i class="fa fa-phone"></i> {{ card.phone }}</a>
+    </p>
+    {% endif %}
+
+    {% if cn.googleRating %}
+    <div class="contractor-rating mb-2">
+        <span class="contractor-stars">{% for i in (5 | range) %}<i class="fa fa-star"></i>{% endfor %}</span>
+        <span class="contractor-rating-text">
+            {{ cn.googleRating | fixed1 }} Rating on Google
+            {% if cn.googleReviewCount %}<span class="contractor-rating-count">({{ cn.googleReviewCount }}+ reviews)</span>{% endif %}
+        </span>
+    </div>
+    {% endif %}
+
+    {% if card.projectCount %}
+        <p class="mb-1" style="font-size:14px;">
+            {{ card.projectCount }} completed {{ "project" | plural(card.projectCount) }} in {{ pg.city.name }}:
+            {% for p in card.projects %}<a href="{{ p.url }}">{{ p.title }}</a>{% if not loop.last %}, {% endif %} {% endfor %}
+        </p>
+    {% endif %}
+
+    <p class="mt-2">
+        {% if cn.slug %}
+            <a href="/contractor/{{ cn.slug }}" class="btn btn-sm contractor-reviews-btn">Verified Installer Profile</a>
+        {% endif %}
+        {% if cn.googleLink %}
+            <a href="{{ cn.googleLink }}" target="_blank" rel="noopener" class="btn btn-sm contractor-reviews-btn">Read All Google Reviews</a>
+        {% endif %}
+    </p>
+
+</div>
+						</div>
+				</div>
+			</div>
+            {% endfor %}
+            </div>
+            {% endif %}
+
+{# City copy renders for EVERY city, contractor assigned or not. #}
+<div class="city-content">
+    {{ pg.city.detailsBefore | safe }}
+
+    {{ pg.city.code | safe }}
+
+    {{ pg.city.detailsAfter | safe }}
+
+    {% if pg.city.tips %}
+        <section class="city-tips">
+            <h2>Pro Plumbing Tips for {{ pg.city.name }}, {{ pg.state.name }}</h2>
+            {{ pg.city.tips | safe }}
+        </section>
+    {% endif %}
+</div>
+
+            {% if not pg.hasContractors %}
+                <p class="city-no-contractor">
+                    We are onboarding a verified CIPP contractor for {{ pg.city.name }}, {{ pg.state.name }}.
+                    In the meantime you can
+                    <a href="/all-contractors">browse our verified CIPP contractors</a>
+                    or <a href="/contact">contact us</a> and we will connect you with the
+                    closest one to you.
+                </p>
+            {% endif %}
+
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-12 d-block d-md-none mt-4 mb-4">
+				{% if pg.serviceAreasText %}
+				<div class="contact-form-box style-two text-center mb-5 pt-4 pb-4" style="max-width:100%; margin:0px; padding:12px;">
+				<h6 class="mb-3">Service Areas</h6>
+
+				{{ pg.serviceAreasText }}
+				</div>
+				{% endif %}
+
+				<div class="contact-form-box style-two text-center pt-4 pb-4" style="max-width:100%; margin:0px; padding:12px;">
+				<h6 class="mb-3">CIPP Sewer Pipe Lining Services For:</h6>
+
+				Residential<br>
+				Commercial<br>
+				Industrial<br>
+				Colleges<br>
+				Schools<br>
+				Real Estate<br>
+				Restuarants<br>
+				Property Management<br>
+				Hospitals<br>
+				Casinos<br>
+				HOA's &amp; More...
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-12">
+				{% set est_contractor = pg.lead %}
+				{% set est_phone = pg.leadPhone %}
+				{% set est_city = pg.city %}
+				{% set est_state = pg.state %}
+				{% set est_project = null %}
+				{% include "partials/estimate-sidebar.njk" %}
+				{% set vc_short = pg.lead.shortName if pg.lead else null %}
+				{% include "partials/video-card.njk" %}
+			</div>
+
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- End  Blog Area -->
+<!--==================================================-->
+
+<div class="contact-form-area mb-5 pt-5">
+	<div class="container pt-5">
+		{% include "partials/contact-form.njk" %}
+	</div>
+</div>

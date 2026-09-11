@@ -1,0 +1,21 @@
+{
+  "name": "Cured In Place Pipe",
+  "shortName": "CuredInPlacePipe.net",
+  "url": "https://curedinplacepipe.net",
+  "titleSuffix": " | Find Contractors",
+  "tagline": "Your top source for Cured In Place Pipe Contractors.",
+  "email": "info@curedinplacepipe.net",
+  "phone": "(800) 603-3165",
+  "logo": "/images/logo.png",
+  "favicon": "/images/favicon.png",
+  "ga4": "G-K4WK30D2EV",
+  "googleSiteVerification": "3s7vIyjRQC1yCIz3gp736z6m1VOSM8rHeMqEFIz0Oio",
+  "clickcease": true,
+  "form": {
+    "defaultAccessKey": "",
+    "defaultAccessKeyNote": "Web3Forms access key for the site-wide (Joe-only) form. Create a form named 'CuredInPlacePipe.net' in https://app.web3forms.com (recipient organicseopositions@gmail.com) and paste its access key here. Per-contractor keys go in contractors.json -> web3formsKey. While this is empty the forms render but post nowhere, so fill it before cutover.",
+    "fromName": "CuredInPlacePipe.net",
+    "turnstileSiteKey": "",
+    "turnstileNote": "Cloudflare Turnstile site key (Cloudflare dashboard -> Turnstile -> Add widget, hostnames curedinplacepipe.net + curedinplacepipe.pages.dev, Managed mode). Leave empty to disable the widget; the honeypot field still runs."
+  }
+}

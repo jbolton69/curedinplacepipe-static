@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Albama",
+    "slug": "albama"
+  },
+  {
+    "id": 2,
+    "name": "New York",
+    "slug": "new-york"
+  },
+  {
+    "id": 3,
+    "name": "New Jersey",
+    "slug": "new-jersey"
+  },
+  {
+    "id": 4,
+    "name": "California",
+    "slug": "california"
+  },
+  {
+    "id": 9,
+    "name": "Texas",
+    "slug": "texas"
+  },
+  {
+    "id": 10,
+    "name": "Colorado",
+    "slug": "colorado"
+  },
+  {
+    "id": 11,
+    "name": "Ohio",
+    "slug": "ohio"
+  },
+  {
+    "id": 12,
+    "name": "Pennsylvania",
+    "slug": "pennsylvania"
+  },
+  {
+    "id": 14,
+    "name": "Massachusetts",
+    "slug": "massachusetts"
+  },
+  {
+    "id": 15,
+    "name": "Illinois",
+    "slug": "illinois"
+  },
+  {
+    "id": 16,
+    "name": "Georgia",
+    "slug": "georgia"
+  }
+]

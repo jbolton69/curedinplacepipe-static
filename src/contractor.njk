@@ -1,0 +1,205 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: model.contractorPages
+  size: 1
+  alias: pg
+permalink: "{{ pg.url }}.html"
+eleventyComputed:
+  pageTitle: "{{ pg.title | safe }}"
+  pageDescription: "{{ pg.description | safe }}"
+  h1: "{{ pg.h1 | safe }}"
+---
+{#- Port of resources/views/contractor/profile.blade.php -#}
+{%- set c = pg.c -%}
+{%- set short = pg.short -%}
+{%- set hero_image = pg.heroUrl -%}
+{% include "partials/breadcrumb-css.njk" %}
+<style>
+    .contractor-profile-box { background:#fff; border-radius:10px; box-shadow:0 5px 30px rgba(0,0,0,0.1); padding:30px; margin-bottom:30px; }
+    .contractor-logo { max-width:200px; border-radius:10px; margin-bottom:20px; }
+    .contractor-name { font-size:32px; font-weight:700; color:#333; margin-bottom:6px; }
+    .contractor-tagline { font-size:18px; color:#666; margin-bottom:16px; }
+    .contractor-contact-btn { background:#fc9615; color:#fff; padding:12px 24px; border-radius:5px; display:inline-block; margin:0 10px 10px 0; text-decoration:none; font-weight:600; }
+    .contractor-contact-btn:hover { background:#e8850f; color:#fff; text-decoration:none; }
+    .contractor-contact-btn i { margin-right:8px; }
+    .contractor-call-cta { font-weight:700; color:#222; margin:-4px 0 0; }
+    .info-card { background:#f8f9fa; border-radius:10px; padding:25px; margin-bottom:20px; }
+    .info-card h4 { color:#333; font-weight:700; margin-bottom:15px; border-bottom:2px solid #fc9615; padding-bottom:10px; }
+    .info-card p { color:#555; line-height:1.8; }
+    .stat-box { text-align:center; padding:20px; background:#fff; border-radius:10px; box-shadow:0 3px 15px rgba(0,0,0,0.08); }
+    .stat-box h3 { font-size:36px; font-weight:700; color:#fc9615; margin-bottom:5px; }
+    .stat-box p { color:#666; margin:0; }
+    .rating-stars { color:#ffc107; font-size:20px; }
+    .coverage-table { width:100%; }
+    .coverage-table td { padding:8px 4px; border-bottom:1px solid #eee; vertical-align:top; }
+    .coverage-table a { font-weight:600; }
+    .verified-strip { display:flex; align-items:center; gap:10px; background:#fff7ec; border:1px solid #fc9615; border-radius:8px; padding:10px 14px; margin-bottom:20px; font-size:14px; }
+</style>
+{% include "partials/project-row-css.njk" %}
+
+<div class="breatcumb-area d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breatcumb-content text-center">
+                    <div class="breatcumb-title"><h1>{{ c.name }}</h1></div>
+                    <div class="breatcumb-content-text">
+                        <ul>
+                            <li>
+                                <a href="/">Home</a> <i class="fas fa-angle-right"></i>
+                                <a href="/all-contractors">Contractors</a> <i class="fas fa-angle-right"></i>
+                                <span>{{ short }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contractor-profile-area pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            {# MAIN #}
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <div class="contractor-profile-box">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="{{ pg.logoUrl }}" alt="{{ c.name }}" class="contractor-logo" onerror="this.onerror=null;this.src='/images/favicon.png'">
+                            {% if c.googleRating %}
+                                <div class="rating-stars mb-1">{% for i in (5 | range) %}<i class="fa fa-star"></i>{% endfor %}</div>
+                                <p class="text-muted">{{ pg.ratingText }} rating on Google {% if c.googleReviewCount %} · {{ c.googleReviewCount }}+ reviews {% endif %}</p>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="contractor-name">{{ short }}</h2>
+                            {% if c.tagline %}<p class="contractor-tagline">{{ c.tagline }}</p>{% endif %}
+                            {% if c.hqCity or c.hqState %}
+                                <p class="contractor-tagline"><i class="fas fa-map-marker-alt"></i> Based in {{ pg.hqLine }}</p>
+                            {% endif %}
+                            <div class="contractor-buttons mt-3">
+                                {% if pg.phone %}<a href="tel:{{ pg.phone | phoneDigits }}" class="contractor-contact-btn"><i class="fas fa-phone"></i> {{ pg.phone }}</a>{% endif %}
+                                {% if pg.website %}<a href="{{ pg.website }}" target="_blank" rel="noopener" class="contractor-contact-btn"><i class="fas fa-globe"></i> {{ pg.host }}</a>{% endif %}
+                                {% if c.googleLink %}<a href="{{ c.googleLink }}" target="_blank" rel="noopener" class="contractor-contact-btn" style="background:#4285f4;"><i class="fab fa-google"></i> Google Reviews</a>{% endif %}
+                            </div>
+                            {% if pg.phone %}<p class="contractor-call-cta">Estimates are free. Call now.</p>{% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="verified-strip">
+                    <img src="/images/favicon.png" alt="CIPP Verified Installer" style="max-width:36px;">
+                    <div>
+                        <b>CIPP Verified Installer</b>
+                        {% if c.verificationId %} · ID {{ c.verificationId }}{% endif %}
+                        {% if pg.verifiedLabel %} · verified {{ pg.verifiedLabel }}{% endif %}
+                        <br><span style="color:#666;">License and CIPP capability confirmed by CuredInPlacePipe.net. <a href="/p/verified-cipp-contractors">What we verify</a>.</span>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h4><i class="fas fa-info-circle"></i> About {{ short }}</h4>
+                    {% if c.about %}
+                        <p>{{ c.about | nl2br | safe }}</p>
+                    {% else %}
+                        <p>{{ c.name }} is a verified CIPP contractor {% if pg.primaryState %} serving {{ pg.primaryState.name }}{% endif %}. They self-perform trenchless cured-in-place pipe lining and no-dig sewer rehabilitation.</p>
+                    {% endif %}
+                </div>
+
+                {% if pg.areas.length or pg.coverage.length %}
+                <div class="info-card">
+                    <h4><i class="fas fa-map"></i> Service Areas</h4>
+                    {% if pg.areas.length %}
+                        {% for group in pg.areaGroups %}
+                            {% if pg.areaGroups.length > 1 %}
+                                <h5 style="margin:6px 0 8px; font-size:16px;">{{ group.stateName }}</h5>
+                            {% endif %}
+                            <div class="row">
+                                {% for a in group.rows %}
+                                    <div class="col-md-6 mb-2">
+                                        <b>{{ a.areaLabel }}</b>
+                                        {% if a.phone %}<br><a href="tel:{{ a.phone | phoneDigits }}"><i class="fa fa-phone"></i> {{ a.phone }}</a>{% endif %}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <table class="coverage-table">
+                            {% for cv in pg.statesServed %}
+                                {% set sp = cv.phone or c.phone %}
+                                <tr>
+                                    <td><b>{{ cv.stateName }}</b></td>
+                                    <td>{% if sp %}<a href="tel:{{ sp | phoneDigits }}"><i class="fa fa-phone"></i> {{ sp }}</a>{% endif %}</td>
+                                </tr>
+                            {% endfor %}
+                        </table>
+                        {% if c.serviceAreasText %}<p class="mt-3">{{ c.serviceAreasText | nl2br | safe }}</p>{% endif %}
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if c.certifications %}
+                <div class="info-card">
+                    <h4><i class="fas fa-certificate"></i> Certifications &amp; Credentials</h4>
+                    <p>{{ c.certifications | nl2br | safe }}</p>
+                </div>
+                {% endif %}
+
+                {% if pg.projects.length %}
+                {% set initial = 6 %}
+                <div class="info-card" id="projects">
+                    <h4><i class="fas fa-hard-hat"></i> Recently Completed CIPP Projects <span class="project-count">{{ pg.projects.length }}</span></h4>
+                    <div class="project-rows">
+                        {% for row in pg.projects %}
+                            <div class="project-row-wrap{{ ' project-row-more' if loop.index0 >= initial else '' }}"{% if loop.index0 >= initial %} hidden{% endif %}>
+                                {% include "partials/project-row.njk" %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                    {% if pg.projects.length > initial %}
+                        <div class="text-center mt-3">
+                            <button type="button" class="btn project-more-btn" onclick="document.querySelectorAll('.project-row-more').forEach(function(el){el.hidden=false}); this.remove();">
+                                Show all {{ pg.projects.length }} projects
+                            </button>
+                        </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            {# SIDEBAR #}
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="row">
+                    {% if c.yearsInBusiness %}
+                        <div class="col-6 mb-4"><div class="stat-box"><h3>{{ c.yearsInBusiness }}+</h3><p>Years in business</p></div></div>
+                    {% endif %}
+                    {% if c.crews %}
+                        <div class="col-6 mb-4"><div class="stat-box"><h3>{{ c.crews }}</h3><p>CIPP crew{{ '' if c.crews == 1 else 's' }}</p></div></div>
+                    {% endif %}
+                    {% if c.googleRating %}
+                        <div class="col-6 mb-4"><div class="stat-box"><h3>{{ pg.ratingText }}</h3><p>Google rating</p></div></div>
+                    {% endif %}
+                    {% if c.googleReviewCount %}
+                        <div class="col-6 mb-4"><div class="stat-box"><h3>{{ c.googleReviewCount }}+</h3><p>Google reviews</p></div></div>
+                    {% endif %}
+                </div>
+
+                {% set est_contractor = c %}
+                {% set est_phone = pg.phone %}
+                {% set est_city = null %}
+                {% set est_state = pg.primaryState %}
+                {% set est_project = null %}
+                {% include "partials/estimate-sidebar.njk" %}
+                {% set rv_contractor = c %}
+                {% set rv_reviews = pg.reviews %}
+                {% set rv_city = null %}
+                {% set rv_rating = pg.ratingText %}
+                {% include "partials/reviews-sidebar.njk" %}
+                {% set vc_short = short %}
+                {% include "partials/video-card.njk" %}
+            </div>
+        </div>
+    </div>
+</div>

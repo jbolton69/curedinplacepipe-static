@@ -1,0 +1,90 @@
+---
+layout: layouts/base.njk
+permalink: /contact.html
+pageTitle: "Contact Us"
+pageDescription: ""
+---
+{#- Port of resources/views/pages/contact.blade.php; posts to Web3Forms (site default key) -#}
+{%- set w3f_key = "" -%}
+{%- set w3f_subject = "Contact form — CuredInPlacePipe.net" -%}
+{%- set w3f_phone = "" -%}
+{%- set w3f_short = "" -%}
+{%- set w3f_extra = { form: "contact page" } -%}
+<style>
+    .breatcumb-area {
+        background: #f1f6fc url("/images/resource/case.jpg");
+    }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breatcumb-content text-center">
+					<div class="breatcumb-title">
+						<h1>Contact Us</h1>
+					</div>
+					<div class="breatcumb-content-text">
+						<ul>
+							<li><a href="/">home</a> <i class="fas fa-angle-right"></i> <span>Contact Us</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact-form-area pt-100 pb-90">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-sm-12">
+				<div class="contact-form-box">
+					<div class="dreamit-section-title section-b text-center">
+						<h5>CONTACT US</h5>
+						<h2>Feel Free to Contact Us</h2>
+						<div class="em_bar_bg text-left"></div>
+					</div>
+
+<form id="dreamit-form" action="https://api.web3forms.com/submit" method="POST" data-w3f>
+    {% include "partials/web3forms-fields.njk" %}
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="from-box">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="from-box">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="from-box">
+                <input type="text" name="phone" placeholder="Your Phone" required>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="from-box">
+                <input type="text" name="topic" placeholder="Subject" required>
+            </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+            <div class="from-box">
+                <textarea name="message" id="massage" cols="30" rows="10" placeholder="Message" required></textarea>
+            </div>
+        </div>
+        {% if site.form.turnstileSiteKey %}<div class="col-lg-12"><div class="cf-turnstile" data-sitekey="{{ site.form.turnstileSiteKey }}" data-size="flexible"></div></div>{% endif %}
+        <div class="col-lg-12">
+            <div class="contact-button text-center">
+                <button type="submit" id="contact_submit">Send Message</button>
+            </div>
+        </div>
+    </div>
+</form>
+					<div id="status"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
