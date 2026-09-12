@@ -6037,8 +6037,18 @@ div#particles .slider1.index2-slider-area {
     text-overflow: ellipsis;
 }
 
-/* Force OwlCarousel item alignment */
-.owl-carousel .owl-item {
+/* Force OwlCarousel item alignment (blog cards only) */
+.blog_list.owl-carousel .owl-item {
     display: flex !important;
     justify-content: center;
+}
+.slider_list .owl-item { display: block !important; }
+.slider_list .slider-area { width: 100%; }
+/* Home hero: keep the three CTA buttons on one row */
+.slider_list .slider-content .slider-button,
+.slider_list .slider-content .slider-button1 {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 16px 16px 0;
 }
