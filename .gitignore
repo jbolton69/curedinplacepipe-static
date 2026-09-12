@@ -3,3 +3,4 @@ _site/
 .wrangler/
 Claude outputs/
 .DS_Store
+parity-report.json
