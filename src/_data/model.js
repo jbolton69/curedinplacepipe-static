@@ -133,7 +133,7 @@ const cityPages = cities.map((city) => {
     state,
     url: city.url,
     title: baseTitle, // base layout appends " | Find Contractors"
-    description: city.metaDescription || "",
+    description: filled(city.metaDescription) ? city.metaDescription : `CIPP lining services in ${city.name}, ${state.name}.`,
     h1: `CIPP Lining Contractors in ${city.name}, ${state.name}`,
     projects: cityProjects.map((p) => projectRow(p, true)),
     cards: cards.map((c) => {
