@@ -198,6 +198,11 @@ const cityPages = cities.map((city) => {
     lead,
     leadPhone,
     hasContractors: cards.length > 0,
+    // Rewritten pages carry `article` (and usually `faq`). Where they do, the template renders
+    // those instead of detailsBefore / detailsAfter / tips. Cities migrate one at a time and
+    // anything not yet rewritten keeps rendering exactly as before.
+    article: filled(city.article) ? city.article : null,
+    faq: Array.isArray(city.faq) && city.faq.length ? city.faq : null,
     schema: cityServiceSchema(city, state, cardRows),
   };
 });
@@ -241,10 +246,19 @@ const contractorPages = contractors.map((c) => {
     "@id": `${abs(contractorUrl(c))}#business`,
     name: c.name,
     url: website || abs(contractorUrl(c)),
-    telephone: phone || undefined,
+    // Canonical entity: the business's own published number, so it matches their Google
+    // Business Profile and their website. Tracking lines live on the city pages instead.
+    telephone: (filled(c.phone) ? c.phone : phone) || undefined,
     image: filled(c.logo) ? abs(c.logo) : undefined,
     description,
-    address: (filled(c.hqCity) || filled(c.hqState)) ? { "@type": "PostalAddress", addressLocality: c.hqCity, addressRegion: c.hqState, addressCountry: "US" } : undefined,
+    address: (filled(c.hqStreet) || filled(c.hqCity) || filled(c.hqState)) ? {
+      "@type": "PostalAddress",
+      streetAddress: filled(c.hqStreet) ? c.hqStreet : undefined,
+      addressLocality: c.hqCity,
+      addressRegion: c.hqState,
+      postalCode: filled(c.hqPostalCode) ? c.hqPostalCode : undefined,
+      addressCountry: "US",
+    } : undefined,
     areaServed: (areas.length ? areas.map((a) => `${a.areaLabel}, ${a.stateName || ""}`) : coverage.map((r) => r.stateName)).filter(Boolean),
     sameAs: [website, filled(c.googleLink) ? c.googleLink : null].filter(Boolean),
     aggregateRating: (c.googleRating && c.googleReviewCount) ? { "@type": "AggregateRating", ratingValue: String(c.googleRating), reviewCount: String(c.googleReviewCount) } : undefined,

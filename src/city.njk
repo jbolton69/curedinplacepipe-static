@@ -34,6 +34,43 @@ eleventyComputed:
         margin-top: 24px;
         margin-bottom: 8px;
     }
+
+    /* Rewritten city articles */
+    .city-content .callout {
+        background: #f2f7fb;
+        border-left: 3px solid #0b5d8f;
+        padding: 2px 18px;
+        margin: 22px 0;
+        border-radius: 0 6px 6px 0;
+    }
+
+    .city-content ul {
+        padding-left: 20px;
+        margin: 0 0 14px;
+    }
+
+    .city-content ul li {
+        margin: 6px 0;
+        line-height: 1.6;
+    }
+
+    .city-faq details {
+        border-top: 1px solid #e3e7eb;
+        padding: 12px 0;
+    }
+
+    .city-faq details:last-child {
+        border-bottom: 1px solid #e3e7eb;
+    }
+
+    .city-faq summary {
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .city-faq details p {
+        margin: 8px 0 0;
+    }
 </style>
 
 <script>
@@ -200,17 +237,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
 {# City copy renders for EVERY city, contractor assigned or not. #}
 <div class="city-content">
-    {{ pg.city.detailsBefore | safe }}
+    {% if pg.article %}
+        {{ pg.article | safe }}
 
-    {{ pg.city.code | safe }}
+        {{ pg.city.code | safe }}
 
-    {{ pg.city.detailsAfter | safe }}
-
-    {% if pg.city.tips %}
-        <section class="city-tips">
-            <h2>Pro Plumbing Tips for {{ pg.city.name }}, {{ pg.state.name }}</h2>
-            {{ pg.city.tips | safe }}
+        {% if pg.faq %}
+        <section class="city-faq">
+            <h2>Common questions in {{ pg.city.name }}</h2>
+            {% for row in pg.faq %}
+            <details>
+                <summary>{{ row[0] }}</summary>
+                <p>{{ row[1] }}</p>
+            </details>
+            {% endfor %}
         </section>
+        {% endif %}
+    {% else %}
+        {{ pg.city.detailsBefore | safe }}
+
+        {{ pg.city.code | safe }}
+
+        {{ pg.city.detailsAfter | safe }}
+
+        {% if pg.city.tips %}
+            <section class="city-tips">
+                <h2>Pro Plumbing Tips for {{ pg.city.name }}, {{ pg.state.name }}</h2>
+                {{ pg.city.tips | safe }}
+            </section>
+        {% endif %}
     {% endif %}
 </div>
 

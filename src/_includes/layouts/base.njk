@@ -120,9 +120,8 @@ gtag('config', '{{ site.ga4 }}');
             <div class="col-md-8 col-lg-8">
                 <div class="dreamit-header-menu-address">
                     <ul>
-                        <li><a href="#"><i class="far fa-envelope"></i> {{ site.email }}</a></li>
                         <li><span><i class="fas fa-map-marker-alt"></i>Nationwide CIPP Contractors</span></li>
-                        <li><a href="#"><i class="fas fa-phone"></i>{{ site.phone }}</a></li>
+                        <li><a href="tel:{{ site.phone | phoneDigits }}"><i class="fas fa-phone"></i>{{ site.phone }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -280,12 +279,13 @@ gtag('config', '{{ site.ga4 }}');
 
                         <div class="footer-inner pr-2">
                             <div class="footer-socail-icon">
-                                <i class="fa fa-globe"></i>
+                                <i class="fa fa-phone"></i>
                             </div>
                             <div class="footer-socail-info">
                                 <p>
-                                    <span>Email:</span><br>
-                                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                                    <span>Call:</span><br>
+                                    <a href="tel:{{ site.phone | phoneDigits }}">{{ site.phone }}</a><br>
+                                    Estimates are free. Call now.
                                 </p>
                             </div>
                         </div>
