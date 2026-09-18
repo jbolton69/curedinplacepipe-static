@@ -112,6 +112,53 @@ function projectRow(p, showContractor = false) {
   };
 }
 
+/**
+ * City page JSON-LD.
+ *
+ * One Service entity per covering contractor. The provider is referenced by @id only, so the
+ * single canonical LocalBusiness defined on the contractor profile page stays the one entity —
+ * nothing here redefines its name, address or phone.
+ *
+ * The county-matched tracking number goes on availableChannel.servicePhone, which is the
+ * schema.org slot for "the number to reach this service in this area". That keeps the dispatch
+ * line in the markup without declaring four different phone numbers for one business.
+ */
+function cityServiceSchema(city, state, cards) {
+  const services = cards
+    .filter((row) => row.c)
+    .map((row) => {
+      const c = row.c;
+      const node = {
+        "@type": "Service",
+        "@id": `${abs(city.url)}#service-${c.slug}`,
+        serviceType: "Cured-in-place pipe (CIPP) lining",
+        name: `CIPP pipe lining in ${city.name}, ${state.name}`,
+        provider: { "@id": `${abs(contractorUrl(c))}#business` },
+        areaServed: {
+          "@type": "City",
+          name: city.name,
+          containedInPlace: { "@type": "State", name: state.name },
+        },
+        url: abs(city.url),
+      };
+      if (filled(row.phone)) {
+        node.availableChannel = {
+          "@type": "ServiceChannel",
+          serviceUrl: abs(city.url),
+          servicePhone: {
+            "@type": "ContactPoint",
+            telephone: row.phone,
+            contactType: "sales",
+            areaServed: `${city.name}, ${state.name}`,
+          },
+        };
+      }
+      return node;
+    });
+  if (!services.length) return null;
+  return { "@context": "https://schema.org", "@graph": services };
+}
+
 /* ------------------------------------------------------------------ cities */
 const sortByCompleted = (a, b) =>
   (a.sort || 0) - (b.sort || 0) || String(b.completedOn || "").localeCompare(String(a.completedOn || "")) || a.id - b.id;
@@ -128,6 +175,16 @@ const cityPages = cities.map((city) => {
   const leadPhone = lead ? phoneFor(lead, state.id, city.id) : null;
   const baseTitle = filled(city.metaTitle) ? city.metaTitle : `${state.name} | ${city.name}`;
 
+  const cardRows = cards.map((c) => {
+    const mine = cityProjects.filter((p) => p.contractorId === c.id);
+    return {
+      c,
+      phone: phoneFor(c, state.id, city.id),
+      projects: mine.map((p) => ({ url: projectUrl(p), title: p.title })),
+      projectCount: mine.length,
+    };
+  });
+
   return {
     city,
     state,
@@ -136,19 +193,12 @@ const cityPages = cities.map((city) => {
     description: filled(city.metaDescription) ? city.metaDescription : `CIPP lining services in ${city.name}, ${state.name}.`,
     h1: `CIPP Lining Contractors in ${city.name}, ${state.name}`,
     projects: cityProjects.map((p) => projectRow(p, true)),
-    cards: cards.map((c) => {
-      const mine = cityProjects.filter((p) => p.contractorId === c.id);
-      return {
-        c,
-        phone: phoneFor(c, state.id, city.id),
-        projects: mine.map((p) => ({ url: projectUrl(p), title: p.title })),
-        projectCount: mine.length,
-      };
-    }),
+    cards: cardRows,
     serviceAreasText: cards[0]?.serviceAreasText || "",
     lead,
     leadPhone,
     hasContractors: cards.length > 0,
+    schema: cityServiceSchema(city, state, cardRows),
   };
 });
 
