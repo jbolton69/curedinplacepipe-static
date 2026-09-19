@@ -1,0 +1,518 @@
+{
+  "Ventura": {
+    "state": "California",
+    "url": "/cipp-contractor/california/ventura",
+    "metaTitle": "CIPP Lining in Ventura, CA: The Camera Goes In Before Escrow",
+    "metaDescription": "CIPP lining in Ventura: since 2014 the city requires a CCTV inspection of the private sewer lateral before any sale, and its code lists the defects a liner cures.",
+    "article": "<h2>Selling a house here means videoing the sewer</h2>\n<p>Ventura is one of very few cities in Southern California with a mandatory sewer lateral inspection at the point of sale. Chapter 22.250 of the San Buenaventura Municipal Code, adopted by Ordinance 2012-001 and in force for sales since the start of 2014, requires the owner to have the private sewer lateral inspected by a licensed plumber as a condition of any sale, unless an inspection was completed within the previous ten years or the lateral is less than ten years old. Common-interest developments and commercial properties must inspect once every ten years whether or not they change hands.</p>\n<p>The inspection must include a closed-circuit television survey, and the report has to carry a recording of it. The city's program page says the report and a DVD of the video go to the Building and Safety Division before the close of escrow. The plumber doing it must hold a state license as a general engineering, plumbing or sanitary system contractor, and the plumbing permit costs $116 at the counter on Poli Street.</p>\n\n<h2>The code spells out what \"defective\" means</h2>\n<p>Section 22.250.040 does more than assign responsibility. It sets the standard. In the code's words, the private sewer lateral \"shall be free of displaced joints, open joints, root intrusion, substantial deterioration of the line, cracks, leaks, inflow, infiltration of extraneous water, fats, oils and grease, sediment deposits or any other similar conditions, defects or obstructions likely to cause or contribute to blockage of the private sewer lateral or the public sewer.\" The owner must inspect, maintain, repair and replace the lateral at their own expense so that it neither causes nor contributes to an overflow from the lateral or from the public sewer.</p>\n<p>The definition matters too. The private sewer lateral is the pipe from the building to the public sewer, and it includes the wye or saddle at the public sewer. The older connection chapter says the same thing: laterals from the public sewer to the property, wye or saddle included, are maintained at the owner's expense. There is no property-line handoff in Ventura.</p>\n\n<h2>What happens when the video finds something</h2>\n<p>Failing the inspection does not stop the sale. The city's fact sheet and its buyer-and-seller FAQ say repairs are not required before escrow closes; they are required within six months afterward, or within normal building-permit timelines, by a licensed plumber, with written notice of completion to the city within thirty days of finishing. The inspection report form itself has boxes for broken pipe, cracks, fractures, infiltration, offsets, sags, out-of-round pipe, root intrusion at 25, 50 and 75 percent, and changes in pipe material. Those boxes are effectively the scope of work for the next owner's plumber.</p>\n\n<h2>Where lining fits the list</h2>\n<p>Read the code's defect list again: displaced joints, open joints, root intrusion, cracks, leaks, infiltration. Every one of those is a wall or joint problem, and a cured-in-place liner is a wall-and-joint repair. Installed through the cleanout and cured against the old pipe, it produces a continuous jointless lateral from the house to the wye at the main, which is precisely the span the ordinance names. For a buyer facing a six-month deadline on a downtown lot where the lateral runs under a 1920s porch and a mature street tree, lining is usually the repair that meets the code without opening the yard.</p>\n\n<h2>Where it does not</h2>\n<p>Two boxes on the report form are different in kind: sag and out-of-round. A liner cures in the shape it finds, so a sag that holds water is a sag that holds water after lining, and a pipe crushed out of round may not let a liner pass at all. Those sections must be excavated and re-laid on grade before the rest of the run is lined. A lateral undersized for the house gains nothing from a liner, which narrows the bore a little. The city's FAQ answers one related question in a single word: asked whether the city ever allowed Orangeburg pipe in its streets, it says no. Fiber pipe is one less thing to find here, but sags in century-old clay are not.</p>\n\n<h2>Old pipe near the mission, newer pipe up the hill</h2>\n<p>Mission San Buenaventura was founded on March 31, 1782, the city incorporated on April 2, 1866, and the 1920s oil boom paid for a wave of downtown building. The Census counts 3,811 housing units built before 1940, about 8.5 percent of the city, and more than a quarter built before 1960. The mid-century tracts east of downtown added 8,585 units in the 1960s and 8,545 in the 1970s. Ventura Water runs about 305 miles of sewer and eleven wastewater lift stations to a reclamation plant at the Santa Clara River estuary that treats eight to nine million gallons a day.</p>\n\n<h2>A plant under a consent decree</h2>\n<p>That plant is the reason the city cares so much about what enters its sewers. A 2012 federal consent decree with environmental groups requires Ventura to cut its treated discharge into the estuary by about 60 percent by 2025 and by 90 to 100 percent by 2030, which is driving the city's potable-reuse program. Every gallon of groundwater that infiltrates through a cracked lateral is a gallon the plant must treat and then find somewhere other than the estuary to put. A watertight liner on a private lateral is a small part of that arithmetic, and the point-of-sale ordinance is how the city gets there one house at a time.</p>",
+    "faq": [
+      [
+        "Do I have to inspect my sewer lateral to sell a house in Ventura?",
+        "Yes, unless it was inspected within the last ten years or built within the last ten years. Chapter 22.250 requires a licensed plumber's CCTV inspection as a condition of sale, with the report and video filed with Building and Safety before escrow closes."
+      ],
+      [
+        "What if the inspection finds problems?",
+        "The sale can still close. The city requires repairs within six months afterward, by a licensed plumber under permit, with written notice of completion to the city within thirty days of finishing the work."
+      ],
+      [
+        "Where does my lateral end in Ventura?",
+        "At the public sewer, and the wye or saddle at that connection is part of your pipe. The code defines the private sewer lateral as running from the building to the public sewer, wye or saddle included."
+      ],
+      [
+        "Can lining satisfy the point-of-sale repair requirement?",
+        "For the defects the code lists most often, yes: open or displaced joints, roots, cracks, leaks and infiltration are all sealed by a cured-in-place liner. A sag or an out-of-round section must be excavated first, since lining cannot correct pipe shape."
+      ],
+      [
+        "Why does the city care about private laterals so much?",
+        "Its treatment plant discharges to the Santa Clara River estuary under a 2012 consent decree that requires large reductions in that discharge by 2025 and 2030. Leaking laterals add groundwater to the flow the plant must treat, so the city wants them tight."
+      ]
+    ],
+    "sources": [
+      "https://sanbuenaventura.municipal.codes/SBMC/22.250.020",
+      "https://sanbuenaventura.municipal.codes/SBMC/22.250.040",
+      "https://sanbuenaventura.municipal.codes/SBMC/22.250.050",
+      "https://sanbuenaventura.municipal.codes/SBMC/22.210.020",
+      "https://www.cityofventura.ca.gov/525/Inspection-Program",
+      "https://www.cityofventura.ca.gov/DocumentCenter/View/5971/Private-Sewer-Lateral-Fact-Sheet-PDF",
+      "https://www.cityofventura.ca.gov/DocumentCenter/View/5975/FAQs-Private-Sewer-Lateral-Change-of-Ownership-PDF",
+      "https://www.cityofventura.ca.gov/DocumentCenter/View/25741/Private-Sewer-Lateral-Inspection-Report-PDF",
+      "https://www.cityofventura.ca.gov/503/Wastewater",
+      "https://www.cityofventura.ca.gov/511/Working-Together-To-Protect-Public-Healt",
+      "https://www.cityofventura.ca.gov/DocumentCenter/View/39395/Nossaman-Memo_ATTACHMENT-B-1",
+      "https://en.wikipedia.org/wiki/Ventura,_California",
+      "https://api.census.gov/data/2023/acs/acs5"
+    ],
+    "facts": {
+      "utility": {
+        "value": "Ventura Water (City of San Buenaventura): about 305 miles of sewer, 11 wastewater lift stations, Ventura Water Reclamation Facility at the Santa Clara River estuary treating 8 to 9 MGD",
+        "source": "https://www.cityofventura.ca.gov/503/Wastewater"
+      },
+      "lateralRule": {
+        "value": "SBMC 22.250.020 and 22.250.040 (Ord. 2012-001): private sewer lateral runs from the building to the public sewer and includes the wye or saddle; owner must inspect, maintain, repair and replace it at own expense, free of displaced or open joints, roots, deterioration, cracks, leaks, inflow, infiltration, FOG and sediment",
+        "source": "https://sanbuenaventura.municipal.codes/SBMC/22.250.040"
+      },
+      "posOrdinance": {
+        "value": "SBMC 22.250.050: licensed plumber CCTV inspection required as a condition of any sale (effective January 1, 2014), exempt if inspected or built within the prior 10 years; CIDs and commercial properties inspect every 10 years; report with video filed with Building and Safety before close of escrow; repairs within six months after sale; plumbing permit $116",
+        "source": "https://sanbuenaventura.municipal.codes/SBMC/22.250.050"
+      },
+      "inspectorLicense": {
+        "value": "inspector must hold a California A (general engineering), C-36 (plumbing) or C-42 (sanitation system) contractor license; regulation effective February 3, 2014",
+        "source": "https://www.cityofventura.ca.gov/DocumentCenter/View/5971/Private-Sewer-Lateral-Fact-Sheet-PDF"
+      },
+      "orangeburg": {
+        "value": "city FAQ: the city never allowed Orangeburg pipe installation in city streets",
+        "source": "https://www.cityofventura.ca.gov/DocumentCenter/View/5975/FAQs-Private-Sewer-Lateral-Change-of-Ownership-PDF"
+      },
+      "consentDecree": {
+        "value": "February 3, 2012 federal consent decree requires reducing wastewater discharge to the Santa Clara River estuary by about 60% by 2025 and 90 to 100% by 2030",
+        "source": "https://www.cityofventura.ca.gov/DocumentCenter/View/39395/Nossaman-Memo_ATTACHMENT-B-1"
+      },
+      "housingAge": {
+        "value": "44,793 units; 3,811 built before 1940 (8.5%); 26.1% built before 1960; 8,585 built 1960-69 and 8,545 built 1970-79 (ACS 2023 5-year, B25034)",
+        "source": "https://api.census.gov/data/2023/acs/acs5"
+      },
+      "buildEra": {
+        "value": "Mission San Buenaventura founded March 31, 1782; incorporated April 2, 1866; 1920s oil boom drove a downtown building wave",
+        "source": "https://en.wikipedia.org/wiki/Ventura,_California"
+      },
+      "program": {
+        "value": null,
+        "source": null
+      }
+    }
+  },
+  "Oxnard": {
+    "state": "California",
+    "url": "/cipp-contractor/california/oxnard",
+    "metaTitle": "CIPP Lining in Oxnard, CA: The Plant the Whole Plain Drains To",
+    "metaDescription": "CIPP lining in Oxnard: a 1964 code section puts the lateral, wye and saddle on the owner, and a 2012 state audit of the city sewers shows why leaky private pipe matters.",
+    "article": "<h2>A rule from the 1964 code</h2>\n<p>Oxnard's lateral rule is short and old. Section 19-11 of the city code, carried forward from the 1964 code, provides that all connections, including the lateral and the wye or saddle at the city's sewer, are maintained at the expense of the property owner where the connection originates. The city's wastewater division restates it for homeowners: the lateral is the pipeline from the property's plumbing to the city main, its upkeep, repair and replacement are the owner's, and the city's flyer adds that this pipe runs under the sidewalk and the street as well as the yard.</p>\n<p>The city clears blockages in its mains. Anything from the house to the fitting on the main, including the fitting, is a private job for a licensed plumber.</p>\n\n<h2>Where the flow ends up</h2>\n<p>Oxnard's treatment plant on Perkins Road is the regional sink for the western Oxnard Plain. Its permit describes a design flow of 31.7 million gallons a day and a one-mile ocean outfall, and a federal-state inspection report lists the upstream systems that discharge into Oxnard's sewers: the City of Port Hueneme, the Channel Islands Beach Community Services District, both installations of Naval Base Ventura County at Port Hueneme and Point Mugu, two county service areas and a private wastewater company. The city's own collection system runs more than 400 miles of sewer, 7,620 manholes and fifteen pump stations. When a lateral in Oxnard leaks groundwater into that system, it competes for capacity with a Navy base.</p>\n\n<h2>What the 2012 audit found</h2>\n<p>In May 2012 inspectors from the U.S. Environmental Protection Agency and the State Water Board audited Oxnard's collection system, and their report is a public document. They found the city's sewer management plan had not been completed by the state deadline, that only about fifteen miles, four percent of the system, had been televised in the previous year with no set goal for more, that no capital improvement money was budgeted for the coming fiscal year, and that residential grease was a contributing factor in the overflows that had occurred. They also noted the city was not reporting private lateral spills to the state database.</p>\n<p>That was more than a decade ago and the city has moved on, but the report explains something a homeowner should understand about the ground under Oxnard: the public mains were under-inspected for years, and the private laterals, which no agency inspects at all, were never inspected. The condition of the pipe under a 1965 tract house is simply unknown until someone puts a camera in it.</p>\n\n<h2>Sugar beets, then houses, fast</h2>\n<p>Oxnard grew up around Henry Oxnard's sugar beet factory, which ran from 1899 to 1959, and incorporated on June 30, 1903. The city then grew by more than half every decade from 1950 to 1980, from 21,567 people to well past 100,000. The Census shows 10,061 housing units from the 1960s and 12,300 from the 1970s, the two largest decades. Oxnard is also still building: 7,814 units date from the 2000s and more than a fifth of the stock is newer than 2000, which is unusual for a coastal city.</p>\n<p>So the lateral inventory is split. Roughly a third of the city's pipe is fifty to sixty years old, mostly clay laid in the deep, wet alluvium of the Santa Clara River delta. Another fifth is plastic pipe from the past twenty-five years. The first group is where the camera finds work.</p>\n\n<h2>What lining does in delta soil</h2>\n<p>The Oxnard Plain is flat, low and wet, and clay laterals laid there in the 1960s have had six decades for their joints to open and for roots from parkway trees to follow the moisture in. That is the case for cured-in-place lining: a resin tube installed from the cleanout, cured against the old pipe, sealing every joint and crack along the run in one pass and reaching the wye at the main without excavating the sidewalk or the street. The city's encroachment permit, required for any excavation in a right-of-way, is not needed for a repair that never breaks the surface.</p>\n<p>It also stops the infiltration that the plant and the pump stations otherwise have to handle, which in a system serving a Navy base and three neighboring communities is not a trivial contribution.</p>\n\n<h2>Where lining is the wrong call</h2>\n<p>Flat, soft ground produces sags, and a liner cannot undo one. It cures to the profile of the pipe it is in, so a low section that ponds water keeps ponding after lining. Excavating and re-bedding that piece on grade comes first; lining the rest comes second. Collapsed pipe has no wall to line against, and undersized pipe does not grow. On the Oxnard Plain, looking for ponded water on the video before saying yes to a liner is not optional.</p>\n\n<h2>Getting it done</h2>\n<p>Have a licensed plumber put a camera through the whole lateral and keep the recording. Sort what it shows into wall and joint defects, which lining seals, and grade defects, which it does not. Then insist on a scope that treats them separately. In a city whose own mains went years without a camera, the homeowner who videos the lateral first is already ahead of the system.</p>",
+    "faq": [
+      [
+        "Who maintains the sewer lateral in Oxnard?",
+        "The property owner, under Section 19-11 of the city code, which dates to the 1964 code. That includes the lateral and the wye or saddle at the city sewer, and the city's flyer notes the pipe runs under the sidewalk and street, not just the yard."
+      ],
+      [
+        "What did the 2012 audit of Oxnard's sewers find?",
+        "Federal and state inspectors found the city's sewer management plan was late, only four percent of the system had been televised in the prior year, no capital funds were budgeted for the coming year, and residential grease contributed to overflows. Private lateral spills were not being reported."
+      ],
+      [
+        "Which communities send sewage to Oxnard's plant?",
+        "Besides the city, the plant treats flows from Port Hueneme, Channel Islands Beach Community Services District, both Naval Base Ventura County installations, two county service areas and a private wastewater company, through a 31.7 MGD plant with a one-mile ocean outfall."
+      ],
+      [
+        "How old is my lateral likely to be?",
+        "If the house is from the 1960s or 1970s, as about 40 percent of Oxnard's are, the lateral is probably original clay. More than a fifth of the city's housing postdates 2000 and has plastic laterals that are rarely the problem."
+      ],
+      [
+        "Does lining fix a sag in flat ground?",
+        "No. A liner takes the profile of the existing pipe, so a low spot keeps holding water. That section has to be excavated and re-bedded to grade; lining is for the joints, cracks and roots in the rest of the run."
+      ]
+    ],
+    "sources": [
+      "https://codelibrary.amlegal.com/codes/oxnard/latest/oxnard_ca/0-0-0-82218",
+      "https://www.oxnard.gov/public-works/wastewater-division",
+      "https://www.oxnard.gov/wp-content/uploads/2023/12/FINAL_-PSL_Flyer_Wastewater__01.24.22_V6.pdf",
+      "https://codelibrary.amlegal.com/codes/oxnard/latest/oxnard_ca/0-0-0-83083",
+      "https://waterboards.ca.gov/water_issues/programs/sso/docs/audit/32oxi.pdf",
+      "https://www.waterboards.ca.gov/losangeles/board_decisions/tentative_orders/individual/npdes/City_of_Oxnard/OxnardNPDESTentativeasposted8162018.pdf",
+      "https://en.wikipedia.org/wiki/Oxnard,_California",
+      "https://api.census.gov/data/2023/acs/acs5"
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Oxnard Public Works, Wastewater Division: 400+ miles of sewer, 7,620 manholes, 15 pump stations; Oxnard Wastewater Treatment Plant (31.7 MGD design) with a one-mile ocean outfall",
+        "source": "https://www.oxnard.gov/public-works/wastewater-division"
+      },
+      "lateralRule": {
+        "value": "Oxnard City Code Sec. 19-11 (from the 1964 code): all connections, including the lateral, wye or saddle at the city sewer, are maintained at the expense of the property owner; city flyer notes the private lateral runs under the sidewalk and street",
+        "source": "https://codelibrary.amlegal.com/codes/oxnard/latest/oxnard_ca/0-0-0-82218"
+      },
+      "permit": {
+        "value": "Sec. 19-206: encroachment permit required before any excavation in a right-of-way",
+        "source": "https://codelibrary.amlegal.com/codes/oxnard/latest/oxnard_ca/0-0-0-83083"
+      },
+      "audit2012": {
+        "value": "May 2012 EPA/State Water Board inspection: SSMP not completed by the deadline; about 15 miles (4%) of the system televised in the prior 12 months with no CCTV goal; no capital improvement funds budgeted for FY2012-13; residential grease a contributing factor in SSOs; private lateral discharges not reported to CIWQS",
+        "source": "https://waterboards.ca.gov/water_issues/programs/sso/docs/audit/32oxi.pdf"
+      },
+      "regionalPlant": {
+        "value": "upstream systems discharging to Oxnard's sewers include Port Hueneme, Channel Islands Beach CSD, Naval Base Ventura County (Port Hueneme and Point Mugu), County Service Areas 30 and 34, and Southern California Wastewater Company",
+        "source": "https://waterboards.ca.gov/water_issues/programs/sso/docs/audit/32oxi.pdf"
+      },
+      "housingAge": {
+        "value": "55,636 units; 10,061 built 1960-69, 12,300 built 1970-79, 7,814 built 2000-09; 21.3% built since 2000; 18.4% built before 1960 (ACS 2023 5-year, B25034)",
+        "source": "https://api.census.gov/data/2023/acs/acs5"
+      },
+      "buildEra": {
+        "value": "sugar beet factory operated 1899-1959; incorporated June 30, 1903; population 21,567 in 1950 and 71,225 in 1970",
+        "source": "https://en.wikipedia.org/wiki/Oxnard,_California"
+      },
+      "program": {
+        "value": null,
+        "source": null
+      }
+    }
+  },
+  "Thousand Oaks": {
+    "state": "California",
+    "url": "/cipp-contractor/california/thousand-oaks",
+    "metaTitle": "CIPP Lining in Thousand Oaks, CA: A Sewer the Developer Built",
+    "metaDescription": "CIPP lining in Thousand Oaks: the city bought its sewers from a Janss Corporation subsidiary in 1966, and its code ends city responsibility at the public main.",
+    "article": "<h2>The developer built the sewer first</h2>\n<p>Thousand Oaks did not inherit a sewer system; it bought one. Through the 1950s the Conejo Valley had no central treatment plant. In 1961 the Conejo Valley Sanitary Company, a subsidiary of the Janss Corporation that was master-planning the valley, built a small plant of its own. The city incorporated on October 7, 1964, and on July 1, 1966, with a voter-approved bond, it purchased the sanitary company and with it the Hill Canyon plant. The mains under the original Janss neighborhoods were laid by a private developer to serve his own tracts, and only later became public.</p>\n<p>That history sets the age of the pipe. The Census shows 9,501 housing units from the 1960s, 15,675 from the 1970s and 8,748 from the 1980s, about 70 percent of the city, and almost nothing before 1950. The laterals under Thousand Oaks are forty to sixty years old nearly everywhere.</p>\n\n<h2>The city's responsibility stops at the main</h2>\n<p>Section 10-1.407 of the municipal code, adopted in 2009, is one of the most complete statements of the owner's burden in Southern California. It makes the installation, maintenance, repair and replacement of service laterals and everything else beyond the city's public main the sole and complete responsibility of the property owner or owners' association, states that the city's responsibility ceases at the public main, and adds that by applying for service the customer agrees to defend and indemnify the city against claims arising beyond that point.</p>\n<p>The definitions split the pipe in two. The building lateral is the piece on private property from the building to the property line. The service lateral is the piece from there to the public main, under the sidewalk and street. Both are yours.</p>\n\n<h2>Two inspectors for one pipe</h2>\n<p>Section 10-1.408 describes how a lateral is normally installed or replaced: by a private contractor, to the city's wastewater design and construction standards, with Public Works inspecting and approving the connection at the main and the Community Development Department inspecting and approving the connection to the building lateral, both before backfill. The department must be notified at least twenty-four business hours before any connection to the system, and any work in the public right-of-way runs under an encroachment permit. The cost, including inspection fees, is the owner's.</p>\n<p>A cured-in-place liner installed through a cleanout does not disturb the connection at the main and does not open the right-of-way, so it avoids most of that sequence, though it still needs a permit and a look from the building inspector.</p>\n\n<h2>Not every neighborhood is the city's</h2>\n<p>Westlake Village and North Ranch, the eastern end of the city, are not served by Thousand Oaks at all. Triunfo Water and Sanitation District collects wastewater there and sends it to the Tapia plant it shares with Las Virgenes Municipal Water District. A homeowner at that end of the city should check a utility bill before assuming the city's code applies; the district has its own rules and its own demarcation.</p>\n\n<h2>The city already lines its pipe</h2>\n<p>Thousand Oaks is not new to this method. A 2020 environmental document for the Unit Y2 interceptor describes lining two parallel 18-inch Techite pipes along the North Fork of Arroyo Conejo with about 2,240 feet each of cured-in-place pipe. Techite, a fiberglass-reinforced mortar pipe of the 1970s, is exactly the kind of aging material lining was developed to rescue. In 2025 the city announced a project to line about 14,300 feet of wastewater pipeline and 55 maintenance holes along Thousand Oaks Boulevard between Moorpark Road and Duesenberg Drive, explaining that it keeps a camera moving through its pipelines to find the deteriorated sections worth refurbishing.</p>\n<p>The system is large for a city this size: the municipal service center describes more than 500 miles of collection mains, 8,300 access holes and 35,000 connections, running from the west end of Newbury Park to North Ranch, with Hill Canyon treating around eight million gallons a day.</p>\n\n<h2>What a liner does under a Conejo Valley lot</h2>\n<p>Lots here are often large, sloped and heavily planted, and the lateral can be a long run from a house at the back of the parcel down to a main in the street. Excavating that run means cutting through mature landscaping and, on a hillside, shoring a deep trench. A liner goes in at the cleanout, sets hard against the old clay or early plastic, and leaves one seamless pipe between house and main that closes every root entry and parted joint on the way. It renews the whole span the code assigns to the owner in a day, without a trench.</p>\n\n<h2>Where the shovel is still the answer</h2>\n<p>A liner reproduces the pipe's geometry; a settled belly is still a belly afterward, and a collapsed length offers nothing to line. Those pieces get dug up and re-laid to grade, and an honest contractor marks them on the video before pricing anything. A lateral that is already too small for the house is not made larger by lining. On a fifty-year-old run down a hillside lot, one such section is common enough that the camera inspection is the first step, not a formality.</p>",
+    "faq": [
+      [
+        "Whose pipe is the sewer lateral in Thousand Oaks?",
+        "The property owner, for both the building lateral on private property and the service lateral out to the public main. Section 10-1.407 states that the city's responsibility ceases at the public main and that the customer indemnifies the city for anything beyond it."
+      ],
+      [
+        "Does the city inspect lateral work?",
+        "Yes. Section 10-1.408 has Public Works inspect the connection at the main and the Community Development Department inspect the connection at the building, both before backfill, with 24 business hours' notice required. Right-of-way work needs an encroachment permit."
+      ],
+      [
+        "Is all of Thousand Oaks on the city sewer?",
+        "No. The Westlake Village and North Ranch portions of the city are served by Triunfo Water and Sanitation District, which treats at the Tapia plant. Check your utility bill to confirm which agency serves your address."
+      ],
+      [
+        "Does the city itself use cured-in-place lining?",
+        "Yes. It has lined 18-inch Techite interceptor pipe along the Arroyo Conejo with CIPP and in 2025 began lining about 14,300 feet of sewer along Thousand Oaks Boulevard, identifying candidates through ongoing video inspection."
+      ],
+      [
+        "How old is a typical Thousand Oaks lateral?",
+        "Forty to sixty years. Roughly seven in ten of the city's homes date from 1960 to 1989, built on land master-planned by the Janss Corporation, whose own sanitary company laid the first sewers before the city bought the system in 1966."
+      ]
+    ],
+    "sources": [
+      "https://toaks.gov/hctp",
+      "https://codelibrary.amlegal.com/codes/thousandoaks/latest/thousandoaks_ca/0-0-0-26434",
+      "https://codelibrary.amlegal.com/codes/thousandoaks/latest/thousandoaks_ca/0-0-0-26437",
+      "https://codelibrary.amlegal.com/codes/thousandoaks/latest/thousandoaks_ca/0-0-0-26299",
+      "https://codelibrary.amlegal.com/codes/thousandoaks/latest/thousandoaks_ca/0-0-0-26361",
+      "https://www.triunfowsd.com/about/",
+      "https://www.toaks.gov/toblining",
+      "https://files.ceqanet.lci.ca.gov/266732-2/attachment/gBAa1u6SrFa5Rptq0oxpsaqwkmPdcU8SwleSRXgJo8iGp6UUqOc66WhAthYlbmaiJaXrjKSObw7ACBOX0",
+      "https://toaks.gov/MSC",
+      "https://en.wikipedia.org/wiki/Thousand_Oaks,_California",
+      "https://api.census.gov/data/2023/acs/acs5"
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Thousand Oaks Public Works: more than 500 miles of collection mains, 8,300 access holes, 35,000 connections, Hill Canyon Treatment Plant (14 MGD design); Triunfo Water and Sanitation District serves the Westlake Village and North Ranch portions of the city",
+        "source": "https://toaks.gov/MSC"
+      },
+      "lateralRule": {
+        "value": "TOMC 10-1.407 (Ord. 1515-NS, 2009): installation, maintenance, repair and replacement of service laterals and other facilities beyond the public main are solely the owner's responsibility; the city's responsibility ceases at the public main; customer indemnifies the city beyond that point. Building lateral = private property to the property line; service lateral = property line to the public main",
+        "source": "https://codelibrary.amlegal.com/codes/thousandoaks/latest/thousandoaks_ca/0-0-0-26434"
+      },
+      "permit": {
+        "value": "TOMC 10-1.408: laterals normally installed by a private contractor to city standards; Public Works inspects the connection at the main and Community Development inspects the building-lateral connection before backfill; 24 business hours' notice; right-of-way work under an encroachment permit; costs and inspection fees borne by the owner",
+        "source": "https://codelibrary.amlegal.com/codes/thousandoaks/latest/thousandoaks_ca/0-0-0-26437"
+      },
+      "origin": {
+        "value": "Conejo Valley Sanitary Company, a Janss Corporation subsidiary, built a small treatment plant in 1961; the city purchased the company and the Hill Canyon plant on July 1, 1966 with a voter-approved bond",
+        "source": "https://toaks.gov/hctp"
+      },
+      "cityLining": {
+        "value": "Unit Y2 interceptor: two parallel 18-inch Techite pipes lined with about 2,240 feet each of CIPP; 2025 Thousand Oaks Boulevard project lines about 14,300 linear feet of sewer and 55 maintenance holes between Moorpark Road and Duesenberg Drive",
+        "source": "https://www.toaks.gov/toblining"
+      },
+      "housingAge": {
+        "value": "48,095 units; 9,501 built 1960-69, 15,675 built 1970-79, 8,748 built 1980-89; 0.6% built before 1940 (ACS 2023 5-year, B25034)",
+        "source": "https://api.census.gov/data/2023/acs/acs5"
+      },
+      "buildEra": {
+        "value": "incorporated October 7, 1964; Janss family bought 10,000 acres in the early 20th century and planned a 'total community'; population 35,873 in 1970 and 104,352 in 1990",
+        "source": "https://en.wikipedia.org/wiki/Thousand_Oaks,_California"
+      },
+      "program": {
+        "value": null,
+        "source": null
+      }
+    }
+  },
+  "Riverside": {
+    "state": "California",
+    "url": "/cipp-contractor/california/riverside",
+    "metaTitle": "CIPP Lining in Riverside, CA: The City Owns the Lower Half",
+    "metaDescription": "CIPP lining in Riverside: the city maintains 424 miles of lower laterals for homes with a property-line cleanout, and its code presumes roots in your half are your fault.",
+    "article": "<h2>A city that took on half the lateral</h2>\n<p>Riverside does something almost no large California city does: it owns the lower half of the residential sewer lateral. Section 14.08.020 of the municipal code says the city maintains the lateral of residential premises from the property line or city easement boundary to the point of connection with the city sewer. The city's 2025 sewer management plan puts a number on it, 424 miles of city-owned lower laterals against 813 miles of gravity main, and the public works site tells owners with a problem in that stretch to have a licensed plumber confirm it and then call 311.</p>\n<p>There are two conditions. The plan states that city ownership of the lower lateral is limited to laterals where a cleanout has been installed at the property line. And it applies to residential premises only; for nonresidential property, the owner is responsible for the lateral all the way to the point of connection with the city sewer.</p>\n\n<h2>What the owner keeps</h2>\n<p>The upper lateral, from the building to the property line, is the owner's in every case, and the code is unusually pointed about it. Subsection A of 14.08.020 requires every customer to keep the private lateral in good working order and free of defects, and specifically to have a two-way cleanout tee of at least four inches at the property line for maintenance. Then it adds a presumption: any infiltration of tree roots into a private lateral is presumed to be caused by improper installation or maintenance, and must be repaired by the owner at no cost to the city, unless a city inspector or contractor determines otherwise.</p>\n<p>In other words, roots in the upper lateral are, by default, the owner's problem and the owner's bill. The city also reserves the right to enter any premises connected to the system at reasonable hours to check the facilities, visually or by camera.</p>\n\n<h2>The cleanout is the key that unlocks city service</h2>\n<p>For a homeowner the practical lesson is simple. If there is no cleanout at the property line, the city's ownership of the lower lateral does not apply, and the whole pipe to the main is yours. Installing one is a modest excavation at the property line, and it changes who is responsible for the more expensive half of the run, the part under the parkway and the street. Any connection to a public sewer requires a permit from the city engineer, and that permit is the place to ask about the cleanout requirement.</p>\n\n<h2>Old citrus town, mid-century tracts, new edges</h2>\n<p>John North's colony was announced in 1870, the city incorporated on October 11, 1883, and Eliza Tibbets's navel orange trees of 1874 made it the center of California citrus. The Census reflects that age: 6,613 housing units built before 1940, more than a quarter of the stock built before 1960, and 16,422 units from the 1950s alone. But the city is also 81 square miles and still growing, with 18 percent of its homes built since 2000. The pipe under the Wood Streets and the Eastside is a different generation from the pipe under Orangecrest.</p>\n<p>Riverside's plant on Acorn Street is regional too. Rated at 46 million gallons a day and discharging to the Santa Ana River, it treats sewage for the Edgemont, Jurupa and Rubidoux community services districts and some unincorporated county areas as well as the city, with nineteen pump stations moving flow across a large, uneven service area.</p>\n\n<h2>Where lining fits the upper lateral</h2>\n<p>The owner's half is usually the shorter piece, but in the older neighborhoods it is the piece with the roots. Mature street and yard trees, clay pipe from the 1920s to the 1950s, and a code that presumes root intrusion is the owner's fault make a sealed, jointless pipe the sensible standard. A cured-in-place liner installed from the building or yard cleanout to the property-line cleanout produces exactly that, without trenching across a front yard that may have been planted eighty years ago. It also gives the city's camera nothing to find on its next visit.</p>\n<p>If the city's inspection of the lower lateral turns up a defect on its side of the cleanout, that repair is the city's; the two halves can be handled by different parties at different times, which is one more reason the property-line cleanout matters.</p>\n\n<h2>What lining leaves alone</h2>\n<p>A liner conforms to the pipe it is placed in. A run that has sunk into a belly and holds water will still hold water once lined, and only excavating that section and relaying it on grade corrects it. Crushed or badly deformed pipe cannot take a liner, and a pipe too small for the household load is not enlarged by adding a layer inside it. A proposal for the upper lateral should mark any of those on the video and price the dig for it separately from the liner.</p>\n\n<h2>How to handle it here</h2>\n<p>First, check for a two-way cleanout at the property line; if there is none, plan to install one. Second, have a licensed plumber camera both halves and keep the footage. Third, report anything on the city side through 311 with the video in hand. Fourth, for the private side, get a scope that lines the joints and roots and excavates any sag. In Riverside the city has already taken on the street half; the owner's job is to make the yard half as tight as the code presumes it should be.</p>",
+    "faq": [
+      [
+        "Who maintains the sewer lateral under the street in Riverside?",
+        "For residential properties, the city does, from the property line or easement boundary to the connection with the main, but only where a cleanout has been installed at the property line. Nonresidential owners are responsible for the whole lateral."
+      ],
+      [
+        "What is the owner responsible for?",
+        "The upper lateral from the building to the property line, including a two-way cleanout tee of at least four inches at the property line. Section 14.08.020 also presumes that root intrusion in the private lateral is due to improper installation or maintenance and must be repaired at the owner's expense."
+      ],
+      [
+        "What if my house has no property-line cleanout?",
+        "Then the city's ownership of the lower lateral does not apply and the full run to the main is yours. Installing a cleanout at the property line is what brings the lower lateral under the city's maintenance."
+      ],
+      [
+        "How do I get the city to fix its portion?",
+        "Have a licensed plumber or contractor determine that the problem is in the city's section, then contact the 311 call center. Keeping the camera footage makes that conversation shorter."
+      ],
+      [
+        "Does lining make sense for the upper lateral?",
+        "Often. In the older neighborhoods the private half is clay under mature trees, and a jointless liner seals the root entries the code holds the owner responsible for. A belly or a collapsed section still has to be excavated; lining does not correct pipe shape."
+      ]
+    ],
+    "sources": [
+      "https://library.municode.com/ca/riverside/codes/code_of_ordinances?nodeId=PTIICOOR_TIT14PUUT_CH14.08SECOPE",
+      "https://riversideca.gov/publicworks/sewer/residential-services/private-lateral-policy",
+      "https://riversideca.gov/publicworks/sites/riversideca.gov.publicworks/files/Sewer%20System%20Management%20Plan%202025%20FINAL%20w%20ATT.pdf",
+      "https://www.riversideca.gov/publicworks/sewer/regional-water-quality-control-plant",
+      "https://www.riversideca.gov/publicworks/sewer/sewer-faq",
+      "https://en.wikipedia.org/wiki/Riverside,_California",
+      "https://api.census.gov/data/2023/acs/acs5"
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Riverside Public Works Sewer Division: 813 miles of gravity main, 424 miles of city-owned lower laterals, 19 pump stations; Regional Water Quality Control Plant (46 MGD) also treats for Edgemont, Jurupa and Rubidoux CSDs",
+        "source": "https://riversideca.gov/publicworks/sites/riversideca.gov.publicworks/files/Sewer%20System%20Management%20Plan%202025%20FINAL%20w%20ATT.pdf"
+      },
+      "lateralRule": {
+        "value": "RMC 14.08.020: owner maintains the private lateral (building to property line, with a 4-inch two-way cleanout tee at the property line); root intrusion in the private lateral is presumed to result from improper installation or maintenance and is repaired at the owner's cost; the city maintains the residential lateral from the property line to the connection with the city sewer; nonresidential owners maintain the lateral to the point of connection",
+        "source": "https://library.municode.com/ca/riverside/codes/code_of_ordinances?nodeId=PTIICOOR_TIT14PUUT_CH14.08SECOPE"
+      },
+      "cleanoutCondition": {
+        "value": "SSMP: city ownership of lower laterals is limited to those where a cleanout has been installed at the property line",
+        "source": "https://riversideca.gov/publicworks/sites/riversideca.gov.publicworks/files/Sewer%20System%20Management%20Plan%202025%20FINAL%20w%20ATT.pdf"
+      },
+      "permit": {
+        "value": "RMC 14.08.050: connection permit from the City Engineer required before connecting to a public sewer; city inspectors may enter premises to check facilities visually or by camera",
+        "source": "https://library.municode.com/ca/riverside/codes/code_of_ordinances?nodeId=PTIICOOR_TIT14PUUT_CH14.08SECOPE"
+      },
+      "housingAge": {
+        "value": "97,105 units; 6,613 built before 1940 (6.8%); 27.5% built before 1960; 16,422 built 1950-59; 18% built since 2000 (ACS 2023 5-year, B25034)",
+        "source": "https://api.census.gov/data/2023/acs/acs5"
+      },
+      "buildEra": {
+        "value": "colony announced March 1870; incorporated October 11, 1883; navel orange introduced 1874; 81.54 square miles",
+        "source": "https://en.wikipedia.org/wiki/Riverside,_California"
+      },
+      "program": {
+        "value": "no rebate; city maintains the residential lower lateral at no charge where a property-line cleanout exists; report problems via 311",
+        "source": "https://riversideca.gov/publicworks/sewer/residential-services/private-lateral-policy"
+      }
+    }
+  },
+  "Bakersfield": {
+    "state": "California",
+    "url": "/cipp-contractor/california/bakersfield",
+    "metaTitle": "CIPP Lining in Bakersfield, CA: \"Lateral\" Means the Street Main",
+    "metaDescription": "CIPP lining in Bakersfield: the code calls the public street pipe the lateral and yours the house connection, and the city will fix the street piece for a fee if asked.",
+    "article": "<h2>Read the definitions before the estimate</h2>\n<p>In most cities the word lateral means the private pipe from a house to the street. In Bakersfield it means the opposite. Section 14.12.030 of the municipal code defines the lateral sewer as the public sewer, usually eight inches or larger, that collects wastewater from house connections and carries it to the trunk sewers. The private pipe is the house connection: the sewer that joins the building drain to the public sewer. A contractor and a homeowner who use the word lateral in different senses can agree on a price for two different pipes, so in Bakersfield it pays to say house connection and mean it.</p>\n\n<h2>What the owner maintains, and a city offer</h2>\n<p>Section 14.12.195 puts the whole house connection on the owner, from every point on the property to the public sewer, and makes the owner responsible for repairing any blockage or damage to it. The street portion is not exempt. But the same section contains an offer that is rare in California: at the request of an owner inside the city, the city will repair the portion of the house connection between the improved right-of-way and the public sewer for a fee determined on a time-and-materials basis. It extends the same offer to owners in the unincorporated county who are connected to a city sewer. It is not a subsidy, and it is not a duty. It is a city crew available at cost for the piece of pipe under the pavement.</p>\n<p>For an owner comparing options, that offer is worth a phone call before any contractor opens the street. The yard portion remains a private job.</p>\n\n<h2>A city divided by a highway and a river</h2>\n<p>Bakersfield's Public Works wastewater division runs two plants. Plant 2, which opened in 1958 and was expanded in 2000 to 25 million gallons a day, serves the incorporated and unincorporated areas generally east of Highway 99; its treated effluent is recycled onto 5,476 acres of city farmland growing alfalfa, grain and corn. Plant 3 on Ashe Road serves the west side and was expanded toward 32 million gallons a day after 2006. North of the Kern River, Oildale and neighboring areas are served by the North of the River Sanitary District, with its own plant and about 174 miles of sewer, under a boundary agreement with the city signed in 2000. Kern Sanitation Authority and other county districts also feed the city's plants.</p>\n<p>The city's own collection system, per its sewer management plan, runs about 1,069 miles of main and fifty-five pump and lift stations across a city of 151 square miles. The plan identifies grease and other clogging as the cause of the overflows the city experiences.</p>\n\n<h2>The newest housing stock in the network</h2>\n<p>Bakersfield's pipe is younger than any other city on this site. The Census counts 29,637 housing units from the 2000s alone, and 34 percent of the city's homes have been built since 2000; the median home dates from the 1980s. Only 17.6 percent of the stock is from the 1940 to 1969 window that dominates coastal cities. The older pipe is concentrated in the core: 4,144 units from before 1940 and 9,318 from the 1950s, in the neighborhoods around downtown, Oleander and the east side that were already standing in 1952.</p>\n<p>That year matters underground. Two earthquakes struck in 1952, a magnitude 7.5 in July and a magnitude 5.8 in August directly beneath the city center. Clay house connections that survived those shocks did so with cracked joints, and seventy years of dry, expansive valley soil have worked on them since. Bakersfield averages about six inches of rain a year, and clay soils that shrink in drought and swell in a wet winter are hard on rigid pipe.</p>\n\n<h2>Where lining pays off here</h2>\n<p>On a pre-1960 house connection, the camera typically finds separated joints, root entry from the mature trees of the older neighborhoods, and infiltration where the pipe crosses the moist zone near the main. A cured-in-place liner run in from the cleanout seals all of it in one continuous pipe from the house to the public sewer, without a trench through the yard or, if the run is continuous, the street. It also avoids the notification and inspection sequence the code sets for physically altering the city's sewer, since a liner does not touch the trunk.</p>\n<p>On a post-2000 house connection, lining is rarely needed. Plastic pipe laid in the past twenty-five years fails at construction mistakes, not at joints, and those are excavation jobs.</p>\n\n<h2>The exceptions</h2>\n<p>Expansive soil produces sags, and a liner does not remove one. It cures to the profile it finds, so a low spot that ponds before lining ponds afterward, and only digging that stretch out and re-laying it on grade fixes it. Crushed pipe offers no wall to line, and undersized pipe stays undersized. Any contractor proposing a liner should have footage showing no standing water, or should say plainly where the dig will be.</p>\n\n<h2>Getting it right in Bakersfield</h2>\n<p>Have the house connection televised from the cleanout to the public sewer and keep the recording. Sort the defects into joints and cracks, which a liner handles, and sags and collapses, which it does not. Ask Public Works whether it will repair the right-of-way segment at cost under section 14.12.195, and get a licensed contractor for the rest. And when the estimate arrives, make sure the word lateral on it means what you think it means.</p>",
+    "faq": [
+      [
+        "What does \"lateral\" mean in Bakersfield's sewer code?",
+        "The public street sewer. Section 14.12.030 defines the lateral sewer as the public pipe, usually eight inches or larger, that collects from house connections. Your private pipe, building to public sewer, is the house connection."
+      ],
+      [
+        "Who maintains the house connection?",
+        "The property owner, from every point on the property to the public sewer, including the portion under the street. Section 14.12.195 makes the owner responsible for repairing any blockage or damage to it."
+      ],
+      [
+        "Will the city repair the part under the street?",
+        "On request, yes, for a fee. The code says the city will repair the portion of the house connection between the improved right-of-way and the public sewer on a time-and-materials basis, and offers the same to unincorporated owners connected to city sewer."
+      ],
+      [
+        "Which plant serves my side of town?",
+        "Plant 2, opened in 1958, serves areas generally east of Highway 99; Plant 3 on Ashe Road serves the west. North of the Kern River, Oildale is served by the North of the River Sanitary District rather than the city."
+      ],
+      [
+        "Is lining worth it on a newer Bakersfield house?",
+        "Usually not. Over a third of Bakersfield's housing postdates 2000 and sits on plastic house connections that rarely fail at joints. Lining earns its keep on the pre-1960 clay pipe in the older neighborhoods around downtown."
+      ]
+    ],
+    "sources": [
+      "https://bakersfield.municipal.codes/Code/14.12.030",
+      "https://bakersfield.municipal.codes/Code/14.12.195",
+      "https://bakersfield.municipal.codes/Code/14.12.180",
+      "https://www.bakersfieldcity.us/wastewater-treatment-plants",
+      "https://www.waterboards.ca.gov/rwqcb5/board_decisions/adopted_orders/kern/r5-2009-0122.pdf",
+      "https://ceqanet.lci.ca.gov/2006041012/2",
+      "https://www.norsd.com/files/e2a76accf/NORSD+Municipal+Service+Review+4-2019.pdf",
+      "https://content.civicplus.com/api/assets/ca-bakersfield/4c6d1bb9-f5c5-4a1f-b0fd-177018967488?cache=1800",
+      "https://en.wikipedia.org/wiki/Bakersfield,_California",
+      "https://api.census.gov/data/2023/acs/acs5"
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Bakersfield Public Works Wastewater Division: about 1,069 miles of main and 55 pump/lift stations; Plant 2 (opened 1958, 25 MGD, generally east of Highway 99) and Plant 3 (Ashe Road, west side, expanded toward 32 MGD); North of the River Sanitary District serves Oildale under a 2000 boundary agreement",
+        "source": "https://www.bakersfieldcity.us/wastewater-treatment-plants"
+      },
+      "definitions": {
+        "value": "BMC 14.12.030: 'lateral sewer' is the public sewer, usually eight inches or larger, collecting from house connections; 'house connection' is the sewer connecting the building sewer to the public sewer",
+        "source": "https://bakersfield.municipal.codes/Code/14.12.030"
+      },
+      "lateralRule": {
+        "value": "BMC 14.12.195: owners maintain the house connection from all points on their property to the public sewer and must repair any blockage or damage; on request the city will repair the portion between the improved right-of-way and the public sewer for a time-and-materials fee, including for unincorporated owners connected to city sewer",
+        "source": "https://bakersfield.municipal.codes/Code/14.12.195"
+      },
+      "permit": {
+        "value": "BMC 14.12.160: sewer permit required to connect; 14.12.180: sewers attached to a trunk inspected by the city during construction, 48 hours' notice before cutting into the city sewer, no alteration until an inspector is present",
+        "source": "https://bakersfield.municipal.codes/Code/14.12.180"
+      },
+      "plant2": {
+        "value": "Plant 2 effluent is recycled to about 5,476 acres of farmland (alfalfa, grain, corn) mostly south of the plant",
+        "source": "https://www.waterboards.ca.gov/rwqcb5/board_decisions/adopted_orders/kern/r5-2009-0122.pdf"
+      },
+      "housingAge": {
+        "value": "133,876 units; 29,637 built 2000-09; 34.1% built since 2000; median unit built 1980-89; 17.6% built 1940-69; 4,144 built before 1940 and 9,318 built 1950-59 (ACS 2023 5-year, B25034)",
+        "source": "https://api.census.gov/data/2023/acs/acs5"
+      },
+      "buildEra": {
+        "value": "incorporated 1873, disincorporated 1876, reincorporated January 11, 1898; 1952 earthquakes of magnitude 7.5 (July) and 5.8 (August, directly under the city center); about 151 square miles; average rainfall about 6.36 inches",
+        "source": "https://en.wikipedia.org/wiki/Bakersfield,_California"
+      },
+      "program": {
+        "value": "no subsidy; fee-for-service city repair of the right-of-way segment under BMC 14.12.195",
+        "source": "https://bakersfield.municipal.codes/Code/14.12.195"
+      }
+    }
+  },
+  "Encino": {
+    "state": "California",
+    "url": "/cipp-contractor/california/encino",
+    "metaTitle": "CIPP Lining in Encino, LA: Pipe in an Easement Has Its Own Rule",
+    "metaDescription": "CIPP lining in Encino: hillside lots south of Ventura Boulevard often drain through easements over a neighbor's land, and Los Angeles limits what pipe may run there.",
+    "article": "<h2>The oldest settled ground in the Valley</h2>\n<p>Encino was inhabited before Los Angeles existed. The Portolá expedition camped at the Tongva village of Siutcanga in 1769, beside the artesian springs that still feed the pond at Los Encinos State Historic Park. Rancho Los Encinos was granted in 1845, the de la Osa adobe went up in 1849, the Garnier limestone house in 1872, and the Amestoy family held the land from 1891 until it was carved into subdivisions. The state took the last 4.7 acres of the rancho as a park in 1949, by which time the rest was well on its way to becoming the suburb it is now.</p>\n<p>The Mapping L.A. figures give the shape of that suburb: 41,905 residents in 9.5 square miles at the 2000 census, a median age of 42, and owners in 61.6 percent of the housing against renters in 38.4 percent. Encino is older, more owner-occupied and larger-lotted than most of the Valley, and its houses, mostly from the postwar decades, sit on sewer laterals of the same age.</p>\n\n<h2>South of the boulevard, the pipe runs through easements</h2>\n<p>North of Ventura Boulevard the lots are flat and the lateral runs straight out to a main in the street. South of it, in the hills, that is often not possible. A house on a slope may drain downhill across a neighbor's property to a sewer in a lower street, through a sewer easement rather than the public right-of-way. Los Angeles Municipal Code section 64.00 defines the house connection sewer to include exactly that case, a pipe in a sewer easement granted to the city as well as one in a street.</p>\n<p>Section 64.17 then limits the material. In a street, a house connection sewer may be clay, cement, cast iron, ABS or PVC plastic, or asbestos cement, at six inches minimum. In an easement over private property the list shrinks to clay with flexible joints, ABS, PVC or cast iron, at four or six inches. The rule exists because easement pipe is hard to reach for repair, and it is also the reason so many hillside laterals in Encino are older clay: that is what was allowed and what was laid.</p>\n\n<h2>What that means when the pipe fails</h2>\n<p>Repairing an easement lateral by excavation means digging on someone else's land, on a slope, often under decades of landscaping, with access limited to whatever the easement grants. It is the most expensive kind of lateral dig in the city. A cured-in-place liner is installed from a cleanout at the house, cures inside the existing run, and comes out the other end as a jointless pipe, without a shovel touching the neighbor's yard. For an easement lateral the case for lining is not only about cost; it is about whether the repair can be done at all without a dispute.</p>\n\n<h2>Permits, and who may pull them</h2>\n<p>The city's rule on permits has an exception that matters for lining. Section 64.12 requires a permit from the Board of Public Works to make, alter or repair any house connection sewer, but subsection (d) says no permit is required merely to remove a stoppage, unless part of the sewer is replaced or a street, sidewalk or easement is excavated. A liner replaces the wall of the pipe from within, so it falls on the permit side of that line, and the work should be permitted and inspected. Where any excavation in a public street is involved, the permit goes only to a contractor licensed as A, B, C-36 or C-42. The permit must be kept at the job and shown to any city inspector on request.</p>\n<p>One further Los Angeles rule bears on hillside lots: section 64.11.1 allows no more than one lot on a single house connection sewer except by specific approval, with recorded maintenance agreements between the owners. If a lateral serves two houses, both owners are parties to its repair.</p>\n\n<h2>Where the sewage goes</h2>\n<p>Encino sits immediately south of the Sepulveda Basin, where the Donald C. Tillman Water Reclamation Plant has run continuously since 1985, doubling in capacity in 1991, and discharges to the Los Angeles River near the mouth of Encino Creek. Valley trunks feed Tillman, and whatever it cannot take continues to Hyperion on the coast. The city's system is roughly 6,439 miles of sewer, and a leaking hillside lateral adds groundwater to a Valley trunk system that was built for sewage.</p>\n\n<h2>Where lining stops</h2>\n<p>A liner reproduces the pipe it is placed in, including its low spots. A hillside lateral that has slumped into a belly and holds water will hold water after lining, and nothing short of opening that section and rebuilding it on grade, easement or not, will change that. A pipe crushed by root pressure or soil movement cannot take a liner. A lateral undersized for the house is not made larger. On a slope, one such defect is common, and the camera has to find it before any liner is quoted.</p>\n\n<h2>The order of work</h2>\n<p>Find out whether your lateral runs to the street or through an easement; the recorded tract map or a camera with a locator will tell you. Video the run and keep the recording. Then get a written scope: liner for the joints and roots, excavation for any sag, the permit named and, if the pipe crosses a neighbor's land, that neighbor informed. In the Encino hills the question is rarely whether lining is cheaper than digging; it is whether digging is possible at all.</p>",
+    "faq": [
+      [
+        "Why do Encino hillside laterals run through easements?",
+        "Because a house on a slope south of Ventura Boulevard often cannot drain to the street in front of it and instead runs downhill across a neighbor's property to a lower sewer. Los Angeles defines the house connection sewer to include pipe in such a sewer easement."
+      ],
+      [
+        "What pipe is allowed in an easement in Los Angeles?",
+        "Section 64.17 permits only clay with flexible joints, ABS, PVC or cast iron in easements over private property, at four or six inches, a shorter list than for pipe in a street."
+      ],
+      [
+        "Is a permit needed to line a house connection sewer in Encino?",
+        "Yes. Section 64.12 requires a Board of Public Works permit to alter or repair a house connection sewer, and exempts only the clearing of stoppages. Excavation in a public street requires a contractor licensed as A, B, C-36 or C-42."
+      ],
+      [
+        "Which plant treats Encino's sewage?",
+        "Flow enters the Valley trunk sewers that feed the Tillman Water Reclamation Plant in the Sepulveda Basin, just north of Encino; anything beyond Tillman's capacity continues to Hyperion."
+      ],
+      [
+        "Can lining fix a lateral that has slumped on a hillside?",
+        "Not the slumped section. A liner follows the pipe's shape, so a belly that holds water remains. That length has to be opened and rebuilt on grade, even inside an easement; the remainder of the run is a candidate for lining."
+      ]
+    ],
+    "sources": [
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160350",
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160993",
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160746",
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160639",
+      "https://www.waterboards.ca.gov/losangeles/board_decisions/adopted_orders/docs/5695_98-046_WDR_PKG.pdf",
+      "https://planning.lacity.gov/eir/CrossroadsHwd/deir/files/references/M207.pdf",
+      "https://planning.lacity.gov/odocument/1a262ff4-bc8e-45c2-b1df-dd045e6b1e9c/ENV-2021-10171-M.2.pdf",
+      "https://en.wikipedia.org/wiki/Encino,_Los_Angeles",
+      "https://en.wikipedia.org/wiki/Los_Encinos_State_Historic_Park"
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Los Angeles (LA Sanitation and Environment / Bureau of Engineering); about 6,439 miles of sewer; Valley trunks feed the Donald C. Tillman Water Reclamation Plant (continuous operation since 1985, capacity doubled 1991), with excess flow to Hyperion",
+        "source": "https://planning.lacity.gov/odocument/1a262ff4-bc8e-45c2-b1df-dd045e6b1e9c/ENV-2021-10171-M.2.pdf"
+      },
+      "lateralRule": {
+        "value": "LAMC 64.00: the house connection sewer is any sewer pipe in a street, alley, walk, other public place or a sewer easement granted to the city connecting a lot to a public sewer",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160350"
+      },
+      "easementPipe": {
+        "value": "LAMC 64.17: house connection sewers in streets may be clay, cement, cast iron, ABS, PVC or asbestos cement (6-inch minimum); in easements over private property only clay with flexible joints, ABS, PVC or cast iron (4- or 6-inch); permit kept at the job site",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160993"
+      },
+      "permit": {
+        "value": "LAMC 64.12: Board of Public Works permit required to make, alter or repair any house connection sewer; no permit needed only to remove a stoppage without replacement or excavation; street excavation permits issued only to A, B, C-36 or C-42 licensed contractors",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160746"
+      },
+      "sharedConnection": {
+        "value": "LAMC 64.11.1: not more than one lot on a house connection sewer except by approval with recorded reciprocal maintenance agreements",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160639"
+      },
+      "tenure": {
+        "value": "2000 census: 41,905 residents in 9.5 square miles; median age 42; owners 61.6%, renters 38.4% (Mapping L.A.)",
+        "source": "https://en.wikipedia.org/wiki/Encino,_Los_Angeles"
+      },
+      "buildEra": {
+        "value": "Portolá expedition at Siutcanga 1769; Rancho Los Encinos granted 1845; de la Osa adobe 1849; Garnier limestone house 1872; Amestoy ownership from 1891; 4.7-acre state park 1949",
+        "source": "https://en.wikipedia.org/wiki/Los_Encinos_State_Historic_Park"
+      },
+      "program": {
+        "value": null,
+        "source": null
+      }
+    }
+  },
+  "West Los Angeles": {
+    "state": "California",
+    "url": "/cipp-contractor/california/west-los-angeles",
+    "metaTitle": "CIPP Lining in West Los Angeles: Sewers Older Than the Annexation",
+    "metaDescription": "CIPP lining in West Los Angeles: Sawtelle was its own city until 1922, its streets were sewered before LA owned them, and one lateral often serves several households.",
+    "article": "<h2>A city that fought annexation and lost</h2>\n<p>West Los Angeles was not always Los Angeles. The Pacific Branch of the National Home for Disabled Volunteer Soldiers opened in 1888 on what is now the Veterans Affairs campus, and in 1896 the Pacific Land Company bought a 225-acre tract just south of it. The town that grew there was named Sawtelle in 1899 and incorporated the same year. It resisted absorption for two decades, through a 1918 episode in which Los Angeles police seized Sawtelle's city hall and a 1921 ruling by the California Supreme Court, before annexation finally took effect in July 1922.</p>\n<p>The sewers under the older Sawtelle streets were therefore laid by a small independent city, to its own standards, before Los Angeles inherited them. A house connection sewer from that era is now a century old and was never built to a big-city specification.</p>\n\n<h2>Dense, rented, and mostly small lots</h2>\n<p>The Mapping L.A. figures describe the neighborhood as it is now. West of the 405, the 2.69-square-mile Sawtelle section held 35,844 people at the 2000 census and about 38,698 by 2008, a density of more than 13,000 per square mile. East of the freeway, the 1.05-square-mile section held about 13,582 people in 2008, with a median age of 38, and renters in 51 percent of the housing. By 1941 Sawtelle was home to 26 garden centers, most run by Japanese immigrants, and the city designated Sawtelle Japantown in 2015.</p>\n<p>Underground, that means duplexes, fourplexes and small apartment buildings on lots platted for bungalows, with a single house connection sewer carrying the flow of several kitchens and bathrooms to a main that was sized for one.</p>\n\n<h2>One lot per connection, unless the city agrees otherwise</h2>\n<p>Los Angeles Municipal Code section 64.11.1 sets a default that matters on these blocks: not more than one lot may be connected to any one house connection sewer. Shared connections are allowed only by exception, most often where a lot has been split, and only if the existing sewer has been inspected and repaired as needed and the owners record reciprocal maintenance agreements. Even then the City Engineer keeps the discretion to refuse. The rule is a warning to anyone buying into a subdivided Sawtelle parcel: the pipe under your unit may be shared, and the agreement governing it may not exist.</p>\n<p>The definition in section 64.00 is the same across the city. The house connection sewer is the pipe in the street, alley, walk or sewer easement that joins a lot to the public sewer, and the public sewer is everything else. What is private in West Los Angeles is private to the main.</p>\n\n<h2>Why a shared pipe fails the way it does</h2>\n<p>A lateral serving several households sees far more peak flow than a single-family line, so a restriction that a family would tolerate for years announces itself in months. The first symptom is usually the lowest fixture in the building backing up while the units above drain normally, because the ground-floor drain is the relief point for a blockage out toward the main. That is a lateral problem, not a unit problem, and the person who notices it is often not the owner who has to authorize the repair.</p>\n\n<h2>What lining does for a Sawtelle lateral</h2>\n<p>A century-old clay house connection under a dense block has the usual defects, separated joints, roots, offsets and infiltration, plus the special problem that excavating it means closing a narrow street or alley, tearing out a driveway that serves four tenants, and losing parking for days. A cured-in-place liner enters at a cleanout by the building, sets inside the old pipe, and leaves a single jointless run to the main. Tenants keep their access. The street stays closed to no one. And on a shared connection, the liner renews the whole pipe for every party at once, which is simpler than agreeing on which owner pays for which trench.</p>\n\n<h2>Permits in a city that is strict about them</h2>\n<p>Under section 64.12, making, altering or repairing a house connection sewer takes a Board of Public Works permit. Clearing a stoppage needs none, but replacing any part of the pipe or excavating a street, sidewalk or easement does, and a liner counts as replacement of the pipe wall. Any excavation in a public street is permitted only to a contractor licensed in the A, B, C-36 or C-42 classifications. New connections also trigger a sewer capacity availability review under section 64.15, which is one reason a lot-split project in Sawtelle often ends up sharing the old connection instead of adding a new one. Flow from here runs downhill to Hyperion, the city's 450-million-gallon-a-day plant at Playa del Rey.</p>\n\n<h2>The limits</h2>\n<p>Resin cures against the wall it finds, dips included. A house connection that has settled into a belly will still hold water after lining, and that stretch has to come out and go back in on grade, whatever the parking consequences. Collapsed pipe cannot be lined. And a lateral that was sized for one bungalow and now serves four units may simply be too small; lining narrows it slightly rather than enlarging it, and the honest answer in that case is a new, larger connection under a proper permit. Camera the run, look for standing water and count the units on the line before anyone quotes a liner.</p>",
+    "faq": [
+      [
+        "Why are the sewers in West Los Angeles older than the city's ownership of them?",
+        "Because Sawtelle was an independent city from 1899 until Los Angeles annexed it in July 1922, after years of resistance. Its street sewers and the house connections to them were built before the city took over."
+      ],
+      [
+        "Can two houses share one sewer connection here?",
+        "Only by exception. Section 64.11.1 allows one lot per house connection sewer unless the City Engineer approves a shared connection, which requires the existing sewer to be inspected and repaired and reciprocal maintenance agreements to be recorded."
+      ],
+      [
+        "A downstairs unit backs up but the upstairs is fine. Whose problem is it?",
+        "Usually the building's lateral, not the unit. The lowest fixture on a shared line is where a blockage toward the main first shows itself, so trouble downstairs with normal drainage upstairs points to the house connection sewer."
+      ],
+      [
+        "Is a permit required to line a house connection sewer in Los Angeles?",
+        "Yes. Section 64.12 exempts only the clearing of stoppages; replacing any part of the pipe, which a liner does from within, requires a Board of Public Works permit, and any street excavation requires an A, B, C-36 or C-42 licensed contractor."
+      ],
+      [
+        "When is lining the wrong choice for a multi-unit building?",
+        "When the lateral is too small for the number of units on it, or when it has a belly or a collapsed section. A liner narrows the bore slightly and copies the pipe's profile, so those cases call for excavation or a new, larger connection."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sawtelle,_Los_Angeles",
+      "https://en.wikipedia.org/wiki/West_Los_Angeles",
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160639",
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160350",
+      "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160746",
+      "https://planning.lacity.gov/odocument/1a262ff4-bc8e-45c2-b1df-dd045e6b1e9c/ENV-2021-10171-M.2.pdf",
+      "https://planning.lacity.gov/eir/FigPico/files/4.11.2%20Wastewater.pdf"
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Los Angeles (LA Sanitation and Environment / Bureau of Engineering); flow treated at the Hyperion Water Reclamation Plant, 450 MGD, Playa del Rey",
+        "source": "https://planning.lacity.gov/eir/FigPico/files/4.11.2%20Wastewater.pdf"
+      },
+      "lateralRule": {
+        "value": "LAMC 64.00: house connection sewer is the pipe in a street, alley, walk, public place or sewer easement connecting a lot to the public sewer; public sewer is any other sewer in a public place that is part of the POTW",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160350"
+      },
+      "sharedConnection": {
+        "value": "LAMC 64.11.1: not more than one lot per house connection sewer; shared connections on lot splits require the existing sewer to be inspected and repaired and reciprocal maintenance agreements recorded; the City Engineer may deny any request",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160639"
+      },
+      "permit": {
+        "value": "LAMC 64.12: Board of Public Works permit required to make, alter or repair a house connection sewer; stoppage removal exempt unless pipe is replaced or a street, sidewalk or easement is excavated; street excavation permits only to A, B, C-36 or C-42 contractors; LAMC 64.15(i) sewer capacity availability review for new connections",
+        "source": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-160746"
+      },
+      "tenure": {
+        "value": "Mapping L.A.: Sawtelle (west of the 405) 35,844 residents in 2.69 sq mi at the 2000 census, 38,698 in 2008, density 13,319 per sq mi; east of the 405, 13,582 residents in 1.05 sq mi in 2008, median age 38, renters 51%",
+        "source": "https://en.wikipedia.org/wiki/West_Los_Angeles"
+      },
+      "buildEra": {
+        "value": "soldiers' home established 1888; Pacific Land Company bought 225 acres in 1896; named Sawtelle and incorporated 1899; annexed to Los Angeles July 1922 after a 1918 police seizure of city hall and a 1921 California Supreme Court ruling; 26 garden centers by 1941; Sawtelle Japantown designated 2015",
+        "source": "https://en.wikipedia.org/wiki/Sawtelle,_Los_Angeles"
+      },
+      "program": {
+        "value": null,
+        "source": null
+      }
+    }
+  }
+}
