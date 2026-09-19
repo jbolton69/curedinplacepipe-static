@@ -48,6 +48,7 @@
         "units": 11797
       }
     ],
+    "censusPlace": "Los Angeles city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -100,6 +101,7 @@
         "units": 297
       }
     ],
+    "censusPlace": "Santa Monica city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -152,6 +154,7 @@
         "units": 145
       }
     ],
+    "censusPlace": "Huntington Beach city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -204,6 +207,7 @@
         "units": 2878
       }
     ],
+    "censusPlace": "Irvine city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -256,6 +260,7 @@
         "units": 20
       }
     ],
+    "censusPlace": "La Habra city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -308,6 +313,7 @@
         "units": 0
       }
     ],
+    "censusPlace": "La Palma city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -360,6 +366,7 @@
         "units": 176
       }
     ],
+    "censusPlace": "Laguna Niguel city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -412,6 +419,7 @@
         "units": 0
       }
     ],
+    "censusPlace": "Laguna Woods city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -464,6 +472,7 @@
         "units": 498
       }
     ],
+    "censusPlace": "Lake Forest city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -516,6 +525,7 @@
         "units": 479
       }
     ],
+    "censusPlace": "Long Beach city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -568,6 +578,7 @@
         "units": 169
       }
     ],
+    "censusPlace": "Mission Viejo city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -620,6 +631,7 @@
         "units": 395
       }
     ],
+    "censusPlace": "Newport Beach city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -672,6 +684,7 @@
         "units": 317
       }
     ],
+    "censusPlace": "Orange city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -724,6 +737,7 @@
         "units": 319
       }
     ],
+    "censusPlace": "Pasadena city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -776,6 +790,7 @@
         "units": 163
       }
     ],
+    "censusPlace": "Placentia city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -828,6 +843,7 @@
         "units": 43
       }
     ],
+    "censusPlace": "Rancho Santa Margarita city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -880,6 +896,7 @@
         "units": 33
       }
     ],
+    "censusPlace": "San Juan Capistrano city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -932,6 +949,7 @@
         "units": 609
       }
     ],
+    "censusPlace": "Santa Ana city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -984,6 +1002,7 @@
         "units": 4321
       }
     ],
+    "censusPlace": "San Diego city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1036,6 +1055,7 @@
         "units": 25
       }
     ],
+    "censusPlace": "Seal Beach city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1088,6 +1108,7 @@
         "units": 160
       }
     ],
+    "censusPlace": "Stanton city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1140,6 +1161,7 @@
         "units": 272
       }
     ],
+    "censusPlace": "Tustin city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1192,6 +1214,7 @@
         "units": 145
       }
     ],
+    "censusPlace": "Westminster city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1244,6 +1267,7 @@
         "units": 83
       }
     ],
+    "censusPlace": "Yorba Linda city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1296,6 +1320,7 @@
         "units": 0
       }
     ],
+    "censusPlace": "Aliso Viejo city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1348,6 +1373,7 @@
         "units": 865
       }
     ],
+    "censusPlace": "Anaheim city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1400,6 +1426,7 @@
         "units": 1106
       }
     ],
+    "censusPlace": "Bakersfield city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1452,6 +1479,7 @@
         "units": 140
       }
     ],
+    "censusPlace": "Brea city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1504,58 +1532,60 @@
         "units": 84
       }
     ],
+    "censusPlace": "Buena Park city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
   "Burbank, California": {
-    "totalUnits": 2118,
-    "pctPre1940": 35.1,
-    "pctPre1960": 80.5,
-    "pct1940to1969": 50.7,
-    "pctSince2000": 4.1,
-    "medianBucket": "Built 1940 to 1949",
+    "totalUnits": 46301,
+    "pctPre1940": 13,
+    "pctPre1960": 52.7,
+    "pct1940to1969": 49.5,
+    "pctSince2000": 9,
+    "medianBucket": "Built 1950 to 1959",
     "buckets": [
       {
         "label": "Built 1939 or earlier",
-        "units": 743
+        "units": 6038
       },
       {
         "label": "Built 1940 to 1949",
-        "units": 735
+        "units": 10292
       },
       {
         "label": "Built 1950 to 1959",
-        "units": 227
+        "units": 8080
       },
       {
         "label": "Built 1960 to 1969",
-        "units": 111
+        "units": 4539
       },
       {
         "label": "Built 1970 to 1979",
-        "units": 153
+        "units": 4760
       },
       {
         "label": "Built 1980 to 1989",
-        "units": 38
+        "units": 5811
       },
       {
         "label": "Built 1990 to 1999",
-        "units": 25
+        "units": 2606
       },
       {
         "label": "Built 2000 to 2009",
-        "units": 74
+        "units": 2905
       },
       {
         "label": "Built 2010 to 2019",
-        "units": 12
+        "units": 1083
       },
       {
         "label": "Built 2020 or later",
-        "units": 0
+        "units": 187
       }
     ],
+    "censusPlace": "Burbank city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1608,6 +1638,7 @@
         "units": 172
       }
     ],
+    "censusPlace": "Costa Mesa city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1660,6 +1691,7 @@
         "units": 123
       }
     ],
+    "censusPlace": "Culver City city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1712,6 +1744,7 @@
         "units": 38
       }
     ],
+    "censusPlace": "Dana Point city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1764,6 +1797,7 @@
         "units": 26
       }
     ],
+    "censusPlace": "Fountain Valley city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1816,6 +1850,7 @@
         "units": 124
       }
     ],
+    "censusPlace": "Fullerton city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1868,6 +1903,7 @@
         "units": 338
       }
     ],
+    "censusPlace": "Garden Grove city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1920,6 +1956,7 @@
         "units": 72
       }
     ],
+    "censusPlace": "Glendale city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -1972,6 +2009,7 @@
         "units": 132
       }
     ],
+    "censusPlace": "Arcadia city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2024,6 +2062,7 @@
         "units": 52
       }
     ],
+    "censusPlace": "Beverly Hills city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2076,58 +2115,7 @@
         "units": 846
       }
     ],
-    "vintage": "ACS 2023 5-year estimates, table B25034",
-    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
-  },
-  "Hillcrest, California": {
-    "totalUnits": 3070,
-    "pctPre1940": 12.1,
-    "pctPre1960": 60.6,
-    "pct1940to1969": 59.4,
-    "pctSince2000": 8.7,
-    "medianBucket": "Built 1950 to 1959",
-    "buckets": [
-      {
-        "label": "Built 1939 or earlier",
-        "units": 370
-      },
-      {
-        "label": "Built 1940 to 1949",
-        "units": 454
-      },
-      {
-        "label": "Built 1950 to 1959",
-        "units": 1035
-      },
-      {
-        "label": "Built 1960 to 1969",
-        "units": 335
-      },
-      {
-        "label": "Built 1970 to 1979",
-        "units": 394
-      },
-      {
-        "label": "Built 1980 to 1989",
-        "units": 162
-      },
-      {
-        "label": "Built 1990 to 1999",
-        "units": 52
-      },
-      {
-        "label": "Built 2000 to 2009",
-        "units": 103
-      },
-      {
-        "label": "Built 2010 to 2019",
-        "units": 155
-      },
-      {
-        "label": "Built 2020 or later",
-        "units": 10
-      }
-    ],
+    "censusPlace": "Chula Vista city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2180,6 +2168,7 @@
         "units": 140
       }
     ],
+    "censusPlace": "La Mesa city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2232,6 +2221,7 @@
         "units": 0
       }
     ],
+    "censusPlace": "Laguna Beach city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2284,6 +2274,7 @@
         "units": 250
       }
     ],
+    "censusPlace": "Oxnard city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2336,6 +2327,7 @@
         "units": 287
       }
     ],
+    "censusPlace": "Riverside city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2388,6 +2380,7 @@
         "units": 103
       }
     ],
+    "censusPlace": "Santee city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2440,6 +2433,7 @@
         "units": 172
       }
     ],
+    "censusPlace": "Thousand Oaks city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -2492,6 +2486,7 @@
         "units": 0
       }
     ],
+    "censusPlace": "Westlake Village city, California",
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   },
@@ -6394,5 +6389,58 @@
     ],
     "vintage": "ACS 2023 5-year estimates, table B25034",
     "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  },
+  "Ventura, California": {
+    "totalUnits": 44793,
+    "pctPre1940": 8.5,
+    "pctPre1960": 26.1,
+    "pct1940to1969": 36.7,
+    "pctSince2000": 14.5,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 3811
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2252
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5608
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 8585
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8545
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5811
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3693
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3856
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2220
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 412
+      }
+    ],
+    "censusPlace": "San Buenaventura (Ventura) city, California",
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
   }
 }

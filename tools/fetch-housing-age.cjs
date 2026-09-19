@@ -20,9 +20,18 @@
  *
  * WHAT IT WILL NOT DO
  * Several entries in cities.json are neighborhoods rather than incorporated places — Hollywood,
- * Encino, Sherman Oaks, Pacific Beach and similar. The Census has no "place" record for them.
- * Those are reported as unmatched and left out. They are not silently filled with the figures
- * for Los Angeles or San Diego, because that would be inventing a local fact.
+ * Encino, Sherman Oaks, Hillcrest and similar. The Census has no "place" record for them, and
+ * they are listed explicitly below so they can never match some same-named place elsewhere in
+ * the state. They are reported as unmatched rather than filled with the figures for Los Angeles
+ * or San Diego, because that would be inventing a local fact.
+ *
+ * Results merge across runs so states can be pulled one at a time, but any city in the state
+ * being refreshed that does not match on this run has its old row dropped, so a figure written
+ * by an earlier, buggier matcher cannot survive quietly.
+ *
+ * It also refuses to guess between same-named places. An incorporated city beats a CDP of the
+ * same name; anything still ambiguous is reported and skipped. Every figure it does write
+ * carries the exact Census place name it came from, so the match can be audited afterward.
  *
  * Usage, from C:\Users\organ\curedinplacepipe-static :
  *     node tools\fetch-housing-age.cjs --state Ohio
@@ -121,7 +130,10 @@ function buildBuckets(groupJson) {
   return { total, ranges };
 }
 
-/* Census place names look like "Canton city, Ohio" or "Parma city, Ohio". */
+/*
+ * Census place names look like "Canton city, Ohio", "Parma city, Ohio",
+ * "Burbank CDP, California" or "San Buenaventura (Ventura) city, California".
+ */
 function normalizePlace(name) {
   return String(name)
     .split(',')[0]
@@ -130,6 +142,35 @@ function normalizePlace(name) {
     .toLowerCase();
 }
 const normalizeCity = (n) => String(n).replace(/\s+(IL|OH|CA|TX|GA|MA|NJ|PA|CO)$/i, '').trim().toLowerCase();
+
+/*
+ * Entries in cities.json that are neighborhoods rather than incorporated places. The Census
+ * has no place record for any of them, so any row they appear to match belongs somewhere else.
+ * Hillcrest is the cautionary one: it is a San Diego neighborhood, and without this list it
+ * quietly matched a Hillcrest CDP elsewhere in the state.
+ */
+const NEIGHBORHOODS = new Set([
+  'allied gardens', 'canoga park', 'encino', 'granada hills', 'hillcrest', 'hollywood',
+  'la jolla', 'pacific beach', 'sherman oaks', 'studio city', 'west los angeles',
+  'woodland hills',
+]);
+
+/* Places the Census files under a different name than everyone else uses. */
+const ALIASES = { ventura: 'san buenaventura (ventura)' };
+
+/*
+ * Pick the right row where several places share a name. An incorporated city or town always
+ * beats a CDP of the same name — that is what sent Burbank, California to a census-designated
+ * place in Santa Clara County with 2,118 housing units instead of the city of 107,000 people.
+ */
+function pickRow(rows) {
+  if (!rows || !rows.length) return { row: null, why: 'no match' };
+  if (rows.length === 1) return { row: rows[0], why: null };
+  const incorporated = rows.filter((r) => /\s(city|town),/i.test(r.name));
+  if (incorporated.length === 1) return { row: incorporated[0], why: null };
+  const names = rows.map((r) => r.name).join(' | ');
+  return { row: null, why: `ambiguous, ${rows.length} places share this name: ${names}` };
+}
 
 (async () => {
   if (!KEY) {
@@ -175,14 +216,27 @@ const normalizeCity = (n) => String(n).replace(/\s+(IL|OH|CA|TX|GA|MA|NJ|PA|CO)$
 
     const header = rows[0];
     const idx = Object.fromEntries(header.map((h, i) => [h, i]));
+    // Several Census places can share a name, so keep every candidate rather than the last one.
     const byName = new Map();
-    for (const r of rows.slice(1)) byName.set(normalizePlace(r[idx.NAME]), r);
+    for (const r of rows.slice(1)) {
+      const key = normalizePlace(r[idx.NAME]);
+      if (!byName.has(key)) byName.set(key, []);
+      byName.get(key).push({ name: r[idx.NAME], cells: r });
+    }
 
     const wanted = cities.filter((c) => c.state === state);
+    const matchedThisRun = new Set();
     let hit = 0;
     for (const c of wanted) {
-      const row = byName.get(normalizeCity(c.name));
-      if (!row) { unmatched.push(`${c.name}, ${state}`); continue; }
+      const key = normalizeCity(c.name);
+      if (NEIGHBORHOODS.has(key)) {
+        unmatched.push(`${c.name}, ${state} (neighborhood, no Census place record)`);
+        continue;
+      }
+      const picked = pickRow(byName.get(ALIASES[key] || key));
+      if (!picked.row) { unmatched.push(`${c.name}, ${state}${picked.why ? ' — ' + picked.why : ''}`); continue; }
+      const matchedName = picked.row.name;
+      const row = picked.row.cells;
 
       const tot = Number(row[idx[total.code]]);
       if (!tot || tot < 0) { unmatched.push(`${c.name}, ${state} (no total)`); continue; }
@@ -210,12 +264,30 @@ const normalizeCity = (n) => String(n).replace(/\s+(IL|OH|CA|TX|GA|MA|NJ|PA|CO)$
         pctSince2000: since2000,
         medianBucket,
         buckets: buckets.map((b) => ({ label: b.label, units: b.units })),
+        censusPlace: matchedName, // exactly which Census record these numbers came from
         vintage: `ACS ${YEAR} 5-year estimates, table B25034`,
         source: url, // key deliberately omitted so this file is safe to commit
       };
+      matchedThisRun.add(`${c.name}, ${state}`);
       hit++;
     }
-    console.log(`  ${state}: matched ${hit} of ${wanted.length} cities`);
+
+    /*
+     * Prune stale rows for this state. Results merge across runs so states can be pulled one at
+     * a time, but that also means a city which matched under an older, buggier version of the
+     * matcher would keep its wrong figures forever. Anything in this state that did not match
+     * on this run is dropped.
+     */
+    let pruned = 0;
+    for (const key of Object.keys(result)) {
+      if (!key.endsWith(`, ${state}`)) continue;
+      if (matchedThisRun.has(key)) continue;
+      delete result[key];
+      pruned++;
+      console.log(`  ${state}: dropped stale entry for ${key}`);
+    }
+
+    console.log(`  ${state}: matched ${hit} of ${wanted.length} cities${pruned ? `, pruned ${pruned}` : ''}`);
   }
 
   if (!fs.existsSync(OUTDIR)) fs.mkdirSync(OUTDIR, { recursive: true });
