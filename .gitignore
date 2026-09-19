@@ -4,3 +4,6 @@ _site/
 Claude outputs/
 .DS_Store
 parity-report.json
+
+# Census API key — never commit
+tools/.census-key

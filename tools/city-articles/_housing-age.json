@@ -1,0 +1,6398 @@
+{
+  "Los Angeles, California": {
+    "totalUnits": 1537034,
+    "pctPre1940": 19.2,
+    "pctPre1960": 44.5,
+    "pct1940to1969": 38.4,
+    "pctSince2000": 12.5,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 295246
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 139110
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 248862
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 202780
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 205672
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 166459
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 87068
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 86473
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 93567
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 11797
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Santa Monica, California": {
+    "totalUnits": 52381,
+    "pctPre1940": 12.9,
+    "pctPre1960": 37.1,
+    "pct1940to1969": 42.2,
+    "pctSince2000": 10.9,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 6739
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 4909
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7784
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 9406
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 10426
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4093
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3321
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2522
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2884
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 297
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Huntington Beach, California": {
+    "totalUnits": 81812,
+    "pctPre1940": 1.2,
+    "pctPre1960": 6.7,
+    "pct1940to1969": 38,
+    "pctSince2000": 10.5,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 990
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 731
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3733
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 26612
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 24178
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 11324
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5637
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4064
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 4398
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 145
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Irvine, California": {
+    "totalUnits": 120368,
+    "pctPre1940": 0.7,
+    "pctPre1960": 1.6,
+    "pct1940to1969": 3.7,
+    "pctSince2000": 52.1,
+    "medianBucket": "Built 2000 to 2009",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 843
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 153
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 880
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3405
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 20256
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 17587
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 14556
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 24575
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 35235
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 2878
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "La Habra, California": {
+    "totalUnits": 21100,
+    "pctPre1940": 3.4,
+    "pctPre1960": 35,
+    "pct1940to1969": 51.4,
+    "pctSince2000": 7.4,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 720
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 603
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 6072
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4177
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4651
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1995
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1328
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 749
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 785
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 20
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "La Palma, California": {
+    "totalUnits": 5208,
+    "pctPre1940": 0.8,
+    "pctPre1960": 4.7,
+    "pct1940to1969": 42.1,
+    "pctSince2000": 6.6,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 40
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 18
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 188
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1986
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2034
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 471
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 129
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 293
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 49
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Laguna Niguel, California": {
+    "totalUnits": 27527,
+    "pctPre1940": 0.3,
+    "pctPre1960": 1.2,
+    "pct1940to1969": 6.6,
+    "pctSince2000": 12,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 94
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 94
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 144
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1570
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4626
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 12021
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5670
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1409
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1723
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 176
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Laguna Woods, California": {
+    "totalUnits": 13494,
+    "pctPre1940": 0.3,
+    "pctPre1960": 7.7,
+    "pct1940to1969": 55.4,
+    "pctSince2000": 1.3,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 46
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 138
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 859
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 6485
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4707
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 629
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 455
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 131
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 44
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Lake Forest, California": {
+    "totalUnits": 31739,
+    "pctPre1940": 0.2,
+    "pctPre1960": 1.1,
+    "pct1940to1969": 8.9,
+    "pctSince2000": 14.6,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 71
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 109
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 180
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2529
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 9468
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 9219
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5533
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 785
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3347
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 498
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Long Beach, California": {
+    "totalUnits": 181469,
+    "pctPre1940": 19.2,
+    "pctPre1960": 53.5,
+    "pct1940to1969": 46.8,
+    "pctSince2000": 6.1,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 34899
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 26665
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 35500
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 22851
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 24621
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 17390
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 8561
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 6672
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3831
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 479
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Mission Viejo, California": {
+    "totalUnits": 34360,
+    "pctPre1940": 0.2,
+    "pctPre1960": 1,
+    "pct1940to1969": 12.6,
+    "pctSince2000": 7.9,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 64
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 179
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 114
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4049
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 13383
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 8417
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5426
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1724
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 835
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 169
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Newport Beach, California": {
+    "totalUnits": 45243,
+    "pctPre1940": 4.3,
+    "pctPre1960": 16.7,
+    "pct1940to1969": 31.5,
+    "pctSince2000": 18.6,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 1958
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1476
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4113
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 8648
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 9159
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5213
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 6262
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 5089
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2930
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 395
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Orange, California": {
+    "totalUnits": 46547,
+    "pctPre1940": 4.6,
+    "pctPre1960": 20.6,
+    "pct1940to1969": 41.5,
+    "pctSince2000": 12.1,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 2127
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1132
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 6321
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 11861
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8803
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6399
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4250
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3274
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2063
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 317
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Pasadena, California": {
+    "totalUnits": 62853,
+    "pctPre1940": 29.4,
+    "pctPre1960": 50.6,
+    "pct1940to1969": 32.3,
+    "pctSince2000": 12.1,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 18450
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 4591
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 8750
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 6980
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 7102
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6298
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3053
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4270
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3040
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 319
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Placentia, California": {
+    "totalUnits": 17545,
+    "pctPre1940": 2.5,
+    "pctPre1960": 9.2,
+    "pct1940to1969": 31.5,
+    "pctSince2000": 13.5,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 440
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 250
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 917
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4364
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4734
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2102
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2365
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1549
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 661
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 163
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Rancho Santa Margarita, California": {
+    "totalUnits": 17424,
+    "pctPre1940": 0.6,
+    "pctPre1960": 1,
+    "pct1940to1969": 1.1,
+    "pctSince2000": 8.9,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 108
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 23
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 50
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 114
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 439
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5842
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 9301
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1230
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 274
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 43
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "San Juan Capistrano, California": {
+    "totalUnits": 12801,
+    "pctPre1940": 0.8,
+    "pctPre1960": 4.4,
+    "pct1940to1969": 17.3,
+    "pctSince2000": 15.8,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 108
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 114
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 337
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1761
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4683
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2034
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1742
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1224
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 765
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 33
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Santa Ana, California": {
+    "totalUnits": 82352,
+    "pctPre1940": 8.8,
+    "pctPre1960": 35.4,
+    "pct1940to1969": 44.9,
+    "pctSince2000": 9.7,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 7268
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 4823
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 17069
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 15058
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 18771
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 7944
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3414
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3903
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3493
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 609
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "San Diego, California": {
+    "totalUnits": 559653,
+    "pctPre1940": 6.6,
+    "pctPre1960": 21.2,
+    "pct1940to1969": 26.9,
+    "pctSince2000": 18.1,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 36663
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 20642
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 61572
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 68099
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 112919
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 99219
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 59290
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 56952
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 39976
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 4321
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Seal Beach, California": {
+    "totalUnits": 14616,
+    "pctPre1940": 2.7,
+    "pctPre1960": 17.2,
+    "pct1940to1969": 71.3,
+    "pctSince2000": 6.1,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 395
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 471
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1654
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 8292
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1963
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 747
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 199
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 548
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 322
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 25
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Stanton, California": {
+    "totalUnits": 12992,
+    "pctPre1940": 2,
+    "pctPre1960": 22.9,
+    "pct1940to1969": 36.2,
+    "pctSince2000": 12.3,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 262
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 196
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2515
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1988
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3697
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1882
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 853
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1034
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 405
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 160
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Tustin, California": {
+    "totalUnits": 27746,
+    "pctPre1940": 1.8,
+    "pctPre1960": 7.2,
+    "pct1940to1969": 28.4,
+    "pctSince2000": 21.1,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 497
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 214
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1273
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 6393
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5439
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2848
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5240
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3080
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2490
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 272
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Westminster, California": {
+    "totalUnits": 29104,
+    "pctPre1940": 2.7,
+    "pctPre1960": 22.9,
+    "pct1940to1969": 45.9,
+    "pctSince2000": 8.7,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 787
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 523
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5352
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 7488
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8049
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2289
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2092
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1557
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 822
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 145
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Yorba Linda, California": {
+    "totalUnits": 24063,
+    "pctPre1940": 0.4,
+    "pctPre1960": 3.6,
+    "pct1940to1969": 13.4,
+    "pctSince2000": 20,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 107
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 108
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 662
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2464
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6027
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 7356
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2530
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2943
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1783
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 83
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Aliso Viejo, California": {
+    "totalUnits": 20370,
+    "pctPre1940": 0.2,
+    "pctPre1960": 1.1,
+    "pct1940to1969": 1.6,
+    "pctSince2000": 24.3,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 42
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 21
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 164
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 143
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 729
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3947
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 10382
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3146
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1796
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Anaheim, California": {
+    "totalUnits": 110278,
+    "pctPre1940": 2.3,
+    "pctPre1960": 26.8,
+    "pct1940to1969": 40,
+    "pctSince2000": 13,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 2541
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2116
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 24853
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 17154
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 25840
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 12692
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 10782
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 5736
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 7699
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 865
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Bakersfield, California": {
+    "totalUnits": 133876,
+    "pctPre1940": 3.1,
+    "pctPre1960": 12.5,
+    "pct1940to1969": 17.6,
+    "pctSince2000": 34.1,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 4144
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3243
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 9318
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 10990
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 19504
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 20959
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 20010
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 29637
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 14965
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1106
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Brea, California": {
+    "totalUnits": 17205,
+    "pctPre1940": 1.6,
+    "pctPre1960": 12.8,
+    "pct1940to1969": 28.1,
+    "pctSince2000": 23.7,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 270
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 202
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1723
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2908
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4612
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2516
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 898
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1574
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2362
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 140
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Buena Park, California": {
+    "totalUnits": 24961,
+    "pctPre1940": 2.1,
+    "pctPre1960": 39.6,
+    "pct1940to1969": 55.6,
+    "pctSince2000": 8.8,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 523
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 794
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 8564
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4516
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4762
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2009
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1585
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1167
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 957
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 84
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Burbank, California": {
+    "totalUnits": 2118,
+    "pctPre1940": 35.1,
+    "pctPre1960": 80.5,
+    "pct1940to1969": 50.7,
+    "pctSince2000": 4.1,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 743
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 735
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 227
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 111
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 153
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 38
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 25
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 74
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 12
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Costa Mesa, California": {
+    "totalUnits": 43684,
+    "pctPre1940": 1.3,
+    "pctPre1960": 21.5,
+    "pct1940to1969": 46.9,
+    "pctSince2000": 11.5,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 587
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1274
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7527
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 11666
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 9206
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5470
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2924
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2029
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2829
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 172
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Culver City, California": {
+    "totalUnits": 19104,
+    "pctPre1940": 11.1,
+    "pctPre1960": 47.6,
+    "pct1940to1969": 50.8,
+    "pctSince2000": 6.6,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 2117
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2697
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4271
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2730
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4525
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 927
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 576
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 501
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 637
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 123
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Dana Point, California": {
+    "totalUnits": 16802,
+    "pctPre1940": 2.5,
+    "pctPre1960": 8.3,
+    "pct1940to1969": 18,
+    "pctSince2000": 8.1,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 419
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 130
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 840
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2054
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5067
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5373
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1560
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 707
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 614
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 38
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Fountain Valley, California": {
+    "totalUnits": 19250,
+    "pctPre1940": 0.7,
+    "pctPre1960": 5.3,
+    "pct1940to1969": 37.9,
+    "pctSince2000": 5.1,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 140
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 68
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 808
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 6419
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8250
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1963
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 613
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 694
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 269
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 26
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Fullerton, California": {
+    "totalUnits": 49707,
+    "pctPre1940": 4.9,
+    "pctPre1960": 31.3,
+    "pct1940to1969": 46.3,
+    "pctSince2000": 11.4,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 2436
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1815
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 11283
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 9938
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 10421
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5307
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2856
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4116
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1411
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 124
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Garden Grove, California": {
+    "totalUnits": 50401,
+    "pctPre1940": 1.4,
+    "pctPre1960": 40.8,
+    "pct1940to1969": 60.3,
+    "pctSince2000": 6.5,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 721
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1290
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 18565
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 10560
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8054
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5424
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2487
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1817
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1145
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 338
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Glendale, California": {
+    "totalUnits": 78451,
+    "pctPre1940": 20.7,
+    "pctPre1960": 43,
+    "pct1940to1969": 36.3,
+    "pctSince2000": 9.3,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 16213
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 7527
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 9958
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 11004
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 10738
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 11602
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4123
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2433
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 4781
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 72
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Arcadia, California": {
+    "totalUnits": 20948,
+    "pctPre1940": 4,
+    "pctPre1960": 43,
+    "pct1940to1969": 54.6,
+    "pctSince2000": 14.3,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 829
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2463
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5712
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3262
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2490
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1727
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1467
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1596
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1270
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 132
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Beverly Hills, California": {
+    "totalUnits": 16545,
+    "pctPre1940": 29.8,
+    "pctPre1960": 50.8,
+    "pct1940to1969": 36.7,
+    "pctSince2000": 7.2,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 4928
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1272
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2202
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2605
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1910
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1593
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 843
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 723
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 417
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 52
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Chula Vista, California": {
+    "totalUnits": 90535,
+    "pctPre1940": 1.2,
+    "pctPre1960": 15.9,
+    "pct1940to1969": 28.3,
+    "pctSince2000": 32.3,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 1066
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2456
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 10888
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 12315
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 12720
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 9950
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 11922
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 20480
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 7892
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 846
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Hillcrest, California": {
+    "totalUnits": 3070,
+    "pctPre1940": 12.1,
+    "pctPre1960": 60.6,
+    "pct1940to1969": 59.4,
+    "pctSince2000": 8.7,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 370
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 454
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1035
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 335
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 394
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 162
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 52
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 103
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 155
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 10
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "La Mesa, California": {
+    "totalUnits": 26420,
+    "pctPre1940": 3.8,
+    "pctPre1960": 33.4,
+    "pct1940to1969": 45.1,
+    "pctSince2000": 8.9,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 1016
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2297
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5504
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4124
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6521
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3289
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1320
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1259
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 950
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 140
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Laguna Beach, California": {
+    "totalUnits": 13558,
+    "pctPre1940": 15.7,
+    "pctPre1960": 42.6,
+    "pct1940to1969": 46.8,
+    "pctSince2000": 8.2,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 2126
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1402
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2250
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2689
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1811
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1278
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 894
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 626
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 482
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Oxnard, California": {
+    "totalUnits": 55636,
+    "pctPre1940": 2.4,
+    "pctPre1960": 18.4,
+    "pct1940to1969": 34.1,
+    "pctSince2000": 21.3,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 1330
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1780
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7131
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 10061
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 12300
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6490
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4705
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 7814
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3775
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 250
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Riverside, California": {
+    "totalUnits": 97105,
+    "pctPre1940": 6.8,
+    "pctPre1960": 27.5,
+    "pct1940to1969": 32.3,
+    "pctSince2000": 18,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 6613
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3696
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 16422
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 11283
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 16710
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 15837
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 9062
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 12339
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 4856
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 287
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Santee, California": {
+    "totalUnits": 21625,
+    "pctPre1940": 0.3,
+    "pctPre1960": 7,
+    "pct1940to1969": 19.6,
+    "pctSince2000": 17.4,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 57
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 143
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1304
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2785
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 7557
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4405
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1617
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1965
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1689
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 103
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Thousand Oaks, California": {
+    "totalUnits": 48095,
+    "pctPre1940": 0.6,
+    "pctPre1960": 4.7,
+    "pct1940to1969": 23.9,
+    "pctSince2000": 13.1,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 269
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 290
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1693
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 9501
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 15675
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 8748
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5605
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4986
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1156
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 172
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Westlake Village, California": {
+    "totalUnits": 3190,
+    "pctPre1940": 0.7,
+    "pctPre1960": 1.7,
+    "pct1940to1969": 39.2,
+    "pctSince2000": 2.6,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 21
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 0
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 33
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1218
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 790
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 647
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 397
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 77
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 7
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:06"
+  },
+  "Austin, Texas": {
+    "totalUnits": 466428,
+    "pctPre1940": 2.3,
+    "pctPre1960": 8.5,
+    "pct1940to1969": 13.3,
+    "pctSince2000": 40.4,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 10876
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 9267
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 19319
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 33515
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 63983
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 80463
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 60711
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 80151
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 96420
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 11723
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Arlington, Texas": {
+    "totalUnits": 150519,
+    "pctPre1940": 0.6,
+    "pctPre1960": 8.1,
+    "pct1940to1969": 15.2,
+    "pctSince2000": 20.7,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 865
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1364
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 9903
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 11590
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 29870
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 41290
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 24432
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 20862
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 8917
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1426
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Corpus Christi, Texas": {
+    "totalUnits": 134981,
+    "pctPre1940": 2.4,
+    "pctPre1960": 23.1,
+    "pct1940to1969": 31.7,
+    "pctSince2000": 24.4,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 3248
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 8327
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 19548
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 14872
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 18138
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 23445
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 14515
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 16231
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 15401
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1256
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Dallas, Texas": {
+    "totalUnits": 584643,
+    "pctPre1940": 5.2,
+    "pctPre1960": 22.5,
+    "pct1940to1969": 29.3,
+    "pctSince2000": 24.1,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 30404
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 26835
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 74182
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 70445
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 87636
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 95480
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 58745
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 64590
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 70363
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 5963
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "El Paso, Texas": {
+    "totalUnits": 262899,
+    "pctPre1940": 4.7,
+    "pctPre1960": 18.8,
+    "pct1940to1969": 24.3,
+    "pctSince2000": 28.5,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 12290
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 8335
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 28769
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 26737
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 41671
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 39225
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 30879
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 35495
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 37169
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 2329
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Fort Worth, Texas": {
+    "totalUnits": 365229,
+    "pctPre1940": 5.6,
+    "pctPre1960": 19.3,
+    "pct1940to1969": 20.6,
+    "pctSince2000": 40.9,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 20370
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 16275
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 33827
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 25107
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 31753
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 48075
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 40576
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 75952
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 64570
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 8724
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Garland, Texas": {
+    "totalUnits": 84954,
+    "pctPre1940": 0.5,
+    "pctPre1960": 11.4,
+    "pct1940to1969": 26.8,
+    "pctSince2000": 16.8,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 396
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 993
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 8268
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 13471
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 23104
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 17202
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 7261
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 6419
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 6140
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1700
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Houston, Texas": {
+    "totalUnits": 1023112,
+    "pctPre1940": 4.1,
+    "pctPre1960": 17.2,
+    "pct1940to1969": 25.2,
+    "pctSince2000": 28.4,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 42177
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 38077
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 95740
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 123795
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 194148
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 144018
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 94809
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 133069
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 143138
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 14141
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Plano, Texas": {
+    "totalUnits": 116440,
+    "pctPre1940": 0.3,
+    "pctPre1960": 1.4,
+    "pct1940to1969": 4.4,
+    "pctSince2000": 29.4,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 351
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 351
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 916
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3831
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 16561
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 26066
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 34187
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 19440
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 13249
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1488
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "San Antonio, Texas": {
+    "totalUnits": 603213,
+    "pctPre1940": 5.2,
+    "pctPre1960": 19.9,
+    "pct1940to1969": 24.7,
+    "pctSince2000": 28.8,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 31473
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 31427
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 57199
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 60638
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 83059
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 97533
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 68372
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 91613
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 72040
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 9859
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:48"
+  },
+  "Arvada, Colorado": {
+    "totalUnits": 51655,
+    "pctPre1940": 1.5,
+    "pctPre1960": 11.5,
+    "pct1940to1969": 25.5,
+    "pctSince2000": 24.4,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 784
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 403
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4734
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 8045
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 13242
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6215
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5611
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 5457
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 6851
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 313
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Aurora, Colorado": {
+    "totalUnits": 150242,
+    "pctPre1940": 0.9,
+    "pctPre1960": 7.7,
+    "pct1940to1969": 13,
+    "pctSince2000": 28,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 1310
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1692
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 8612
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 9161
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 36058
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 36249
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 15104
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 22383
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 16500
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 3173
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Boulder, Colorado": {
+    "totalUnits": 46765,
+    "pctPre1940": 7.7,
+    "pctPre1960": 18.2,
+    "pct1940to1969": 26.8,
+    "pctSince2000": 17.8,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 3586
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 691
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4231
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 7595
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 9282
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 7235
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5810
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4119
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3984
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 232
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Colorado Springs, Colorado": {
+    "totalUnits": 207078,
+    "pctPre1940": 5.3,
+    "pctPre1960": 14,
+    "pct1940to1969": 17.9,
+    "pctSince2000": 28.3,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 11029
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3478
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 14420
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 19224
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 34696
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 36147
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 29396
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 30766
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 24054
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 3868
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Denver, Colorado": {
+    "totalUnits": 352593,
+    "pctPre1940": 17.2,
+    "pctPre1960": 35.5,
+    "pct1940to1969": 28.1,
+    "pctSince2000": 28.7,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 60708
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 18405
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 45954
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 34792
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 42474
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 25999
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 23192
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 38493
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 54634
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 7942
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Fort Collins, Colorado": {
+    "totalUnits": 73332,
+    "pctPre1940": 4.5,
+    "pctPre1960": 8.9,
+    "pct1940to1969": 10.8,
+    "pctSince2000": 35.4,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 3307
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 951
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2232
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4738
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 11544
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 10664
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 13927
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 13852
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 11021
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1096
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Grand Junction, Colorado": {
+    "totalUnits": 30626,
+    "pctPre1940": 8.8,
+    "pctPre1960": 19.4,
+    "pct1940to1969": 17.9,
+    "pctSince2000": 32.7,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 2701
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 907
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2340
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2222
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5292
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2890
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4273
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 5921
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3502
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 578
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Centennial, Colorado": {
+    "totalUnits": 42513,
+    "pctPre1940": 0.7,
+    "pctPre1960": 3.5,
+    "pct1940to1969": 15.1,
+    "pctSince2000": 12.4,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 312
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 39
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1132
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 5241
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 12092
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 10186
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 8257
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2576
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2424
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 254
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Lafayette, Colorado": {
+    "totalUnits": 13323,
+    "pctPre1940": 4.2,
+    "pctPre1960": 7.1,
+    "pct1940to1969": 4.9,
+    "pctSince2000": 31.6,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 560
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 161
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 228
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 261
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1867
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2387
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3653
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1343
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2668
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 195
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Lakewood, Colorado": {
+    "totalUnits": 73000,
+    "pctPre1940": 2.7,
+    "pctPre1960": 16.6,
+    "pct1940to1969": 32.7,
+    "pctSince2000": 16.8,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 1938
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1861
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 8287
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 13733
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 15638
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 11546
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 7748
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4971
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 6296
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 982
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Littleton, Colorado": {
+    "totalUnits": 21506,
+    "pctPre1940": 3.9,
+    "pctPre1960": 20.2,
+    "pct1940to1969": 26.8,
+    "pctSince2000": 21,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 845
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 481
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3023
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2264
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3480
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4466
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2440
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2535
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1854
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 118
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Thornton, Colorado": {
+    "totalUnits": 51088,
+    "pctPre1940": 0.3,
+    "pctPre1960": 5.1,
+    "pct1940to1969": 8.7,
+    "pctSince2000": 42.1,
+    "medianBucket": "Built 1990 to 1999",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 154
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 81
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2345
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2032
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6989
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6874
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 11088
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 13119
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 7159
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1247
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:08"
+  },
+  "Akron, Ohio": {
+    "totalUnits": 93503,
+    "pctPre1940": 33.9,
+    "pctPre1960": 61,
+    "pct1940to1969": 40.2,
+    "pctSince2000": 5.5,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 31727
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 9046
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 16303
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 12228
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8739
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5500
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4863
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3224
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1713
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 160
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Canton, Ohio": {
+    "totalUnits": 34279,
+    "pctPre1940": 41.3,
+    "pctPre1960": 68.6,
+    "pct1940to1969": 36.8,
+    "pctSince2000": 4.7,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 14164
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3907
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5447
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3249
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3511
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1209
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1181
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1238
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 371
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 2
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Cincinnati, Ohio": {
+    "totalUnits": 159731,
+    "pctPre1940": 40.3,
+    "pctPre1960": 59.5,
+    "pct1940to1969": 31.2,
+    "pctSince2000": 9.1,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 64306
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 13248
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 17461
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 19104
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 14797
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 9992
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 6341
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 6621
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 7081
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 780
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Cleveland, Ohio": {
+    "totalUnits": 200542,
+    "pctPre1940": 49.6,
+    "pctPre1960": 72.5,
+    "pct1940to1969": 30.7,
+    "pctSince2000": 8.2,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 99431
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 21697
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 24265
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 15678
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 11258
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5920
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 5844
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 7701
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 7533
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1215
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Columbus, Ohio": {
+    "totalUnits": 420068,
+    "pctPre1940": 12,
+    "pctPre1960": 25.5,
+    "pct1940to1969": 24.2,
+    "pctSince2000": 22.4,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 50214
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 16669
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 40238
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 44950
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 60476
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 55921
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 57586
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 49387
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 40279
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 4348
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Dayton, Ohio": {
+    "totalUnits": 69640,
+    "pctPre1940": 36.9,
+    "pctPre1960": 65.4,
+    "pct1940to1969": 39.2,
+    "pctSince2000": 6.2,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 25708
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 8456
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 11388
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 7466
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6717
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2893
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2673
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2606
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1656
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 77
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Lorain, Ohio": {
+    "totalUnits": 30456,
+    "pctPre1940": 23,
+    "pctPre1960": 48,
+    "pct1940to1969": 43.6,
+    "pctSince2000": 9.8,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 6996
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2274
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5339
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 5667
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4048
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1733
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1424
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1822
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1046
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 107
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Parma, Ohio": {
+    "totalUnits": 36478,
+    "pctPre1940": 10.2,
+    "pctPre1960": 58.9,
+    "pct1940to1969": 68.4,
+    "pctSince2000": 3.2,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 3719
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3194
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 14564
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 7188
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3614
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1860
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1165
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 609
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 518
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 47
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Springfield, Ohio": {
+    "totalUnits": 28007,
+    "pctPre1940": 37.3,
+    "pctPre1960": 61.4,
+    "pct1940to1969": 34.6,
+    "pctSince2000": 6.2,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 10460
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2507
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4218
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2952
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3298
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1641
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1198
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1349
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 379
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 5
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Toledo, Ohio": {
+    "totalUnits": 133195,
+    "pctPre1940": 31.4,
+    "pctPre1960": 58.8,
+    "pct1940to1969": 39.7,
+    "pctSince2000": 5.6,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 41882
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 13242
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 23203
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 16407
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 17140
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 7635
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 6290
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3988
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 3139
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 269
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Youngstown, Ohio": {
+    "totalUnits": 29395,
+    "pctPre1940": 37.5,
+    "pctPre1960": 70.3,
+    "pct1940to1969": 42.7,
+    "pctSince2000": 4,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 11019
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2906
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 6754
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2887
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2993
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 697
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 949
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 728
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 432
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 30
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:39"
+  },
+  "Allentown, Pennsylvania": {
+    "totalUnits": 49211,
+    "pctPre1940": 39.6,
+    "pctPre1960": 63.7,
+    "pct1940to1969": 33.3,
+    "pctSince2000": 7.7,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 19505
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 4607
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7234
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4541
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5019
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2700
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1792
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2034
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1608
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 171
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Altoona, Pennsylvania": {
+    "totalUnits": 20983,
+    "pctPre1940": 44.7,
+    "pctPre1960": 73.9,
+    "pct1940to1969": 38.1,
+    "pctSince2000": 2.3,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 9377
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2971
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3154
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1879
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1989
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 707
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 421
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 380
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 72
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 33
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Bethlehem, Pennsylvania": {
+    "totalUnits": 32192,
+    "pctPre1940": 31.9,
+    "pctPre1960": 56.7,
+    "pct1940to1969": 36.3,
+    "pctSince2000": 7.2,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 10273
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2144
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5830
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3708
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4094
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2075
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1753
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1364
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 930
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 21
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Erie, Pennsylvania": {
+    "totalUnits": 43377,
+    "pctPre1940": 38.6,
+    "pctPre1960": 67.3,
+    "pct1940to1969": 38.7,
+    "pctSince2000": 3.3,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 16758
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 5011
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7417
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4354
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4742
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2217
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1465
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1049
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 308
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 56
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Lancaster, Pennsylvania": {
+    "totalUnits": 22285,
+    "pctPre1940": 52.2,
+    "pctPre1960": 70.4,
+    "pct1940to1969": 25.2,
+    "pctSince2000": 4.9,
+    "medianBucket": "Built 1939 or earlier",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 11634
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1648
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2397
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1573
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1894
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1309
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 743
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 574
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 456
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 57
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Levittown, Pennsylvania": {
+    "totalUnits": 18560,
+    "pctPre1940": 1.8,
+    "pctPre1960": 75.8,
+    "pct1940to1969": 83.9,
+    "pctSince2000": 2.8,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 331
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 458
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 13280
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1836
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1116
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 468
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 545
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 302
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 202
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 22
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Philadelphia, Pennsylvania": {
+    "totalUnits": 739725,
+    "pctPre1940": 39.9,
+    "pctPre1960": 65.6,
+    "pct1940to1969": 36.5,
+    "pctSince2000": 8.6,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 295150
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 78805
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 111067
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 80371
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 57797
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 33107
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 20046
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 23685
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 35285
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 4412
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Scranton, Pennsylvania": {
+    "totalUnits": 35623,
+    "pctPre1940": 52.1,
+    "pctPre1960": 71.8,
+    "pct1940to1969": 27.1,
+    "pctSince2000": 5,
+    "medianBucket": "Built 1939 or earlier",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 18550
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3249
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3783
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2616
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2680
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1686
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1274
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 845
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 917
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 23
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:42"
+  },
+  "Atlantic City, New Jersey": {
+    "totalUnits": 20075,
+    "pctPre1940": 31.6,
+    "pctPre1960": 47.2,
+    "pct1940to1969": 28,
+    "pctSince2000": 7.5,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 6350
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1291
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1829
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2497
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1823
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3200
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1582
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 892
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 562
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 49
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Camden, New Jersey": {
+    "totalUnits": 27920,
+    "pctPre1940": 39.1,
+    "pctPre1960": 63,
+    "pct1940to1969": 36.5,
+    "pctSince2000": 9.7,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 10912
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3372
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3313
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3509
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 1754
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1227
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1116
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1467
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1233
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 17
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Clifton, New Jersey": {
+    "totalUnits": 34064,
+    "pctPre1940": 29.8,
+    "pctPre1960": 70.1,
+    "pct1940to1969": 48.9,
+    "pctSince2000": 8.3,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 10162
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 5623
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 8105
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2936
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2149
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1478
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 773
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1888
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 789
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 161
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "East Orange, New Jersey": {
+    "totalUnits": 29949,
+    "pctPre1940": 29.7,
+    "pctPre1960": 53.4,
+    "pct1940to1969": 37.5,
+    "pctSince2000": 8.8,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 8889
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3111
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3987
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4131
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2668
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2563
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1955
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1855
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 717
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 73
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Elizabeth, New Jersey": {
+    "totalUnits": 48940,
+    "pctPre1940": 27.5,
+    "pctPre1960": 56.2,
+    "pct1940to1969": 38.9,
+    "pctSince2000": 14.4,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 13482
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 7340
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 6681
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 5026
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4259
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2662
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2437
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4482
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2400
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 171
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Jersey City, New Jersey": {
+    "totalUnits": 132636,
+    "pctPre1940": 28.8,
+    "pctPre1960": 42.3,
+    "pct1940to1969": 21.6,
+    "pctSince2000": 27.7,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 38163
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 7273
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 10729
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 10669
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 9597
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 9514
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 9992
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 16583
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 18360
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 1756
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Newark, New Jersey": {
+    "totalUnits": 121604,
+    "pctPre1940": 23.6,
+    "pctPre1960": 42.8,
+    "pct1940to1969": 31.8,
+    "pctSince2000": 18,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 28643
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 10913
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 12532
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 15265
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 12999
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 8862
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 10516
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 14701
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 6945
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 228
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Paterson, New Jersey": {
+    "totalUnits": 52532,
+    "pctPre1940": 33.2,
+    "pctPre1960": 60.4,
+    "pct1940to1969": 37.1,
+    "pctSince2000": 9.7,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 17463
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 6973
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7286
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 5256
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4656
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2665
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3160
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2481
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2305
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 287
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Trenton, New Jersey": {
+    "totalUnits": 35871,
+    "pctPre1940": 40.8,
+    "pctPre1960": 65.4,
+    "pct1940to1969": 34.2,
+    "pctSince2000": 8.2,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 14646
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3330
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5474
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3474
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2884
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 1739
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1395
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1462
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1313
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 154
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:34"
+  },
+  "Brockton, Massachusetts": {
+    "totalUnits": 37420,
+    "pctPre1940": 33.4,
+    "pctPre1960": 50.4,
+    "pct1940to1969": 32.4,
+    "pctSince2000": 7.2,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 12482
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2044
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4335
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 5759
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6079
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2796
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1241
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1406
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1236
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 42
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Boston, Massachusetts": {
+    "totalUnits": 307840,
+    "pctPre1940": 46.8,
+    "pctPre1960": 58.8,
+    "pct1940to1969": 19.2,
+    "pctSince2000": 16.5,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 144167
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 14967
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 21824
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 22281
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 23266
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 17237
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 13154
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 19982
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 28293
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 2669
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Cambridge, Massachusetts": {
+    "totalUnits": 54612,
+    "pctPre1940": 47.3,
+    "pctPre1960": 54.2,
+    "pct1940to1969": 12.3,
+    "pctSince2000": 18.5,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 25842
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1765
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2007
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2932
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5259
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4169
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2511
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4352
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 5172
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 603
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Fall River, Massachusetts": {
+    "totalUnits": 44359,
+    "pctPre1940": 45.8,
+    "pctPre1960": 62.8,
+    "pct1940to1969": 23.7,
+    "pctSince2000": 6.3,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 20325
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3433
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4116
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2984
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3901
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4152
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2633
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1537
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1187
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 91
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Lowell, Massachusetts": {
+    "totalUnits": 44110,
+    "pctPre1940": 42.7,
+    "pctPre1960": 55.1,
+    "pct1940to1969": 21.4,
+    "pctSince2000": 10.3,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 18837
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1612
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3843
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3990
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4489
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4638
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2163
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2575
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1791
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 172
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Lynn, Massachusetts": {
+    "totalUnits": 37849,
+    "pctPre1940": 45.7,
+    "pctPre1960": 63,
+    "pct1940to1969": 25.7,
+    "pctSince2000": 6.6,
+    "medianBucket": "Built 1940 to 1949",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 17295
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2987
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3566
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3161
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2957
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3779
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1591
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1330
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 926
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 257
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "New Bedford, Massachusetts": {
+    "totalUnits": 44468,
+    "pctPre1940": 51.6,
+    "pctPre1960": 67.6,
+    "pct1940to1969": 23.7,
+    "pctSince2000": 4.5,
+    "medianBucket": "Built 1939 or earlier",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 22958
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2560
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 4524
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3477
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3525
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3352
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2065
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1264
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 631
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 112
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Quincy, Massachusetts": {
+    "totalUnits": 48227,
+    "pctPre1940": 37.3,
+    "pctPre1960": 51.8,
+    "pct1940to1969": 21.3,
+    "pctSince2000": 15.3,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 18003
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3167
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3794
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3296
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5145
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4640
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2791
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2873
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 4108
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 410
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Springfield, Massachusetts": {
+    "totalUnits": 62713,
+    "pctPre1940": 38.2,
+    "pctPre1960": 66.2,
+    "pct1940to1969": 36,
+    "pctSince2000": 5.1,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 23984
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 6321
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 11182
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 5044
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6328
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 4126
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 2500
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 1439
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1699
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 90
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Waltham, Massachusetts": {
+    "totalUnits": 26898,
+    "pctPre1940": 26.5,
+    "pctPre1960": 48,
+    "pct1940to1969": 32.7,
+    "pctSince2000": 14.3,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 7125
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1784
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3991
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 3010
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 2990
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2232
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 1921
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 2051
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1641
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 153
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Worcester, Massachusetts": {
+    "totalUnits": 85371,
+    "pctPre1940": 40.4,
+    "pctPre1960": 59.6,
+    "pct1940to1969": 27.1,
+    "pctSince2000": 7.9,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 34459
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 6961
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 9487
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 6653
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 7942
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 8681
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4417
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4047
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2596
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 128
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:25"
+  },
+  "Aurora IL, Illinois": {
+    "totalUnits": 63492,
+    "pctPre1940": 13.7,
+    "pctPre1960": 25.7,
+    "pct1940to1969": 19.4,
+    "pctSince2000": 23.5,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 8703
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1637
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5955
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4718
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 6725
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6863
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 13994
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 11999
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2706
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 192
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Chicago, Illinois": {
+    "totalUnits": 1268199,
+    "pctPre1940": 39.1,
+    "pctPre1960": 58.9,
+    "pct1940to1969": 29.4,
+    "pctSince2000": 13.7,
+    "medianBucket": "Built 1950 to 1959",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 496256
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 103405
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 147317
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 122459
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 100236
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 63016
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 61704
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 103801
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 64784
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 5221
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Cicero, Illinois": {
+    "totalUnits": 26738,
+    "pctPre1940": 66.8,
+    "pctPre1960": 84.5,
+    "pct1940to1969": 23.3,
+    "pctSince2000": 1.1,
+    "medianBucket": "Built 1939 or earlier",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 17868
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2250
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2465
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1522
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 997
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 579
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 756
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 185
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 116
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 0
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Elgin, Illinois": {
+    "totalUnits": 40111,
+    "pctPre1940": 19.1,
+    "pctPre1960": 31.1,
+    "pct1940to1969": 22.4,
+    "pctSince2000": 20.6,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 7670
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 1730
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 3055
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4207
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5261
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3906
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 6033
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 5580
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2339
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 330
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Joliet, Illinois": {
+    "totalUnits": 53636,
+    "pctPre1940": 15.4,
+    "pctPre1960": 29.9,
+    "pct1940to1969": 23.5,
+    "pctSince2000": 29.1,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 8283
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 2491
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5237
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4887
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 4178
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 2891
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 10064
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 13070
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2392
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 143
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Rockford, Illinois": {
+    "totalUnits": 68027,
+    "pctPre1940": 22.4,
+    "pctPre1960": 47,
+    "pct1940to1969": 38.4,
+    "pctSince2000": 7.2,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 15226
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 5312
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 11414
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 9379
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 9079
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6337
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 6353
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 3973
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 885
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 69
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Peoria, Illinois": {
+    "totalUnits": 54526,
+    "pctPre1940": 21.9,
+    "pctPre1960": 42.1,
+    "pct1940to1969": 32.6,
+    "pctSince2000": 16,
+    "medianBucket": "Built 1960 to 1969",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 11950
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3458
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 7549
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 6778
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8384
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 3666
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 3997
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 6204
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2391
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 149
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Springfield, Illinois": {
+    "totalUnits": 57220,
+    "pctPre1940": 18.2,
+    "pctPre1960": 35.3,
+    "pct1940to1969": 29.4,
+    "pctSince2000": 12.4,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 10432
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 3861
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 5908
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 7048
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 10659
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 5148
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 7084
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4641
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2379
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 60
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:17"
+  },
+  "Atlanta, Georgia": {
+    "totalUnits": 259122,
+    "pctPre1940": 12.1,
+    "pctPre1960": 26.1,
+    "pct1940to1969": 24.3,
+    "pctSince2000": 39,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 31231
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 13625
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 22849
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 26503
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 20305
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 20335
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 23183
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 54329
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 40838
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 5924
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  },
+  "Columbus, Georgia": {
+    "totalUnits": 91288,
+    "pctPre1940": 6.2,
+    "pctPre1960": 23.4,
+    "pct1940to1969": 31.6,
+    "pctSince2000": 22.6,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 5629
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 4917
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 10842
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 13119
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 14274
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 10722
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 11140
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 13163
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 6995
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 487
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  },
+  "Marietta, Georgia": {
+    "totalUnits": 26868,
+    "pctPre1940": 2,
+    "pctPre1960": 10.7,
+    "pct1940to1969": 19.4,
+    "pctSince2000": 23.1,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 530
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 735
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 1607
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 2865
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 3789
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 6951
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4179
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 4098
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 1853
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 261
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  },
+  "Roswell, Georgia": {
+    "totalUnits": 37552,
+    "pctPre1940": 0.8,
+    "pctPre1960": 2.1,
+    "pct1940to1969": 5,
+    "pctSince2000": 23.4,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 301
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 85
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 404
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 1405
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 5846
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 12356
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 8372
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 5573
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 2912
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 298
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  },
+  "Sandy Springs, Georgia": {
+    "totalUnits": 55765,
+    "pctPre1940": 0.5,
+    "pctPre1960": 5.8,
+    "pct1940to1969": 13.9,
+    "pctSince2000": 30,
+    "medianBucket": "Built 1980 to 1989",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 271
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 646
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 2335
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 4743
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 8036
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 14274
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 8726
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 7490
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 8752
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 492
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  },
+  "Savannah, Georgia": {
+    "totalUnits": 68153,
+    "pctPre1940": 16.7,
+    "pctPre1960": 37.6,
+    "pct1940to1969": 31.6,
+    "pctSince2000": 22.3,
+    "medianBucket": "Built 1970 to 1979",
+    "buckets": [
+      {
+        "label": "Built 1939 or earlier",
+        "units": 11370
+      },
+      {
+        "label": "Built 1940 to 1949",
+        "units": 4732
+      },
+      {
+        "label": "Built 1950 to 1959",
+        "units": 9506
+      },
+      {
+        "label": "Built 1960 to 1969",
+        "units": 7293
+      },
+      {
+        "label": "Built 1970 to 1979",
+        "units": 7946
+      },
+      {
+        "label": "Built 1980 to 1989",
+        "units": 7832
+      },
+      {
+        "label": "Built 1990 to 1999",
+        "units": 4300
+      },
+      {
+        "label": "Built 2000 to 2009",
+        "units": 6151
+      },
+      {
+        "label": "Built 2010 to 2019",
+        "units": 8108
+      },
+      {
+        "label": "Built 2020 or later",
+        "units": 915
+      }
+    ],
+    "vintage": "ACS 2023 5-year estimates, table B25034",
+    "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25034_001E,B25034_011E,B25034_010E,B25034_009E,B25034_008E,B25034_007E,B25034_006E,B25034_005E,B25034_004E,B25034_003E,B25034_002E&for=place:*&in=state:13"
+  }
+}
