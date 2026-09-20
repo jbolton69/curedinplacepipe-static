@@ -1,0 +1,580 @@
+{
+ "Houston": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/houston",
+  "metaTitle": "Houston, TX Sewer Lateral Repair & CIPP Lining",
+  "metaDescription": "Houston is rebuilding 6,100+ miles of sewer under a federal consent decree. See who owns your lateral, the permit rules, and where trenchless CIPP lining fits.",
+  "article": "<h2>Houston Is Rebuilding Its Sewers Under a Federal Consent Decree</h2><p>Few American cities are working through a sewer overhaul the size of Houston's. In April 2021 the city entered a federal consent decree with the EPA, the Department of Justice, and the State of Texas to stop sanitary sewer overflows across a system that Houston Public Works describes as more than 6,100 miles of wastewater lines, 367 lift stations, and 38 treatment plants. The city has committed to assess and repair 100 percent of those lines and to remediate no fewer than 150 miles of sewer every year, an effort Houston Public Works now values at roughly $9 billion over fifteen years. For a homeowner, the takeaway is simple: aging pipe is the rule here, not the exception, and the private line from your house is part of that same aging network.</p><h2>Who Owns the Sewer Line at Your Home</h2><p>Houston Public Works draws the line plainly: \"Problems with private wastewater pipes, which are typically closer to the home, are the responsibility of the homeowner. Problems with public pipes or those on a public right-of-way are the responsibility of Houston Public Works.\" In practice that means the pipe running from your foundation out toward the city main is yours to maintain and repair. When it cracks, sags, or fills with roots, the city is not going to fix it for you, and a backup on your side of the connection lands on your bill.</p><h2>Permits and Who Is Allowed to Do the Work</h2><p>Sewer work in Houston is not a do-it-yourself project. A plumbing permit is required for a sewer connection, and it must be pulled by a master plumber registered with the City of Houston. That sits on top of Texas state law: under the Texas Occupations Code, a person may not engage in plumbing unless they hold the proper license, and the code specifically defines plumbing to include the drain and waste piping that carries sewage from a building. Hiring a licensed, permitted contractor is not red tape for its own sake; it is what keeps a repair legal, inspected, and warrantable.</p><h2>Why Houston Sewer Lines Fail</h2><p>The consent decree exists because so much of the buried network has reached the end of its service life. The same forces that push the city to remediate 150 miles a year act on your private lateral: decades of ground movement, root intrusion at pipe joints, and the slow corrosion of older clay and cast-iron pipe. A line installed in the mid-twentieth century has had generations of tree roots searching out its joints. Once a joint separates or a section bellies, wastewater slows, solids settle, and backups become routine.</p><p>Age is the quiet accelerant. U.S. Census figures show about 17 percent of Houston homes were built before 1960, so a large share of the city's private laterals are original clay or cast-iron pipe that has been in the ground for well over half a century. Those are exactly the lines on which the aging network's failures tend to show up first.</p><h2>Trenchless CIPP Lining: A New Pipe Without the Trench</h2><p>Cured-in-place pipe, or CIPP, is the reason a failing lateral no longer means an open trench across your yard. A resin-saturated liner is pulled or inflated into the old pipe and cured in place, forming a smooth, jointless new pipe inside the old one. Because the work happens through an existing access point, there is usually nothing to dig up along the pipe's length: no torn-out lawn, no broken driveway, no days of heavy equipment. For most homes the job is finished in a day, and the new liner is built to last for decades.</p><p>The scale of Houston's rebuild is worth sitting with. The consent decree covers not just pipe but 367 lift stations and 38 wastewater treatment plants, and it obligates the city to assess and repair 100 percent of its wastewater lines, not a sample. For a homeowner, the practical signal is that deterioration is system-wide, and the private lateral tied into that network deserves the same camera-first scrutiny the city is now applying to its own mains.</p><h2>When the Pipe Is Too Far Gone: Pipe Bursting</h2><p>Lining works when the host pipe is cracked or leaking but still continuous. When a line has collapsed, badly offset, or needs to be upsized, pipe bursting is the trenchless answer instead. A bursting head is pulled through the old pipe, breaking it outward while drawing a new pipe in behind it, using only small access pits at each end rather than a full trench. A camera inspection is what tells a specialist which method a given line actually needs.</p><p>When a Houston line does qualify for lining, the finished product is durable: the cured resin forms a jointless pipe rated to last for decades, and because it has no joints for roots to enter, it resists the single most common cause of repeat backups. That longevity is why lining is worth doing properly, with a licensed plumber and a permit, rather than patched section by section.</p><h2>Getting an Honest Diagnosis First</h2><p>Not every line is a candidate for trenchless repair, and a straight answer matters more than a fast sale. A fully collapsed line with no path to pull through, or a repair that genuinely requires excavation to reach, should be described to you honestly before any work begins. The right starting point is a camera sent down the line so you can see the real problem and the real options, rather than agreeing to dig on someone's word.</p>",
+  "faq": [
+   [
+    "Who is responsible for the sewer line between my Houston home and the city main?",
+    "Houston Public Works states that private wastewater pipes closer to the home are the homeowner's responsibility, while public pipes and those in the public right-of-way are the city's. The private lateral from your house is yours to maintain and repair."
+   ],
+   [
+    "Do I need a permit to repair a sewer lateral in Houston?",
+    "Yes. A plumbing permit is required for sewer work, and it must be obtained by a master plumber registered with the City of Houston. Texas state law also requires that plumbing be performed by a properly licensed plumber."
+   ],
+   [
+    "Why are Houston's sewers in such rough shape?",
+    "Under a 2021 federal consent decree, Houston is assessing and repairing more than 6,100 miles of aging wastewater lines and remediating at least 150 miles per year. That same aging affects the private laterals connected to the system."
+   ],
+   [
+    "Can my Houston sewer line be repaired without digging up the yard?",
+    "Usually, yes. Cured-in-place pipe (CIPP) lining rebuilds the pipe from the inside through an existing access point, with no trench along its length. Pipe bursting handles collapsed lines with only small access pits."
+   ],
+   [
+    "How do I know whether I need lining or full replacement?",
+    "A camera inspection settles it. Lining suits pipes that are cracked or leaking but continuous; pipe bursting suits collapsed or badly offset lines. A specialist should show you the footage before recommending a method."
+   ]
+  ],
+  "facts": {
+   "consent_decree": {
+    "value": "Houston entered a federal consent decree (EPA/DOJ/Texas) approved April 1, 2021 to eliminate sanitary sewer overflows; it requires remediation of at least 150 miles of sewer annually.",
+    "source": "https://www.epa.gov/newsreleases/houston-texas-agrees-implement-comprehensive-measures-aimed-eliminating-sanitary-sewer"
+   },
+   "system_scale": {
+    "value": "Houston Public Works reports over 6,100 miles of wastewater lines, 367 lift stations and 38 treatment plants, with about $9 billion in improvements over 15 years.",
+    "source": "https://www.houstonpublicworks.org/wastewater-cd"
+   },
+   "lateral_ownership": {
+    "value": "Houston Public Works: private wastewater pipes closer to the home are the homeowner's responsibility; public pipes and those in the right-of-way are the city's.",
+    "source": "https://www.houstonpublicworks.org/protect-our-pipes"
+   },
+   "licensing": {
+    "value": "Texas Occupations Code 1301.351 bars anyone but a properly licensed plumber from engaging in plumbing; the definition covers waste piping carrying sewage from a building.",
+    "source": "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.1301.htm"
+   },
+   "housing_age": {
+    "value": "About 17% of Houston homes were built before 1960 (U.S. Census ACS, Table B25034), so many laterals are original clay or cast-iron pipe.",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://www.epa.gov/newsreleases/houston-texas-agrees-implement-comprehensive-measures-aimed-eliminating-sanitary-sewer",
+   "https://www.houstonpublicworks.org/wastewater-cd",
+   "https://www.houstonpublicworks.org/protect-our-pipes",
+   "https://www.houstonpermittingcenter.org/hpwcode1095",
+   "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.1301.htm",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "San Antonio": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/san-antonio",
+  "metaTitle": "San Antonio, TX Sewer Repair & Trenchless CIPP",
+  "metaDescription": "SAWS runs a 5,100-mile sewer system under a 2013 federal consent decree. Learn who owns your lateral, the permit rules, and how trenchless CIPP lining works.",
+  "article": "<h2>SAWS and the Consent Decree Behind San Antonio's Sewer Work</h2><p>San Antonio's wastewater is run by the San Antonio Water System, and SAWS has spent more than a decade under a federal consent decree. Entered in 2013 after roughly 2,200 illegal sanitary sewer overflows between 2006 and 2012 discharged about 23 million gallons of raw sewage, the agreement with the Department of Justice, EPA, and the State of Texas commits SAWS to roughly $1.1 to $1.2 billion in work and a multimillion-dollar penalty. Across a system of about 5,100 miles of sewer main, SAWS reports it has cut overflows by around 70 percent from their peak. That is the backdrop to any sewer repair in the city: a large, aging network being methodically inspected and rebuilt.</p><h2>Where Your Responsibility Ends and the Main Begins</h2><p>SAWS draws the boundary at the main. Property owners must hire a licensed plumber to clear or repair a blockage on the customer's side of the main, while SAWS handles a blockage or collapsed pipe on its side. The utility even offers reimbursement in specific cases where the problem lies beyond your property, in the right-of-way, street, alley, or easement. The practical rule for a San Antonio homeowner is that the service line from the house to the SAWS main is yours to keep in working order.</p><h2>Permits and Licensed Plumbers</h2><p>San Antonio requires a plumbing permit for sewer work, and to pull one a contractor must first register their state plumbing license with the city. That mirrors Texas law, which allows only a properly licensed plumber to engage in plumbing. Between the state license and the city registration, a legitimate San Antonio sewer repair is always done by a credentialed plumber who can permit and inspect the job.</p><h2>Why San Antonio Sewer Lines Deteriorate</h2><p>SAWS manages more than 13,000 miles of combined water and sewer mains buried beneath roughly 930 square miles, and it acknowledges that parts of that network are nearing the end of their useful life. Its capital program deliberately targets the pipes most likely to fail. Private laterals age on the same clock. Ground movement, root intrusion, and decades of corrosion open joints and crack older pipe, and once a line loses its slope or its seal, backups follow.</p><p>Age compounds the problem. Roughly 20 percent of San Antonio homes were built before 1960 according to Census data, which means a great many service lines are decades-old pipe still making their original run to the main. The older the pipe, the more joints have had time to loosen and roots time to find them.</p><h2>Trenchless CIPP Lining Instead of Excavation</h2><p>The alternative to digging up a San Antonio yard is cured-in-place pipe. A resin liner is drawn into the failing pipe and cured hard, leaving a seamless new pipe formed inside the old one. Because the liner goes in through an existing cleanout or access point, the lawn, driveway, and mature trees generally stay untouched, and most residential jobs wrap up in a single day. The finished liner is smooth, root-resistant at the old joints, and rated to last for decades.</p><p>The numbers behind the SAWS program show how much pipe is in play. SAWS manages more than 13,000 miles of combined water and sewer main beneath roughly 930 square miles, and its capital program deliberately targets the pipes with the highest likelihood of failure rather than replacing on a fixed schedule. A private lateral in an older San Antonio neighborhood is part of that same aging inventory, which is why a camera inspection is the right first move.</p><h2>Pipe Bursting for Collapsed or Undersized Lines</h2><p>When a line is broken beyond what a liner can restore, pipe bursting replaces it without a trench. A bursting head fractures the old pipe outward and pulls a new one into its place, working from small pits at each end. It is also the method of choice when a line needs to be upsized. Which approach fits your home depends entirely on the condition of the pipe, which is why the job begins with a camera.</p><p>For a homeowner, the appeal of cured-in-place pipe in San Antonio is that it turns a structural repair into a one-day job. The liner cures into a smooth interior that flows better than corroded original pipe, and it seals the cracks that let groundwater infiltrate, one of the same problems SAWS is spending its consent-decree budget to fix on the public side.</p><h2>Start With a Camera, Not a Backhoe</h2><p>A reputable specialist will not quote an excavation before looking inside the pipe. A camera inspection shows exactly where and how the line has failed, whether trenchless will work, and when a section is too far gone for anything but replacement. That honest first step protects you from paying to dig up a yard that never needed to be opened.</p>",
+  "faq": [
+   [
+    "Who owns the sewer line from my house to the SAWS main?",
+    "SAWS holds property owners responsible for the service line on the customer's side of the main and handles problems on its own side. The lateral from your home to the main is yours to maintain."
+   ],
+   [
+    "Does San Antonio require a permit for sewer lateral repair?",
+    "Yes. The city requires a plumbing permit, and the contractor must register their state plumbing license with the city to obtain it. Texas law also requires a licensed plumber to perform the work."
+   ],
+   [
+    "What is the SAWS consent decree?",
+    "A 2013 federal agreement (DOJ/EPA/Texas) requiring SAWS to reduce sanitary sewer overflows after roughly 2,200 spills discharged about 23 million gallons of sewage. SAWS reports roughly a 70 percent reduction in overflows and about $1.1 to $1.2 billion in work."
+   ],
+   [
+    "Can a San Antonio sewer line be fixed without digging?",
+    "Usually. CIPP lining rebuilds the pipe from the inside through an existing access point, and pipe bursting replaces collapsed lines with only small access pits, so most of the yard stays intact."
+   ],
+   [
+    "How long does trenchless sewer repair take?",
+    "Most residential CIPP jobs are completed in a single day, compared with several days for a traditional dig-and-replace that also has to restore the yard afterward."
+   ]
+  ],
+  "facts": {
+   "consent_decree": {
+    "value": "SAWS entered a 2013 federal consent decree after about 2,200 sanitary sewer overflows (2006-2012) discharged roughly 23 million gallons of sewage; expected spend about $1.1 billion.",
+    "source": "https://www.justice.gov/archives/opa/pr/san-antonio-agrees-11-billion-upgrade-sewer-systems-comply-clean-water-act"
+   },
+   "sso_reduction": {
+    "value": "SAWS reports its consent-decree sewer rehabilitation program covers about 5,200 miles of pipe and achieved roughly a 70 percent reduction in spills from their peak.",
+    "source": "https://www.saws.org/infrastructure/epa/investing/"
+   },
+   "lateral_ownership": {
+    "value": "SAWS holds owners responsible for clearing/repairing blockages on the customer's side of the main and repairs its own side; reimbursement applies only beyond the property in the right-of-way.",
+    "source": "https://www.saws.org/service/plumbing-backed-up/"
+   },
+   "system_scale": {
+    "value": "SAWS reports more than 13,000 miles of water and sewer mains under roughly 930 square miles, with parts nearing the end of their useful life.",
+    "source": "https://www.saws.org/infrastructure/overview/"
+   },
+   "housing_age": {
+    "value": "Roughly 20% of San Antonio homes were built before 1960 (U.S. Census ACS, Table B25034).",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://www.justice.gov/archives/opa/pr/san-antonio-agrees-11-billion-upgrade-sewer-systems-comply-clean-water-act",
+   "https://www.saws.org/infrastructure/epa/investing/",
+   "https://www.saws.org/service/plumbing-backed-up/",
+   "https://www.saws.org/infrastructure/overview/",
+   "https://www.sa.gov/Directory/Departments/DSD/Contractor/Plumbing",
+   "https://statutes.capitol.texas.gov/Docs/OC/htm/OC.1301.htm",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Dallas": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/dallas",
+  "metaTitle": "Dallas, TX Sewer Lateral Repair & CIPP Lining",
+  "metaDescription": "Dallas City Code puts the private sewer lateral on the property owner past the property line, and Blackland clay cracks pipe. See how trenchless CIPP lining fixes it.",
+  "article": "<h2>Dallas Code Draws the Line at Your Property Line</h2><p>Dallas is unusually explicit about who owns what underground. Under Dallas City Code Section 49-24, the city maintains the wastewater service connection only from the main to the property line; everything beyond that point, the private building sewer running back to the house, belongs to the property owner. So when a Dallas homeowner has a backup, the first question is where the failure sits. If it is on your side of the property line, and most residential failures are, the repair is yours to arrange, and the city will not touch it.</p><h2>The Blackland Clay Under Dallas Is Hard on Pipe</h2><p>Dallas sits on the Blackland Prairie, and the soil beneath it is largely Houston Black clay, the Texas state soil. The Texas Water Development Board describes these clays as shrinking and swelling markedly with changes in moisture. That shrink-swell cycle is quietly brutal on buried pipe: as the ground heaves in wet weather and pulls away in drought, it flexes clay and cast-iron sewer lines until joints separate and sections crack. A pipe that was watertight for years can start leaking after a single hard wet-dry swing, and the roots follow the moisture straight to the break.</p><h2>Permits and Licensed Plumbers in Dallas</h2><p>Dallas City Code ties the sewer connection to a plumbing permit and limits service connections to persons authorized by the director. Above that, Texas law requires a state plumbing license to do the work; the Occupations Code defines plumbing to include the piping that carries sewage out to the sewer service lateral at the curb, street, or alley. A legitimate Dallas repair is permitted and performed by a licensed plumber, which is also what makes the work inspectable and warrantable.</p><h2>Dallas Water Utilities and an Aging Network</h2><p>Dallas Water Utilities operates over 4,000 miles of wastewater pipeline serving more than 2.6 million people, and its multi-year capital plan funds ongoing main replacements and interceptor rehabilitation across the system. That steady replacement program reflects a simple fact: a lot of the buried network is old, and the private laterals tied into it are no younger. Homeowners in Dallas's established neighborhoods are the most likely to be sitting on clay or early cast-iron pipe that the clay soil has been working on for decades.</p><p>Age makes the clay's work worse. About 22 percent of Dallas homes were built before 1960 by Census figures, one of the higher shares of older housing in Texas, so original clay and cast-iron laterals are common, and those pipes are the least able to withstand decades of shrink-swell movement.</p><h2>Trenchless CIPP Lining: Fixing the Pipe From Inside</h2><p>Cured-in-place pipe is well suited to Dallas's problem. A resin liner is installed into the existing pipe and cured into a seamless new pipe within the old one, sealing the separated joints that clay movement and roots have opened. Because it goes in through an access point rather than a trench, there is no need to tear up a lawn or a driveway that sits on that same expansive soil, and most jobs are finished in a day. The jointless liner also gives roots far fewer openings to exploit.</p><p>Dallas Water Utilities backs its network with a rolling capital program: recent plans fund interceptor and main rehabilitation across the system, from the McKamy Branch relief work of roughly 20,000 feet to the Lower East Bank Interceptor. That steady municipal replacement is the public-side mirror of what a homeowner faces privately, aging pipe on moving clay that has to be renewed rather than patched.</p><h2>When Lining Isn't Enough: Pipe Bursting</h2><p>Clay movement can do more than crack a pipe; it can shear or collapse one. Where a line is broken beyond what a liner can bridge, pipe bursting pulls a new pipe through the old path from small access pits, with no continuous trench. It is also the method used when a line should be upsized. A camera inspection is what distinguishes a pipe that can be lined from one that must be burst and replaced.</p><p>Lining is especially well matched to Dallas conditions because a cured-in-place liner is jointless. On expansive clay, joints are where pipes fail first, pried apart as the ground heaves and drops, so a repair that eliminates them addresses the actual failure mechanism rather than just the symptom. The result is a smooth pipe that resists both root intrusion and the next wet-dry cycle.</p><h2>An Honest Look Before Any Digging</h2><p>On expansive clay, the temptation to over-dig is real, and so is the cost of doing it needlessly. A trustworthy specialist runs a camera first, shows you the actual condition of the line, and tells you plainly when trenchless fits and when a section genuinely has to be excavated. That is the difference between a targeted repair and a torn-up yard.</p>",
+  "faq": [
+   [
+    "Who is responsible for the sewer lateral at a Dallas home?",
+    "Under Dallas City Code Section 49-24, the city maintains the service connection only from the main to the property line; the private building sewer beyond the property line is the property owner's responsibility."
+   ],
+   [
+    "Why do Dallas sewer lines crack so often?",
+    "Dallas sits on Blackland Prairie Houston Black clay, which the Texas Water Development Board says shrinks and swells markedly with moisture. That movement flexes and cracks buried pipe and opens joints to roots."
+   ],
+   [
+    "Do I need a licensed plumber and permit in Dallas?",
+    "Yes. Dallas City Code requires a plumbing permit and limits service connections to authorized persons, and Texas law requires a state-licensed plumber to perform sewer work."
+   ],
+   [
+    "Can a Dallas sewer line be repaired without excavation?",
+    "Usually. CIPP lining rebuilds the pipe from the inside through an access point, avoiding a trench across clay-heavy yards, and pipe bursting replaces collapsed lines using only small pits."
+   ],
+   [
+    "Is trenchless a good fit for clay-soil damage?",
+    "Often, yes. A jointless CIPP liner seals the separated joints and cracks that shrink-swell clay opens, and it gives roots fewer entry points. A camera inspection confirms whether lining or bursting is right."
+   ]
+  ],
+  "facts": {
+   "lateral_ownership": {
+    "value": "Dallas City Code Sec. 49-24(a)(1): the city maintains the wastewater service connection from the main to the property line; the owner is responsible for the private building sewer beyond it.",
+    "source": "https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-125444"
+   },
+   "expansive_clay": {
+    "value": "The Texas state soil, Houston Black, occupies about 1.5 million acres of the Blackland Prairie from north of Dallas toward San Antonio and shrinks and swells markedly with moisture.",
+    "source": "https://www.twdb.texas.gov/conservation/education/doc/tx_State_soil.pdf"
+   },
+   "utility_program": {
+    "value": "Dallas Water Utilities operates over 4,000 miles of wastewater pipeline serving over 2.6 million people, with an ongoing capital plan of main replacements and interceptor rehabilitation.",
+    "source": "https://dallascityhall.com/departments/waterutilities/Documents/2-year%20look%20ahead%20-%20DWU%20Capital%20Projects%20-%20August%202024.pdf"
+   },
+   "licensing": {
+    "value": "Texas Occupations Code 1301.002/1301.351 requires a state-licensed plumber; plumbing includes piping carrying sewage to the sewer service lateral at the curb, street, or alley.",
+    "source": "https://tsbpe.texas.gov/wp-content/uploads/2017/08/Plumbing-License-Law_Effective-9.1.pdf"
+   },
+   "housing_age": {
+    "value": "About 22% of Dallas homes were built before 1960 (U.S. Census ACS, Table B25034).",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-125444",
+   "https://www.twdb.texas.gov/conservation/education/doc/tx_State_soil.pdf",
+   "https://dallascityhall.com/departments/waterutilities/Documents/2-year%20look%20ahead%20-%20DWU%20Capital%20Projects%20-%20August%202024.pdf",
+   "https://tsbpe.texas.gov/wp-content/uploads/2017/08/Plumbing-License-Law_Effective-9.1.pdf",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Fort Worth": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/fort-worth",
+  "metaTitle": "Fort Worth, TX Sewer Repair & Trenchless CIPP Lining",
+  "metaDescription": "Fort Worth runs a dedicated sanitary-sewer CIPP lining program, and North Texas clay cracks laterals. See who owns your line, the permit rules, and how trenchless works.",
+  "article": "<h2>Fort Worth Already Lines Its Own Sewers</h2><p>Trenchless repair is not a novelty in Fort Worth; the city's own Water Department runs a dedicated Sanitary Sewer CIPP Annual Contract, using cured-in-place pipe to rehabilitate its mains, alongside numbered sanitary sewer rehabilitation contracts. The city has folded that work into the state's Sanitary Sewer Overflow Initiative, a program aimed at reducing spills from aging collection systems. When the city that owns the mains chooses lining to fix its own pipes, it is a strong signal that the same method belongs on the private laterals connected to them.</p><h2>Who Maintains the Line at Your Property</h2><p>Fort Worth's Water Department installation policy sets the boundary clearly: the landowner is responsible for operating and maintaining the service connection within private property, while the city is responsible from the main to the cleanout or property line. The city owns and maintains the sewer tap itself. For a homeowner, that means the pipe running through your yard to the connection is yours, and keeping it sound is your job, not the city's.</p><h2>North Texas Clay and Why Pipes Fail Here</h2><p>Fort Worth sits on the western edge of the Blackland Prairie, over expansive clays that swell and shrink with the seasons. Texas licensing regulators note that expansive soils continue to damage structures across the state, with a large share of homes seeing at least minor movement. That same ground motion works on buried sewer pipe, prying apart joints and cracking older clay and cast-iron lines. Add decades of root intrusion at every loosened joint and you have the classic North Texas pattern of slow drains that become chronic backups.</p><h2>Permits, Right-of-Way Rules, and Licensed Plumbers</h2><p>Fort Worth requires a street-use permit for utility construction before sewer work is done in the public right-of-way, which is where a lateral meets the city main. On the private side, Texas law governs who may do the work: only a state-licensed plumber may engage in plumbing, and the code's definition reaches the piping that runs to the sewer service lateral at the curb, street, or alley. A proper Fort Worth repair is permitted where required and performed by a licensed plumber.</p><p>Older housing concentrates the risk. Nearly 20 percent of Fort Worth homes predate 1960 according to the Census, so a large block of laterals under the city's established neighborhoods is now well past fifty years old, aging clay and cast-iron pipe on ground that keeps moving.</p><h2>Trenchless CIPP Lining on the Private Side</h2><p>What the city does to its mains, a specialist can do to your lateral. A resin-saturated liner is installed into the failing pipe and cured into a seamless new pipe inside the old one, sealing the joints that clay movement and roots have opened. Because the liner enters through an existing access point, the yard, driveway, and trees usually stay intact, and most residential jobs are done in a day. On expansive soil, avoiding a long open trench is not just tidier; it means not disturbing more of the ground that is already stressing the pipe.</p><p>The city's commitment shows up in its contracts. A recent Fort Worth measure funded roughly $9.13 million of combined paving, water, and sewer work in which deteriorated sanitary sewer mains are replaced across several lane miles, part of the same Sanitary Sewer Overflow Initiative the Water Department runs. When the city is replacing its own deteriorated mains at that pace, the aging laterals connected to them warrant the same attention.</p><h2>Pipe Bursting When a Line Has Failed Outright</h2><p>Where clay movement or age has collapsed a line, or where a pipe needs to be upsized, pipe bursting is the trenchless replacement. A bursting head is drawn through the old pipe, breaking it apart while pulling a new pipe into place through small access pits. As with lining, the deciding factor is the pipe's actual condition, which a camera inspection reveals before any commitment is made.</p><p>Because Fort Worth already trusts CIPP for its own mains, homeowners have a local proof of concept. The private-side version is smaller but identical in principle: a jointless liner cured inside the old pipe, sealing the joints that North Texas clay keeps working loose, finished in about a day and built to outlast the ground movement that caused the failure.</p><h2>Insist on a Camera Before a Quote</h2><p>A dependable Fort Worth contractor looks before recommending. A camera run down the line shows exactly where it has failed and whether lining, bursting, or targeted excavation is the honest answer. That is what keeps a repair proportionate to the problem rather than a default dig across the yard.</p>",
+  "faq": [
+   [
+    "Who is responsible for my sewer line in Fort Worth?",
+    "Under the Fort Worth Water Department's installation policy, the landowner maintains the service connection within private property; the city is responsible from the main to the cleanout or property line and owns the sewer tap."
+   ],
+   [
+    "Does Fort Worth use trenchless lining itself?",
+    "Yes. The Fort Worth Water Department runs a dedicated Sanitary Sewer CIPP Annual Contract and numbered sewer rehabilitation contracts, part of the state's Sanitary Sewer Overflow Initiative."
+   ],
+   [
+    "Why do Fort Worth sewer lines crack?",
+    "Fort Worth sits on North Texas expansive clay that swells and shrinks with moisture, flexing and cracking buried pipe and separating joints. Roots then intrude at the openings."
+   ],
+   [
+    "Do I need a permit for sewer work in Fort Worth?",
+    "Work in the public right-of-way requires a street-use permit for utility construction, and Texas law requires a state-licensed plumber to perform the plumbing."
+   ],
+   [
+    "Can trenchless repair my Fort Worth lateral without a trench?",
+    "Usually. CIPP lining rebuilds the pipe from the inside through an access point, and pipe bursting replaces collapsed lines using small pits, so most of the yard stays intact."
+   ]
+  ],
+  "facts": {
+   "utility_program": {
+    "value": "The Fort Worth Water Department runs a dedicated Sanitary Sewer CIPP (cured-in-place pipe) Annual Contract and numbered sanitary sewer rehabilitation contracts.",
+    "source": "https://www.fortworthtexas.gov/departments/finance/bids/manual-bids/water/2018/101361-333"
+   },
+   "lateral_ownership": {
+    "value": "Fort Worth Water Department policy: the landowner maintains the service connection within private property; the city is responsible from the main to the cleanout/property line and owns the sewer tap.",
+    "source": "https://www.fortworthtexas.gov/files/assets/public/v/2/government/documents/fw-water-installation-policy-design-criteria.pdf"
+   },
+   "sso_initiative": {
+    "value": "Fort Worth's sanitary sewer work is part of the Texas Sanitary Sewer Overflow Initiative, a program addressing spills from aging collection systems.",
+    "source": "https://www.tceq.texas.gov/compliance/investigation/ssoinitiative"
+   },
+   "expansive_clay": {
+    "value": "Texas regulators report expansive soils continue to damage structures statewide, affecting a large share of homes; Fort Worth lies on the western Blackland Prairie clays.",
+    "source": "https://www.tdlr.texas.gov/ihb/pdf/TB1001.pdf"
+   },
+   "housing_age": {
+    "value": "Nearly 20% of Fort Worth homes were built before 1960 (U.S. Census ACS, Table B25034).",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://www.fortworthtexas.gov/files/assets/public/v/2/government/documents/fw-water-installation-policy-design-criteria.pdf",
+   "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-31895",
+   "https://www.fortworthtexas.gov/departments/finance/bids/manual-bids/water/2018/101361-333",
+   "https://www.tceq.texas.gov/compliance/investigation/ssoinitiative",
+   "https://www.tdlr.texas.gov/ihb/pdf/TB1001.pdf",
+   "https://tsbpe.texas.gov/wp-content/uploads/2017/08/Plumbing-License-Law_Effective-9.1.pdf",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Austin": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/austin",
+  "metaTitle": "Austin, TX Private Sewer Lateral Repair & CIPP",
+  "metaDescription": "Austin City Code Chapter 15-11 makes the private sewer lateral the owner's to maintain and permit. See the rules and how trenchless CIPP lining repairs it without digging.",
+  "article": "<h2>Austin Has a Dedicated Private Lateral Ordinance</h2><p>Most cities bury the rules about your sewer line inside a general utilities code. Austin wrote a chapter specifically about it. City Code Chapter 15-11 defines a private lateral as the segment of the sanitary sewer system on private property that connects a residence or business to the city's system, and it is blunt about responsibility: the owner of property containing a private lateral shall maintain the private lateral, and shall repair or replace a defective one from the property line to the building. Austin Water uses the same term, the P-Lat, for the wastewater line connecting a building to the city's system. If you own a home in Austin, that pipe is unmistakably yours.</p><h2>The Permit Rule Is Written Into the Code</h2><p>Chapter 15-11 does not leave permitting to custom or habit. It states that the property owner shall pay the appropriate fee and obtain a permit from the city before performing the repair or replacement of a defective private lateral. That is a specific, code-level requirement to permit the work, and it sits on top of the Texas requirement that a licensed plumber, working under a responsible master plumber, actually perform it. In Austin, a lawful lateral repair is permitted and licensed by the book.</p><h2>Austin Water and an Aging Collection System</h2><p>Austin Water operates more than 3,000 miles of wastewater lines, and its pipeline renewal program proactively replaces aging water and wastewater lines, prioritizing them by break history and condition. The utility frames the challenge in national terms, citing industry estimates that more than a trillion dollars is needed to replace the country's aging water systems by 2035. The point for a homeowner is that the buried network is old enough to warrant a standing replacement program, and private laterals tied into it are aging on the same timeline.</p><h2>Why Austin Sewer Lines Fail</h2><p>The failures Austin Water prioritizes by break history are the same ones that show up at the house: joints pulled apart by ground movement, roots working into every loosened seam, and older pipe corroding from the inside. A lateral that has quietly lost a little slope, or developed a belly where water and solids collect, will drain slower each year until backups become routine. By the time a homeowner notices, the pipe has usually been deteriorating for a long while.</p><p>Age decides where the trouble is. Even in fast-growing Austin, Census figures put roughly one home in twelve as built before 1960, and those older central-city laterals are the ones most likely to be failing now, while newer subdivisions have more time before their pipe catches up.</p><h2>Trenchless CIPP Lining Under Austin Yards</h2><p>Because Chapter 15-11 lets the owner repair or replace the lateral from the property line to the building, the practical question is how to do that with the least disruption, and cured-in-place pipe is the answer for many lines. A resin liner is installed into the old pipe and cured into a seamless new pipe within it, entering through an existing access point rather than a trench. For most Austin homes that means the lawn, the trees, and the driveway stay intact, and the work is done in a day. The permit still applies; the difference is that the repair no longer means excavating the yard.</p><p>Austin frames its pipe renewal in stark terms. The utility cites the American Water Works Association estimate that more than a trillion dollars is needed nationwide by 2035 to replace aging water infrastructure, and Austin Water runs its own renewal across more than 3,000 miles of wastewater line, prioritized by break history. Chapter 15-11 extends that same logic to the private lateral: the pipe is aging, and the owner is responsible for renewing it.</p><h2>Pipe Bursting for Lines Past Lining</h2><p>When a private lateral has collapsed or must be upsized, pipe bursting replaces it without a continuous trench, pulling a new pipe through the old path from small access pits. Chapter 15-11's repair-or-replace language covers both outcomes; which one your line needs is a question for a camera, not a guess.</p><p>The permit the ordinance requires is less an obstacle than a checkpoint. A licensed plumber pulls it, the work is inspected, and the homeowner ends up with a documented, code-compliant repair, whether that is a cured-in-place liner or a burst-and-replace. Doing it on the record protects resale value and keeps the city's private-lateral program satisfied.</p><h2>A Camera Inspection Comes First</h2><p>Before a permit is pulled or a method chosen, a specialist should send a camera down the lateral so you can see the defect the ordinance is asking you to repair. That inspection tells you whether lining fits, whether bursting is required, and whether any part of the job genuinely needs to be dug, so the repair matches the pipe's real condition.</p>",
+  "faq": [
+   [
+    "Who is responsible for a private sewer lateral in Austin?",
+    "Austin City Code Chapter 15-11 states the property owner shall maintain the private lateral and shall repair or replace a defective one from the property line to the building."
+   ],
+   [
+    "Does Austin require a permit to repair a sewer lateral?",
+    "Yes. Chapter 15-11 requires the property owner to pay the appropriate fee and obtain a permit from the city before repairing or replacing a defective private lateral, and the work must be done by a licensed plumber."
+   ],
+   [
+    "What does Austin call the private sewer line?",
+    "Austin Water refers to it as the private lateral, or P-Lat: the wastewater line connecting a building to the city's system. City Code Chapter 15-11 governs it."
+   ],
+   [
+    "Can an Austin lateral be relined instead of dug up?",
+    "Usually. CIPP lining installs a seamless new pipe inside the old one through an access point, avoiding a trench, and the city permit still applies. Pipe bursting handles collapsed lines with small pits."
+   ],
+   [
+    "How do I know if my line needs lining or replacement?",
+    "A camera inspection shows the defect and the pipe's condition. Lining suits cracked or leaking but continuous pipe; pipe bursting suits collapsed or undersized lines."
+   ]
+  ],
+  "facts": {
+   "lateral_ownership": {
+    "value": "Austin City Code Ch. 15-11 defines the private lateral and states the owner shall maintain it and repair or replace a defective one from the property line to the building.",
+    "source": "https://www.wefppvl.org/WEF-PPVL-library/wp-content/uploads/2016/02/PSSOPO_PrivateLateralOrdAustinTX.pdf"
+   },
+   "permit": {
+    "value": "Austin City Code 15-11-5(A): the property owner shall pay the appropriate fee and obtain a permit from the city before repairing or replacing a defective private lateral.",
+    "source": "https://www.wefppvl.org/WEF-PPVL-library/wp-content/uploads/2016/02/PSSOPO_PrivateLateralOrdAustinTX.pdf"
+   },
+   "utility_program": {
+    "value": "Austin Water operates more than 3,000 miles of wastewater lines and runs a pipeline renewal program prioritizing replacement by break history and condition.",
+    "source": "https://www.austintexas.gov/water/programs/pipeline-renewal"
+   },
+   "licensing": {
+    "value": "Texas requires a state plumbing license; a responsible master plumber supervises the work and obtains permits, and all workers must hold a current license or registration.",
+    "source": "https://tsbpe.texas.gov/license-types/responsible-master-plumber/"
+   },
+   "housing_age": {
+    "value": "Roughly 8.5% of Austin homes were built before 1960 (U.S. Census ACS, Table B25034); the city's central-city laterals are the oldest.",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://www.wefppvl.org/WEF-PPVL-library/wp-content/uploads/2016/02/PSSOPO_PrivateLateralOrdAustinTX.pdf",
+   "https://www.austintexas.gov/water/private-lateral-program",
+   "https://www.austintexas.gov/water/programs/pipeline-renewal",
+   "https://tsbpe.texas.gov/license-types/responsible-master-plumber/",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "El Paso": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/el-paso",
+  "metaTitle": "El Paso, TX Sewer Service Line Repair & CIPP Lining",
+  "metaDescription": "El Paso Water's rules put the sewer service line from the main into your property on you. See the ownership and permit rules and how trenchless CIPP lining repairs it.",
+  "article": "<h2>El Paso Water Draws the Line at the Tap</h2><p>In El Paso, the wastewater utility is El Paso Water, and its rules and regulations define the boundary of your responsibility precisely. A sewer service connection is the piping and fittings connected to the utility's collector line and extending to or beyond the property line, and the customer is responsible for furnishing and installing the sewer service line from the tap at the main into the property, along with the equipment within the property. The utility maintains its collector main. For an El Paso homeowner, the line that carries waste from the house out to the tap is yours to keep working.</p><h2>How the Utility Handles Connections and Permits</h2><p>El Paso Water's rules state that the installation of sewer service connections is performed by the utility or at its direction, and that such connections are inspected by qualified utility personnel. That oversight means a service-line repair is not something to improvise; it is coordinated with the utility and inspected. On the workmanship side, Texas law requires a state-licensed plumber, supervised by a responsible master plumber, to perform the plumbing itself. Between utility inspection and state licensing, a legitimate repair is credentialed at both levels.</p><h2>A Large, Aging Wastewater Network</h2><p>El Paso Water maintains over 2,300 miles of wastewater lines, and its published work includes replacing major force mains and rehabilitating lift stations around the city, framed within long-range, decades-out system planning. A network that size, maintained on a fifty-year horizon, has plenty of pipe old enough to fail, and private service lines connected to it are no exception. In El Paso's older neighborhoods especially, the service line has often been in the ground for many decades.</p><h2>Why Sewer Lines Fail in El Paso</h2><p>Age and ground movement do most of the damage. Over the years, joints work loose, older pipe corrodes, and any small offset lets solids catch and build until the line backs up. Roots find their way to moisture wherever a joint has opened. The symptoms a homeowner notices, slow drains, gurgling, a recurring backup, are usually the surface of a deeper structural problem that has been developing for a long time.</p><p>Age is the common thread. Close to 19 percent of El Paso homes were built before 1960 by Census figures, so aging service lines are widespread across the city's older districts, where original pipe has carried waste for generations.</p><h2>Trenchless CIPP Lining Without Tearing Up the Property</h2><p>The alternative to excavating a service line is cured-in-place pipe. A resin liner is drawn into the failing pipe and cured into a smooth, seamless new pipe inside the old one, installed through an existing access point rather than an open trench. For most homes that means the yard and hardscape stay intact and the work is completed in a day. Any El Paso repair still runs through the utility's connection and inspection process; trenchless simply changes how the pipe is restored, not whether the work is done properly.</p><p>El Paso Water's own projects show the age of the system. Its published work includes replacing a major force main running from the Grouse Lift Station to the Fred Hervey Water Reclamation Plant and rehabilitating lift stations around the city, all within long-range planning that looks decades ahead. A private service line in an older El Paso neighborhood is aging on that same horizon, often original pipe that has never been renewed.</p><h2>Pipe Bursting for Collapsed Service Lines</h2><p>When a service line has collapsed or must be enlarged, pipe bursting replaces it without a continuous trench, drawing a new pipe through the old path from small access pits at each end. Whether a given line can be lined or must be burst comes down to its actual condition, which is why every job should begin with a camera inspection.</p><p>For a desert city where every drop counts, the leak-sealing side of cured-in-place pipe matters. A jointless liner stops the infiltration and exfiltration that cracked joints allow, keeping groundwater out of the sewer and sewage out of the ground. The homeowner gets a one-day repair; the system gets one less leaking service line.</p><h2>See the Problem Before You Commit</h2><p>A straightforward El Paso contractor will run a camera down the service line first, show you where and how it has failed, and tell you honestly whether trenchless will work or whether a section truly has to be dug. That inspection keeps the repair matched to the real problem instead of defaulting to excavation.</p>",
+  "faq": [
+   [
+    "Who owns the sewer service line at an El Paso home?",
+    "El Paso Water's rules make the customer responsible for the sewer service line from the tap at the main into the property; the utility maintains its collector main."
+   ],
+   [
+    "Are sewer connections inspected in El Paso?",
+    "Yes. El Paso Water's rules state that sewer service connections are installed by the utility or at its direction and inspected by qualified utility personnel. Texas law also requires a licensed plumber."
+   ],
+   [
+    "How large is El Paso's sewer system?",
+    "El Paso Water maintains over 2,300 miles of wastewater lines and is replacing aging force mains and rehabilitating lift stations under long-range system planning."
+   ],
+   [
+    "Can an El Paso service line be repaired without digging?",
+    "Usually. CIPP lining installs a seamless new pipe inside the old one through an access point, and pipe bursting replaces collapsed lines using small pits, keeping most of the property intact."
+   ],
+   [
+    "How do I know which trenchless method I need?",
+    "A camera inspection shows the line's condition. Lining suits cracked or leaking but continuous pipe; pipe bursting suits collapsed or undersized lines."
+   ]
+  ],
+  "facts": {
+   "lateral_ownership": {
+    "value": "El Paso Water rules define the sewer service connection as extending to or beyond the property line; the customer furnishes and maintains the service line from the tap at the main into the property.",
+    "source": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6843404/File/Our%20Water/Resources/EPWU_Rules_Regulations.pdf"
+   },
+   "utility_program": {
+    "value": "El Paso Water maintains over 2,300 miles of wastewater lines and is replacing major force mains and rehabilitating lift stations under long-range planning.",
+    "source": "https://www.epwater.org/our-water/wastewater"
+   },
+   "licensing": {
+    "value": "Texas requires a state plumbing license; a responsible master plumber supervises the work and obtains permits, and workers must hold a current license or registration.",
+    "source": "https://tsbpe.texas.gov/license-types/responsible-master-plumber/"
+   },
+   "housing_age": {
+    "value": "Close to 19% of El Paso homes were built before 1960 (U.S. Census ACS, Table B25034).",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6843404/File/Our%20Water/Resources/EPWU_Rules_Regulations.pdf",
+   "https://www.epwater.org/our-water/wastewater",
+   "https://tsbpe.texas.gov/license-types/responsible-master-plumber/",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Arlington": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/arlington",
+  "metaTitle": "Arlington, TX Sewer Lateral Repair & Trenchless CIPP",
+  "metaDescription": "Arlington's code makes the owner responsible for the sewer line into the right-of-way up to the main, and the city uses CIPP lining. See the rules and trenchless options.",
+  "article": "<h2>In Arlington, Your Line Runs to the Main</h2><p>Arlington's code sets an ownership boundary that surprises many homeowners. Under the city's Water and Sewer chapter, the property owner is responsible for maintaining the sanitary sewer service line located on their property and within the street right-of-way or easement, up to and including the point of connection to the main. In other words, your responsibility does not stop at the property line; it follows the pipe all the way to the city main. The code does provide that where structural failures recur in the right-of-way portion, the city may repair that stretch at a cost set by resolution, but the baseline duty is the owner's.</p><h2>The City Itself Relies on Trenchless Lining</h2><p>Arlington is not new to trenchless work. Arlington Water Utilities completed a project in southwest Arlington that rehabilitated a 24-inch sanitary sewer main with cured-in-place pipe lining under a contract of more than a million dollars, done specifically to reduce the likelihood of future main failures. The city has also drawn on state water financing, including a multimillion-dollar Clean Water State Revolving Fund loan, to relocate wastewater pipelines threatened by soil erosion near creeks. When the utility chooses CIPP to protect its own mains, the case for lining a private lateral is easy to see.</p><h2>Permits and Licensed Plumbers</h2><p>Because an Arlington lateral extends into the right-of-way, permitting matters. The city's right-of-way management rules require a permit before construction in a public right-of-way, which is exactly where a lateral meets the main. On the private side, plumbing permits run through the city's development services, and Texas law requires that the work be done by a state-licensed plumber. A repair that reaches the main is both a plumbing job and a right-of-way job, and a competent contractor handles both.</p><h2>Why Arlington Sewer Lines Fail</h2><p>Ground movement and erosion are recurring culprits in the area. The state-financed pipeline relocations targeted mains near waterways threatened by soil erosion, the same kind of ground instability that stresses private lines. Add North Texas's expansive clay, decades of root intrusion, and aging pipe, and the result is the familiar progression from a slow drain to a chronic backup. Because an Arlington owner's responsibility runs to the main, a failure out in the right-of-way is often the homeowner's to address.</p><p>Much of the city's pipe is simply old. While only about 8 percent of Arlington homes predate 1960 by Census figures, the mid-century and later building boom means a very large block of laterals is now fifty years old or more, aging in the same shifting ground the city is spending millions to stabilize.</p><h2>Trenchless CIPP Lining From House to Main</h2><p>A lateral that runs all the way to the main is exactly the kind of line where avoiding a trench pays off, since digging would otherwise cross the yard and into the right-of-way. Cured-in-place pipe installs a seamless new pipe inside the old one through an existing access point, sealing separated joints and cracks along the whole run without opening the ground above it. For most homes the job is finished in a day, and the new liner resists the root intrusion that plagues older joints.</p><p>Arlington is putting real money behind its collection system. Beyond the CIPP rehabilitation of a 24-inch main, the city drew a Clean Water State Revolving Fund loan of over sixteen million dollars to relocate roughly two miles of wastewater force main and build two new lift stations, work driven by mains near creeks threatened by soil erosion. That same erosion and ground movement stresses the private laterals that, under Arlington's code, run all the way to the main.</p><h2>Pipe Bursting for Failed Runs</h2><p>Where a section has collapsed or must be upsized, pipe bursting pulls a new pipe through the old alignment from small access pits, again avoiding a continuous trench across the yard and right-of-way. Given that an Arlington lateral can be long, minimizing excavation is a real advantage. A camera inspection determines whether the line can be lined or must be burst.</p><p>Because an Arlington lateral can run a long distance to the main, the case for trenchless is even stronger than usual: open-trenching that length would tear across the yard and into the right-of-way. A cured-in-place liner renews the entire run through one access point, and the homeowner avoids excavating ground the city is separately spending millions to stabilize.</p><h2>Get It on Camera First</h2><p>With responsibility running to the main, an Arlington homeowner has every reason to know precisely where a line has failed before authorizing work. A camera inspection pinpoints the defect, shows whether it sits on the property or in the right-of-way, and tells you honestly which method fits, so you are not paying to open ground that did not need it.</p>",
+  "faq": [
+   [
+    "Where does my sewer responsibility end in Arlington?",
+    "Arlington's Water and Sewer chapter makes the owner responsible for the service line on the property and within the right-of-way or easement, up to and including the point of connection to the main."
+   ],
+   [
+    "Does the city ever repair the right-of-way portion?",
+    "The code provides that where structural failures recur in the right-of-way portion, the city may repair that stretch at a cost set by resolution to the property owner, but the baseline duty is the owner's."
+   ],
+   [
+    "Does Arlington use trenchless lining?",
+    "Yes. Arlington Water Utilities rehabilitated a 24-inch sanitary sewer main with CIPP lining under a contract over a million dollars, and has used state loans to relocate erosion-threatened mains."
+   ],
+   [
+    "Do I need a permit for sewer work in Arlington?",
+    "Work in the public right-of-way requires a permit under the city's right-of-way management rules, private-side plumbing permits run through development services, and Texas law requires a licensed plumber."
+   ],
+   [
+    "Can a long Arlington lateral be repaired without a trench?",
+    "Usually. CIPP lining rebuilds the pipe from the inside through an access point along its whole run, and pipe bursting replaces collapsed sections using small pits, avoiding a trench across the yard and right-of-way."
+   ]
+  ],
+  "facts": {
+   "lateral_ownership": {
+    "value": "Arlington City Code (Water & Sewer): the owner maintains the sewer service line on the property and within the right-of-way or easement up to and including the point of connection to the main.",
+    "source": "https://www.arlingtontx.gov/files/assets/city/v/4/city-secretary/documents/city-code-of-ordinances/water-and-sewer-chapter.pdf"
+   },
+   "utility_program": {
+    "value": "Arlington Water Utilities rehabilitated a 24-inch sanitary sewer main with CIPP lining under a contract exceeding $1 million to reduce future main failures.",
+    "source": "https://www.arlingtontx.gov/News-Articles/2023/April/City-Completes-Sewer-Main-Rehab-in-Southwest-Arlington"
+   },
+   "erosion": {
+    "value": "Texas Water Development Board financing relocated Arlington wastewater pipelines near major waterways threatened by soil erosion.",
+    "source": "https://texaswaternewsroom.org/pressreleases/2024-10-17_arlington.html"
+   },
+   "row_permit": {
+    "value": "Arlington's right-of-way management rules require a permit before construction in a public right-of-way; Texas law requires a state-licensed plumber for the plumbing.",
+    "source": "https://www.arlingtontx.gov/files/assets/city/v/2/city-secretary/documents/city-code-of-ordinances/right-of-way-management-chapter.pdf"
+   },
+   "housing_age": {
+    "value": "About 8% of Arlington homes predate 1960 (U.S. Census ACS, Table B25034); most laterals date to the later building boom.",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://www.arlingtontx.gov/files/assets/city/v/4/city-secretary/documents/city-code-of-ordinances/water-and-sewer-chapter.pdf",
+   "https://www.arlingtontx.gov/News-Articles/2023/April/City-Completes-Sewer-Main-Rehab-in-Southwest-Arlington",
+   "https://texaswaternewsroom.org/pressreleases/2024-10-17_arlington.html",
+   "https://www.arlingtontx.gov/files/assets/city/v/2/city-secretary/documents/city-code-of-ordinances/right-of-way-management-chapter.pdf",
+   "https://tsbpe.texas.gov/wp-content/uploads/2017/08/Plumbing-License-Law_Effective-9.1.pdf",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Plano": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/plano",
+  "metaTitle": "Plano, TX Sewer Lateral Repair & Trenchless CIPP",
+  "metaDescription": "Plano's wastewater is treated by NTMWD and its mains are aging past 40 years on North Texas clay. See who handles the private lateral and how trenchless CIPP lining works.",
+  "article": "<h2>Plano's Wastewater Is a Two-Part System</h2><p>Understanding sewer repair in Plano starts with how the system is organized. The City of Plano owns and operates the local wastewater collection lines, but the wastewater itself is treated regionally: Plano's own water management plan states plainly that the city does not own or operate its own wastewater treatment plants and that the wastewater is treated by the North Texas Municipal Water District. So the mains under Plano streets are the city's, the treatment is regional, and the private lateral running from your house to the city main is yours. That division matters when a backup happens, because the fix belongs to whoever owns the failing segment, and on the private side that is the homeowner.</p><h2>Aging Mains on a Newer City's Clock</h2><p>Plano is a comparatively young suburb, but young is relative underground. The city has moved to replace mains that are over forty years old, committing millions to fully replace large-diameter lines that have reached the end of their capacity and condition. If the city's own trunk lines are aging out at forty-plus years, the private laterals installed alongside those neighborhoods are on the same clock. A homeowner in an established Plano subdivision is often sitting on original pipe that has quietly been deteriorating for decades.</p><h2>North Texas Clay Works on Every Buried Pipe</h2><p>Plano sits in the Blackland Prairie, the same expansive-clay belt that runs through Dallas and Fort Worth. These clays swell when wet and shrink when dry, and that seasonal movement flexes buried pipe until joints separate and older sections crack. It is a slow, cumulative process: each wet-dry cycle nudges the pipe a little further out of true, and eventually a joint opens enough for roots and for the slow settling that turns into a backup. Newer neighborhoods are not immune; clay does not check a home's build date.</p><h2>Permits and Licensed Plumbers</h2><p>Plano adopts modern building and plumbing codes, which require permits for plumbing work, and Texas law independently requires that a state-licensed plumber perform the job. The Occupations Code allows only a properly licensed plumber to engage in plumbing and reaches the piping that carries waste out to the sewer service lateral at the curb, street, or alley. A legitimate Plano repair is permitted and performed by a licensed plumber who can inspect and warranty the work.</p><p>Plano's age profile hides the risk. Barely 1 percent of homes predate 1960 by Census figures, yet the city's earliest subdivisions are precisely where original laterals are now reaching the end of their service life, the same forty-plus-year mark that has the city replacing its own mains.</p><h2>Trenchless CIPP Lining Under Plano Yards</h2><p>Replacing a deteriorated lateral no longer means trenching a manicured Plano yard. Cured-in-place pipe installs a seamless new pipe inside the old one through an existing access point, sealing the joints that clay movement and roots have opened. There is typically no excavation along the pipe's length, so the lawn, landscaping, and driveway stay intact, and most residential jobs finish in a day. On expansive soil, leaving the ground undisturbed is itself a benefit, since a long open trench disturbs more of the clay already stressing the line.</p><p>Plano is already replacing its aging trunk lines. The city committed roughly $14.4 million to fully replace about 1.3 miles of 36- and 42-inch mains described as over forty years old, a reminder that even a comparatively young suburb has infrastructure reaching the end of its life. The private laterals installed alongside those first subdivisions are on the same forty-year clock, and they are the homeowner's to renew.</p><h2>Pipe Bursting When a Line Has Given Out</h2><p>Where clay movement or age has collapsed a lateral, or where a line needs to be upsized, pipe bursting replaces it without a continuous trench, pulling a new pipe through the old path from small pits. The city uses full replacement on its worst mains; on the private side, bursting achieves the same result without tearing up the yard. A camera inspection determines which method a given line needs.</p><p>Because Plano's newer image can mask older pipe, the value of a camera inspection is high: it separates a simple clog from a structural failure before any money is spent. When the line is a candidate, a cured-in-place liner renews it in a day without trenching the landscaped yards Plano is known for, and the jointless result resists the clay movement that opened the pipe in the first place.</p><h2>Diagnose Before You Dig</h2><p>Because Plano's newer look can hide older pipe, a camera inspection is the honest starting point. It shows the true condition of the lateral, whether lining or bursting fits, and whether any section genuinely has to be excavated, so the repair is sized to the real problem rather than a worst-case assumption.</p>",
+  "faq": [
+   [
+    "Who treats Plano's wastewater?",
+    "Plano owns and operates its local collection lines, but its water management plan states the city does not own treatment plants and the wastewater is treated by the North Texas Municipal Water District."
+   ],
+   [
+    "Who is responsible for my sewer lateral in Plano?",
+    "The private lateral from your house to the city main is the homeowner's responsibility; the city owns the collection mains. Texas law requires a licensed plumber to repair the lateral."
+   ],
+   [
+    "Why would a newer city like Plano have sewer problems?",
+    "Plano has moved to replace mains over 40 years old, and it sits on Blackland Prairie expansive clay that flexes and cracks buried pipe. Private laterals in established neighborhoods age on the same timeline."
+   ],
+   [
+    "Do I need a permit and licensed plumber in Plano?",
+    "Yes. Plano adopts modern codes requiring plumbing permits, and Texas law requires a state-licensed plumber to perform sewer work."
+   ],
+   [
+    "Can a Plano lateral be repaired without digging?",
+    "Usually. CIPP lining rebuilds the pipe from the inside through an access point, avoiding a trench across the yard, and pipe bursting replaces collapsed lines using small pits."
+   ]
+  ],
+  "facts": {
+   "regional_treatment": {
+    "value": "Plano's water management plan states the city does not own or operate wastewater treatment plants; the wastewater is treated by the North Texas Municipal Water District (NTMWD).",
+    "source": "https://content.civicplus.com/api/assets/a6d0f119-7afa-4905-9fe6-5051d1be6058"
+   },
+   "expansive_clay": {
+    "value": "Plano lies in the Blackland Prairie expansive-clay belt whose shrink-swell soils flex and crack buried pipe, the same soils affecting Dallas and Fort Worth.",
+    "source": "https://www.twdb.texas.gov/conservation/education/doc/tx_State_soil.pdf"
+   },
+   "licensing": {
+    "value": "Texas Occupations Code 1301.351 allows only a properly licensed plumber to engage in plumbing; the definition covers piping to the sewer service lateral at the curb, street, or alley.",
+    "source": "https://tsbpe.texas.gov/wp-content/uploads/2017/08/Plumbing-License-Law_Effective-9.1.pdf"
+   },
+   "housing_age": {
+    "value": "Barely 1% of Plano homes predate 1960 (U.S. Census ACS, Table B25034); its earliest subdivisions hold the oldest laterals.",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://content.civicplus.com/api/assets/a6d0f119-7afa-4905-9fe6-5051d1be6058",
+   "https://www.plano.gov/2286/Building-Codes-Ordinances",
+   "https://www.twdb.texas.gov/conservation/education/doc/tx_State_soil.pdf",
+   "https://tsbpe.texas.gov/wp-content/uploads/2017/08/Plumbing-License-Law_Effective-9.1.pdf",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Garland": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/garland",
+  "metaTitle": "Garland, TX Sewer Lateral Repair & Trenchless CIPP",
+  "metaDescription": "Garland sits on Blackland expansive clay that cracks sewer laterals, and each lot is served by a branch line to the main. See the rules and how trenchless CIPP lining works.",
+  "article": "<h2>Every Garland Lot Has a Sewer Branch to the Main</h2><p>Garland's development code is explicit that each lot gets its own sanitary sewer service. The city's subdivision rules require the complete wastewater system to be installed, including mains, manholes, cleanouts, and wye branches with laterals from the main to the property line for all lots, and they require a branch sewer service of at least four inches for each lot. That is the pipe that carries waste from your house out to the Garland main, and once it is in the ground it becomes the line a homeowner lives with, and eventually has to maintain, for the life of the property.</p><h2>Blackland Clay Is Hard on Garland Pipe</h2><p>Garland lies squarely in the Blackland Prairie, on Houston Black clay, the same expansive soil that underlies much of North Texas. Soil scientists describe these clays as swelling during wet cycles and shrinking during dry ones, cracking so severely when dry that fissures can open inches wide and a foot deep. That relentless shrink-swell motion is one of the leading reasons buried sewer laterals fail here: it pries pipe joints apart, cracks older clay and cast-iron sections, and creates the openings that roots and settling exploit. A Garland lateral does not have to be ancient to have taken years of this abuse.</p><h2>Licensed Plumbers and Permitted Work</h2><p>Whoever repairs a Garland sewer line has to be qualified under Texas law. The Occupations Code, administered by the Texas State Board of Plumbing Examiners, allows only a responsible master plumber or a properly licensed and supervised worker to engage in plumbing. Sewer work generally requires a permit and inspection through the city as well. The safe rule for a homeowner is to use a licensed plumber who pulls the required permits, so the repair is legal, inspected, and warrantable.</p><h2>How a Garland Sewer Line Fails</h2><p>The pattern is consistent. Clay movement opens a joint or cracks a section; roots follow the moisture into the gap; solids begin to catch where the pipe has lost its slope; and drains that once ran clear start to gurgle and back up. Because the failure is structural and gradual, homeowners often treat the early symptoms as simple clogs, clearing them again and again until it becomes clear the pipe itself is the problem. At that point, a camera inspection usually reveals damage that has been developing for years.</p><p>Garland's housing is squarely mid-century. Census figures show more than a quarter of its homes were built between 1940 and 1969, putting a large share of the city's laterals well past fifty years old, decades of shrink-swell clay working on original pipe.</p><h2>Trenchless CIPP Lining Instead of a Trench</h2><p>Restoring a failing Garland lateral does not require excavating the yard. Cured-in-place pipe installs a resin liner into the old pipe and cures it into a seamless new pipe within it, sealing the joints and cracks that expansive clay has opened. The liner enters through an existing access point, so the lawn, driveway, and landscaping generally stay intact, and most residential jobs are done in a day. On shifting clay soil, a jointless liner also removes the very seams that ground movement and roots keep reopening.</p><p>Garland's water system is run by City of Garland Water Utilities, covering drinking water, wastewater, pretreatment, and laboratory services, and the city's development code has long required a dedicated four-inch branch to each lot. Those branches, many installed generations ago, are the private laterals homeowners rely on today, and on Blackland clay that can crack open inches wide when dry, decades of movement take their toll.</p><h2>Pipe Bursting for Collapsed Lines</h2><p>When clay movement or age has collapsed a lateral, or when a four-inch branch needs to be upsized, pipe bursting replaces it without a continuous trench, drawing a new pipe through the old path from small access pits. Whether a line can be lined or must be burst depends on its condition, which a camera inspection makes clear before any work is chosen.</p><p>The strength of cured-in-place pipe on Garland's soil is that it removes joints, the exact points where shrink-swell clay separates a pipe. A single jointless liner, installed through one access point in about a day, renews the whole run and denies roots the openings they have exploited, without tearing up a yard that sits on the same restless clay.</p><h2>Look Inside the Pipe First</h2><p>On Garland's clay, the honest first move is a camera inspection. It shows exactly where the lateral has failed, whether trenchless will restore it, and whether any part of the run genuinely has to be dug, so the repair fits the real damage rather than a guess.</p>",
+  "faq": [
+   [
+    "How is each Garland lot connected to the sewer?",
+    "Garland's subdivision code requires wye branches with laterals from the main to the property line for all lots, and a branch sewer service of at least four inches for each lot."
+   ],
+   [
+    "Why do Garland sewer lines crack?",
+    "Garland sits on Blackland Prairie Houston Black clay, which swells when wet and shrinks when dry, cracking severely. That movement pries apart pipe joints and cracks buried sewer lines."
+   ],
+   [
+    "Who can repair a sewer lateral in Garland?",
+    "Texas law allows only a licensed plumber, supervised by a responsible master plumber, to engage in plumbing. Sewer work generally requires a city permit and inspection as well."
+   ],
+   [
+    "Can a Garland lateral be repaired without digging up the yard?",
+    "Usually. CIPP lining installs a seamless new pipe inside the old one through an access point, avoiding a trench, and pipe bursting replaces collapsed lines using small pits."
+   ],
+   [
+    "Does trenchless help with clay-soil damage?",
+    "Yes. A jointless CIPP liner seals the separated joints and cracks that shrink-swell clay opens and removes the seams roots exploit. A camera inspection confirms whether lining or bursting fits."
+   ]
+  ],
+  "facts": {
+   "lot_service": {
+    "value": "Garland's subdivision code requires wye branches with laterals from the main to the property line for all lots, with a branch sewer service of at least four inches per lot.",
+    "source": "https://ecode360.com/40083186"
+   },
+   "expansive_clay": {
+    "value": "Garland lies on Blackland Prairie Houston Black clay that swells when wet and shrinks when dry, cracking severely and stressing buried pipe.",
+    "source": "https://www.soils4teachers.org/files/s4t/k12outreach/tx-state-soil-booklet.pdf"
+   },
+   "licensing": {
+    "value": "Texas Occupations Code 1301.351 allows only a responsible master plumber or a properly licensed, supervised worker to engage in plumbing.",
+    "source": "https://texas.public.law/statutes/tex._occ._code_section_1301.351"
+   },
+   "utility": {
+    "value": "The utility is City of Garland Water Utilities, covering drinking water, wastewater, pretreatment and laboratory services.",
+    "source": "https://garlandwater.com/530/Water-Utilities"
+   },
+   "housing_age": {
+    "value": "More than 25% of Garland homes were built 1940-1969 (U.S. Census ACS, Table B25034).",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://ecode360.com/40083186",
+   "https://www.soils4teachers.org/files/s4t/k12outreach/tx-state-soil-booklet.pdf",
+   "https://texas.public.law/statutes/tex._occ._code_section_1301.351",
+   "https://garlandwater.com/530/Water-Utilities",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ },
+ "Corpus Christi": {
+  "state": "Texas",
+  "url": "/cipp-contractor/texas/corpus-christi",
+  "metaTitle": "Corpus Christi, TX Sewer Repair & Trenchless CIPP",
+  "metaDescription": "Corpus Christi is spending $600M under a federal consent decree and uses pipe bursting and CIPP lining. See the rules, the coastal-corrosion problem, and trenchless options.",
+  "article": "<h2>Corpus Christi's Sewers Are Under a Federal Consent Decree</h2><p>Corpus Christi is in the middle of one of the larger sewer overhauls on the Texas coast. Under a Clean Water Act consent decree entered in 2020 with the EPA and the Department of Justice, the city is spending roughly $600 million over fifteen years to fix a system of more than 1,250 miles of sewer pipe and about 100 lift stations, and it paid a civil penalty of over a million dollars split with the state. The city's Save My Sewer program reports a 92 percent reduction in sanitary sewer overflows since 2012. That is the context every homeowner should understand: the public network is being rebuilt on a mandate, and the private lines tied into it are aging alongside it.</p><h2>The Coast Is Corrosive, and the Pipe Shows It</h2><p>What makes Corpus Christi distinct is the environment its pipe lives in. The city's wastewater master planning describes facilities that have needed repeated rebuilding because of the harsh coastal, corrosive environment, with much of the reconstruction happening in just the last several years. The collection system also struggles with inflow and infiltration, where groundwater and stormwater leak into cracked pipe and joints and overwhelm the lines. Salt air, corrosive soils, and a high water table are hard on buried sewer pipe in a way inland cities do not face, and private laterals corrode and crack on the same coast.</p><h2>The City Already Uses Pipe Bursting and CIPP</h2><p>Corpus Christi's own capital program leans on the same trenchless methods a homeowner would use. Its recent wastewater capital plan, totaling well over a hundred million dollars in a single year, includes replacing tens of thousands of feet of gravity sewer line by pipe bursting and cured-in-place-pipe lining of wastewater lines, and the consent-decree program has cleaned hundreds of miles of sewer and inspected hundreds more. When the city rebuilds its mains by bursting and lining rather than open excavation, it validates those same methods for the service line at your house.</p><h2>Permits, Right-of-Way, and Licensed Plumbers</h2><p>Corpus Christi requires permits to work in the city's right-of-way, which is where a lateral reaches the public main, and Texas law requires that the plumbing be done by a state-licensed plumber. Between the right-of-way permit and the state license, a proper Corpus Christi sewer repair is credentialed and inspected. Given the consent-decree scrutiny on the system as a whole, doing the work correctly and on the record matters more here than in many cities.</p><p>Age and salt air work together. About 23 percent of Corpus Christi homes were built before 1960 by Census figures, one of the older housing stocks in Texas, so original laterals worn by the coast's corrosive conditions are common across the city.</p><h2>Trenchless CIPP Lining Against Coastal Wear</h2><p>For a corroded or root-infiltrated lateral, cured-in-place pipe is a strong fit. A resin liner is installed into the old pipe and cured into a seamless, corrosion-resistant new pipe within it, entering through an existing access point rather than a trench. The jointless liner also shuts out the inflow and infiltration that plague coastal systems, since it seals the cracks and joints where groundwater was leaking in. Most residential jobs finish in a day, with the yard left intact.</p><p>The consent-decree work in Corpus Christi is already deep underway. Through recent years the program reports cleaning 782 miles of sewer and inspecting 490 more, and its current capital plan includes replacing tens of thousands of feet of gravity line by pipe bursting along with cured-in-place lining of specific wastewater lines. The Save My Sewer program frames this as a fifteen-year effort serving about 325,000 customers, with overflows down 92 percent since 2012.</p><h2>Pipe Bursting for Collapsed Coastal Lines</h2><p>Where corrosion or ground movement has collapsed a line, or where a lateral needs upsizing, pipe bursting replaces it without a continuous trench, exactly as the city does on its mains, pulling a new pipe through the old path from small pits. A camera inspection determines whether a given line can be lined or must be burst and replaced.</p><p>On the coast, the sealing that cured-in-place pipe provides does double duty. A jointless liner not only restores a corroded lateral but shuts out the inflow and infiltration that plague low-lying, high-water-table neighborhoods, the same problem the city is chasing basin by basin on the public side. For the homeowner it is a one-day repair; for the system it is one less leak.</p><h2>Start With a Camera Inspection</h2><p>On the coast, corrosion and infiltration can make a line look worse, or better, than it is from the surface. A camera inspection shows the real condition, whether trenchless will restore it, and whether any section genuinely requires excavation, so the repair is matched to the pipe rather than assumed.</p>",
+  "faq": [
+   [
+    "What is the Corpus Christi sewer consent decree?",
+    "A 2020 Clean Water Act consent decree with the EPA and DOJ under which the city is spending roughly $600 million over 15 years on a system of more than 1,250 miles of sewer, plus a civil penalty over a million dollars."
+   ],
+   [
+    "Why do Corpus Christi sewer lines corrode?",
+    "The city's planning cites a harsh coastal, corrosive environment that has forced repeated facility rebuilds, plus inflow and infiltration where groundwater leaks into cracked pipe. Salt air and corrosive soils accelerate pipe failure."
+   ],
+   [
+    "Does Corpus Christi use trenchless methods?",
+    "Yes. Its wastewater capital program includes replacing gravity sewer line by pipe bursting and cured-in-place-pipe (CIPP) lining, and the consent-decree program has cleaned and inspected hundreds of miles of sewer."
+   ],
+   [
+    "Do I need a permit for sewer work in Corpus Christi?",
+    "Work in the city right-of-way requires a permit, and Texas law requires a state-licensed plumber to perform the plumbing."
+   ],
+   [
+    "Can a corroded coastal lateral be relined?",
+    "Usually. CIPP lining installs a seamless, corrosion-resistant new pipe inside the old one and seals out groundwater infiltration; pipe bursting replaces collapsed lines. A camera inspection confirms which fits."
+   ]
+  ],
+  "facts": {
+   "consent_decree": {
+    "value": "A 2020 EPA/DOJ Clean Water Act consent decree has Corpus Christi spending roughly $600 million over 15 years on more than 1,250 miles of sewer and about 100 lift stations, with a civil penalty over $1.1 million.",
+    "source": "https://epa.gov/enforcement/city-corpus-christi-texas-clean-water-act-settlement"
+   },
+   "trenchless_use": {
+    "value": "Corpus Christi's FY2025 wastewater capital program includes replacing gravity sewer line by pipe bursting and CIPP lining of wastewater lines; the consent-decree program reports a 92% reduction in overflows since 2012.",
+    "source": "https://www.corpuschristitx.gov/media/nwrp3pzd/workshop-1-water-wastewater-1.pdf"
+   },
+   "coastal_corrosion": {
+    "value": "Corpus Christi's wastewater master planning cites a harsh coastal corrosive environment forcing repeated facility rebuilds, plus ongoing inflow and infiltration problems.",
+    "source": "https://static1.squarespace.com/static/6215385733a4e31839ddccb2/t/64df5a8203097576e9422469/1692359301395/Wastewater-Master-Plan-Technical-Memo-August-2023.pdf"
+   },
+   "row_permit": {
+    "value": "Corpus Christi requires permits and licenses to work in the city right-of-way; Texas law requires a state-licensed plumber for the plumbing.",
+    "source": "https://www.corpuschristitx.gov/department-directory/public-works/services/right-of-way-permits/"
+   },
+   "housing_age": {
+    "value": "About 23% of Corpus Christi homes were built before 1960 (U.S. Census ACS, Table B25034).",
+    "source": "https://data.census.gov/table/ACSDT5Y2023.B25034"
+   }
+  },
+  "sources": [
+   "https://epa.gov/enforcement/city-corpus-christi-texas-clean-water-act-settlement",
+   "https://www.corpuschristitx.gov/media/nwrp3pzd/workshop-1-water-wastewater-1.pdf",
+   "https://static1.squarespace.com/static/6215385733a4e31839ddccb2/t/64df5a8203097576e9422469/1692359301395/Wastewater-Master-Plan-Technical-Memo-August-2023.pdf",
+   "https://www.corpuschristitx.gov/department-directory/public-works/services/right-of-way-permits/",
+   "https://texas.public.law/statutes/tex._occ._code_section_1301.351",
+   "https://data.census.gov/table/ACSDT5Y2023.B25034"
+  ]
+ }
+}
