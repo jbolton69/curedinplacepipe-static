@@ -97,6 +97,29 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    // 3) Completed-projects slider: arrows appear only when the cards overflow
+    document.querySelectorAll('[data-project-slider]').forEach(function (slider) {
+        var track = slider.querySelector('.project-slider-track');
+        var prev = slider.querySelector('.project-slider-prev');
+        var next = slider.querySelector('.project-slider-next');
+        if (!track) { return; }
+        function step() {
+            var card = track.querySelector('.project-row');
+            return card ? card.getBoundingClientRect().width + 16 : track.clientWidth * 0.8;
+        }
+        function update() {
+            var overflow = (track.scrollWidth - track.clientWidth) > 4;
+            slider.classList.toggle('has-overflow', overflow);
+            if (prev) { prev.disabled = track.scrollLeft <= 2; }
+            if (next) { next.disabled = track.scrollLeft >= (track.scrollWidth - track.clientWidth - 2); }
+        }
+        if (prev) { prev.addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); }); }
+        if (next) { next.addEventListener('click', function () { track.scrollBy({ left: step(), behavior: 'smooth' }); }); }
+        track.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+    });
 });
 </script>
 
@@ -163,16 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 			<div class="col-lg-7 col-md-7 col-sm-12">
 
-            {# Completed projects in this city by verified installers (one lander per job) #}
-            {% if pg.projects.length %}
-            {% include "partials/project-row-css.njk" %}
-            <h3 style="font-size:20px;" class="mb-3">Completed CIPP projects in {{ pg.city.name }}</h3>
-            <div class="project-rows mb-5">
-                {% for row in pg.projects %}
-                    {% include "partials/project-row.njk" %}
-                {% endfor %}
-            </div>
-            {% endif %}
+            {# Completed CIPP projects moved to a full-width slider below the FAQ (see bottom of page) #}
 
             {# Verified installers serving this city / state #}
             {% if pg.cards.length %}
@@ -324,6 +338,25 @@ document.addEventListener('DOMContentLoaded', function () {
 <!--==================================================-->
 <!-- End  Blog Area -->
 <!--==================================================-->
+
+{# Completed CIPP projects in this city — full-width slider, below the FAQ and above the contact form #}
+{% if pg.projects.length %}
+{% include "partials/project-row-css.njk" %}
+<div class="project-slider-area pt-5 pb-5">
+	<div class="container container2">
+		<h3 class="text-center mb-4" style="font-size:22px;">Completed CIPP projects in {{ pg.city.name }}</h3>
+		<div class="project-slider" data-project-slider>
+			<button type="button" class="project-slider-arrow project-slider-prev" aria-label="Previous projects"><i class="fas fa-angle-left"></i></button>
+			<div class="project-slider-track">
+				{% for row in pg.projects %}
+					{% include "partials/project-row.njk" %}
+				{% endfor %}
+			</div>
+			<button type="button" class="project-slider-arrow project-slider-next" aria-label="Next projects"><i class="fas fa-angle-right"></i></button>
+		</div>
+	</div>
+</div>
+{% endif %}
 
 <div class="contact-form-area mb-5 pt-5">
 	<div class="container pt-5">
