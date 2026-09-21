@@ -71,6 +71,27 @@ eleventyComputed:
     .city-faq details p {
         margin: 8px 0 0;
     }
+
+    /* Bottom "Request A Free Estimate" block. The theme pulls this whole row up 190px to
+       overlap the section above it, and slides the white form box 100px to the left so it
+       sits on top of the inspection photo. On the city pages there is no dark spacer band
+       to absorb either overlap, so both read as crowding (photo crushed under the form,
+       form crushed under the projects slider). Neutralize both hacks so the estimate block
+       is a clean two-column layout: photo left, form right, with a normal gutter between. */
+    .contact-form-area .row.contact-form-top { margin-top: 0; }
+    .contact-form-area .style-two.contact-form-box { margin: 0; }
+    .contact-form-area .contact-form-thumb {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .contact-form-area .contact-form-thumb img {
+        border-radius: 5px;
+        box-shadow: 0 0 30px -5px rgba(0, 0, 0, .15);
+    }
+    @media (max-width: 991px) {
+        .contact-form-area .contact-form-thumb { margin-bottom: 24px; }
+    }
 </style>
 
 <script>
