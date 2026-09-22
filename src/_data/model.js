@@ -415,7 +415,7 @@ const allContractors = [...states]
     return {
       state: st,
       cities: stCities.map((c) => ({ ...c, projectCount: projectCounts[c.id] || 0 })),
-      contractors: installers.map((c) => ({ slug: c.slug, short: c.shortName, url: contractorUrl(c) })),
+      contractors: installers.map((c) => ({ slug: c.slug, short: c.shortName, url: contractorUrl(c), logo: c.logo })),
     };
   })
   .filter((d) => d.cities.length);

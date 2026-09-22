@@ -14,6 +14,12 @@ clickcease: true
 			max-width: 1350px;
 		}
 }
+	/* Verified installer chips (name highlighted, favicon-size logo) */
+	.installer-line { margin: 8px 0 16px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+	.installer-line .lbl { font-weight: 600; color: #333; }
+	.installer-chip { display: inline-flex; align-items: center; gap: 7px; padding: 5px 13px 5px 9px; border: 1.5px solid #fc9615; background: #fff7ec; border-radius: 999px; text-decoration: none; font-weight: 700; color: #1c1c24; font-size: 15px; line-height: 1; transition: background .15s, color .15s, box-shadow .15s; }
+	.installer-chip:hover { background: #fc9615; color: #fff; text-decoration: none; box-shadow: 0 3px 10px rgba(252,150,21,.35); }
+	.installer-chip img { height: 18px; width: 18px; object-fit: contain; display: block; }
 </style>
 
 <div class="breatcumb-area d-flex align-items-center">
@@ -48,12 +54,12 @@ clickcease: true
 			        <h3 style="font-size:22px; border-bottom:2px solid #fc9615; padding-bottom:6px;">{{ d.state.name }}</h3>
 
 			        {% if d.contractors.length %}
-			        <p style="margin:8px 0 12px;">
-			            <b>Verified installer{{ '' if d.contractors.length == 1 else 's' }}:</b>
+			        <div class="installer-line">
+			            <span class="lbl">Verified installer{{ '' if d.contractors.length == 1 else 's' }}:</span>
 			            {% for c in d.contractors %}
-			                <a href="{{ c.url }}">{{ c.short }}</a>{% if not loop.last %}, {% endif %}
+			                <a href="{{ c.url }}" class="installer-chip">{% if c.logo %}<img src="{{ c.logo }}" alt="{{ c.short }} logo">{% endif %}<span>{{ c.short }}</span></a>
 			            {% endfor %}
-			        </p>
+			        </div>
 			        {% endif %}
 
 			        <div class="row">
