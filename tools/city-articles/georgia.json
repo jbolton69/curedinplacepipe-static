@@ -1,0 +1,552 @@
+{
+  "Atlanta": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/atlanta",
+    "metaTitle": "Atlanta, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "In Atlanta the owner is responsible for the whole sewer lateral to the city main, the core has combined sewers, and a federal consent decree still runs to 2027. See where CIPP fits.",
+    "article": "<h2>A Combined Core Wrapped in a Separated City</h2>\n<p>Atlanta's sewers are run by the city's Department of Watershed Management, which operates three water reclamation centers, seven combined sewer overflow treatment facilities, and sixteen pump stations. Most of the city is served by separate pipes that keep sewage and stormwater apart, but the older urban core still carries both in the same line: the combined system covers roughly fifteen percent of the total wastewater service area. That split matters underground, because a leaking pipe in the combined zone adds directly to the flow the city has spent two decades trying to control, while a leak in the separated zone loads the treatment plants with clean water they were never meant to process.</p>\n<h2>The Consent Decrees Still Driving the Work</h2>\n<p>In 1998 Atlanta signed a federal consent decree with the United States, Georgia, and the Upper Chattahoochee Riverkeeper to fix its combined sewer overflows, and a 1999 amended decree extended the obligation to its sanitary system and treatment plants. The program that grew out of those orders rebuilt trunk lines, added deep storage tunnels, and upgraded the reclamation centers, and a later amendment pushed the construction deadline out to 2027. For a property owner, the takeaway is simple: the public side of Atlanta's system is under legal orders to stop leaks and overflows, and the private laterals feeding into it are the part the city cannot fix for you.</p>\n<h2>Your Lateral Is Yours All the Way to the Main</h2>\n<p>Atlanta draws the ownership line further out than many cities. The city's own guidance is that the maintenance and repair of the entire sewer service lateral belongs to the property owner, and the lateral is defined as the run connecting the building to the city sewer. There is no city-maintained segment near the street here, so when a lateral cracks under the yard, the sidewalk, or the pavement, the repair and the bill are the owner's. Knowing that before a backup happens is what lets an Atlanta homeowner plan a fix on their own schedule rather than react to an emergency dig.</p>\n<h2>Permits, Fees, and a Qualified Contractor</h2>\n<p>Sewer work in Atlanta runs through a permit, and the city requires the installation to be done by a qualified contractor rather than whoever owns a shovel. Connection and tap fees are the owner's to pay, and new or expanded connections are reviewed against the capacity of the reclamation center that will receive the flow. In practice, the first move for an Atlanta owner facing a failed lateral is to hire a licensed contractor who pulls the permit, cameras the line, and handles the city's inspection, not to start digging and sort out the paperwork afterward.</p>\n<h2>Why One Sealed Lateral Eases the Whole Basin</h2>\n<p>Every gallon of groundwater that seeps into a cracked Atlanta lateral has to go somewhere downstream. In the combined core it helps push an overflow toward the Chattahoochee or the South River; in the separated neighborhoods it travels to a reclamation center and takes up capacity that treated sewage should have. That is exactly the infiltration the consent-decree tunnels and storage tanks were built to catch at the system scale. An owner who reseals a cracked service line does that same work at the property line, and on a combined block it is some of the highest-value pipe in the city to renew.</p>\n<h2>Where Cured-in-Place Lining Earns Its Keep</h2>\n<p>Cured-in-place pipe renews a lateral without trenching the whole run. A resin-saturated liner is drawn into the old pipe and cured hard, whether by steam, hot water, or an ultraviolet light train, into a seamless new wall bonded inside the host that closes the cracks and root openings the leaks were using. On Atlanta's paved, tree-lined lots that is often the practical choice: instead of cutting a trench across a city street or a mature front yard and rebuilding it, a contractor reaches the line through one or two access points and cures the liner in a matter of hours, and the pipe in the ground is rebuilt where it lies, with the infiltration the system can least afford shut off. Lining does depend on a pipe that still holds its shape, though: a lateral that has collapsed, pulled apart at an offset joint, or bellied into a low spot has to be burst out or dug up, so an honest contractor scopes the line with a camera before promising a liner.</p>\n<h2>Old Enough to Leak: Atlanta's Housing Underground</h2>\n<p>Atlanta counts about 259,000 housing units, and while a building boom since 2000 gave nearly four in ten of them a recent construction date, the older stock is where the sewer trouble lives. About twelve percent of the city's homes predate 1940 and roughly a quarter predate 1960, concentrated in the intown neighborhoods that also sit over the combined system. The clay and early cast-iron laterals laid beside those houses have spent decades cracking at the joints and admitting roots. Because those runs are usually still round and structurally sound, they are frequently the ones a liner can renew without a full excavation.</p>",
+    "faq": [
+      [
+        "Who is responsible for a sewer lateral repair in Atlanta?",
+        "The property owner. The City of Atlanta's guidance is that maintenance and repair of the entire sewer service lateral, from the building to the city main, is the owner's responsibility, with no city-maintained segment near the street."
+      ],
+      [
+        "Do I need a permit to repair a sewer line in Atlanta?",
+        "Yes. A permit is required and the work must be done by a qualified contractor. Connection and tap fees are the owner's, and new connections are reviewed against the receiving reclamation center's capacity. A licensed contractor should pull the permit and handle inspection."
+      ],
+      [
+        "Does Atlanta still have a sewer consent decree?",
+        "Yes. Atlanta operates under federal consent decrees first signed in 1998 for combined sewer overflows and amended in 1999 for its sanitary system; a later amendment extended the construction deadline to 2027. The orders cover the public system, not private laterals."
+      ],
+      [
+        "Is CIPP lining allowed for an Atlanta sewer lateral?",
+        "Trenchless rehabilitation of an existing lateral is a recognized repair, but it still needs a city permit and a qualified contractor. Use one who cameras the line first and confirms the pipe is a good candidate for lining before quoting the job."
+      ],
+      [
+        "Why does sealing my lateral matter in Atlanta?",
+        "Because groundwater leaking into a cracked lateral adds to overflows in the combined core and eats treatment capacity in the separated neighborhoods. Lining the pipe keeps that clean water out of the system the city is under legal orders to control."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Atlanta's sewers are run by the Department of Watershed Management, which operates three wastewater reclamation centers, seven combined sewer overflow treatment facilities, and 16 pump stations.",
+        "source": "https://atlantawatershed.org/office-of-water-treatment-and-reclamation/"
+      },
+      "lateral": {
+        "value": "City of Atlanta guidance: maintenance and repair of the entire sewer service lateral, from the structure to the city main, is the property owner's responsibility.",
+        "source": "https://www.atl311.com/en-us/knowledgearticle/?code=KB0013115"
+      },
+      "permit": {
+        "value": "A permit is required, work must be by a qualified contractor, the owner pays sewer tap costs, and new connections are reviewed for reclamation-center capacity.",
+        "source": "https://www.atl311.com/en-US/knowledgearticle/?code=KB0011799"
+      },
+      "consent_decree": {
+        "value": "Atlanta signed a 1998 federal consent decree for combined sewer overflows and a 1999 first amended decree covering its sanitary system; a later amendment extended construction to 2027.",
+        "source": "https://www.epa.gov/enforcement/consent-decree-and-first-amended-city-atlanta-civil-action-file-no198-cv-1956-twt"
+      },
+      "combined_share": {
+        "value": "Atlanta's combined sewer system, which carries sewage and stormwater in one pipe, represents about 15 percent of the total wastewater service area.",
+        "source": "https://www.atlantawatershed.org/wp-content/uploads/2019/10/CEIP-SystemOverview_final.pdf"
+      },
+      "housing_age": {
+        "value": "About 12% of Atlanta's ~259,000 housing units predate 1940 and roughly 26% predate 1960, though nearly 39% were built since 2000 (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://atlantawatershed.org/office-of-water-treatment-and-reclamation/",
+      "https://www.atl311.com/en-us/knowledgearticle/?code=KB0013115",
+      "https://www.atl311.com/en-US/knowledgearticle/?code=KB0011799",
+      "https://cwa.atlantawatershed.org/index.php/frequently-asked-questions/",
+      "https://www.epa.gov/enforcement/consent-decree-and-first-amended-city-atlanta-civil-action-file-no198-cv-1956-twt",
+      "https://www.epa.gov/enforcement/city-atlanta-clean-water-act-settlement",
+      "https://www.atlantawatershed.org/wp-content/uploads/2019/10/CEIP-SystemOverview_final.pdf",
+      "https://data.census.gov/"
+    ]
+  },
+  "Athens": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/athens",
+    "metaTitle": "Athens, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "Athens-Clarke County's code puts building-sewer upkeep on the owner to stop infiltration, requires connection within 200 feet, and runs three Oconee reclamation plants. See how CIPP fits.",
+    "article": "<h2>One County Utility, Three Oconee Plants</h2>\n<p>In Athens the sewer is a single public system run by the Athens-Clarke County Public Utilities Department, which provides collection and treatment to about three-quarters of the population; the rest of the county remains on private septic. Wastewater is cleaned at three reclamation facilities named for their basins, the North Oconee, Middle Oconee, and Cedar Creek plants, and the department brands the process as water reclamation rather than disposal. For a homeowner inside the sewered area, that unified structure means one set of rules governs the pipe under the yard, from who may work on it to what the code expects the owner to keep in repair.</p>\n<h2>The Code Puts Building-Sewer Upkeep on You</h2>\n<p>Athens-Clarke County is unusually direct about private responsibility. Its code requires all sewer users, residential included, to keep their building sewers and other private lines and laterals in good condition, and it ties that duty explicitly to preventing the infiltration and inflow of surface water and groundwater. In other words, the ordinance does not just say the lateral is yours; it says keeping it sealed is part of your obligation to the system. A cracked service line that lets groundwater in is not only your repair to make, it is the specific failure the code names.</p>\n<h2>Connect Within 200 Feet, and Who May Do the Work</h2>\n<p>When a public sewer runs within 200 feet of a property line, the code requires the owner, at the owner's expense, to connect suitable facilities to it, generally within thirty days. The work itself is regulated: a plumber must hold a State of Georgia license and a county business license before working in Athens, and sewer construction or repair in the line to the main is handled by a licensed utility contractor who secures a permit and submits to inspection. For an Athens owner, that means the job starts with a licensed professional and a permit, not with an unpermitted dig toward the street.</p>\n<h2>Keeping Groundwater Out of the Oconee Basins</h2>\n<p>The reason the code frames lateral upkeep around infiltration is that clean water in a sanitary pipe is a real cost here. The Public Utilities Department schedules collection-system improvements, pipe rehabilitation, and sewer evaluation surveys precisely to find defects, blockages, and the infiltration and inflow that swell wet-weather flows to the Oconee plants. Capacity projects across the county, including trunk and interceptor upgrades, exist to move that flow. When an owner seals a leaking lateral, they remove at the parcel the same groundwater the department is chasing across whole sub-basins.</p>\n<h2>A College Town's Flows and a Stadium-Sized Interceptor</h2>\n<p>Athens is shaped by the University of Georgia, which operates its own upstream collection system feeding the county's reclamation works, and the scale of campus and game-day demand shows up in the names of the county's sewer projects, including interceptor improvements serving the Sanford Stadium area. That concentration of flow leaves little slack in the trunk lines, which is one more reason the county works to keep extraneous groundwater out of them. A private lateral that leaks in a densely built central neighborhood adds to a system already carrying heavy peaks.</p>\n<h2>Trenchless Lining Under Athens Streets</h2>\n<p>Cured-in-place lining rebuilds a lateral from the inside. A sleeve carrying liquid resin is set tight against the wall of the old pipe and cured until it sets into a hard, jointless liner that seals the cracks and root paths water was traveling through. On Athens lots, where a lateral can run beneath mature trees, a driveway, or a street the county would rather not see trenched, that approach reaches the run through an access point and renews it in hours instead of days. The existing pipe is restored in place, the infiltration the code targets is closed off, and the surface above stays intact. It is not a fix for every failure, though. A run that has been crushed, sheared apart at an offset, or back-pitched into a standing sag will not seat a liner and instead needs pipe bursting or an open repair, which is one more reason the camera inspection comes first and the honest answer is sometimes that lining will not work.</p>\n<h2>Housing Age and the Pipes Beneath It</h2>\n<p>Athens-Clarke County counts about 56,000 housing units, and although only around five percent predate 1940 and the typical unit dates to the 1980s, the older near-campus and in-town blocks still hold the clay and early cast-iron laterals that fail first. Those are the runs quietly feeding groundwater into a system the county evaluates survey by survey. Because a leaking clay lateral is often still structurally round rather than collapsed, it tends to be exactly the kind of pipe a liner can renew without tearing up the yard or the street to reach it. A camera inspection on the individual lot is what tells a lineable run apart from one too far gone to save.</p>",
+    "faq": [
+      [
+        "Who maintains the sewer lateral in Athens, GA?",
+        "The property owner. Athens-Clarke County's code requires all sewer users, including residential ones, to keep their building sewers and private laterals in good condition, specifically to prevent infiltration and inflow of surface water and groundwater."
+      ],
+      [
+        "When am I required to connect to the public sewer in Athens?",
+        "When a public sewer is within 200 feet of your property line, the code requires you to connect suitable facilities to it at your own expense, generally within about thirty days of the sewer becoming available."
+      ],
+      [
+        "Do I need a licensed plumber for sewer work in Athens?",
+        "Yes. A plumber must hold a State of Georgia license and an Athens-Clarke County business license, and sewer construction or repair to the main is done by a licensed utility contractor who obtains a permit and passes inspection."
+      ],
+      [
+        "Can a sewer lateral be lined instead of dug up in Athens?",
+        "Often, yes. If the host pipe still holds its shape, cured-in-place lining renews it through an access point without trenching the whole run. A contractor should camera the line first to confirm it is a candidate before quoting."
+      ],
+      [
+        "Why does the Athens code care about my lateral leaking?",
+        "Because groundwater seeping into private laterals swells wet-weather flow to the county's Oconee reclamation plants. The code ties lateral upkeep directly to preventing that infiltration, so sealing a cracked line supports the whole system."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "The Athens-Clarke County Public Utilities Department provides sewer collection and treatment to about 75% of the population, treating flow at the North Oconee, Middle Oconee, and Cedar Creek reclamation facilities.",
+        "source": "https://www.accgov.com/1235/Water-Reclamation"
+      },
+      "lateral": {
+        "value": "ACC Code Sec. 5-1-2 requires all sewer users, residential included, to maintain building sewers and private laterals in good condition to prevent infiltration and inflow of surface water and groundwater.",
+        "source": "https://library.municode.com/GA/athens-clarke_county/codes/code_of_ordinances"
+      },
+      "connect": {
+        "value": "Where a public sewer is within 200 feet of the property line, the owner must connect suitable facilities at the owner's expense, generally within 30 days (ACC Code Sec. 5-1-2).",
+        "source": "https://library.municode.com/GA/athens-clarke_county/codes/code_of_ordinances"
+      },
+      "permit_plumber": {
+        "value": "Plumbers need a State of Georgia license plus an ACC business license (Sec. 7-1-167); sewer construction or repair to the main is done by a licensed utility contractor under permit (Sec. 7-1-168).",
+        "source": "https://library.municode.com/GA/athens-clarke_county/codes/code_of_ordinances"
+      },
+      "sss": {
+        "value": "ACC Public Utilities schedules collection-system improvements, pipe rehabilitation, and sewer evaluation surveys to find defects, blockages, and infiltration and inflow.",
+        "source": "https://www.accgov.com/10434/Sewer-Projects"
+      },
+      "housing_age": {
+        "value": "About 5% of Athens-Clarke County's ~56,000 housing units predate 1940 and roughly 13% predate 1960, with the median unit built in the 1980s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://www.accgov.com/1235/Water-Reclamation",
+      "https://library.municode.com/GA/athens-clarke_county/codes/code_of_ordinances",
+      "https://www.accgov.com/10434/Sewer-Projects",
+      "https://www.accgov.com/4472/ACC-Water-Reclamation-Facilities",
+      "https://data.census.gov/"
+    ]
+  },
+  "Augusta": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/augusta",
+    "metaTitle": "Augusta, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "In Augusta the owner maintains the lateral to the property line while the utility takes the right-of-way, a 2025 EPD order targets sewer overflows, and 680 miles of pipe are aging. See how CIPP fits.",
+    "article": "<h2>One Utility, Two Plants, 680 Miles of Pipe</h2>\n<p>Augusta's sanitary sewer is owned and operated by the Augusta Utilities Department, which collects wastewater across the consolidated Augusta-Richmond County government and treats it primarily at the James B. Messerly Water Pollution Control Plant, with a smaller plant at Spirit Creek. The collection network behind those plants is large and aging: roughly 680 miles of gravity and force main serving tens of thousands of residential and commercial accounts. A system that size, much of it decades old, is one where cracked and root-invaded private laterals quietly add groundwater to the flow, which is the backdrop to every repair decision a property owner faces here.</p>\n<h2>The Property Line Splits Who Owns What</h2>\n<p>Augusta draws its ownership line differently from most Georgia cities, and the difference is worth knowing. The Utilities Department's own guidance is that its responsibility for sewer service begins after the property line, in the public right-of-way, while the private sewer service line on the owner's property belongs to the owner. So the buried run across your yard to the property line is yours to maintain and repair, and the segment beyond it, in the right-of-way toward the main, falls to the utility. That boundary decides who pays, and it is the first thing to establish before scheduling any work.</p>\n<h2>Permits, Taps, and a Licensed Utility Contractor</h2>\n<p>Connecting to or tapping the Augusta system is regulated at every step. The city's Title 5 code reserves tapping of the mains to the water and sewer department and makes it an offense to tap without a permit, and it bars service until the proper charges are paid. Where sewer is available within 200 feet, connection is mandatory. The department's standards require that water and sewer infrastructure be built by a contractor holding a current Georgia Utility Contractor's license, with the work approved and inspected by an Augusta Utilities inspector. For an owner, that means a permitted, licensed contractor and a scheduled inspection, not an informal dig.</p>\n<h2>A 2025 Order to Curb Sewer Overflows</h2>\n<p>Augusta's collection system has been under regulatory pressure. In 2025 the city accepted a consent order from the Georgia Environmental Protection Division addressing sanitary sewer overflows from its system, the kind of enforcement action that follows a pattern of spills and pushes a utility toward faster rehabilitation of its worst lines. Executed EPD orders are public record through the division's enforcement files. For a property owner, the order is a signal about the direction of the whole system: the public side is being pressed to stop overflows, and private laterals that leak or back up are the piece the utility's program does not reach.</p>\n<h2>Why Sealing a Lateral Helps an Aging Network</h2>\n<p>Overflows in an old gravity system are driven in large part by infiltration and inflow, the clean groundwater and stormwater that slip into cracked pipe and joints and then have nowhere to go in a heavy rain but up through a manhole or back into a house. Across 680 miles of pipe, the private laterals connecting to it are a major share of the leaking surface. When an Augusta owner reseals a cracked service line on their side of the property line, they take a real slice of that extraneous water out of the system, easing the wet-weather surge the EPD order is meant to reduce.</p>\n<h2>Where Cured-in-Place Lining Fits in Augusta</h2>\n<p>Cured-in-place pipe renews the owner's portion of the lateral without open-cutting the whole yard. A resin-filled liner is worked into the existing pipe and hardened against its wall, forming a continuous new inner pipe that grips the host and seals the cracks and root intrusions the water was using. Because the finished repair reaches from an access point rather than a long trench, it spares driveways, landscaping, and pavement, and it renews the run in hours. On a mature Augusta lot, lining is frequently the least disruptive way to fix the private segment the property-line rule makes the owner's job. Where a lateral has caved in, separated at a broken joint, or sagged into a belly, though, a liner cannot seat, and the pipe has to be burst or excavated instead, so a reputable contractor confirms the run is intact on camera before recommending lining over replacement.</p>\n<h2>Housing Age Across Richmond County</h2>\n<p>Augusta counts about 91,000 housing units, and although a large postwar and later boom means only around two percent predate 1940 and the typical unit dates to the 1980s, roughly one in seven homes was built before 1960. Those older neighborhoods hold the clay and early cast-iron laterals that crack and separate first, and they are the runs most likely to be admitting the groundwater that feeds overflows downstream. Since a leaking clay lateral is often still round rather than collapsed, it is commonly the kind of pipe a liner can rebuild in place instead of replacing by excavation.</p>",
+    "faq": [
+      [
+        "Who owns the sewer lateral in Augusta, GA?",
+        "The split is at the property line. The Augusta Utilities Department's guidance is that its responsibility begins after the property line in the right-of-way, while the private sewer line on the owner's property is the owner's to maintain and repair."
+      ],
+      [
+        "Do I need a permit and a licensed contractor for sewer work in Augusta?",
+        "Yes. Title 5 requires a permit to tap the system and bars unpermitted taps, and the utility's standards require a contractor with a current Georgia Utility Contractor's license, with work approved and inspected by an Augusta Utilities inspector."
+      ],
+      [
+        "Is Augusta under a sewer consent order?",
+        "Yes. In 2025 Augusta accepted a consent order from the Georgia Environmental Protection Division addressing sanitary sewer overflows from its collection system. Executed EPD orders are available through the division's enforcement records."
+      ],
+      [
+        "When is connection to the Augusta sewer required?",
+        "Augusta's Title 5 code makes connection mandatory where the sanitary sewer system is within 200 feet of the property, and the utility can enforce that requirement. Connection and service also depend on paying the proper charges first."
+      ],
+      [
+        "Can my Augusta sewer lateral be lined instead of replaced?",
+        "Usually, if the pipe still holds its shape. Cured-in-place lining renews the owner's portion of the lateral from an access point without trenching the yard. Have the line cameraed first to confirm it is a good candidate."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "The Augusta Utilities Department owns and operates the sanitary sewer, treating flow mainly at the James B. Messerly Water Pollution Control Plant plus the Spirit Creek plant, across roughly 680 miles of collection sewers.",
+        "source": "https://augustaga.gov/DocumentCenter/View/342/Chapter-6-Community-Facilities-and-Services"
+      },
+      "lateral": {
+        "value": "Augusta Utilities: its responsibility begins after the property line in the public right-of-way; the private sewer service line on the owner's property is the owner's responsibility.",
+        "source": "https://www.augustaga.gov/DocumentCenter/View/6505"
+      },
+      "permit": {
+        "value": "Augusta Title 5 reserves tapping of mains to the utility, penalizes tapping without a permit, and bars service until charges are paid; connection is mandatory within 200 feet.",
+        "source": "https://augustaga.gov/DocumentCenter/View/224/Utilities---TITLE-FIVE"
+      },
+      "contractor": {
+        "value": "Augusta Utilities minimum standards: water and sewer infrastructure must be built by a contractor holding a current Georgia Utility Contractor's license, approved and inspected by an AUD inspector.",
+        "source": "https://www.augustaga.gov/DocumentCenter/View/6507/Water-Sanitary-Sewer_2023"
+      },
+      "consent_order": {
+        "value": "In 2025 Augusta accepted a Georgia EPD consent order addressing sanitary sewer overflows from its collection system; executed EPD orders are public through the division's enforcement files.",
+        "source": "https://epd.georgia.gov/rules-laws-enforcement/enforcement"
+      },
+      "housing_age": {
+        "value": "About 2% of Augusta-Richmond County's ~91,000 housing units predate 1940 and roughly 14% predate 1960, with the median unit built in the 1980s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://augustaga.gov/DocumentCenter/View/342/Chapter-6-Community-Facilities-and-Services",
+      "https://www.augustaga.gov/2214/Facilities",
+      "https://www.augustaga.gov/DocumentCenter/View/6505",
+      "https://augustaga.gov/DocumentCenter/View/224/Utilities---TITLE-FIVE",
+      "https://www.augustaga.gov/DocumentCenter/View/6507/Water-Sanitary-Sewer_2023",
+      "https://epd.georgia.gov/rules-laws-enforcement/enforcement",
+      "https://data.census.gov/"
+    ]
+  },
+  "Columbus": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/columbus",
+    "metaTitle": "Columbus, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "Columbus Water Works runs the sewer, the code makes the owner bear all cost of the building sewer, and an award-winning combined-sewer treatment program protects the Chattahoochee. See how CIPP fits.",
+    "article": "<h2>Columbus Water Works and the Chattahoochee</h2>\n<p>Sewer service in Columbus is run by Columbus Water Works, the utility that controls the public sewers and the treatment works across the consolidated Columbus-Muscogee government. Wastewater is treated at the South Columbus Water Resource Facility on the Chattahoochee River, a plant with a hydraulic capacity of 84 million gallons a day that the utility is now replacing with a new adjacent facility as the existing one nears the end of its service life. Everything about repairing a private line here connects back to that river: the system was built to keep the Chattahoochee clean, and a leaking lateral works against that purpose.</p>\n<h2>The Code Makes the Building Sewer Yours</h2>\n<p>Columbus is explicit about cost. Under the city code, all costs and expenses incidental to the installation and connection of the building sewer are borne by the owner, and the building sewer is defined as the line conveying wastewater from the user's premises to the public sewer. That definition runs the owner's pipe all the way to the public main, so a failure anywhere along that run is the owner's to repair and to pay for. The code also has the owner indemnify Columbus Water Works against loss, underscoring that the private connection is squarely the property owner's responsibility.</p>\n<h2>Written Authorization Before Anyone Touches the Sewer</h2>\n<p>The code is equally clear that no one may uncover, connect into, open, alter, or disturb any public sewer without first obtaining written authorization from Columbus Water Works. Connections have to be made gastight and watertight and to conform to the utility's construction specifications, and the finished work is inspected, commercial connections by the utility and residential ones by the building inspection department. For a Columbus homeowner, that means the repair starts with the utility's written go-ahead and ends with an inspection, and a contractor who skips either step is not doing the job to code.</p>\n<h2>An Award-Winning Answer to Combined Sewers</h2>\n<p>Columbus once discharged combined sewage and stormwater to the Chattahoochee, and its response became a point of local pride. Beginning in the mid-1990s the community raised more than 100 million dollars and built a treatment-based solution, capturing and treating combined flows at dedicated facilities rather than simply overflowing them, an approach the utility says earned national recognition from the EPA and dramatically improved river water quality. The program continues, with recent disinfection upgrades at the combined-sewer treatment facilities. That history shapes the local stakes: keeping clean water out of the sewer is how Columbus protects a river that runs through the middle of downtown.</p>\n<h2>Why Infiltration Is the Enemy Here</h2>\n<p>In a system engineered around treating wet-weather flow, every extra gallon of groundwater leaking into a cracked lateral is a gallon the treatment facilities have to handle before it reaches the Chattahoochee. Roots, separated joints, and hairline cracks in an old service line let that clean water in continuously, and the volume climbs with every rain. When an owner seals a leaking lateral, they cut that infiltration at the source, which is precisely the kind of load reduction that keeps a combined-sewer treatment program working and the river protected.</p>\n<h2>Where Cured-in-Place Lining Fits in Columbus</h2>\n<p>Cured-in-place pipe rebuilds a lateral inside the existing line. A liner soaked in resin is inserted into the old pipe and cured until it hardens into a seamless, watertight inner wall that seals off the cracks and root paths, and because the finished connection must be watertight, a properly installed liner meets the code's intent directly. The method reaches the run through an access point rather than a long open trench, so a driveway, a mature yard, or a downtown street stays intact while the pipe underneath is renewed in hours. For many Columbus laterals it is the cleanest way to stop infiltration without excavation. A liner still needs a host pipe that holds its round shape, however: a collapsed, offset, or badly sagging run has to be replaced by bursting or digging, so the camera inspection that precedes the work is what decides which method the pipe can actually take, and a straight contractor will say so when a liner is not the answer.</p>\n<h2>Housing Age and the Laterals Below</h2>\n<p>Columbus counts about 91,000 housing units, and while the median home dates to the 1970s and only around six percent predate 1940, roughly a quarter of the stock predates 1960. Those mid-century and older neighborhoods carry the clay and early cast-iron laterals that crack and admit roots first, and they are the pipes most likely to be leaking groundwater into a system built to protect the Chattahoochee. Because such a lateral is usually still structurally round rather than crushed, it is often an ideal candidate for lining, renewed in place instead of dug out and replaced. The only way to be sure on any given line is to scope it with a camera before choosing a repair.</p>",
+    "faq": [
+      [
+        "Who pays for a sewer lateral repair in Columbus, GA?",
+        "The property owner. The Columbus code states that all costs and expenses incidental to the installation and connection of the building sewer are borne by the owner, and the building sewer runs from the premises all the way to the public main."
+      ],
+      [
+        "Do I need permission to work on the sewer in Columbus?",
+        "Yes. The code prohibits uncovering, connecting into, opening, or disturbing any public sewer without first obtaining written authorization from Columbus Water Works, and connections must be made watertight and then inspected."
+      ],
+      [
+        "Does Columbus have combined sewers?",
+        "Historically, yes. Columbus built a nationally recognized, treatment-based combined-sewer program starting in the mid-1990s, capturing and treating combined flows at dedicated facilities to protect the Chattahoochee rather than overflowing them."
+      ],
+      [
+        "Is trenchless sewer lining allowed in Columbus?",
+        "Yes, where the pipe qualifies. The code requires connections to be watertight, which a properly installed cured-in-place liner achieves. Have the line cameraed and get the utility's authorization before the work begins."
+      ],
+      [
+        "Why does a leaking lateral matter in Columbus?",
+        "Because Columbus treats combined and wet-weather flow to protect the Chattahoochee, and groundwater leaking into cracked laterals adds to that load. Sealing the lateral cuts infiltration at the source and eases the system."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Columbus Water Works owns and operates the public sewers and treats wastewater at the South Columbus Water Resource Facility (84 MGD hydraulic capacity) on the Chattahoochee; a replacement plant is under construction.",
+        "source": "https://www.cwwga.org/Documents/New%20SCWRF%20CMAR%20Invitation.pdf"
+      },
+      "lateral": {
+        "value": "Columbus Code Sec. 13-233: all costs and expenses incidental to the installation and connection of the building sewer are borne by the owner, who indemnifies Columbus Water Works.",
+        "source": "https://library.municode.com/ga/columbus/codes/code_of_ordinances"
+      },
+      "permit": {
+        "value": "Columbus Code Sec. 13-231: no person may uncover, connect into, open, alter, or disturb any public sewer without written authorization from Columbus Water Works; connections must be watertight and inspected.",
+        "source": "https://library.municode.com/ga/columbus/codes/code_of_ordinances"
+      },
+      "cso_program": {
+        "value": "Beginning in the mid-1990s Columbus raised more than $100 million for a treatment-based combined-sewer solution, which the utility reports earned national EPA recognition and greatly improved Chattahoochee water quality.",
+        "source": "https://www.cwwga.org/Documents/CWW_Annual_Report_2021.pdf"
+      },
+      "housing_age": {
+        "value": "About 6% of Columbus's ~91,000 housing units predate 1940 and roughly 23% predate 1960, with the median unit built in the 1970s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://www.cwwga.org/Documents/New%20SCWRF%20CMAR%20Invitation.pdf",
+      "https://library.municode.com/ga/columbus/codes/code_of_ordinances",
+      "https://www.cwwga.org/Documents/CWW_Annual_Report_2021.pdf",
+      "https://www.cwwga.org/Documents/CWW_ANNUAL_REPORT_2024.pdf",
+      "https://data.census.gov/"
+    ]
+  },
+  "Marietta": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/marietta",
+    "metaTitle": "Marietta, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "In Marietta the city utility collects the sewage but Cobb County treats it, a county I&I program has run since 1991, and a permit and licensed contractor are required. See how CIPP fits.",
+    "article": "<h2>A City That Collects, a County That Treats</h2>\n<p>Marietta has an arrangement worth understanding before any sewer work begins: the sewage is collected by the city and treated by the county. Sanitary sewers inside the city are owned and maintained by Marietta Power and Water, the municipal utility run by the Board of Lights and Water, while the wastewater is carried to and cleaned at Cobb County Water System reclamation facilities. The plant serving the Marietta area, the R.L. Sutton Water Reclamation Facility, discharges to the Chattahoochee River under a state permit. Knowing which entity owns which pipe is the starting point for a repair, because it decides who reviews and inspects the work.</p>\n<h2>The Private Building Sewer Is the Owner's</h2>\n<p>Under Marietta's development regulations, sewers built in the public right-of-way or in accepted easements become the property of Marietta Water and are maintained by the utility once formally accepted. What that leaves on the owner's side is the private building sewer serving the house, the lateral connecting the structure to the public system. Like nearly every Georgia jurisdiction, Marietta treats that private connection as the property owner's to keep in repair. When it cracks or backs up, the repair is the owner's job, arranged through a permit and a qualified contractor rather than the utility's maintenance crews.</p>\n<h2>A Permit and a Licensed Contractor</h2>\n<p>Sewer connections in Marietta run through the utility's permit process, and the city's regulations require that utility and sewer construction be performed by contractors licensed under State of Georgia law and local ordinance and approved by Marietta Water. The city's code chapter governing water and sewer permits and connections sets out how a connection is authorized and inspected. In plain terms, a Marietta owner facing a failed lateral hires a licensed contractor who obtains the connection permit, does the work to the utility's standards, and has it inspected, the same sequence whether the fix is a dig or a trenchless liner.</p>\n<h2>Cobb County's Long War on Infiltration</h2>\n<p>Because the county treats Marietta's flow, the county's condition is the region's condition, and Cobb has fought infiltration and inflow for decades. The Cobb County Water System has run a systematic infiltration and inflow program since 1991, monitoring flows across scores of sub-basins and prioritizing rehabilitation of leaking pipe, and its capacity, management, operation, and maintenance program operates under a Georgia EPD consent framework, including an older order addressing aerial stream crossings. The county reinvests heavily each year in sewer rehabilitation. That program stops at the public main, which is exactly where the private lateral, and the owner's responsibility, begins.</p>\n<h2>Why One Lateral Matters to the Basin</h2>\n<p>The infiltration Cobb County chases at the sub-basin scale enters the system one crack at a time, and private laterals are a large share of that leaking surface. A separated joint or a root-split service line lets groundwater seep in continuously, and in a heavy rain the accumulated inflow is what pushes a system toward overflow and drives up the volume the Sutton plant must treat. When a Marietta owner seals a cracked lateral, they remove at the property the same clean water the county's I&I program is working to keep out of the trunk lines downstream.</p>\n<h2>Where Cured-in-Place Lining Fits in Marietta</h2>\n<p>Cured-in-place pipe renews a private lateral without excavating its full length. A resin-carrying liner is drawn into the existing pipe and cured into a hard, jointless inner wall that bonds to the host and shuts off the cracks and root intrusions letting water in. Reached through an access point rather than a long trench, the repair leaves driveways, landscaping, and the street undisturbed and renews the run in hours. On Marietta's established lots, lining is frequently the least invasive way to fix the private building sewer the owner is responsible for, while meeting the utility's permit and inspection requirements. Lining will not rescue a pipe that has already failed structurally, though: a collapsed section, a sharp offset, or a back-pitched sag calls for pipe bursting or excavation, so a good contractor cameras the run and gives the honest verdict before committing to a liner.</p>\n<h2>Housing Age in a Cobb County Suburb</h2>\n<p>Marietta counts about 27,000 housing units, and although the typical home dates to the 1980s and only around two percent predate 1940, roughly eleven percent were built before 1960 in the city's older core near the square. Those are the neighborhoods holding the clay and early cast-iron laterals that crack and admit roots first, feeding groundwater into a system the county spends millions to keep tight. Because a leaking clay lateral is usually still round rather than collapsed, it is commonly a strong candidate for lining, rebuilt in place instead of dug up and replaced. A camera run through the line settles which laterals qualify for a liner and which need digging out.</p>",
+    "faq": [
+      [
+        "Who runs the sewer in Marietta, GA?",
+        "It is split. Marietta Power and Water, the city utility, owns and maintains the sanitary sewer collection inside the city, while Cobb County Water System treats the wastewater at facilities such as the R.L. Sutton Water Reclamation Facility."
+      ],
+      [
+        "Who is responsible for the sewer lateral in Marietta?",
+        "The property owner. Marietta Water maintains accepted sewers in the right-of-way and easements, but the private building sewer connecting the house to the public system is the owner's to repair, through a permit and a qualified contractor."
+      ],
+      [
+        "Do I need a permit and licensed contractor for sewer work in Marietta?",
+        "Yes. Connections run through Marietta Water's permit process, and the city's regulations require utility and sewer construction to be done by a contractor licensed under Georgia law and local ordinance and approved by Marietta Water."
+      ],
+      [
+        "Is Cobb County's sewer system under an infiltration program?",
+        "Yes. Cobb County Water System has run a systematic infiltration and inflow program since 1991 and operates a capacity, management, operation, and maintenance program under a Georgia EPD consent framework, reinvesting heavily in rehabilitation each year."
+      ],
+      [
+        "Can a Marietta sewer lateral be lined instead of replaced?",
+        "Often, if the pipe still holds its shape. Cured-in-place lining renews the private lateral from an access point without trenching. Have the line cameraed first, and use a licensed contractor who handles the utility's permit and inspection."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Sanitary sewer inside Marietta is owned and maintained by Marietta Power and Water (Board of Lights and Water); Cobb County Water System treats the wastewater, with the Marietta area served by the R.L. Sutton Water Reclamation Facility.",
+        "source": "https://www.mariettaga.gov/DocumentCenter/View/911/Complete-Document-PDF"
+      },
+      "treatment": {
+        "value": "The R.L. Sutton Water Reclamation Facility, serving the Marietta/central-Cobb area, discharges to the Chattahoochee River under NPDES permit GA0026140.",
+        "source": "https://www.cobbcounty.gov/water/projects-maintenance/wastewater-treatment-plants"
+      },
+      "lateral": {
+        "value": "Marietta development regulations: sewers in the right-of-way or accepted easements become Marietta Water's to maintain after acceptance; the private building sewer serving the house remains the owner's responsibility.",
+        "source": "https://www.mariettaga.gov/DocumentCenter/View/911/Complete-Document-PDF"
+      },
+      "permit_contractor": {
+        "value": "Marietta requires utility and sewer construction to be performed by a contractor licensed under Georgia law and local ordinance and approved by Marietta Water, under the city's water and sewer permit chapter.",
+        "source": "https://www.mariettaga.gov/DocumentCenter/View/911/Complete-Document-PDF"
+      },
+      "ii_program": {
+        "value": "Cobb County Water System has run a systematic infiltration/inflow program since 1991 and operates a CMOM program under a Georgia EPD consent framework, reinvesting heavily each year in sewer rehabilitation.",
+        "source": "https://www.cobbcounty.gov/water/projects-maintenance/cmom-program"
+      },
+      "housing_age": {
+        "value": "About 2% of Marietta's ~27,000 housing units predate 1940 and roughly 11% predate 1960, with the median unit built in the 1980s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://www.mariettaga.gov/DocumentCenter/View/911/Complete-Document-PDF",
+      "https://www.mariettaga.gov/502/Water",
+      "https://www.cobbcounty.gov/water/your-water/sewer",
+      "https://www.cobbcounty.gov/water/projects-maintenance/wastewater-treatment-plants",
+      "https://www.cobbcounty.gov/water/projects-maintenance/cmom-program",
+      "https://data.census.gov/"
+    ]
+  },
+  "Macon": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/macon",
+    "metaTitle": "Macon, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "The Macon Water Authority makes the owner responsible for the lateral even under the public road right-of-way, charges a $250 tap fee, and runs two Ocmulgee plants. See how CIPP fits.",
+    "article": "<h2>The Macon Water Authority Runs the System</h2>\n<p>Macon's sewers are the province of the Macon Water Authority, an independent authority that operates the public sewer collection and treats the region's wastewater at two reclamation plants in the Ocmulgee River watershed, the Lower Poplar Street facility north of the city and the Rocky Creek facility to the south and west. The authority is well regarded, having been named the state's Collection System of the Year on more than one occasion by the Georgia Association of Water Professionals. That reputation rests on tight operation of the public mains, which makes the condition of the private laterals feeding into them the part homeowners most need to understand.</p>\n<h2>The Owner Pays, Even Under the Street</h2>\n<p>Macon's rule on laterals is stricter than most, and it changes the math on a repair. Under the authority's rules governing use of the public sewers, all costs and expense incident to installing and connecting the building sewer are the owner's, and, unusually, the owner is responsible for repairs to a broken or damaged lateral even where it runs in or under a city or county road or street right-of-way. If the owner does not repair such a break promptly, the authority may do the work and bill it back. So in Macon the property owner's responsibility does not stop at the property line, it follows the lateral all the way to the main, including the segment beneath the pavement.</p>\n<h2>A Written Permit Before Any Work</h2>\n<p>The authority also controls who opens its sewers. Its rules provide that no unauthorized person may uncover, connect into, open, use, alter, or disturb any public sewer without first obtaining a written permit from the director, and the application must include plans and payment of the connection fee, currently 250 dollars to tap the building sewer lateral to the authority system. The work must conform to the building and plumbing codes. For a Macon owner, that means a permitted, plan-reviewed job, and because the owner carries responsibility into the right-of-way, choosing a method that avoids tearing up the street is especially valuable.</p>\n<h2>Keeping Clean Water Out of the Ocmulgee Plants</h2>\n<p>The authority runs a public spill and overflow notification program and reports overflows beyond the state minimum, a sign of how seriously it treats keeping sewage in the pipe and out of the Ocmulgee. Sanitary sewer overflows are driven heavily by infiltration and inflow, the groundwater and stormwater that leak into cracked pipe and surge the system in wet weather. Every private lateral that leaks adds to that burden. When a Macon owner seals a cracked service line, they cut the infiltration at the parcel, supporting the same clean-water goal the authority pursues across its award-winning collection system.</p>\n<h2>Why the Right-of-Way Rule Rewards Trenchless</h2>\n<p>Because a Macon owner is on the hook for the lateral even where it passes under a road, the cost and disruption of a repair in that zone fall on the property, not the government. Open-cutting a street to reach a broken lateral means pavement removal, traffic control, and restoration, all added to the bill. A method that renews the pipe from an access point without opening the road avoids most of that expense. In a city where the responsibility line runs to the main, the ability to fix the buried run without excavating the surface above it is not just tidy, it is a real saving.</p>\n<h2>Where Cured-in-Place Lining Fits in Macon</h2>\n<p>Cured-in-place pipe renews a lateral from the inside without a trench. A resin-soaked liner is drawn into the old pipe and hardened into a continuous, jointless new wall that seals off the cracks and root intrusions the water was exploiting. Because the work is done from an access point instead of open excavation, it can renew a lateral running under a driveway or a public street without tearing up the surface, which matters especially in Macon given the owner's right-of-way responsibility. The pipe already in the ground is restored in hours, and the infiltration feeding overflows downstream is shut off. That said, lining depends on a pipe that is cracked but still round; a collapsed or offset run, or one that has slumped into a belly, needs bursting or an open dig instead, which the required camera inspection will reveal before any work begins.</p>\n<h2>Housing Age Across Macon-Bibb</h2>\n<p>Macon-Bibb County counts about 72,000 housing units, and the stock skews older than much of the metro-Atlanta ring: roughly nine percent predate 1940 and around twenty-seven percent predate 1960, with the typical unit dating to the 1970s. Those older intown neighborhoods hold the vitrified-clay and early cast-iron laterals that split, separate, and draw roots first, and they are the lines most apt to be leaking groundwater into the authority's system. Since such a lateral is usually still round rather than crushed, it is commonly the kind of pipe a liner can renew in place, an especially useful option where the owner is responsible under the street.</p>",
+    "faq": [
+      [
+        "Who is responsible for a sewer lateral in Macon, GA?",
+        "The property owner, and unusually, even where the lateral runs under a public road right-of-way. The Macon Water Authority's rules make the owner responsible for repairs to a broken lateral in the right-of-way, and the authority can bill back work it does."
+      ],
+      [
+        "What does it cost to connect to the Macon sewer?",
+        "The Macon Water Authority charges $250 to tap the building sewer lateral to the authority system, and all costs and expense incident to installing and connecting the building sewer are borne by the owner, on top of any repair cost."
+      ],
+      [
+        "Do I need a permit for sewer work in Macon?",
+        "Yes. The authority's rules require a written permit from the director before any person uncovers, connects into, opens, or disturbs a public sewer, with plans and the connection fee submitted, and the work must meet the building and plumbing codes."
+      ],
+      [
+        "Why is trenchless repair especially useful in Macon?",
+        "Because the owner is responsible for the lateral even under the street, open-cutting the road adds pavement, traffic control, and restoration to the bill. Lining renews the pipe from an access point without excavating the surface, avoiding most of that cost."
+      ],
+      [
+        "Can my Macon sewer lateral be lined instead of dug up?",
+        "Usually, if the host pipe still holds its shape. Cured-in-place lining renews the run through an access point, even under a driveway or road. Have the line cameraed first to confirm it is a candidate before the work is scheduled."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "The Macon Water Authority operates the public sewer collection and treats wastewater at the Lower Poplar Street and Rocky Creek water reclamation facilities in the Ocmulgee River watershed.",
+        "source": "https://maconwater.org/operations/wastewater-operations/water-reclamation-facilities/"
+      },
+      "lateral": {
+        "value": "Macon Water Authority rules: the owner bears all cost of installing/connecting the building sewer and is responsible for repairs to a broken lateral even in a city or county road right-of-way; the authority may repair and bill the owner.",
+        "source": "https://maconwater.org/wp-content/uploads/2023/11/MWA-Rules-Governing-Use-of-Public-Sewers-342010-rev.pdf"
+      },
+      "permit_fee": {
+        "value": "A written permit from the director is required before uncovering or connecting to a public sewer, with plans and fees submitted; the tap of the building sewer lateral to the authority system is $250.",
+        "source": "https://maconwater.org/wp-content/uploads/2023/11/MWA-Rules-Governing-Use-of-Public-Sewers-342010-rev.pdf"
+      },
+      "sso": {
+        "value": "The Macon Water Authority runs a public spill and overflow notification program and reports overflows beyond the state minimum; its collection system has been named Georgia's Collection System of the Year more than once.",
+        "source": "https://maconwater.org/public-information/spill-overflow-notifications/"
+      },
+      "housing_age": {
+        "value": "About 9% of Macon-Bibb County's ~72,000 housing units predate 1940 and roughly 27% predate 1960, with the median unit built in the 1970s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://maconwater.org/operations/wastewater-operations/water-reclamation-facilities/",
+      "https://maconwater.org/wp-content/uploads/2023/11/MWA-Rules-Governing-Use-of-Public-Sewers-342010-rev.pdf",
+      "https://maconwater.org/public-information/spill-overflow-notifications/",
+      "https://data.census.gov/"
+    ]
+  },
+  "Roswell": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/roswell",
+    "metaTitle": "Roswell, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "In Roswell the sewer is run by Fulton County, a certified plumber and $262.50 permit are required for a lateral, and the county already rehabs pipe with CIPP. See how trenchless lining fits.",
+    "article": "<h2>Fulton County, Not the City, Runs the Sewer</h2>\n<p>A point that surprises many Roswell homeowners: the city does not run the sanitary sewer. The City of Roswell operates only a partial drinking-water system, and by its own statement, Fulton County handles all sewer lines. The wastewater is treated at the Big Creek Water Reclamation Facility on Marietta Highway in Roswell, a plant Fulton County has operated for more than fifty years and recently expanded to 32 million gallons a day in a major upgrade, with treated water returned to the Chattahoochee River. So the rules, permits, and inspections for a sewer repair in Roswell come from the county, not city hall.</p>\n<h2>The Lateral Is the Owner's, Through a Certified Plumber</h2>\n<p>Fulton County's requirements put the private lateral on the property owner, carried out by a certified plumber. The county's published requirements for lateral connections describe the lateral as the pipe running from the county main to the first cleanout on the owner's property, laid at a minimum slope, and make it the certified plumber's responsibility to ensure proper gravity flow or install a private pump where needed. The owner pays the county's lateral-connection permit fee, currently 262.50 dollars. The governing law sits in Fulton County's utilities code, but the practical path is clear: the owner's pipe, a certified plumber, and a county permit.</p>\n<h2>A County Permit and Advance Inspection Notice</h2>\n<p>Sewer work in Roswell runs through Fulton County's permitting. A lateral connection requires the county permit and fee, and the certified plumber must notify the county inspector at least three days before installing the lateral so the work can be inspected. Larger jobs, such as extending a main for a development, need a separate utility construction permit from the county's water resources department. For a homeowner, that means the repair begins with a certified plumber pulling the county permit and scheduling the inspection, the same framework whether the fix is an open cut or a trenchless liner.</p>\n<h2>Overflows and an Aging Collection System</h2>\n<p>Fulton County's collection system is large and aging, and it reports sanitary sewer overflows to the state, with spill data published in Georgia EPD's regularly updated sewage-spills report. The county has recorded both major and minor overflows in its quarterly reporting, the kind of wet-weather spills that trace back to infiltration and inflow through cracked pipe and joints. Because Roswell's sewer is a county responsibility that ends at the public main, the private laterals connecting to it, and the groundwater leaking through them, are the piece the county's own crews do not touch, and the part a property owner controls.</p>\n<h2>The County Already Fixes Pipe With CIPP</h2>\n<p>Trenchless repair is not theoretical in Roswell; the county already uses it. Fulton County's public reporting has described rehabilitating thousands of linear feet of sewer with cured-in-place pipe in a single quarter, specifically to stop the wall thinning that lets water and roots infiltrate aging lines. That is the same technology and the same problem at the property scale: a homeowner's cracked lateral is admitting the same groundwater the county lines its mains to exclude. Sealing the private run with a liner extends the county's own approach to the pipe the county does not own.</p>\n<h2>Where Cured-in-Place Lining Fits in Roswell</h2>\n<p>Cured-in-place pipe renews a lateral without excavating its length. A resin-filled liner is inserted into the existing pipe and cured into a hard, seamless inner wall bonded to the host, closing the cracks and root openings the water was using. Reached through an access point rather than a trench, the repair spares driveways, mature landscaping, and pavement and renews the run in hours. Given that Fulton County both requires a certified plumber for the lateral and already relies on lining for its own mains, cured-in-place is a natural, code-consistent fit for the private connections a Roswell owner is responsible for. Lining is not a cure-all, though: a lateral that has collapsed, offset at a break, or dipped into a standing sag cannot hold a liner and needs bursting or excavation, so a certified plumber scopes the pipe on camera before quoting a trenchless fix and will say when one will not hold.</p>\n<h2>Newer Housing, Older Trouble Spots</h2>\n<p>Roswell's housing is comparatively young, about 37,500 units with fewer than one percent predating 1940 and the typical home dating to the 1980s, so most of the city's laterals are relatively modern. The exceptions are the pockets of older housing near the historic square and the earliest subdivisions, where the first-generation service lines have had the most time to crack and take on roots. Those are the runs most likely to be leaking, and because they are usually still structurally round, they are typically good candidates for lining, renewed in place rather than dug out. Scoping the line with a camera is what confirms that on any given property before a method is chosen.</p>",
+    "faq": [
+      [
+        "Who runs the sewer in Roswell, GA?",
+        "Fulton County. The City of Roswell operates only a partial drinking-water system and states that Fulton County handles all sewer lines. Wastewater is treated at the county's Big Creek Water Reclamation Facility in Roswell."
+      ],
+      [
+        "Who is responsible for the sewer lateral in Roswell?",
+        "The property owner, through a certified plumber. Fulton County's requirements describe the lateral from the county main to the first cleanout on the owner's property and make the certified plumber responsible for proper flow; the owner pays the permit fee."
+      ],
+      [
+        "What permit do I need for a sewer lateral in Roswell?",
+        "A Fulton County lateral-connection permit, currently $262.50, and the certified plumber must notify the county inspector at least three days before installing the lateral. Extending a main needs a separate county utility construction permit."
+      ],
+      [
+        "Does Fulton County use trenchless sewer repair?",
+        "Yes. Fulton County has reported rehabilitating thousands of linear feet of sewer with cured-in-place pipe in a single quarter, specifically to stop the wall thinning that lets water and roots infiltrate aging lines."
+      ],
+      [
+        "Can my Roswell sewer lateral be lined instead of replaced?",
+        "Usually, if the pipe still holds its shape. Cured-in-place lining renews the lateral from an access point without trenching. Use a certified plumber who handles the county permit and inspection, and have the line cameraed first."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Fulton County, not the City of Roswell, operates all sewer lines; the City runs only a partial water system. Wastewater is treated at the county's Big Creek Water Reclamation Facility in Roswell, discharging to the Chattahoochee.",
+        "source": "https://www.roswellgov.com/government/departments-division/environmental-public-works/water-utility/"
+      },
+      "lateral": {
+        "value": "Fulton County's lateral-connection requirements describe the lateral from the county main to the first cleanout on the owner's property, with the certified plumber responsible for ensuring gravity flow or a private pump.",
+        "source": "https://www.fultoncountyga.gov/-/media/Forms/Public-Works-Forms/Requirements-for-Lateral-Connections-to-Existing-Sewer-Lines-9-14-21.pdf"
+      },
+      "permit": {
+        "value": "A Fulton County lateral-connection permit fee of $262.50 applies, and the certified plumber must notify the county inspector at least three days before installing the lateral; mains need a separate utility construction permit.",
+        "source": "https://www.fultoncountyga.gov/-/media/Forms/Public-Works-Forms/Requirements-for-Lateral-Connections-to-Existing-Sewer-Lines-9-14-21.pdf"
+      },
+      "cipp_use": {
+        "value": "Fulton County has reported rehabilitating thousands of linear feet of sewer with cured-in-place pipe (CIPP) in a single quarter to stop wall thinning that lets water and roots infiltrate.",
+        "source": "https://www.fultoncountyga.gov/-/media/Services/Public-Education-and-Outreach/Connections-Newsletters/Winter-2021-Connections.pdf"
+      },
+      "housing_age": {
+        "value": "Fewer than 1% of Roswell's ~37,500 housing units predate 1940 and only about 2% predate 1960, with the median unit built in the 1980s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://www.roswellgov.com/government/departments-division/environmental-public-works/water-utility/",
+      "https://www.fultoncountyga.gov/news/2024/09/09/fulton-county-cuts-ribbon-on-newly-renovated-big-creek-reclamation-facility",
+      "https://www.fultoncountyga.gov/-/media/Forms/Public-Works-Forms/Requirements-for-Lateral-Connections-to-Existing-Sewer-Lines-9-14-21.pdf",
+      "https://www.fultoncountyga.gov/-/media/Services/Public-Education-and-Outreach/Connections-Newsletters/Winter-2021-Connections.pdf",
+      "https://epd.georgia.gov/watershed-protection-branch/wastewater/sewage-spills-report",
+      "https://data.census.gov/"
+    ]
+  },
+  "Sandy Springs": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/sandy-springs",
+    "metaTitle": "Sandy Springs, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "Sandy Springs has a split utility: Atlanta provides water while Fulton County runs the sewer under its Chapter 82 code. See who owns the lateral and where trenchless CIPP lining fits.",
+    "article": "<h2>Water From Atlanta, Sewer From Fulton County</h2>\n<p>Sandy Springs runs on an unusual split, and it trips up new homeowners. According to the city's own utilities guidance, the Atlanta Department of Watershed Management provides water service in Sandy Springs, while Fulton County maintains the sewer system. The city, incorporated only in 2005, owns no sanitary sewer of its own; to connect a home to the sewer, residents are directed to Fulton County's water services division. That two-provider arrangement means a sewer question in Sandy Springs is a Fulton County question, governed by the county's utilities code rather than by the city or by Atlanta's watershed department.</p>\n<h2>The County Code Defines Your Lateral</h2>\n<p>Fulton County's utilities code governs sewer service in Sandy Springs, and it frames the private connection through its definitions and cost provisions. The code defines the building sewer, or sewer service lateral, as the extension from the building drain to the public county sewer, which runs the owner's private line from just outside the house all the way to the county main. The code also places the cost of sewer extensions and improvements on developers and property owners and provides for assessing owners a proportionate share of installation costs. Taken together, the ordinance leaves the private lateral, and its upkeep, on the property owner.</p>\n<h2>Permits Run Through Fulton County</h2>\n<p>Because the county owns the sewer, permitting runs through Fulton County Public Works and its development permitting group, where applicants submit plans for connections. The county code ties sewer-related building permits to payment of the required sewerage fees before a permit issues, and it recognizes licensed plumbers in its connection provisions. On the city side, Sandy Springs requires a plumbing permit for residential and commercial plumbing work, with commercial permits pulled by a licensed contractor. In practice, a Sandy Springs owner uses a licensed plumber and clears the county's connection permitting and the city's plumbing permit, then has the work inspected.</p>\n<h2>An Aging County System Along the Chattahoochee</h2>\n<p>Sandy Springs sits in the Chattahoochee River corridor, and its streams drain toward the river, which is why the city's own environmental filings with the state address bacteria and sediment in local watersheds and note distributing guidance in areas of reported sewer overflows. Sanitary sewer overflows in an older county collection system are driven largely by infiltration and inflow, and Fulton County has studied capacity and infiltration reduction across its basins. The county's rehabilitation and capacity work stops at the public main, leaving the private laterals, and the groundwater leaking through them, as the piece a Sandy Springs property owner is responsible for controlling.</p>\n<h2>Why One Sealed Lateral Helps the River</h2>\n<p>In a watershed that drains to the Chattahoochee, keeping clean groundwater out of the sanitary system is both a capacity issue and a water-quality one. A cracked lateral admits groundwater continuously through separated joints and root openings, and in wet weather that inflow is what pushes an old system toward an overflow that can reach a creek bound for the river. When a Sandy Springs owner reseals a leaking service line, they cut that infiltration at the parcel, reducing both the load on Fulton County's mains and the overflow risk to the watershed the city monitors.</p>\n<h2>Where Cured-in-Place Lining Fits in Sandy Springs</h2>\n<p>Cured-in-place pipe rebuilds a private lateral from within. A resin-carrying sleeve is pulled through the failing line and set hard, forming a seamless new pipe that presses against the old wall and shuts the cracks and root paths groundwater was using. Because the crew works from a single access pit instead of open-cutting the whole run, driveways, mature landscaping, and the road stay in place while the line is renewed in a few hours. On Sandy Springs' wooded, hilly lots, where laterals often run long distances to reach the county main, lining is frequently the least disruptive way to fix the private connection the code makes the owner's. It is not right for every pipe, though. A run that has crushed, pulled apart at a joint, or settled into a low spot will not accept a liner and must be burst or dug out, so the camera inspection decides the method, and the honest answer is sometimes excavation.</p>\n<h2>Newer Housing With Deeper Laterals</h2>\n<p>Sandy Springs has some of the youngest housing stock in the region, about 56,000 units with only around half a percent predating 1940 and roughly a third built since 2000, and the typical home dating to the 1980s. Most of the city's laterals are therefore relatively modern, but the postwar and mid-century pockets carry the older clay and early cast-iron service lines that crack and take on roots first. Those are the runs most likely to be leaking, and since one of them usually keeps its round cross-section even as it cracks, it tends to line well instead of needing full replacement.</p>",
+    "faq": [
+      [
+        "Who runs the sewer in Sandy Springs, GA?",
+        "Fulton County maintains the sewer system in Sandy Springs, while the Atlanta Department of Watershed Management provides water service. The city, incorporated in 2005, owns no sanitary sewer, so sewer matters are handled by Fulton County."
+      ],
+      [
+        "Who is responsible for the sewer lateral in Sandy Springs?",
+        "The property owner. Fulton County's code defines the building sewer, or lateral, as the extension from the building drain to the public county sewer and places extension and connection costs on property owners, leaving the private line the owner's to maintain."
+      ],
+      [
+        "What permits do I need for sewer work in Sandy Springs?",
+        "Connections run through Fulton County Public Works development permitting, with fees paid before a related building permit issues. The City of Sandy Springs also requires a plumbing permit, and commercial permits must be pulled by a licensed contractor."
+      ],
+      [
+        "Why does sealing a lateral matter in Sandy Springs?",
+        "Because the city's streams drain to the Chattahoochee, and groundwater leaking into cracked laterals swells Fulton County's system and raises overflow risk in wet weather. Lining a leaking lateral cuts that infiltration at the source."
+      ],
+      [
+        "Can a Sandy Springs sewer lateral be lined instead of dug up?",
+        "Often, if the pipe still holds its shape. Cured-in-place lining renews the private lateral from an access point without trenching, which suits the city's long, wooded lots. Have the line cameraed first to confirm it is a candidate."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "In Sandy Springs, Fulton County maintains the sewer system while the Atlanta Department of Watershed Management provides water; the city, incorporated in 2005, owns no sanitary sewer and directs sewer connections to Fulton County.",
+        "source": "https://www.sandyspringsga.gov/utilities/"
+      },
+      "lateral": {
+        "value": "Fulton County Code Ch. 82 defines the building sewer / lateral as the extension from the building drain to the public county sewer and places extension and connection costs on developers and property owners.",
+        "source": "https://library.municode.com/ga/fulton_county/codes/code_of_ordinances"
+      },
+      "permit": {
+        "value": "Sewer connections run through Fulton County Public Works development permitting, with sewerage fees paid before a related building permit issues; Sandy Springs also requires a plumbing permit, commercial pulled by a licensed contractor.",
+        "source": "https://www.fultoncountyga.gov/services/water-services/development-permitting"
+      },
+      "watershed": {
+        "value": "Sandy Springs' streams drain to the Chattahoochee; the city's EPD-filed plan addresses bacteria and sediment and notes outreach in areas of reported sanitary sewer overflows.",
+        "source": "https://www.sandyspringsga.gov/septic-tank-and-sanitary-sewer/"
+      },
+      "housing_age": {
+        "value": "Only about 0.5% of Sandy Springs' ~56,000 housing units predate 1940 and roughly 6% predate 1960, while about 30% were built since 2000, with the median unit built in the 1980s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://www.sandyspringsga.gov/utilities/",
+      "https://www.sandyspringsga.gov/septic-tank-and-sanitary-sewer/",
+      "https://library.municode.com/ga/fulton_county/codes/code_of_ordinances",
+      "https://www.fultoncountyga.gov/services/water-services/development-permitting",
+      "https://www.sandyspringsga.gov/plumbing-permits/",
+      "https://data.census.gov/"
+    ]
+  },
+  "Savannah": {
+    "state": "Georgia",
+    "url": "/cipp-contractor/georgia/savannah",
+    "metaTitle": "Savannah, GA Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "In Savannah the owner maintains the lateral from the main to the house, a permit is required, and a coastal high water table drives infiltration into old pipe. See how trenchless CIPP fits.",
+    "article": "<h2>A City-Run System on the Coastal Plain</h2>\n<p>Savannah's wastewater is handled by the City of Savannah, whose Water Reclamation Department was established to treat sewage for the city and surrounding areas at the President Street plant and three regional facilities at Georgetown, Wilshire, and Crossroads, while public works crews maintain the collection lines. Sitting on the low, flat coastal plain beside the Savannah River, the system contends with a challenge inland cities do not face to the same degree: a high water table that presses against every buried pipe. That setting makes the condition of private laterals, and the groundwater they can admit, central to how the system performs.</p>\n<h2>The Owner Maintains the Lateral to the Main</h2>\n<p>Savannah's sewer ordinance is direct about the private line. It provides that the owner is responsible for all maintenance of the sanitary sewer lateral from the sanitary sewer main to the house or building, and that all costs and expenses incident to installing and connecting the building sanitary sewer are borne by the owner, who also indemnifies the city. That language runs the owner's responsibility the full length of the lateral, including the portion in the right-of-way between the property and the main. In Savannah, a cracked or root-blocked lateral is the owner's repair from the house all the way to the city sewer.</p>\n<h2>A Permit and a Plumbing-Code Professional</h2>\n<p>The ordinance also controls who may open the system. No person may uncover, connect into, open, use, alter, or disturb any public sanitary sewer without first obtaining a permit from the administrator, and permits are granted only to persons authorized by the plumbing code to do such work. For a Savannah owner, that pairs a permit requirement with a qualified-installer requirement: the repair is done by someone the plumbing code allows to work on the sewer, under a city permit, and to the city's standards, whether the chosen method is an open excavation or a trenchless liner.</p>\n<h2>A High Water Table That Feeds Infiltration</h2>\n<p>Savannah's coastal geology makes infiltration a defining problem. The city has documented how heavy rainfall pushes groundwater levels to extraordinary heights, with downtown, the islands, and the southside seeing rainfall well above normal and groundwater rising accordingly. That high, storm-charged water table seeps into any pipe with a crack or a separated joint, and the city's sewer conveyance staff work year-round to clean lines, rehabilitate old pipe, and make point repairs against exactly that inflow and infiltration. On the coast, a leaking lateral does not just risk a backup; it becomes a steady conduit for groundwater into the sanitary system.</p>\n<h2>Overflows, Rehab, and Ongoing Investment</h2>\n<p>Keeping that water out matters because the system operates under state oversight and real strain. Savannah has reported a major treated-effluent discharge event at the Wilshire facility and works under Georgia EPD requirements, and its capital plans commit millions each year to sewer line rehabilitation and restoration alongside large treatment-plant expansions, including a major upgrade at the Georgetown facility. The public program renews mains and plants, but the private laterals feeding the system are the owner's to keep tight. Sealing a leaking lateral removes at the parcel the same infiltration the city spends heavily to fight across its network.</p>\n<h2>Where Cured-in-Place Lining Fits in Savannah</h2>\n<p>Cured-in-place pipe is well suited to Savannah's conditions because it seals a lateral against groundwater without excavation. A resin-saturated liner is drawn into the existing pipe and cured into a continuous, watertight inner wall bonded to the host, closing the cracks and joints the high water table was exploiting. Reached through an access point rather than a trench, the repair avoids digging through a historic-district street, a mature garden, or a high-water-table yard where an open excavation would quickly fill. The old pipe is renewed in hours, and the infiltration that defines Savannah's sewer challenge is shut out. Lining still needs a host pipe that holds its shape, however; a collapsed, offset, or bellied run cannot be lined and must be burst or excavated instead, and in Savannah's high water table that camera inspection matters all the more before a method is chosen.</p>\n<h2>Savannah's Old Housing and Older Pipe</h2>\n<p>Savannah has some of the oldest housing stock in Georgia's major cities, about 68,000 units with roughly seventeen percent predating 1940 and nearly thirty-eight percent predating 1960, and a typical unit dating to the 1970s. The historic districts and early neighborhoods hold clay and early cast-iron laterals that have spent the better part of a century cracking and pulling apart at the joints, right where the coastal water table can seep in. Because those runs are frequently still structurally round rather than collapsed, they are often exactly the pipes a liner can renew in place, without opening the storied streets above them. A camera inspection confirms which of those century-old runs will take a liner and which have failed too far.</p>",
+    "faq": [
+      [
+        "Who is responsible for the sewer lateral in Savannah, GA?",
+        "The property owner. Savannah's ordinance makes the owner responsible for all maintenance of the sanitary sewer lateral from the main to the house, and for all costs of installing and connecting the building sewer, including the right-of-way portion."
+      ],
+      [
+        "Do I need a permit to work on the sewer in Savannah?",
+        "Yes. The ordinance prohibits uncovering, connecting into, opening, or disturbing any public sanitary sewer without a permit from the administrator, and permits are granted only to persons authorized by the plumbing code to do the work."
+      ],
+      [
+        "Why is infiltration such a problem in Savannah?",
+        "Because Savannah sits on the coastal plain with a high water table. Heavy rain pushes groundwater to extreme levels, and it seeps into any cracked or open-jointed pipe, so a leaking lateral becomes a steady conduit for groundwater into the sewer."
+      ],
+      [
+        "Is trenchless lining a good fit in Savannah?",
+        "Often, yes. Cured-in-place lining seals a lateral against groundwater without excavation, which suits Savannah's high water table and historic streets. Have the pipe cameraed first, and use a permitted, plumbing-code-authorized installer."
+      ],
+      [
+        "Can an old Savannah sewer lateral be lined instead of replaced?",
+        "Usually, if the host pipe still holds its shape. Much of Savannah's stock is clay or early cast iron that cracks but stays round, which lines well. A camera inspection confirms whether the run is a candidate before work is scheduled."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "The City of Savannah's Water Reclamation Department treats wastewater at the President Street plant and regional plants at Georgetown, Wilshire, and Crossroads, while public works crews maintain the collection lines.",
+        "source": "https://www.savannahga.gov/511/Water-Reclamation"
+      },
+      "lateral": {
+        "value": "Savannah Code Sec. 5-2005(d): the owner is responsible for all maintenance of the sanitary sewer lateral from the main to the house; Sec. 5-2007(b): all costs of installing/connecting the building sewer are borne by the owner.",
+        "source": "https://agenda.savannahga.gov/content/files/sewer-use-and-pretreatment-ordinance-changes.pdf"
+      },
+      "permit": {
+        "value": "Savannah Code Sec. 5-2007(a): no person may uncover, connect into, open, or disturb a public sanitary sewer without a permit from the administrator; permits go only to persons authorized by the plumbing code.",
+        "source": "https://agenda.savannahga.gov/content/files/sewer-use-and-pretreatment-ordinance-changes.pdf"
+      },
+      "infiltration": {
+        "value": "Savannah's coastal high water table drives infiltration; the city documented heavy rain pushing groundwater to record highs, and its sewer conveyance staff clean, rehabilitate, and point-repair lines year-round to fight inflow and infiltration.",
+        "source": "https://savannahga.gov/m/newsflash/Home/Detail/3216"
+      },
+      "investment": {
+        "value": "Savannah budgets millions per year for sewer line rehabilitation and restoration alongside major treatment-plant expansions, including a large upgrade at the Georgetown Water Reclamation Facility.",
+        "source": "https://savannahga.gov/4396/Georgetown-Water-Reclamation-Facility-Im"
+      },
+      "housing_age": {
+        "value": "About 17% of Savannah's ~68,000 housing units predate 1940 and roughly 38% predate 1960, with the median unit built in the 1970s (ACS B25034).",
+        "source": "https://data.census.gov/"
+      }
+    },
+    "sources": [
+      "https://www.savannahga.gov/511/Water-Reclamation",
+      "https://agenda.savannahga.gov/content/files/sewer-use-and-pretreatment-ordinance-changes.pdf",
+      "https://www.savannahga.gov/m/newsflash/Home/Detail/3232",
+      "https://savannahga.gov/m/newsflash/Home/Detail/3216",
+      "https://savannahga.gov/4396/Georgetown-Water-Reclamation-Facility-Im",
+      "https://data.census.gov/"
+    ]
+  }
+}
