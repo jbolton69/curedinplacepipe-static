@@ -964,5 +964,28 @@
     "sort": 0,
     "createdAt": "2026-09-03 12:42:26",
     "updatedAt": "2026-09-03 12:42:26"
+  },
+  {
+    "id": 43,
+    "contractorId": 2,
+    "cityId": 21,
+    "slug": "san-juan-capistrano-76-ft-sewer-lined",
+    "title": "76 ft of root-cracked sewer lined in San Juan Capistrano for $9,800",
+    "summary": "Another plumber quoted $18,000 to dig up and replace 76 feet of sewer. After researching CIPP online, the homeowner called TSR — who lined the same root-damaged line for $9,800 in under six hours, with no digging and no damage to the yard.",
+    "body": "<h3>The situation</h3><p>A San Juan Capistrano homeowner had already gotten a quote to fix his failing sewer, and it was a shock: another plumber wanted about $18,000 to excavate and replace roughly 76 feet of sewer line running out to the main. Faced with that number, he went online to research his options and learned about cured-in-place pipe (CIPP) — a trenchless way to rebuild a sewer without digging up the yard. That is when he called TSR.</p><p>Bob from TSR came out the next day and ran a camera down the line. The pipe had not collapsed; it showed two minor offsets, and roots from a large ficus tree in the front yard had found their way in and were prying the line open. A cracked-but-intact pipe like that is a strong candidate for lining.</p><h3>The fix</h3><p>Instead of trenching the front yard, TSR quoted $9,800 to line the full 76-foot run — a little more than half the excavation bid — and scheduled the work just three days out. On the day of the job, the crew cleaned the roots and scale out of the pipe and cured a new resin liner in place through the existing access, sealing the two offsets and shutting the roots out for good.</p><p>The whole repair took under six hours, and it happened while the homeowner was at work. He came home to a brand-new sewer pipe and a front yard exactly as he had left it — no trench, no torn-up landscaping, and no five-figure excavation bill.</p><h3>Why it worked here</h3><p>Getting a second opinion paid off. Because the pipe was cracked and root-infiltrated but still held its shape, it could be relined rather than replaced — which is what turned an $18,000 dig into a same-morning, $9,800 trenchless repair. Not every line qualifies: a collapsed or badly offset pipe still needs bursting or excavation, and running the camera first is what tells the difference.</p>",
+    "serviceType": "CIPP lining",
+    "pipeMaterial": "",
+    "pipeDiameter": "",
+    "footage": "76 ft",
+    "propertyType": "Residential",
+    "completedOn": "2026-09-18",
+    "phone": "(949) 267-3595",
+    "photos": [],
+    "metaTitle": "CIPP Sewer Lining in San Juan Capistrano, CA — $9,800 vs $18,000 Dig | TSR",
+    "metaDescription": "A San Juan Capistrano homeowner was quoted $18,000 to excavate and replace 76 feet of sewer. TSR lined it for $9,800 in under six hours — no trenching, no yard damage.",
+    "status": "published",
+    "sort": 0,
+    "createdAt": "2026-09-21 12:00:00",
+    "updatedAt": "2026-09-21 12:30:00"
   }
 ]
