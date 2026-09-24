@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "eleventy",
+    "postbuild": "node tools/indexnow.mjs --only-on-cloudflare",
     "start": "eleventy --serve",
     "blog:import": "node tools/import-soro.mjs",
-    "check:urls": "node tools/check-urls.mjs"
+    "check:urls": "node tools/check-urls.mjs",
+    "indexnow:all": "node tools/indexnow.mjs --all",
+    "indexnow:dry": "node tools/indexnow.mjs --dry-run"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
