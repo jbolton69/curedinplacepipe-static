@@ -9594,5 +9594,50 @@
       "https://en.wikipedia.org/wiki/Thornton,_Colorado",
       "https://api.census.gov/data/2023/acs/acs5"
     ]
+  },
+  {
+    "id": 145,
+    "stateId": 4,
+    "state": "California",
+    "stateSlug": "california",
+    "name": "Ojai",
+    "slug": "ojai",
+    "url": "/cipp-contractor/california/ojai",
+    "metaTitle": "",
+    "metaDescription": "",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": ""
+  },
+  {
+    "id": 146,
+    "stateId": 4,
+    "state": "California",
+    "stateSlug": "california",
+    "name": "Palm Springs",
+    "slug": "palm-springs",
+    "url": "/cipp-contractor/california/palm-springs",
+    "metaTitle": "",
+    "metaDescription": "",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": ""
+  },
+  {
+    "id": 147,
+    "stateId": 4,
+    "state": "California",
+    "stateSlug": "california",
+    "name": "Hermosa Beach",
+    "slug": "hermosa-beach",
+    "url": "/cipp-contractor/california/hermosa-beach",
+    "metaTitle": "",
+    "metaDescription": "",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": ""
   }
 ]
