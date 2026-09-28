@@ -9639,5 +9639,828 @@
     "code": "",
     "detailsAfter": "",
     "tips": ""
+  },
+  {
+    "id": 148,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Sarasota",
+    "slug": "sarasota",
+    "url": "/cipp-contractor/florida/sarasota",
+    "metaTitle": "Sarasota, FL Sewer Lateral Rules & CIPP Lining Guide",
+    "metaDescription": "Inside Sarasota city limits the City, not the County, runs the sewer. Who fixes a failed lateral, what permits apply, why bayou homes leak. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>Two Sewer Utilities Share One Name</h2>\n<p>Ask who runs the sewer in Sarasota and the honest answer is \"which side of the city line are you on?\" Inside the city limits the pipes belong to the City of Sarasota Utilities Department, which collects wastewater, treats it at the 12th Street plant, and sends reclaimed water back out for irrigation. In unincorporated Sarasota County the same job belongs to Sarasota County Public Utilities, a separate agency with its own code, plants, and rules. A Sarasota mailing address does not tell you which utility you pay, whose rules apply, or who to call about <a href=\"https://fla-trenchless.com/sarasota-county/\">sewer pipe lining in Sarasota</a>. This page covers properties served by the City; County customers face a different ownership line and permit path.</p>\n<h2>How Hudson Bayou Taught the City About Old Pipe</h2>\n<p>The city's hardest sewer lesson came from one aging lift station. Lift Station 7 sat beside Hudson Bayou and, as its equipment wore out, overflowed into the bayou and toward Sarasota Bay. The replacement, Lift Station 87 in Luke Wood Park, has two independent wet wells and pump sets, a far higher storm-surge rating, and a force main tunneled beneath the bayou. It now carries roughly one-third of the city's wastewater, with firm capacity near 9.9 million gallons a day. Sarasota's system is coastal: pipes and pump stations sit beside tidal water, and when they fail the bay takes the hit. The same holds, at smaller scale, for every private lateral running from a bayou-side house to the street.</p>\n<h2>Where the City's Pipe Ends and Yours Begins</h2>\n<p>The City of Sarasota publishes no plain-language lateral ownership page the way some Florida utilities do. What it does publish is a promise: a city customer with a blockage can call the Utilities Department any hour of any day, at no charge, and staff will work through the symptoms by phone to decide whether the stoppage is in city piping or the customer's private piping. If one fixture or group of fixtures is slow, the city says the problem is almost always private plumbing and a plumber is the right call; if everything backs up at once, the city checks its main. For the physical boundary, the nearest written standard is the county utility code, which runs the wastewater service line from the main to a point of connection at a cleanout on the property line, right-of-way line, or easement line. Inside the city, plan on the same division: house to street cleanout is yours to camera, repair, or line.</p>\n<h2>Permits That Follow a Lateral Repair</h2>\n<p>Sarasota's Building and Permitting division requires a permit for any repair involving plumbing systems; single-trade plumbing jobs can often be handled over the counter through the city's online portal at ftgportal.sarasotafl.gov, under the 2023 Florida Building Code. Contractors pulling permits must be registered with the city and hold a state certified or registered license. If the repair touches the sidewalk or street, the Engineering Division adds a Right-of-Way permit, and enlarging the lateral triggers a Utilities Construction Permit, with its own rules for excavation, pavement patching, and inspection. A lining job on private property that keeps the same pipe size usually needs only the plumbing permit; the contractor should confirm before mobilizing.</p>\n<h2>Groundwater, Tides, and the I&I Problem</h2>\n<p>Sarasota's water table sits near the surface, and along Hudson Bayou, Whitaker Bayou, and the keys it moves with the tide. Any crack, root intrusion, or open joint in a lateral becomes a drain for that groundwater, and the clean water it admits rides to the 12th Street plant and eats capacity built for sewage. Sarasota County took the private side seriously enough to adopt an inflow and infiltration ordinance in October 2022 requiring owners of private wastewater systems in its service area to fix defects that let stormwater or groundwater in. The city has no matching ordinance, but the physics do not change at the city line. A sealed lateral keeps rainwater out of the plant during a storm, when it can least afford it, and sewage out of the bayou when the tide pushes the other way.</p>\n<h2>Where Cured-in-Place Lining Fits in Sarasota</h2>\n<p>Cured-in-place pipe builds a new pipe inside the old one: a resin-saturated tube is pulled or inverted through the lateral from a cleanout, inflated against the host, and cured with hot water, steam, or ultraviolet light into a jointless wall. On a Sarasota lot that means no trench through a live oak root zone, no cut across a paver driveway, and, for slab homes, no jackhammer through the floor to reach a corroded drain line. Superior Plumbing & Pipe Lining, the verified Florida installer here, also runs spin cast lining for larger-diameter lines where a felt liner is the wrong tool. Lining is not universal. A lateral that has collapsed, sheared at a joint, been crushed under a driveway, or sagged into a belly cannot be lined; the liner would copy the failure. Those runs need pipe bursting or excavation, and only a camera inspection before anyone quotes a liner tells you which you have.</p>\n<h2>Slab Homes from the Boom Years</h2>\n<p>The city's own housing plan counts roughly 26,900 housing units in the 2000 Census: about 1,800 from 1939 or earlier, another 1,600 from the 1940s, and a wave through the 1950s, 1960s, and 1970s that put close to half the stock in the ground before 1970. The plan puts most of that older housing near the bay and on the islands, south and southeast of downtown, and west of US 41 north of Whitaker Bayou. Those are slab houses with cast iron drain lines under the floor and cast iron or clay laterals to the street. Cast iron of that era corrodes from the bottom up, channeling along the invert until the pipe is a half-round trough, while clay separates at every joint. Both usually still hold their shape, which is why a camera-verified CIPP liner is often the least destructive fix available to a Sarasota owner.</p>",
+    "faq": [
+      [
+        "Is my Sarasota home on City or County sewer?",
+        "Check your utility bill. Properties inside Sarasota city limits are served by the City of Sarasota Utilities Department; unincorporated addresses with a Sarasota mailing address are on Sarasota County Public Utilities. The two agencies have separate codes, permits, and phone numbers, so confirm which one you pay before planning lateral work."
+      ],
+      [
+        "Who pays to fix a sewer lateral in the City of Sarasota?",
+        "The property owner, for the private run from the building to the cleanout at the street. The City will help diagnose a backup by phone free of charge and will handle blockages in its own mains, but a stoppage limited to one fixture or the house-side line is referred to a plumber."
+      ],
+      [
+        "Do I need a permit to line a sewer pipe in Sarasota?",
+        "Yes. The City requires a permit for any plumbing repair, and the contractor must hold a state license and be registered with the City. Work in the street or sidewalk adds a Right-of-Way permit, and enlarging the lateral requires a Utilities Construction Permit from the Utilities Department."
+      ],
+      [
+        "Why did Sarasota build Lift Station 87?",
+        "Its predecessor, Lift Station 7, aged out beside Hudson Bayou and overflowed into it. The new station in Luke Wood Park has redundant wet wells and pumps, a higher storm-surge rating, and a force main tunneled under the bayou, and it moves about a third of the city's wastewater."
+      ],
+      [
+        "Can every old cast iron line in Sarasota be lined?",
+        "No. Lining works when the pipe still holds its shape. Cast iron that has channeled along the bottom or clay that has opened at the joints is usually a good candidate, but a collapsed, crushed, offset, or bellied run must be burst or excavated. Insist on a camera inspection first."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Inside city limits, wastewater collection, treatment, and reclaimed water are run by the City of Sarasota Utilities Department; the city's 12th Street plant is a 10.2 MGD advanced wastewater treatment facility that reuses effluent for irrigation or discharges to Whitaker Bayou.",
+        "source": "https://www.sarasotafl.gov/Department-Pages/Utilities"
+      },
+      "county_split": {
+        "value": "Unincorporated areas are served by Sarasota County Public Utilities, a separate utility with its own code; the county's Uniform Utility Code defines the wastewater service line as running from the main to a point of connection at a cleanout on the property line, right-of-way line, or easement line.",
+        "source": "https://sarasota.wateratlas.usf.edu/upload/documents/SC%20Utility%20Code%202011%20063011.pdf"
+      },
+      "lateral": {
+        "value": "The City publishes no explicit lateral-ownership rule. It offers free 24/7 phone diagnosis of sewer blockages to decide whether the stoppage is in City piping or the customer's private piping; a problem limited to one fixture or group of fixtures is treated as private plumbing.",
+        "source": "https://www.sarasotafl.gov/Department-Pages/Utilities"
+      },
+      "permit": {
+        "value": "A permit is required for any repair involving plumbing systems (2023 Florida Building Code, 8th Edition, effective Dec. 31, 2023); contractors must be state licensed and registered with the City; Right-of-Way permits are issued by the Engineering Division; a Utilities Construction Permit is needed when a larger sewer lateral is required.",
+        "source": "https://www.sarasotafl.gov/Departments/Development-Services/Building-Permitting"
+      },
+      "program": {
+        "value": "Lift Station 87 (Luke Wood Park, 1900 Mound St.) replaced aging Lift Station 7 at 935 Pomelo Ave., whose failures caused overflows into Hudson Bayou; the new station has two independent wet wells and pump systems, is rated for Category 4 storm surge, averages 2.4 MGD with 9.92 MGD firm capacity, and carries about one-third of the city's wastewater flow.",
+        "source": "https://sustainableinfrastructure.org/project-awards/city-of-sarasotas-lift-station-87/"
+      },
+      "iandi_ordinance": {
+        "value": "Sarasota County Ordinance No. 2022-061 (adopted Oct. 26, 2022) requires owners of privately owned wastewater systems in the county's service area to correct defects that admit stormwater or groundwater; the City has no equivalent ordinance.",
+        "source": "https://www.scgov.net/government/public-utilities/inflow-and-infiltration"
+      },
+      "housing_age": {
+        "value": "City housing plan (2000 Census): 26,898 housing units; 1,835 built 1939 or earlier, 1,648 in the 1940s, roughly 4,500 in the 1950s, 5,000 in the 1960s and 6,500 in the 1970s, so close to half the stock predates 1970; older housing concentrates near the bay, on the islands, south/southeast of downtown, and west of US 41 north of Whitaker Bayou.",
+        "source": "https://www.sarasotafl.gov/files/assets/city/v/1/planning/documents/chapter3_housingplanaccessible.pdf"
+      }
+    },
+    "sources": [
+      "https://www.sarasotafl.gov/Department-Pages/Utilities",
+      "https://www.sarasotafl.gov/Department-Pages/Utilities/Utilities-Permitting-and-Field-Services",
+      "https://www.sarasotafl.gov/files/assets/city/v/1/utilities/documents/utilities-construction-permit-application-002-v3.pdf",
+      "https://www.sarasotafl.gov/Departments/Development-Services/Building-Permitting",
+      "https://www.sarasotafl.gov/Department-Pages/Public-Works/Engineering",
+      "https://www.sarasotafl.gov/files/assets/city/v/1/planning/documents/chapter3_housingplanaccessible.pdf",
+      "https://liftstation87.com/project-overview/",
+      "https://sustainableinfrastructure.org/project-awards/city-of-sarasotas-lift-station-87/",
+      "https://sarasota.wateratlas.usf.edu/upload/documents/2_2195Updated.pdf",
+      "https://sarasota.wateratlas.usf.edu/upload/documents/SC%20Utility%20Code%202011%20063011.pdf",
+      "https://www.scgov.net/government/public-utilities/inflow-and-infiltration",
+      "https://www.census.gov/quickfacts/fact/table/sarasotacityflorida/PST045225"
+    ]
+  },
+  {
+    "id": 149,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Bradenton",
+    "slug": "bradenton",
+    "url": "/cipp-contractor/florida/bradenton",
+    "metaTitle": "Bradenton, FL Sewer Lateral Rules & CIPP Sewer Lining",
+    "metaDescription": "Bradenton spilled 160 million gallons into the Manatee River, settled a lawsuit and is lining 25 miles of pipe. Your lateral is yours. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>Two Utilities Share One River</h2>\n<p>Which sewer you are on in Bradenton depends on the city limits, not the mailing address. Inside the city, Public Works and Utilities owns the collection system and the Water Reclamation Facility at 1810 1st Street, permitted by FDEP for 9.0 million gallons a day and discharging to the Manatee River. Step across the line into unincorporated Manatee County, or out to Anna Maria, Holmes Beach, or Bradenton Beach, and the pipes belong to Manatee County Utilities, which treats more than 27 million gallons a day for over 135,000 wastewater accounts. The rules and rehab programs differ, so a property owner planning <a href=\"https://fla-trenchless.com/manatee-county/\">trenchless sewer repair</a> should first confirm which utility bills them.</p>\n<h2>What 160 Million Gallons Taught the City</h2>\n<p>Bradenton's own discharge reports added up to more than 160 million gallons of raw and partly treated sewage sent to the Manatee River over roughly four years, including a 13-million-gallon bypass in August 2021. Four environmental groups led by Suncoast Waterkeeper filed a Clean Water Act notice that November, and in May 2022 the city settled, agreeing to expand plant capacity, inspect every pipe in the system, and find and fix the leaks. The pattern behind those numbers was wet weather: groundwater and rain got into cracked pipes and manholes faster than the plant could treat it. Hurricane Debby showed the ceiling in August 2024, when 17 to 19 inches of rain pushed an estimated 25 million gallons past treatment in four days.</p>\n<h2>Face It, Fix It: The Public Half of the Repair</h2>\n<p>The city's answer is a program it calls Face It, Fix It. It started with wastewater and has grown to water, drainage, and roads, backed by more than $160 million in state and federal grants and appropriations. On the sewer side, the Sarasota Bay Estuary Program reports the city has lined about 25 miles of pipe for roughly $9 million with another $15 million of lining planned, rehabilitated about 1,000 manholes, and is designing a deep injection well that FDEP's draft permit sizes at 15 million gallons a day of effluent for operational testing. All of it aims at keeping clean water out of a 270-mile collection system with more than 60 miles of clay and cast iron mains.</p>\n<h2>Your Lateral, and the Program Bradenton Is Building</h2>\n<p>None of that public work touches the pipe under your yard. The city defines private sewer laterals as the pipes that connect homes and businesses to the city sewer, and the property owner owns and maintains them. What makes Bradenton unusual is what comes next: the city has announced a Private Sewer Lateral Program to help eligible owners replace their laterals, aimed at neighborhoods where studies found the highest inflow and infiltration. As of this writing the program is listed as coming soon, with eligibility rules still to be published. If your house sits in one of those wet basins, it is worth a call to Public Works before you pay for a repair yourself; if it does not, the responsibility and the bill are yours from the building to the city main. Manatee County customers should ask the county utility for its own lateral rule, which is not spelled out on its wastewater pages.</p>\n<h2>Permits and Who Is Allowed to Do the Work</h2>\n<p>Florida law makes it unlawful to alter or repair a building without a permit, and Bradenton takes plumbing permit applications, fees, and inspection requests through its Accela online portal. The state also defines a plumbing contractor as the license that covers sanitary drainage and sewer lines from the main to the building, so a lateral repair, replacement, or liner is licensed-contractor work, not a handyman job. The contractor pulls the permit and the finished line gets inspected. If the pipe crosses the sidewalk or street, a right-of-way permit from the city adds a step, one more reason a method that stays inside the pipe is attractive here.</p>\n<h2>Where Cured-in-Place Lining Fits in Bradenton</h2>\n<p>Cured-in-place pipe does for a lateral what the city is doing for its mains. A felt or fiberglass tube saturated with resin is pulled or inverted into the existing pipe and cured into a hard, jointless liner, closing root openings and cracked joints in a few hours through a cleanout or one small pit. In a city where every leaking joint feeds the same wet-weather surge the settlement was written to stop, sealing a lateral is a direct contribution, and it avoids trenching a driveway, a mature oak, or a tiled floor. Superior Plumbing and Pipe Lining also spin-casts larger-diameter lines, which suits commercial mains and long runs under parking lots.</p>\n<p>Lining is the wrong answer when the host pipe has stopped being a pipe. A run that has collapsed, a belly that holds water, an offset joint that has separated, or a section crushed by a root ball or a truck cannot be lined around; those need pipe bursting or an open cut. A contractor who cameras the line first and shows you the footage before quoting is the one to hire.</p>\n<h2>Old Pipe Under Old Neighborhoods</h2>\n<p>The city itself says much of its core infrastructure was built decades ago, and the 60-plus miles of clay and cast iron mains are the public evidence of it. Private laterals from the same era are typically vitrified clay in the yard and cast iron under the slab, and in Florida's wet, warm ground the cast iron corrodes from the bottom, channeling open along the invert while the top looks sound on camera. Bradenton's high water table, tidal creeks like Wares Creek, and storm surge from the river push groundwater into those channels, which is exactly the infiltration the city is chasing. A liner restores the invert without breaking out a terrazzo floor, provided the pipe is still round. A precise housing-age breakdown from the Census was not retrievable for this page, so treat pre-1975 construction as the working threshold for a camera inspection.</p>",
+    "faq": [
+      [
+        "Who runs the sewer system where I live in Bradenton?",
+        "It depends on whether you are inside city limits. The City of Bradenton's Public Works and Utilities department operates its own collection system and Water Reclamation Facility. Unincorporated Manatee County and the island cities of Anna Maria, Holmes Beach, and Bradenton Beach are served by Manatee County Utilities instead."
+      ],
+      [
+        "Is the sewer lateral my responsibility in Bradenton?",
+        "Yes. The city treats the private lateral, the pipe from the building to the city sewer, as owned and maintained by the property owner. Bradenton has announced a Private Sewer Lateral Program to help eligible owners in high-infiltration areas replace laterals, but details and eligibility had not been published as of this writing."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer lateral in Bradenton?",
+        "Yes. Florida statute requires a permit to alter or repair a building, and the work falls under the state plumbing contractor license, which covers sewer lines from the main to the building. Bradenton handles permit applications, fees, and inspection scheduling through its Accela online portal."
+      ],
+      [
+        "Why did Bradenton have so many sewage spills?",
+        "Rain and groundwater leaked into aging clay and cast iron pipes and manholes faster than the plant could treat it, forcing bypasses to the Manatee River. More than 160 million gallons were reported over several years, leading to a 2022 Clean Water Act settlement and the Face It, Fix It rebuild program."
+      ],
+      [
+        "When is CIPP lining not the right fix for a Bradenton lateral?",
+        "When the pipe has collapsed, sagged into a belly, separated at an offset joint, or been crushed. A liner needs a host pipe that still holds its shape. Those conditions call for pipe bursting or excavation, which is why a camera inspection should come before any quote."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Bradenton Public Works and Utilities runs the city collection system and the Water Reclamation Facility at 1810 1st St., permitted by FDEP (FL0021369) for 9.0 mgd annual average daily flow with discharge to the Manatee River; a draft permit adds a Class V injection well for 15.0 mgd. Manatee County Utilities serves unincorporated areas plus Anna Maria, Holmes Beach and Bradenton Beach, treating over 27 mgd for 135,000+ accounts.",
+        "source": "https://floridapublicnotices.com/notices/11473341"
+      },
+      "county_split": {
+        "value": "Manatee County Utilities treats an annual daily average of over 27 million gallons of sewage, serves 135,000+ wastewater accounts, and provides retail service to unincorporated Manatee County plus Bradenton Beach, Holmes Beach and Anna Maria (wholesale to Longboat Key).",
+        "source": "https://www.mymanatee.org/connect/news-and-information/news-and-information/article-detail/utilities-wastewater-management-posts/2025/02/02/about-wastewater"
+      },
+      "lateral": {
+        "value": "The city defines private sewer laterals as the pipes connecting homes and businesses to the city sewer, owned and maintained by the property owner, and is preparing a Private Sewer Lateral Program (listed as coming soon) to help eligible owners replace laterals in areas with higher inflow and infiltration.",
+        "source": "https://cityofbradenton.com/privatelateralprogram"
+      },
+      "permit": {
+        "value": "F.S. 553.79 makes it unlawful to alter or repair a building without a permit; F.S. 489.105(3)(m) places sanitary sewer lines from the main to the building under the plumbing contractor license. Bradenton accepts permit applications, fees and inspection scheduling through its Accela portal.",
+        "source": "https://cityofbradenton.com/onlinepermittingservices"
+      },
+      "consent_settlement": {
+        "value": "Bradenton reported 160+ million gallons of raw and partly treated sewage discharged to the Manatee River over about four years (13 million gallons in August 2021); Suncoast Waterkeeper and three other groups filed a Clean Water Act notice in November 2021 and the city settled in May 2022, agreeing to expand plant capacity, inspect all pipes and repair leaks. Hurricane Debby (Aug 2024) later pushed an estimated 25 million gallons past treatment after 17-19 inches of rain, per the city's FDEP five-day report.",
+        "source": "https://www.suncoastwaterkeeper.org/stopping_bradenton_sewage_spills"
+      },
+      "rehab_program": {
+        "value": "Face It, Fix It has secured more than $160 million in state and federal grants; per the Sarasota Bay Estuary Program the city has lined about 25 miles of pipe ($9M, $15M more planned), rehabilitated ~1,000 manholes, and has 270+ miles of collection pipe including 60+ miles of clay and cast iron.",
+        "source": "https://sarasotabay.org/directors-note-city-of-bradentons-efforts-to-address-wastewater-issues/"
+      },
+      "housing_age": {
+        "value": "ACS B25034 for Bradenton could not be retrieved (Census API and data.census.gov blocked from this environment). The city states much of its core infrastructure was built decades ago, and 60+ miles of its mains are clay or cast iron.",
+        "source": "https://cityofbradenton.com/faceitfixit"
+      }
+    },
+    "sources": [
+      "https://cityofbradenton.com/privatelateralprogram",
+      "https://cityofbradenton.com/faceitfixit",
+      "https://cityofbradenton.com/publicworks",
+      "https://cityofbradenton.com/onlinepermittingservices",
+      "https://cityofbradenton.com/permitting",
+      "https://floridapublicnotices.com/notices/11473341",
+      "https://www.amisun.com/wp-content/uploads/2024/08/Bradenton-Five-Day-Non-Compliance-Report-Sewage-Discharge-Aug-4-7-2024.pdf",
+      "https://www.suncoastwaterkeeper.org/stopping_bradenton_sewage_spills",
+      "https://www.tampabaywaterkeeper.org/city-of-bradenton",
+      "https://www.wusf.org/environment/2022-05-13/environmental-groups-reach-a-settlement-with-bradenton-over-sewage-spills",
+      "https://www.wusf.org/environment/2024-03-01/sewage-1-2-million-gallons-spill-manatee-river-bradenton",
+      "https://sarasotabay.org/directors-note-city-of-bradentons-efforts-to-address-wastewater-issues/",
+      "https://www.mymanatee.org/connect/news-and-information/news-and-information/article-detail/utilities-wastewater-management-posts/2025/02/02/about-wastewater",
+      "https://www.mymanatee.org/departments/utilities-department/wastewater-division",
+      "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.79.html",
+      "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0489/Sections/0489.105.html",
+      "https://www.census.gov/quickfacts/fact/table/bradentoncityflorida/PST045224"
+    ]
+  },
+  {
+    "id": 150,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Tampa",
+    "slug": "tampa",
+    "url": "/cipp-contractor/florida/tampa",
+    "metaTitle": "Tampa, FL Sewer Lateral Rules, PIPES & CIPP Lining",
+    "metaDescription": "Tampa maintains sewers from the property line to the main; the lateral is yours. It is CIPP-lining 100+ miles of old mains under PIPES. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>One Plant, 1,800 Miles of Pipe, and a Line at Your Property</h2>\n<p>Sewage from Tampa and much of the unincorporated Hillsborough County around it flows to one place: the Howard F. Curren Advanced Wastewater Treatment Plant at the port. The City of Tampa Wastewater Department runs that plant and the system feeding it: about 1,800 miles of gravity and force main, roughly 30,000 manholes, and more than 200 pumping stations serving over 600,000 people. The plant handles about 60 million gallons a day in dry weather and up to 200 million in a storm; much of that gap is groundwater entering through cracked pipe, some of it private laterals. Here is how Tampa splits the sewer between city and owner, and where <a href=\"https://fla-trenchless.com/hillsborough-county/\">cured in place pipe</a> fits on your side.</p>\n<h2>PIPES: The City Is Already Lining Its Own Side</h2>\n<p>In September 2019 the Tampa City Council approved PIPES, Progressive Infrastructure Planning to Ensure Sustainability, a roughly $2.9 billion, twenty-year program funded by scheduled rate increases after almost a decade without one. The department says more than 60 percent of its gravity pipe predates 1970 and about 20 percent predates 1950, and that in three years it awarded over 100 miles of gravity sewer rehabilitation worth about $61 million. One package alone lined 25 miles under East and West Tampa. The city's project list carries the method by name: CIPP jobs for the Branch pumping station basin, the downtown interchange, Waters Avenue, the Busch Boulevard trunk sewer, and a nearly $8 million Belmont Heights rehabilitation. The city chose lining for hundred-year-old pipe under streets; the same logic applies under your yard.</p>\n<h2>Where the City Stops and You Begin</h2>\n<p>Tampa's Wastewater Collections Division states the split plainly: the city maintains the sanitary sewer from your property line toward the street, easement, or alley where the main runs. Everything on the house side of that line is the owner's. The city's design standard calls for right-of-way laterals of at least 6 inches in SDR 35 PVC, no more than 75 feet from the main, with a cleanout at the right-of-way or property line. That cleanout is the handoff point: a blockage on the city's side is cleared at no charge; one in your pipe means the city tells you what it found and you call a plumber. Many older Tampa lots never got that cleanout, and installing one is usually a lining contractor's first step.</p>\n<h2>Permits for Lateral Work in Tampa</h2>\n<p>Repairing, replacing, or lining a lateral is plumbing work, which in Tampa means a plumbing trade permit pulled through the Accela Citizen Access portal by a licensed plumbing contractor. No plan review is required, but the job closes with a PLB-Final inspection, and the city posts a fee estimator. If any part of the work reaches past the property line into the street or sidewalk, a separate right-of-way permit applies, and the city says that review takes twelve to fifteen business days. A liner run from the house to the property line cleanout usually stays out of the right-of-way entirely, which is one reason trenchless work moves faster here.</p>\n<h2>Hurricanes, Surge, and the 2026 State Settlement</h2>\n<p>Tampa's system sits low, and the 2024 storms proved it. Surge from Hurricane Helene flooded several pumping stations, and Hurricane Milton's winds cut TECO power to more than 100 of them, with millions of gallons of untreated or partly treated sewage released. In March 2026 the City Council approved a settlement with the Florida Department of Environmental Protection covering those discharges and a run of effluent violations at the plant: a $584,734 penalty the city is satisfying with an in-kind project worth $877,144.50, two stationary generators at pumping stations. The city also logged eight overflows between March and June 2026, from grease, damaged pipe, construction hits, and operator error. None of that is a homeowner's fault, but every cracked lateral leaking groundwater in a wet summer adds to the flow a flooded lift station has to move, and a tight lateral is the one piece an owner controls.</p>\n<h2>Where CIPP Fits Under a Tampa House, and Where It Does Not</h2>\n<p>Most Tampa homes built before the mid-1970s have cast iron drain lines set in the slab. Cast iron in wet Florida ground corrodes from the bottom, the invert channels out, and the pipe keeps working until a root or a chunk of scale stops it. Replacing it means saw-cutting floors through the middle of the house. Lining it means one access point, a camera pass, a resin-saturated liner cured in place, and a new smooth wall inside the old iron, floors intact. Outside the slab the same method renews clay laterals that cracked at the joints or let roots in. Lining is not a cure for everything. A collapsed run, a belly that holds water, a joint pulled apart into an offset, or a line crushed under a driveway cannot be lined, because the liner takes the shape of whatever host it cures in. Those need pipe bursting or an open cut, and a contractor should show you the footage before recommending either. Superior Plumbing & Pipe Lining also offers spin cast lining for larger-diameter lines, but a residential lateral is a CIPP job.</p>\n<h2>Tampa's Housing Stock Is Old Enough to Need It</h2>\n<p>The 2023 American Community Survey counts about 177,000 housing units in the city of Tampa. Roughly 8 percent were built before 1940, about 26 percent before 1960, and just over 35 percent before 1970, almost exactly the department's pre-1970 share of gravity mains. Add the 1970s and close to half predate the common switch to PVC drains. Those are the Seminole Heights bungalows, the Palma Ceia ranch houses, the Belmont Heights and West Tampa blocks where the city is lining mains now. Nearly a third of units date from 2000 onward and mostly have PVC. For everyone else: if the city just lined the main out front, your lateral is the same age and sits in the same ground.</p>",
+    "faq": [
+      [
+        "Who owns the sewer lateral in Tampa, the city or the homeowner?",
+        "The homeowner owns and maintains the pipe from the building to the property line. Tampa's Wastewater Collections Division maintains the system from the property line out to the main in the street, easement, or alley. The property line cleanout is the dividing point between the two."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer line in Tampa?",
+        "Yes. Tampa requires a plumbing trade permit, applied for through the Accela Citizen Access portal by a licensed plumbing contractor, followed by a PLB-Final inspection. Work that extends past the property line into a street or sidewalk also needs a right-of-way permit, which takes about two to three weeks to review."
+      ],
+      [
+        "What is Tampa's PIPES program and does it cover my lateral?",
+        "PIPES is the $2.9 billion, twenty-year water and wastewater program the City Council approved in 2019, funded by scheduled rate increases. It pays for lining and replacing city mains and rebuilding pumping stations and the treatment plant. It does not pay for private laterals; those remain the owner's cost."
+      ],
+      [
+        "Is Tampa under any state or federal sewer enforcement?",
+        "In March 2026 Tampa settled with the Florida Department of Environmental Protection over hurricane-related spills and effluent violations at the Howard F. Curren plant. Instead of paying a $584,734 fine, the city is installing two stationary generators at pumping stations, an in-kind project valued at about $877,000."
+      ],
+      [
+        "Can cast iron under a slab be lined instead of dug up in Tampa?",
+        "Often, yes. Pre-1975 Tampa homes commonly have cast iron drains in the slab that channel out along the bottom. If the pipe still holds its shape, a cured-in-place liner can be installed from a cleanout without cutting floors. Collapsed, bellied, or separated sections must be bursted or excavated first."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "The City of Tampa Wastewater Department operates the Howard F. Curren AWTP and a collection system of about 1,800 miles of gravity and force main, ~30,000 manholes, and 228-229 pumping stations; the plant treats ~60 MGD normally and up to 200 MGD in storms, serving 630,000+ residents.",
+        "source": "https://www.tampa.gov/wastewater"
+      },
+      "lateral": {
+        "value": "Tampa Wastewater Collections: the City maintains the sanitary sewer from the property line toward the street, easement or alley where the main is; the owner is responsible on the house side. Design standard requires laterals in the ROW to be 6-inch minimum SDR 35 PVC, max 75 ft from the main, with a cleanout at the right-of-way/property line (Sec. 2.3.5).",
+        "source": "https://www.tampa.gov/wastewater/programs/collections"
+      },
+      "permit": {
+        "value": "Sewer lateral work needs a plumbing trade permit via Accela Citizen Access, no plan review, closed by a PLB-Final inspection; fees via the city fee estimator. Work in the public right-of-way requires a separate ROW permit (12-15 business day review).",
+        "source": "https://www.tampa.gov/construction-services/residential-permits/electric-plumbing"
+      },
+      "program_consent": {
+        "value": "PIPES (Progressive Infrastructure Planning to Ensure Sustainability), approved by City Council September 2019, ~$2.9 billion over 20 years; over 100 miles of gravity sewer CIPP/rehab awarded in three years (~$61M), including 25 miles in East and West Tampa; 60%+ of gravity pipe predates 1970, 20% predates 1950. In March 2026 the city settled an FDEP enforcement action ($584,734 penalty) over Helene/Milton spills and plant effluent violations by funding two pump-station generators worth $877,144.50.",
+        "source": "https://www.tampa.gov/news/2026-08/city-tampa-invests-generator-upgrades-193911"
+      },
+      "housing_age": {
+        "value": "ACS 2023 5-year B25034: 177,076 housing units in Tampa city; 8.3% built before 1940, 26.1% before 1960, 26.9% built 1940-1969, 35.2% before 1970, 45.5% before 1980, 32.0% built 2000 or later.",
+        "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:71000&in=state:12"
+      },
+      "city_cipp_projects": {
+        "value": "Tampa's PIPES-funded project list includes named CIPP jobs: Branch PS collection system ($1,999,350), Downtown Interchange ($600,000), Waters Ave gravity sewer ($1,382,767), Belmont Heights gravity sewer ($7,970,000), and Busch Blvd trunk sewer ($1,500,000).",
+        "source": "https://www.tampa.gov/project-types/wastewater"
+      },
+      "hurricane_spills": {
+        "value": "Hurricane Helene storm surge flooded several Tampa wastewater pumping stations; Hurricane Milton knocked out TECO power to more than 100 stations. The city reported eight reportable overflows March 8-June 30, 2026 (grease, pipe damage, construction, operator error).",
+        "source": "https://www.tampa.gov/news/2026-08/city-tampa-invests-generator-upgrades-193911"
+      }
+    },
+    "sources": [
+      "https://www.tampa.gov/wastewater",
+      "https://www.tampa.gov/wastewater/programs",
+      "https://www.tampa.gov/wastewater/programs/collections",
+      "https://www.tampa.gov/sites/default/files/document/2026/technical_standards_guideline_for_construction_of_wastewater_facilities_july_2014_version_6-ada.pdf",
+      "https://www.tampa.gov/construction-services/residential-permits/electric-plumbing",
+      "https://www.tampa.gov/tss-transportation/programs-and-services/right-way-permits",
+      "https://www.tampa.gov/news/infrastructure-repairs-happening-east-tampa-west-tampa-pipe-lining-110206",
+      "https://www.tampa.gov/news/2024-04/rebuilding-tampas-foundation-148171",
+      "https://www.tampa.gov/news/2025-09/major-overhaul-tampas-wastewater-plant-172646",
+      "https://www.tampa.gov/news/2025-05/major-infrastructure-project-completed-168766",
+      "https://www.tampa.gov/news/2023-10/investing-tampas-wastewater-infrastructure-130661",
+      "https://www.tampa.gov/news/2026-08/city-tampa-invests-generator-upgrades-193911",
+      "https://www.tampa.gov/project-types/wastewater",
+      "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:71000&in=state:12"
+    ]
+  },
+  {
+    "id": 151,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "St. Petersburg",
+    "slug": "st-petersburg",
+    "url": "/cipp-contractor/florida/st-petersburg",
+    "metaTitle": "St. Petersburg, FL Sewer Lateral Rebates & CIPP Lining",
+    "metaDescription": "St. Petersburg owners must fix defective laterals under a 2016 FDEP consent order, and the city now rebates lining up to $150 per foot. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>The Summer the Sewers Spilled Into the Bay</h2>\n<p>St. Petersburg runs its own sanitary sewer through the city's Water Resources department, separate from Pinellas County's utility. A 2016 fact sheet the city handed state regulators counted about 888 miles of gravity main, 81 city-owned lift stations, and nearly 98,000 laterals draining to three water reclamation facilities: Northeast at 16 million gallons a day, Northwest at 20, and Southwest at 20. A fourth plant at Albert Whitted, permitted for 12 million gallons a day, was shut down in April 2015. Between August 2015 and September 2016 the city discharged untreated and partially treated wastewater, and the state's investigation found St. Petersburg alone produced 51 percent of Florida's sanitary sewer overflow volume in 2016. For a homeowner deciding whether <a href=\"https://fla-trenchless.com/pinellas-county/\">sewer pipe lining</a> is worth the money, that history is where the answer starts.</p>\n<h2>The 2016 Consent Order and Where the Rain Went</h2>\n<p>In September 2016 the Florida Department of Environmental Protection and the city entered Consent Order OGC File No. 16-1280. It required expanding the Southwest plant from 40 to 60 million gallons a day, completing a sanitary sewer evaluation survey, running a public lateral lining program, and filing progress reports every January and July, with stipulated penalties of $10,000 per day. The number behind all of it came out of the state's investigation: during Hurricane Hermine, 10 to 15 percent of the rain that fell on the city ended up inside the sanitary sewer, against an industry expectation of zero to 5 percent. A consultant had already told the city that 45 to 50 percent of its piping needed repair and that pipe laid before 1975 used materials never meant to last.</p>\n<h2>Your Lateral Ends at the Right-of-Way</h2>\n<p>The city draws the ownership line at the edge of your lot. Water Resources states that owners are responsible for the private lateral from the house to the property line, and the city takes over from the right-of-way or easement to the main. City Code Section 8-169(d)(7) goes further than most Florida cities: it requires owners to repair, rehabilitate, or replace a defective lateral, and defective includes cracks, deteriorated joints, holes, and any active leak. An inspection under that rule is done by a licensed plumbing contractor and pairs a look at the exterior with a closed-circuit camera run through the pipe, typically 30 to 60 minutes.</p>\n<h2>The City Will Pay You to Fix It</h2>\n<p>A 2019 pilot in two south-side neighborhoods drew more than 300 participating residents and cut inflow and infiltration there by 34 percent. On that result the city launched Phase 1 of its Private Lateral Rehabilitation Rebate Program in June 2025, offering a full rebate for inspection and rehabilitation in thirteen high-infiltration areas: Allendale Terrace, Bahama Shores, Causeway Isles, Eagle Crest, Crossroads, Garden Manor, Mel-Tan Heights, Oakwood Gardens, Perkins, Perry Bayview, Tyrone Gardens, Tyrone Landing, and Yacht Club Estates. Phase 2, expected in October 2026, opens the rest of the service area to a rebate of up to $5,000. The schedule pays up to $500 for the inspection and up to $150 per linear foot of rehabilitation. Single-family homes qualify once per property, and work done on or after January 1, 2025 can be submitted up to six months after completion.</p>\n<h2>Permits, Registered Plumbers, and Approved Methods</h2>\n<p>Every repair, replacement, or lining job on a St. Petersburg lateral must be permitted through the City Building Department, rebate or not. The contractor has to be a licensed plumber certified or registered with that department, and one who submits rebate work registers with Water Resources first. The program is specific about method: PVC replacement is approved, cured-in-place lining is approved for most host pipe materials, and a lateral made of Orangeburg has to be replaced rather than lined. The plumber's recommended method needs city sign-off before work starts. The city does not publish a separate lateral permit fee.</p>\n<h2>Where Cured-in-Place Lining Fits in St. Pete</h2>\n<p>The city already relies on lining for its own side of the system. In June 2025 the council added $1 million to the annual cured-in-place pipe contract, pushing it past $11 million. The same method works on the private side. The old lateral becomes the mold: a liner impregnated with resin is drawn through it from an access point, expanded against the walls, and cured hard, so what is left is one continuous pipe with no joints inside the original. Because the liner runs from an access point rather than a trench, it can pass under a terrazzo floor, a driveway, or a patio without breaking any of them. It is not the right answer for every pipe. A run that has collapsed, sagged into a belly that holds water, pulled apart at an offset joint, or been crushed cannot take a liner; those sections call for pipe bursting or open excavation. An honest contractor cameras the line first and tells you which one you have. Superior Plumbing &amp; Pipe Lining also spin casts larger-diameter lines, which matters for condominium and commercial mains rather than house laterals.</p>\n<h2>A Postwar City Sitting on Postwar Pipe</h2>\n<p>The Census counts about 141,000 housing units in St. Petersburg. Roughly 9 percent were built before 1940, 38 percent before 1960, and 42 percent from 1940 through 1969, with the 1950s alone accounting for close to a quarter of the city's housing. Only 13 percent have gone up since 2000. Set that against the state's finding that pre-1975 sewer materials were not built to last and the pattern is plain: most St. Petersburg homes sit on cast iron drains under the slab and clay or Orangeburg out in the yard. Cast iron here corrodes from the bottom, channeling open along the invert while the top still looks sound, and a high coastal water table means groundwater waits at every crack year-round. That is the flow the consent order was written to stop, and lining the lateral under a 1955 ranch house is one of the few ways to stop it without breaking the floor.</p>",
+    "faq": [
+      [
+        "Who owns the sewer lateral in St. Petersburg, FL?",
+        "Inside the property line it is yours; from the right-of-way or easement to the main it is the city's. Under City Code Section 8-169(d)(7), once an inspection shows your lateral is defective, you are required to have it repaired."
+      ],
+      [
+        "Does St. Petersburg require a permit to line or replace a sewer lateral?",
+        "Yes. The City Building Department must permit every lateral repair, replacement, or lining project, and the contractor has to be a licensed plumber certified or registered with the city. Plumbers submitting work under the rebate program also register separately with Water Resources."
+      ],
+      [
+        "How much is the St. Petersburg private lateral rebate?",
+        "Phase 1, launched June 2025, covers the full cost of inspection and rehabilitation for single-family homes in thirteen high-infiltration neighborhoods. Phase 2, expected October 2026, pays up to $5,000 citywide, capped at $500 for inspection and $150 per linear foot of rehabilitation."
+      ],
+      [
+        "What did the 2016 consent order require St. Petersburg to do?",
+        "FDEP Consent Order 16-1280, signed after roughly 150 million gallons of discharges in 2015 and 2016, required expanding the Southwest plant to 60 million gallons a day, new injection wells, a sewer evaluation survey, a public lateral lining program, and semiannual progress reports."
+      ],
+      [
+        "Can an Orangeburg sewer lateral be lined in St. Petersburg?",
+        "No. Under the city's rebate rules Orangeburg pipe must be replaced, usually with PVC, because the fiber wall is too soft and deformed to hold a liner. Clay and cast iron laterals that are still round can be lined with cured-in-place pipe once a camera inspection confirms the condition."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of St. Petersburg Water Resources runs the sanitary sewer: about 888 miles of gravity main, 49 miles of force main, 81 city-owned lift stations, 19,379 public manholes, ~97,900 laterals and three water reclamation facilities (Northeast 16 MGD, Northwest 20 MGD, Southwest 20 MGD), per the city's June 2016 infrastructure fact sheet.",
+        "source": "https://floridadep.gov/sites/default/files/G.%20ADM%20Data%20Infrastructure%20Facts%2020160601.pdf"
+      },
+      "lateral": {
+        "value": "Owners are responsible for the private lateral from the house to the property line (up to the city right-of-way or easement); City Code Sec. 8-169(d)(7) requires owners to repair, rehabilitate or replace a defective lateral, with 'defective' including cracks, deterioration, open joints and active leaks.",
+        "source": "https://www.stpete.org/water/lateral_lines.php"
+      },
+      "permit": {
+        "value": "All lateral repairs, replacements or lining projects must be permitted by the City Building Department and performed by a licensed plumbing contractor certified or registered with the city; rebate plumbers also register with Water Resources, and the recommended method needs city approval. CIPP is allowed for most materials; Orangeburg must be replaced.",
+        "source": "https://www.stpete.org/residents/current_projects/lateral_lines_rehabilitation_project.php"
+      },
+      "consent_order": {
+        "value": "FDEP Consent Order OGC File No. 16-1280 (September 2016) followed discharges of roughly 31.5 MG (Aug 2015), 10 MG (June 2016) and 78-93 MG plus 58 MG (Aug-Sept 2016); it required Southwest plant expansion to 60 MGD, two injection wells, a Northwest filter, an SSES, a public lateral lining program, semiannual reports and $10,000/day stipulated penalties.",
+        "source": "https://floridadep.gov/sites/default/files/L.%20City%20of%20St.%20Petersburg%20proposed%20CO.pdf"
+      },
+      "ii_findings": {
+        "value": "FDEP's investigation found St. Petersburg produced 51% of Florida's SSO volume in 2016; during Hurricane Hermine 10-15% of rainfall entered the sanitary sewer versus a 0-5% norm; a consultant estimated 45-50% of piping (480-528 miles) needed repair and pre-1975 pipe materials were not adequate for long-term use; Albert Whitted WRF (12 MGD) closed April 7, 2015.",
+        "source": "https://floridadep.gov/sites/default/files/St.%20Pete%20Investigation%20Report%201-31-17-revisedDec2020.pdf"
+      },
+      "rebate_program": {
+        "value": "2019 pilot: 300+ residents, 34% I&I reduction. Phase 1 (June 2025): full rebate for inspection and rehabilitation in 13 high-I&I neighborhoods; Phase 2 (Oct 2026): up to $5,000 citywide; up to $500 for inspection and $150 per linear foot of rehabilitation; single-family only, one rebate per property, no liens; work since Jan 1, 2025 eligible, retroactive within 6 months. City also added $1M to its annual CIPP contract (now over $11M) in June 2025.",
+        "source": "https://www.stpete.org/residents/current_projects/lateral_lines_rehabilitation_project.php"
+      },
+      "housing_age": {
+        "value": "ACS 2023 5-year B25034: 141,039 housing units; 9.1% built before 1940, 37.9% before 1960, 42.4% built 1940-1969 (23.2% in the 1950s alone), 70.9% before 1980, 13.0% since 2000.",
+        "source": "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1263000"
+      }
+    },
+    "sources": [
+      "https://www.stpete.org/water/lateral_lines.php",
+      "https://www.stpete.org/residents/current_projects/lateral_lines_rehabilitation_project.php",
+      "https://www.stpete.org/residents/utilities/water_services/wastewater_collection_maintenance.php",
+      "https://www.stpete.org/news_detail_T30_R1425.php",
+      "https://floridadep.gov/sites/default/files/L.%20City%20of%20St.%20Petersburg%20proposed%20CO.pdf",
+      "https://floridadep.gov/sites/default/files/St.%20Pete%20Investigation%20Report%201-31-17-revisedDec2020.pdf",
+      "https://floridadep.gov/sites/default/files/G.%20ADM%20Data%20Infrastructure%20Facts%2020160601.pdf",
+      "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1263000"
+    ]
+  },
+  {
+    "id": 152,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Orlando",
+    "slug": "orlando",
+    "url": "/cipp-contractor/florida/orlando",
+    "metaTitle": "Orlando, FL Sewer Lateral Rules & CIPP Lining Guide",
+    "metaDescription": "Orlando's sewer is run by the city, not OUC. The city repairs structural defects from the main to the property line; the rest is yours. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>The Bill Says OUC, but the Sewer Belongs to the City</h2>\n<p>The monthly bill for water and electricity comes from the Orlando Utilities Commission, and it carries a wastewater line, so most homeowners assume OUC runs the sewer. It does not. OUC's billing guide says it is only the billing agent for wastewater charges levied by the City of Orlando. The pipes under the street are owned and run by the Public Works Department's Water Reclamation Division, which collects roughly 45 million gallons a day through about 730 miles of gravity sewer, 165 miles of force main, and 206 lift stations, and treats it at Iron Bridge, Water Conserv I, and Water Conserv II. Across the city limit, unincorporated Orange County is served by Orange County Utilities instead. Knowing which of the three you are dealing with is the first question in any <a href=\"https://fla-trenchless.com/orange-county/\">trenchless sewer repair in Orlando</a>.</p>\n<h2>The Property Line Is Where the Rule Changes</h2>\n<p>Chapter 30 of the City Code splits the lateral in an unusual way. Section 30.02 makes the customer responsible for the maintenance and internal cleanliness of the entire lateral, from the public sewer all the way into the house plumbing. Structural repair is divided at the property line: the city fixes structural defects in the stretch between the public sewer and the property line, and the owner fixes everything from the property line up to and including the building drain. A root clog anywhere in the run is yours to clear, a crushed pipe under the street is the city's to replace, and a cracked pipe under your yard or slab is yours. The location of a defect, not just its existence, decides who pays, and a recorded camera inspection is the evidence that settles it.</p>\n<h2>Permits, Licensed Plumbers, and the Lateral Assessment</h2>\n<p>The same section says lateral connections must be made by licensed and bonded plumbers or underground utility contractors, and no one may uncover, open, alter, or disturb a public sewer without a written permit from the Director of Permitting Services. For a new connection, a licensed plumber must submit a lateral condition assessment after the permit issues and before work starts. The published schedule lists a $50 residential sewer permit, a $2,537.50 impact fee for new connections, and $2,950 when the city builds the lateral; jobs over $5,000 also need a Notice of Commencement recorded with the Orange County Comptroller. Rehabilitating an existing lateral does not trigger the impact fee, but it still runs through a plumbing permit and a final inspection by the Permitting Division.</p>\n<h2>Sandy Ground, Shallow Water, and the Inflow the Code Forbids</h2>\n<p>Central Florida sits on sand over limestone, and the wet-season water table in many Orlando neighborhoods is only a few feet down. The city's wastewater planning documents measure infiltration and inflow by subarea at rates from about 100 to 400 gallons per acre, with the highest numbers in the oldest pipe. Every cracked joint in a private lateral is an open door for that groundwater, which the city hunts on its own side with closed-circuit television, smoke testing, and dye-water testing. On the private side, Section 30.02 flatly prohibits connecting roof downspouts, foundation drains, areaway drains, or any other surface or groundwater source to a lateral without Public Works approval. A sealed lateral is the homeowner's half of that bargain.</p>\n<h2>Where Lining Fits on an Orlando Lot</h2>\n<p>Cured-in-place pipe lining rebuilds a lateral from the inside. The contractor measures the run, wets out a liner to match it, feeds it through the existing pipe under pressure, and hardens it in place, so the old lateral becomes a form for a new one with no joints anywhere along its length. In Orlando that matters most in the mid-century neighborhoods where the drain lines run beneath a concrete slab. Cast iron under those floors corrodes from the bottom up, wearing a channel along the invert until it leaks into the sand beneath the house. Digging that out means cutting terrazzo or tile and jackhammering the slab. Lining reaches the same pipe through a cleanout or one access pit, cures in hours, and leaves the floor alone, and it renews the yard segment the owner is responsible for without tearing out a live oak's roots or a paver driveway. For larger-diameter commercial lines, Superior Plumbing &amp; Pipe Lining can spin cast a cementitious liner instead.</p>\n<h2>When Lining Is the Wrong Answer</h2>\n<p>A liner can only follow a pipe that still has a shape. If the lateral has collapsed, a section has crushed under a driveway, joints have pulled apart into a separated offset, or the run has settled into a belly that holds water, the liner will either bridge a void it cannot support or copy the sag and keep the standing water. Those defects need pipe bursting or open excavation, and on the city's side of the property line they are the city's to fix. The honest sequence is a camera inspection, a written finding, and only then a quote for lining, bursting, or digging. A contractor who quotes a liner over the phone is guessing about a pipe nobody has seen.</p>\n<h2>Orlando's Housing Eras, Read from Below</h2>\n<p>The Census counts about 146,600 housing units in the city. Only about 2.6 percent were built before 1940 and about 13.6 percent before 1960, so Orlando's sewer problem is younger than in older Southern cities. Roughly 28 percent of the housing stock went up between 1950 and 1979, the decades of cast iron under slabs in College Park, Conway, Audubon Park, and the postwar subdivisions ringing downtown, and that is where channeling and root intrusion show up now. About 38 percent of units date from 2000 or later and mostly sit on PVC. A few pockets inside the city still run on septic, allowed only where sewer is unavailable; the comprehensive plan directs owners within 100 feet of a city line to connect when a tank fails. The large septic-to-sewer conversions in the news, including the roughly 2,000-home Wekiwa Springs program, are Orange County Utilities projects outside the city limits.</p>",
+    "faq": [
+      [
+        "Who runs the sanitary sewer in Orlando, OUC or the city?",
+        "The City of Orlando Public Works Department's Water Reclamation Division owns and operates the sewer system inside city limits. OUC delivers water and electricity and merely bills the city's wastewater charge. Homes in unincorporated Orange County are served by Orange County Utilities instead."
+      ],
+      [
+        "Who pays for a broken sewer lateral in Orlando?",
+        "It depends where the break is. Under City Code Section 30.02, the city repairs structural defects between the public sewer and the property line, while the owner repairs anything from the property line to the building drain. Clearing clogs anywhere in the lateral is always the owner's job."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer lateral in Orlando?",
+        "Yes. Work on a lateral must be done by a licensed and bonded plumber or underground utility contractor, and opening or altering a public sewer requires a written permit from the Director of Permitting Services. The Permitting Division inspects and closes the permit when the job is done."
+      ],
+      [
+        "Why are older Orlando homes prone to sewer line failure?",
+        "About 28 percent of the city's housing was built between 1950 and 1979, when cast iron drain lines were typically buried under the slab. In Florida's sandy, wet ground that iron corrodes along its bottom, leaks, and invites roots, which is why those neighborhoods generate most lining calls."
+      ],
+      [
+        "Can I connect my gutters or yard drain to the sewer to stop flooding?",
+        "No. Orlando's sewer ordinance prohibits connecting roof downspouts, foundation drains, areaway drains, or other surface or groundwater sources to a lateral without approval from the Director of Public Works. That water overloads the lift stations and plants the city runs."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Sewer inside Orlando city limits is run by the City of Orlando Public Works Water Reclamation Division: about 45 MGD collected, roughly 730 miles of gravity sewer, 165 miles of force main, 206 lift stations, and three plants (Iron Bridge, Water Conserv I, Water Conserv II). OUC only bills the city's wastewater charge; unincorporated areas are served by Orange County Utilities.",
+        "source": "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Water-Reclamation-Division"
+      },
+      "lateral": {
+        "value": "City Code Sec. 30.02(1.4): the customer maintains and keeps clean the whole lateral from the public sewer through the house plumbing; the City repairs structural defects from the public sewer to the property line; the owner repairs from the property line to and including the building drain.",
+        "source": "https://library.municode.com/fl/orlando/codes/code_of_ordinances?nodeId=TITIICICO_CH30RESEUSRA"
+      },
+      "permit": {
+        "value": "Sec. 30.02(1.3): lateral connections must be made by licensed and bonded plumbers or underground utility contractors, and no one may open or alter a public sewer without a written permit from the Director of Permitting Services. City fee schedule: $50 residential sewer permit, $2,537.50 impact fee (new connections), $2,950 city-built lateral; a lateral condition assessment by a licensed plumber is required before connection work.",
+        "source": "https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Request-a-Residential-Sewer-Connection"
+      },
+      "program": {
+        "value": "The city's wastewater comprehensive-plan support document reports infiltration/inflow rates by subarea of roughly 100 to 400 gallons per acre, uses CCTV, smoke and dye testing to find defects, and describes a policy that septic tanks are rarely allowed in the city and owners within 100 feet of a city sewer must connect when a tank fails; a septic tank abandonment credit program exists. No FDEP or EPA consent order for the city system was found in primary sources.",
+        "source": "https://orlando.gov/files/sharedassets/public/v/1/documents/city-and-district-plans/comprehensive-plan/support-documents/wastewater-support.pdf"
+      },
+      "housing_age": {
+        "value": "ACS 2023 5-year B25034: 146,615 housing units in Orlando city; 2.6% built before 1940, 13.6% before 1960, 18.2% built 1940-1969, 28.3% built 1950-1979, 38.3% built 2000 or later.",
+        "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:53000&in=state:12"
+      },
+      "inflow_prohibition": {
+        "value": "Sec. 30.02(1.4) prohibits connecting roof downspouts, exterior foundation drains, areaway drains, or other surface runoff or groundwater sources to a lateral or building drain tied to the city sewer without Public Works approval.",
+        "source": "https://library.municode.com/fl/orlando/codes/code_of_ordinances?nodeId=TITIICICO_CH30RESEUSRA"
+      },
+      "county_septic_to_sewer": {
+        "value": "Orange County Utilities' Septic 2 Sewer program is converting about 2,000 homes in the Wekiwa Springs Priority Focus Area (unincorporated county, not the city) under the Wekiwa and Rock Springs BMAP; FDEP is funding a related Pine Hills conversion of about 95 homes with more than $7.9 million.",
+        "source": "https://www.orangecountyfl.net/WaterGarbageRecycling/Septic2Sewer.aspx"
+      }
+    },
+    "sources": [
+      "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Water-Reclamation-Division",
+      "https://orlando.gov/files/sharedassets/public/v/1/documents/city-and-district-plans/comprehensive-plan/support-documents/wastewater-support.pdf",
+      "https://library.municode.com/fl/orlando/codes/code_of_ordinances?nodeId=TITIICICO_CH30RESEUSRA",
+      "http://orlando-fl.elaws.us/code/coor_ch30_sec30.02",
+      "https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Request-a-Residential-Sewer-Connection",
+      "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Water-Reclamation-Division/Private-Sewer-System-Management-Program",
+      "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Water-Reclamation-Division/Industrial-Waste-Pretreatment/Iron-Bridge",
+      "https://www.ouc.com/account/understanding-my-bill/",
+      "https://newsroom.ocfl.net/directory/utilities-department/",
+      "https://www.orangecountyfl.net/WaterGarbageRecycling/Septic2Sewer.aspx",
+      "https://floridadep.gov/wra/wra/news/dep-helps-fund-neighborhood-septic-sewer-connection-orlando",
+      "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:53000&in=state:12"
+    ]
+  },
+  {
+    "id": 153,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Jacksonville",
+    "slug": "jacksonville",
+    "url": "/cipp-contractor/florida/jacksonville",
+    "metaTitle": "Jacksonville, FL Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "JEA runs Jacksonville's sewer, Chapter 751 gives septic owners one year to connect once a main arrives, and postwar slabs hide cast iron. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>A City Still Hooking Up to Its Sewer</h2>\n<p>Jacksonville consolidated with Duval County in 1968, so the city limits run out to farmland and marsh, and many homes inside them were built on septic tanks a sewer main never reached. The sanitary sewer belongs to JEA, the city-owned utility, which serves more than 230,000 sewer customers in Jacksonville and parts of three adjacent counties through 3,760-plus miles of collection lines and fifteen treatment plants, seven of them regional. Every connection to that network ends in a private pipe the owner has to keep tight. When that pipe is an aging line under a slab, a <a href=\"https://fla-trenchless.com/duval-county/\">cured in place pipe</a> liner is often how it gets renewed without tearing up the house.</p>\n<h2>The Creeks That Set the Priorities</h2>\n<p>The push for sewer expansion starts in the tributaries. A state Basin Management Action Plan adopted in 2009 covers ten Duval County creeks impaired for fecal coliform, including Hogan Creek downtown, Big Fishweir Creek on the Westside, and Goodbys Creek on the Southside, together draining more than 166 square miles. The plan names failing septic tanks, sanitary sewer overflows, and leaking sewer pipes among the sources, and it took stock of JEA's line upgrades by cured-in-place pipe, pipe bursting, and open-cut replacement. FDEP and the city still publish quarterly Duval Tributary Watch reports on those waters, so a leaking lateral near a creek is not only the owner's problem.</p>\n<h2>Chapter 751: The Clock Starts When the Main Arrives</h2>\n<p>Ordinance Code Chapter 751 turns that cleanup into a rule with teeth. The city ranks septic neighborhoods on fifteen criteria, among them tank age and repair history, soil conditions, water table elevation, distance to surface water, and lot size, and the highest-scoring areas get sewer first. Once JEA lines are available, the owner of an existing building gets a recorded notice and one year to connect. Miss that deadline and a monthly Readiness to Serve charge begins the next day and bills until the connection is made, with penalties and liens under Section 751.114 if the property never complies. Owners in a funded priority area get help with connection costs; owners outside one pay the full cost, with a monthly installment option written into the code.</p>\n<h2>Beverly Hills, Biltmore, Christobel, Riverview</h2>\n<p>The current program came out of a 2016 city-JEA agreement, spent 2016 to 2020 on research and outreach, and went into construction in 2023. The mayor's office reports more than 400 homes phased off septic since then, more than 600 targeted over the next four years across five neighborhoods including Beverly Hills, Christobel, and Riverview, city funding raised to 25 million dollars a year, and a 70 percent participation threshold before a neighborhood proceeds. An earlier Better Jacksonville Plan effort spent 75 million dollars sewering Murray Hill, Lake Forest, Glynlea, Oakwood Villas, Pernecia, and Scott Mill Hill before winding down in 2010.</p>\n<h2>Where Your Pipe Becomes JEA's Pipe, and Who Signs the Permit</h2>\n<p>Jacksonville no longer spells out the lateral boundary in its own code. The Ordinance Code notes that the old Water and Sewer Code sections on connections and service were repealed by Ordinance 97-229-E and converted into JEA's Rules and Regulations, so the exact point where JEA's responsibility ends is a JEA document. In practice the drain line on your lot, from the house to the point JEA sets at or near the property line, is yours to maintain and repair, and roots or a backup in that run are not the utility's to fix.</p>\n<p>The repair is permitted work. The Building Inspection Division requires a plumbing permit for anything beyond clearing a stoppage or swapping a faucet, licensed contractors pull their own permits, and the work is inspected. An owner may pull one only for a primary residence in their name, in person at 214 North Hogan Street. If the dig or access pit reaches a city street or right-of-way, Development Services issues a separate right-of-way permit, with a surety bond on file and fees doubled if work starts first; JEA easements and FDOT roads are handled separately.</p>\n<h2>Postwar Slabs and Cast Iron</h2>\n<p>Jacksonville counts about 422,000 housing units, and the 2023 American Community Survey puts roughly 121,500 of them, close to 29 percent, at pre-1970 construction, with another 50,000 from the 1970s. Only about five percent predate 1940; the problem stock is the 1950s through 1970s ranch house on a slab in Arlington, the Westside, and the Southside. Those homes were plumbed with cast iron drain lines, and cast iron in Florida's wet, sandy ground corrodes along the bottom of the pipe, channeling out until the invert is gone while the crown still looks solid on camera. About 30 percent of the city's homes date from 2000 or later, on PVC that rarely needs this conversation.</p>\n<h2>Where Cured-in-Place Lining Fits in Jacksonville</h2>\n<p>For a channeled cast iron line under a slab, or a cracked lateral running under a driveway to the JEA connection, cured-in-place pipe is the repair that avoids demolition. A resin-saturated liner is pulled or inverted into the existing pipe through a cleanout or one access pit and cured in place, leaving a smooth, jointless pipe inside the old one that groundwater and roots can no longer enter. With a high water table and creeks under a bacteria cleanup plan, that seal is the point: a lined lateral stops feeding infiltration into a system JEA is spending heavily to expand, without cutting the floor or trenching the yard.</p>\n<p>Lining is the wrong answer when the host pipe no longer has a shape to line. A collapsed run, a belly that holds standing water, joints pulled apart at an offset, or a section crushed under the driveway will not be fixed by a liner and needs pipe bursting or open excavation. Superior Plumbing &amp; Pipe Lining cameras and locates the line before quoting, and offers spin cast lining for larger-diameter pipe, so the recommendation follows what the camera finds.</p>",
+    "faq": [
+      [
+        "Who runs the sewer system in Jacksonville, Florida?",
+        "JEA, the city-owned utility, operates the sanitary sewer for Jacksonville and parts of three neighboring counties. Its collection system runs well over 3,700 miles of pipe to fifteen treatment plants, and it also builds the sewer extensions used in the city's septic tank phase-out program."
+      ],
+      [
+        "Am I required to connect to sewer in Jacksonville if it becomes available?",
+        "Yes, for an existing building. Under Ordinance Code Chapter 751 the owner gets a recorded notice and one year to connect once JEA lines are available. After that a monthly Readiness to Serve charge is billed until connection, and the city can pursue penalties and liens."
+      ],
+      [
+        "Who is responsible for the sewer lateral on my property in Jacksonville?",
+        "The city repealed its own connection rules into JEA's Rules and Regulations, so the precise boundary is set by JEA. The drain line on your lot, from the house to JEA's connection point near the property line, is the owner's to maintain and repair."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer line in Jacksonville?",
+        "Yes. Sewer line repair is plumbing work that requires a permit from the city's Building Inspection Division, and a licensed contractor pulls it and schedules the inspection. Work that opens a city street or right-of-way also needs a right-of-way permit with a bond on file."
+      ],
+      [
+        "Is my Jacksonville home likely to have cast iron drain lines?",
+        "If it was built before about 1975, probably. Roughly 29 percent of the city's housing predates 1970, mostly slab-on-grade homes with cast iron under the floor. That pipe corrodes along its bottom, and lining is usually the way to renew it without breaking the slab."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "JEA, Jacksonville's city-owned utility, serves 230,000+ sewer customers in Jacksonville and parts of three adjacent counties through 3,760+ miles of collection lines and seven regional plus eight non-regional treatment plants.",
+        "source": "https://19january2025snapshot.epa.gov/sustainability/jea/index.html"
+      },
+      "lateral": {
+        "value": "Jacksonville's Ordinance Code Chapter 750 notes that the former Water and Sewer Code sections on service and connections were repealed by Ord. 97-229-E and converted into JEA's Rules and Regulations; Chapter 751 defines an available sewer as one capable of being connected with the plumbing of the residence. The exact JEA/owner boundary is in JEA's rules, which could not be retrieved; the on-lot line is treated as the owner's.",
+        "source": "https://library.municode.com/fl/jacksonville/codes/code_of_ordinances?nodeId=TITXXIPUWOUT_CH750WASECO"
+      },
+      "permit": {
+        "value": "City of Jacksonville Building Inspection Division requires a plumbing permit for work beyond clearing stoppages or replacing faucets; licensed contractors obtain their own permits; owner-builder permits only for an owner-occupied primary residence in person at 214 N. Hogan St. Excavation in city right-of-way needs a separate ROW permit (surety bond, fees doubled if work starts first; six-month validity).",
+        "source": "https://www.jacksonville.gov/departments/public-works/building-inspection-division/commercial-permits/residential-permits"
+      },
+      "program_septic_phaseout": {
+        "value": "Ordinance Code Chapter 751 (Wastewater System Improvement Program): priority septic areas ranked on 15 criteria (tank age/repairs, soils, water table, proximity to surface water, lot size); once JEA lines are available owners get recorded notice and one year to connect, then a monthly Readiness to Serve charge, with penalties and liens under 751.114. Mayor's office: 400+ homes phased out 2023-2026, 600+ targeted in next four years, $25M/yr city funding, 70% participation threshold, neighborhoods incl. Beverly Hills, Christobel, Riverview.",
+        "source": "https://library.municode.com/fl/jacksonville/codes/code_of_ordinances?nodeId=TITXXIPUWOUT_CH751WASYIMPR"
+      },
+      "bmap_tributaries": {
+        "value": "FDEP's 2009 Lower St. Johns River Tributaries fecal coliform BMAP covers ten Duval County creeks (Newcastle, Hogan, Butcher Pen, Miller, Miramar, Big Fishweir, Deer, Terrapin, Goodbys, Open) draining 166+ sq mi; sources include failing septic tanks, SSOs and leaking sewer pipes; the plan reviewed JEA's CIPP, pipe-bursting and open-cut upgrades and manhole rehab.",
+        "source": "https://floridadep.gov/sites/default/files/lsjr-tribs-fecal-bmap.pdf"
+      },
+      "bjp_septic_remediation": {
+        "value": "The Better Jacksonville Plan spent $75 million sewering Pernecia, Murray Hill, Lake Forest, Scott Mill Hill, Glynlea and Oakwood Villas; that program ended in 2010 and the successor Water and Sewer Expansion Authority was dissolved June 30, 2011.",
+        "source": "https://www.coj.net/departments/better-jacksonville-plan/septic-tank-remediation.aspx"
+      },
+      "housing_age": {
+        "value": "ACS 2023 5-year B25034: 422,355 housing units; 5.0% built before 1940; 19.4% before 1960; 23.8% built 1940-1969; 28.8% (about 121,500) before 1970 plus 50,160 from the 1970s; 30.4% built 2000 or later.",
+        "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:35000&in=state:12"
+      }
+    },
+    "sources": [
+      "https://19january2025snapshot.epa.gov/sustainability/jea/index.html",
+      "https://library.municode.com/fl/jacksonville/codes/code_of_ordinances?nodeId=TITXXIPUWOUT_CH751WASYIMPR",
+      "https://library.municode.com/fl/jacksonville/codes/code_of_ordinances?nodeId=TITXXIPUWOUT_CH750WASECO",
+      "https://www.jacksonville.gov/departments/public-works/building-inspection-division/commercial-permits/residential-permits",
+      "https://www.jacksonville.gov/departments/public-works/development-services-division/review-group-(fka-dmg)/right-of-way-permitting",
+      "https://www.jacksonville.gov/mayor/promiseskept/infrastructure,-resilience-accountability/septic-tanks",
+      "https://www.coj.net/departments/better-jacksonville-plan/septic-tank-remediation.aspx",
+      "https://floridadep.gov/sites/default/files/lsjr-tribs-fecal-bmap.pdf",
+      "https://floridadep.gov/northeast/northeast/content/duval-tributary-watch",
+      "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:35000&in=state:12"
+    ]
+  },
+  {
+    "id": 154,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Fort Myers",
+    "slug": "fort-myers",
+    "url": "/cipp-contractor/florida/fort-myers",
+    "metaTitle": "Fort Myers, FL Sewer Lateral Rules and CIPP Lining",
+    "metaDescription": "Fort Myers is under a 2021 FDEP consent order after 70 sewage spills, and city code makes the lateral yours outside the right-of-way. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>Seventy Spills and a Consent Order That Still Runs</h2>\n<p>Fort Myers runs its own sanitary sewer, with two plants on the Caloosahatchee: the Central Advanced Wastewater Treatment Facility, permitted at 11 million gallons a day, and the South facility at 12. In 2021 the Florida Department of Environmental Protection put the city under consent order OGC 20-0851 after counting 44 spills of untreated sewage in the Central service area and 26 in the South area, the largest a 183,000-gallon release into Manuel's Branch in March 2020 that was never recovered. The order also cited bacteria in Billy's Creek and effluent and groundwater violations at both plants. If you own property here and are weighing <a href=\"https://fla-trenchless.com/lee-county/\">sewer pipe lining</a>, that order is the backdrop: the public side of the system is under state supervision, and the private laterals draining into it are the part nobody but the owner will fix.</p>\n<h2>What the State Made the City Do About Its Pipes</h2>\n<p>The consent order was not only about the plants. It required an engineering report on preventing sewer overflows, an inventory of every pump station, an emergency response plan, and a full capacity, management, operations, and maintenance program for the collection system by March 2023, along with a bacteria reduction plan for Manuel's Branch and Billy's Creek. The civil penalty was $512,450, offsettable with an in-kind project worth at least $768,675. By spring 2025 city staff reported seven of eleven corrective actions complete, and council moved to fold the remaining discharge milestones into the state's Senate Bill 64 deadline of January 1, 2032 for ending surface-water discharge, a program staff priced above $300 million.</p>\n<h2>Where the City Stops and Your Pipe Begins</h2>\n<p>Fort Myers draws its line at the right-of-way. Section 90-113 of the city code says the utility will not even open a stoppage complaint until a licensed plumber has checked the pipes on the owner's property and certified they are clear. The customer can ask the city to investigate; if the blockage turns out to be in the right-of-way the city fixes it at no charge, but if it is on the customer's side the city bills a $40 fee and the repair belongs to the owner. The run from your house to the edge of the right-of-way is yours to camera, clean, and rebuild. In the unincorporated neighborhoods served by Lee County Utilities the rule is similar: the county's customer service manual makes the customer the owner of all piping from the designated service lateral into the house and requires an accessible cleanout at the tap.</p>\n<h2>Permits Run Through the Building Official</h2>\n<p>The city adopts the Florida Building Code, including the plumbing volume, as its minimum construction standard, and section 102-81 bars construction of any kind inside the city without a permit from the building official. Section 102-54 makes contracting without a valid license unlawful, so an unlicensed handyman cannot legally replace or line a sewer lateral. A rehabilitated lateral is still a plumbing alteration under that code, so the contractor should pull the permit, record the pipe on video before and after, and call for the inspection.</p>\n<h2>Why a Leaking Lateral Here Feeds a Bigger Problem</h2>\n<p>Southwest Florida sits on a high water table, and sewer pipes below it take on groundwater through every crack and joint. Lee County Utilities' own wastewater master plan measured infiltration at 24 to 60 percent of average flow depending on the basin, and flagged rainfall-driven inflow as the cause of the surges the system sees after storms. Every gallon of that clean water rides to a city plant, takes up capacity, and pushes a lift station closer to the overflows the consent order was written to stop. The city has now scoped a ten-year sewer system evaluation and inflow-and-infiltration program at $60 million and is rehabilitating four or five lift stations a year with hazard-mitigation grants. Private laterals are outside that program. An owner who seals one removes a leak the city cannot reach.</p>\n<h2>Where Cured-in-Place Lining Fits in Fort Myers</h2>\n<p>Cured-in-place pipe puts a new pipe inside the old one. The liner goes in wet, follows the bends of the lateral under pressure, and hardens in place into a single continuous wall that roots and groundwater can no longer get through. In Fort Myers it earns its place for two reasons: it keeps groundwater out of a pipe that would otherwise leak year-round, and it avoids trenching through a slab, a driveway, or the right-of-way where the city's own utilities run. Superior Plumbing & Pipe Lining works statewide from Sarasota and also spin casts larger-diameter lines where a felt liner is not the right tool. Lining is the wrong answer, though, when the host pipe is gone. A collapsed run, a belly that holds water, a joint that has pulled apart, or a crushed section has to be burst out or excavated, because a liner takes the shape of whatever it is cured inside. The first step for any Fort Myers lateral is a camera inspection, and a contractor who quotes a liner without one is guessing with your money.</p>\n<h2>A Young City With an Old Core Under Slab</h2>\n<p>Of Fort Myers' roughly 47,000 housing units, about 51 percent were built after 2000, and only 3 percent date from before 1940. But about a quarter of the stock, close to 12,000 units, predates 1980, and around 8 percent predates 1960. Those homes cluster along the river and around downtown, and most were built on slabs with cast iron drain lines beneath the concrete. Cast iron in wet Florida soil corrodes from the bottom up until the channel drops out and the pipe becomes a trough. Replacing it means cutting the floor; lining it means a resin pipe cured in place with the slab left whole. Those are the houses where lining pays for itself here, and they are worth a camera look before the next backup.</p>",
+    "faq": [
+      [
+        "Who fixes a blocked sewer line in Fort Myers, the city or me?",
+        "It depends where the blockage sits. Under city code section 90-113 the utility repairs problems inside the public right-of-way for free, but anything on your property is yours to fix, and the city charges $40 if its crew comes out and finds the fault on your side."
+      ],
+      [
+        "Do I need a licensed plumber before calling the city about a sewer backup?",
+        "Yes. Fort Myers will not open a stoppage complaint until a licensed plumber has inspected the drains and sewer piping on the property and certified they are clear, so hire one and have the line cameraed first."
+      ],
+      [
+        "Is a permit required to line a sewer lateral in Fort Myers?",
+        "Yes. The city adopts the Florida Building Code including plumbing, requires a permit from the building official for construction work, and makes it unlawful to contract without a license. Your lining contractor should pull the permit and schedule the inspection."
+      ],
+      [
+        "What is the Fort Myers sewer consent order about?",
+        "FDEP order OGC 20-0851, signed in 2021, followed dozens of untreated sewage spills, bacteria in Billy's Creek and Manuel's Branch, and effluent and groundwater violations at the Central and South plants. It required a collection-system maintenance program and was amended in 2025 to match a 2032 discharge deadline."
+      ],
+      [
+        "Does Lee County Utilities follow the same lateral rule as the city?",
+        "Close to it. For unincorporated areas around Fort Myers, the Lee County Utilities customer service manual says the customer owns and maintains all piping from the designated service lateral into the house and must keep an accessible cleanout at the tap; the county maintains only its mains, force mains, and pump stations."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "City of Fort Myers operates the Central Advanced WWTF (permit FL0021261, 11.0 MGD) and South Advanced WWTF (permit FL0021270, 12.0 MGD), both discharging to the Caloosahatchee; Lee County Utilities holds access to roughly half the capacity of each city plant and serves unincorporated areas with about 1,093 pump stations.",
+        "source": "https://calusawaterkeeper.org/wp-content/uploads/2021/02/City_of_Fort_Myers_Consent_Order_OGC_20-0851.pdf"
+      },
+      "lateral": {
+        "value": "Fort Myers Code Sec. 90-113: no stoppage complaint is accepted until a licensed plumber certifies the owner's pipes are clear; if the city investigates and the problem is in the right-of-way the city fixes it free, if on the customer's property a $40 fee is charged and the customer is responsible for the repair.",
+        "source": "https://library.municode.com/fl/fort_myers/codes/code_of_ordinances?nodeId=SPAADCO_CH90UT_ARTIVSE"
+      },
+      "permit": {
+        "value": "Fort Myers Code Sec. 102-121 adopts the Florida Building Code (including Plumbing) as the minimum standard; Sec. 102-81 requires a permit from the building official for any construction; Sec. 102-54 makes contracting without a valid contractor's license unlawful; fees follow the valuation-based schedule (Sec. 102-82).",
+        "source": "https://library.municode.com/fl/fort_myers/codes/code_of_ordinances?nodeId=SPBLADECO_CH102BUCORE"
+      },
+      "consent_order": {
+        "value": "FDEP Consent Order OGC 20-0851 (2021): 44 SSOs in the Central service area and 26 in the South area, including a 183,000-gallon unrecovered spill to Manuel's Branch on March 16, 2020; bacteria in Billy's Creek and Manuel's Branch; effluent and groundwater violations; required SSO engineering report, pump station inventory, CMOM program by March 31, 2023, and discharge reductions; civil penalty $512,450 with an in-kind option of at least $768,675.",
+        "source": "https://calusawaterkeeper.org/wp-content/uploads/2021/02/City_of_Fort_Myers_Consent_Order_OGC_20-0851.pdf"
+      },
+      "consent_order_2025_amendment": {
+        "value": "As of spring 2025, 7 of 11 corrective actions were complete; council aligned the order with the SB 64 deadline to eliminate surface-water discharge by Jan. 1, 2032, with a program estimated at $300M-plus ($323M staff estimate) and an amended penalty of about $75,000.",
+        "source": "https://citizenportal.ai/articles/8950674/florida/lee-county/fort-myers-city/city-staff-outlines-323m-strategy-and-new-milestones-to-eliminate-surface-water-discharges"
+      },
+      "ii_program": {
+        "value": "City staff (May 2026) described a 10-year SSES inflow-and-infiltration program initially scoped at $60 million and grant-funded lift-station rehabilitation of 4-5 stations per year; Lee County Utilities' master plan measured groundwater infiltration at 24-60% of average flow.",
+        "source": "https://citizenportal.ai/articles/9207934/Florida/Lee-County/Fort-Myers-City/City-staff-outlines-major-utilities-investments-flags-147-million-wastewater-expansion"
+      },
+      "housing_age": {
+        "value": "ACS 2019-2023 B25034: 47,068 housing units; 2.9% built before 1940, 8.3% before 1960, 12.8% built 1940-1969, about 25% built before 1980, and 51.4% built 2000 or later.",
+        "source": "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:24125&in=state:12"
+      }
+    },
+    "sources": [
+      "https://calusawaterkeeper.org/wp-content/uploads/2021/02/City_of_Fort_Myers_Consent_Order_OGC_20-0851.pdf",
+      "https://library.municode.com/fl/fort_myers/codes/code_of_ordinances?nodeId=SPAADCO_CH90UT_ARTIVSE",
+      "https://library.municode.com/fl/fort_myers/codes/code_of_ordinances?nodeId=SPAADCO_CH90UT_ARTIINGE",
+      "https://library.municode.com/fl/fort_myers/codes/code_of_ordinances?nodeId=SPBLADECO_CH102BUCORE",
+      "https://www.leegov.com/utilities/Documents/9.23.22Customer%20Service%20Operations%20Manual%20ERU%20update.pdf",
+      "https://www.leegov.com/procurement/Project%20Documents/Three%20Oaks%20Water%20Reclamation%20Facility%20Expansion%20DB200309ANB/199611%20-%20LCU%20Wastewater%20Master%20Plan%20Update%20Report%20-%20Final%2020191109.pdf",
+      "https://citizenportal.ai/articles/8918211/Florida/Lee-County/Fort-Myers-City/City-seeks-to-align-2021-FDEP-consent-order-with-state-law-staff-estimates-300M-plus-program-to-eliminate-surface-water-discharge",
+      "https://citizenportal.ai/articles/8950674/florida/lee-county/fort-myers-city/city-staff-outlines-323m-strategy-and-new-milestones-to-eliminate-surface-water-discharges",
+      "https://citizenportal.ai/articles/9207934/Florida/Lee-County/Fort-Myers-City/City-staff-outlines-major-utilities-investments-flags-147-million-wastewater-expansion",
+      "https://calusawaterkeeper.org/news/fort-myers-bacteria-amended-consent-order-statement-228435/",
+      "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:24125&in=state:12"
+    ]
+  },
+  {
+    "id": 155,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Miami",
+    "slug": "miami",
+    "url": "/cipp-contractor/florida/miami",
+    "metaTitle": "Miami, FL Sewer Lateral Rules, Consent Decree & CIPP",
+    "metaDescription": "Miami sits on groundwater a few feet down, under a $1.6 billion federal sewer consent decree, with half its homes built before 1980. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>A Sewer System That Sits in the Water Table</h2>\n<p>Sewers in Miami are not run by the city. The Miami-Dade Water and Sewer Department operates the system for the City of Miami and most of the county: roughly 3,200 miles of gravity main, about 970 miles of force main, more than 1,000 pump stations, and three treatment plants that handle close to 300 million gallons a day. What sets this system apart is what it sits in: the county's own septic-to-sewer program describes South Florida groundwater as lying just a few feet beneath the surface, with rising seas pushing it higher near the coast. Every crack in a gravity pipe here is below the water line, which is why <a href=\"https://fla-trenchless.com/miami-dade-county/\">trenchless sewer repair</a> in Miami is less about roots than about keeping groundwater out.</p>\n<h2>The 2013 Consent Decree and What It Bought</h2>\n<p>Between late 2007 and late 2012 the county reported more than 50 million gallons of sanitary sewer overflows, over 28 million gallons of which reached canals, rivers, and Biscayne Bay. In June 2013 Miami-Dade settled with the EPA and the State of Florida: a $978,000 penalty, about $1.6 billion in capital work over roughly fifteen years, and a $2 million septic-tank elimination project. The court entered the decree in April 2014. It requires the county to inspect, repair, and rehabilitate its gravity sewers specifically to cut infiltration, alongside a management program for pump stations, force mains, grease control, and overflow response.</p>\n<h2>Fifty Miles of Liner in the Public Mains</h2>\n<p>The county's answer to leaking gravity pipe has been the same method a homeowner would use. In 2025 the commission amended a $30 million countywide cured-in-place pipe contract with Insituform, and the staff memo reported about 50 miles lined since May 2024, more than 143,000 feet of it inside wellfield protection areas where drinking water is drawn. At award, the backlog of gravity main needing rehabilitation stood near 135 miles. Earlier county-funded study work had found that after mainline repairs cut plant flows by about 100 million gallons a day, house laterals were the one component never fully investigated and the likely source of the rain-driven infiltration that remained.</p>\n<h2>Where Your Pipe Ends and the County's Begins</h2>\n<p>Miami-Dade Code section 24-5 defines a sewage lateral connection as the pipe carrying wastewater from a building to the public gravity sewer, which means the lateral runs all the way to the main. The county's regulatory matrix for laterals goes further, treating clay and cast-iron laterals as a replace-or-rehabilitate item from the right-of-way to the main, or lining them where a state road moratorium blocks digging. WASD publishes no clean statement that it maintains the street portion for you; its own lateral pilot described a public side from the street to the property line and a private side from the property line to the house. The safe assumption is that the run under your yard and house is yours, that a right-of-way problem needs WASD involved, and that the county's lateral location record is the first document to pull before anyone quotes a repair.</p>\n<h2>Permits Run Through the City of Miami, Not the County</h2>\n<p>Inside city limits, plumbing permits come from the City of Miami Building Department, not the county building office, and applications go through the city's iBuild portal. Florida requires a permit for plumbing work, and the city's permit guide says a licensed contractor can pull it online while an owner doing the work personally must pass the owner-builder test in person. Every permit closes with an inspection scheduled through the same portal, and the work must meet the 2023 Florida Building Code, Plumbing. The county's exemption list treats stopping a leak in a sewer line as minor repair, but once a concealed drain is removed and replaced with new material it counts as new work and needs a permit; a lateral lining or replacement falls on the permit side of that line.</p>\n<h2>Where Cured-in-Place Lining Fits in Miami, and Where It Does Not</h2>\n<p>A CIPP liner is a resin-soaked tube pulled or inverted into the old pipe and cured in place into a jointless new wall that groundwater can no longer enter. That matters more in Miami than inland, because a lateral here often sits below the water table and any joint gap is a steady intake. Lining also spares the slab. Most Miami homes from before the mid-1970s drain through cast iron under the floor, and cast iron in wet limestone soil corrodes from the bottom up until a channel opens along the invert; lining that run from a cleanout or a single access pit renews it without cutting terrazzo and tile. Lining is the wrong tool when the pipe has lost its shape. A collapsed section, a sag that holds water, a joint pulled apart into an offset, or a crushed run under a driveway cannot be lined and needs pipe bursting or excavation. A contractor should camera the whole line and show you the footage before proposing a liner. Superior Plumbing & Pipe Lining also spin casts larger-diameter lines for commercial and multifamily properties.</p>\n<h2>Miami's Housing Stock and the Cast Iron Beneath It</h2>\n<p>The Census Bureau counts about 219,800 housing units in the City of Miami. Around a third were built since 2000, mostly high-rise, but the ground-floor story is older: about 31 percent of units predate 1960, roughly 8 percent predate 1940, and just over half were standing before 1980. That is the cast-iron era in Shenandoah, Little Havana, Coconut Grove, and Allapattah, where slab-on-grade houses drain through iron that has spent sixty or seventy years in saturated ground. The county's own septic program counts about 120,000 septic systems countywide, with roughly 9,000 already compromised by high groundwater and about 13,500 expected to be by 2040, and homes connected under Connect 2 Protect get a new lateral. The rest of the older stock does not, and for those houses the question is whether the iron under the slab still holds its shape well enough to line.</p>",
+    "faq": [
+      [
+        "Who runs the sewer system in Miami, the city or the county?",
+        "The Miami-Dade Water and Sewer Department operates the sanitary sewer for the City of Miami and most of the county, including about 3,200 miles of gravity main, over 1,000 pump stations, and three treatment plants. The City of Miami handles plumbing permits within city limits but does not own the sewers."
+      ],
+      [
+        "Is Miami still under a federal sewer consent decree?",
+        "Yes. Miami-Dade County entered a consent decree with the EPA and Florida in 2013 after more than 50 million gallons of reported overflows. It commits about $1.6 billion over roughly fifteen years to pump station, force main, and gravity sewer rehabilitation, and the county still tracks open projects under it."
+      ],
+      [
+        "How far does my sewer lateral responsibility go in Miami?",
+        "County code defines the lateral as the pipe from your building to the public gravity sewer, and WASD's lateral assessment rules treat old clay or cast-iron laterals as replace-or-rehabilitate items out to the main. WASD does not publish a street-side maintenance guarantee, so request its lateral location record before scheduling work."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer line in the City of Miami?",
+        "Yes. Replacing or lining a concealed drain or sewer line is treated as new work, so a plumbing permit through the City of Miami's iBuild portal is required, pulled by a licensed contractor or an owner-builder who has passed the city's test. The job closes with a city inspection."
+      ],
+      [
+        "Why is groundwater such a problem for Miami sewer pipes?",
+        "South Florida's water table sits only a few feet below grade and is rising with sea level near the coast, so a cracked lateral is often submerged and takes in groundwater constantly. That infiltration is what the county has been lining public mains to stop, and a sealed private lateral does the same job at the property."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "Miami-Dade Water and Sewer Department serves the City of Miami and most of the county: 3,211 miles of gravity main, 974 miles of force main, 1,061 pump stations, three wastewater plants treating nearly 300 MGD, and 372,681 wastewater customers.",
+        "source": "https://www.miamidade.gov/resources/water/documents/flyers/department-facts.pdf"
+      },
+      "lateral": {
+        "value": "Miami-Dade Code §24-5 defines a sewage lateral connection as the pipe transmitting wastewater from a building to the public or private gravity sewer collection system; the county's DERM/FDEP sewer matrix directs clay or cast-iron laterals to be replaced or rehabilitated from the right-of-way to the main, and the county's lateral pilot described a public side (street to property line) and private side (property line to house).",
+        "source": "https://www.miamidade.gov/resources/economy/permits/documents/2021-09-23-derm-fdep-sewer-matrix.pdf"
+      },
+      "permit": {
+        "value": "Inside the City of Miami, plumbing permits are issued by the City of Miami Building Department through the iBuild portal; a licensed contractor may pull the permit online, an owner-builder must pass the in-person test, and inspections close the permit. Work must meet the 2023 Florida Building Code, Plumbing.",
+        "source": "https://www.miami.gov/Permits-Construction/Digital-Permitting/Guide-to-Getting-a-Permit"
+      },
+      "consent_decree": {
+        "value": "June 2013 consent decree with EPA and Florida: over 50 million gallons of SSOs reported Dec 2007–Oct 2012, 28+ million gallons reaching waters, $978,000 penalty, about $1.6 billion in capital work over ~15 years, $2.05 million septic elimination SEP; effective Dec 6, 2013, entered April 9, 2014.",
+        "source": "https://www.epa.gov/enforcement/miami-dade-county-clean-water-act-settlement"
+      },
+      "cipp_program": {
+        "value": "Under a $30 million countywide CIPP contract with Insituform, WASD lined about 50 miles of gravity sewer between May 2024 and 2025 (143,000+ feet in wellfield protection areas) against a backlog of nearly 135 miles, to meet the consent decree's gravity sewer inspection, repair, and rehabilitation mandate.",
+        "source": "https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2025/251688.pdf"
+      },
+      "groundwater_septic": {
+        "value": "Connect 2 Protect: about 120,000 septic systems in Miami-Dade, roughly 9,000 compromised under current conditions and about 13,500 projected by 2040; the county states South Florida groundwater lies just a few feet below the surface and rising seas push it higher near the coast.",
+        "source": "https://www.miamidade.gov/global/water/connect-to-protect-septic-to-sewer.page"
+      },
+      "housing_age": {
+        "value": "ACS 2023 5-year B25034 for Miami city: 219,809 housing units; 7.9% built before 1940, 30.6% before 1960, 32.6% built 1940–1969, 52.4% before 1980, 34.2% built 2000 or later.",
+        "source": "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1245000"
+      }
+    },
+    "sources": [
+      "https://www.miamidade.gov/resources/water/documents/flyers/department-facts.pdf",
+      "https://www.epa.gov/enforcement/miami-dade-county-clean-water-act-settlement",
+      "https://www.miamidade.gov/global/water/consent-decree.page",
+      "https://www.miamidade.gov/govaction/legistarfiles/Matters/Y2025/251688.pdf",
+      "https://www.miamidade.gov/resources/economy/permits/documents/2021-09-23-derm-fdep-sewer-matrix.pdf",
+      "https://floridadep.gov/sites/default/files/13_Miami-Dade_County_Code.pdf",
+      "https://www.milwaukee.gov/ImageLibrary/Public/MMSDAuditCom/Miami_Dade_laterals.pdf",
+      "https://www.miamidade.gov/global/water/connect-to-protect-septic-to-sewer.page",
+      "https://www.miami.gov/My-Government/Departments/Building",
+      "https://www.miami.gov/Permits-Construction/Digital-Permitting/Guide-to-Getting-a-Permit",
+      "https://www.miamidade.gov/building/library/guidelines/permit-exemptions.pdf",
+      "https://www.miamidade.gov/global/economy/building/homeowners-general-permit-info.page",
+      "https://www.miamidade.gov/global/service.page?Mduid_service=ser1560972241854353",
+      "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1245000"
+    ]
+  },
+  {
+    "id": 156,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "Fort Lauderdale",
+    "slug": "fort-lauderdale",
+    "url": "/cipp-contractor/florida/fort-lauderdale",
+    "metaTitle": "Fort Lauderdale, FL Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "Fort Lauderdale is under an FDEP sewer consent order after 2019-20 breaks; 62% of its homes are 1950-79 slab homes with cast iron drains. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>The Winter the Force Mains Let Go</h2>\n<p>Between December 2019 and February 2020 a string of breaks in Fort Lauderdale's large sewer force mains put roughly 211 million gallons of raw wastewater into streets, yards, and George English Lake. The Florida Department of Environmental Protection answered with a penalty of about $1.8 million and a June 2020 amendment to the consent order the city had signed in September 2017. That order still shapes sewer work here: the city's FY 2026 budget request lists its milestones, plus a new sewer consent order aimed at inflow and infiltration, as active initiatives. That history is why crews from <a href=\"https://fla-trenchless.com/broward-county/\">Superior Plumbing &amp; Pipe Lining</a> and the city's own contractors keep working the same blocks with cameras and liners.</p>\n<h2>Who Runs the Pipes Under Fort Lauderdale</h2>\n<p>The sanitary sewer is a city operation. Fort Lauderdale Public Works' Utilities Division runs the collection system and the George T. Lohmeyer Wastewater Treatment Plant, a regional plant treating roughly 36 to 42 million gallons a day for the city plus Oakland Park, Wilton Manors, Port Everglades, and parts of Davie and Tamarac. The city counts more than 1,400 miles of water mains, sewer force mains, and gravity lines across a 38-square-mile service area. A 2018 staff briefing called the collection system about 50 years old and flagged sand pulled in through cracked joints as a cause of erosion inside otherwise serviceable pipes.</p>\n<h2>Where the City's Lateral Ends and Yours Begins</h2>\n<p>Chapter 28 of the city code draws the line at the property line. It defines a sewer lateral, also called a service lateral, as the connection from the collecting sewer in the street to the customer's property line, or to the easement line when the main sits in an easement. The building sewer runs from the building drain to the public sewer, and Division 2 of the same article carries a section titled Maintenance by Property Owner. In practice the run under your yard, driveway, and slab is yours to keep sound, while the stub between your lot line and the main is the city's. When a camera finds a crack, have the contractor log the footage from the cleanout so you know which side of the line it sits on.</p>\n<h2>Permits, Licensed Plumbers, and City Inspection</h2>\n<p>The same division sets the ground rules for touching a lateral. Section 28-51 establishes permit classifications and the application, Section 28-53 requires the work to be done by a qualified licensee, Section 28-54 lists prerequisites for licensed plumbers and contractors performing sewer installations, and Section 28-55 reserves inspection to the city. In short, a lateral repair, replacement, or lining job here runs on a permit pulled by a licensed contractor, and the city inspects it before it is covered. Work reaching into the street or swale also goes through the engineering permit desk, since that ground is right-of-way.</p>\n<h2>Inflow, Infiltration, and the Order Still Driving It</h2>\n<p>Public Works describes inflow and infiltration plainly: stormwater rushing in through roof and yard drains, and groundwater seeping in through cracks and failed joints. With the water table a few feet down and tides pushing it higher twice a day, every open joint in a lateral feeds clean water to the Lohmeyer plant. By September 2020 it had rehabilitated about 41 miles of public main and roughly 4,300 lateral connections in six priority pump station basins, at a program cost near $33 million, and current contracts cover smoke testing, television inspection, cured-in-place lining, point repairs, and manhole rehabilitation. The city's I&amp;I page asks residents to keep cleanout caps intact, keep trees off the lateral path, and replace damaged private sewer sections before they fail. Fortify Lauderdale, the city's flood program, is a separate effort that keeps rain out of streets, not out of sewers.</p>\n<h2>Where Cured-in-Place Lining Fits on a Fort Lauderdale Lot</h2>\n<p>Cured-in-place pipe is the method the city is using on its own mains, scaled to a house lateral. The crew feeds a flexible liner, already wetted out with resin, through the cleanout and along the run, then holds it against the host pipe with air or water pressure while heat or UV hardens it. Here that matters twice over: the lateral often runs under a terrazzo or tile floor on a slab, and working from the cleanout leaves the floor alone; and the hardened liner has no joints, so it closes the gaps that let groundwater in, the infiltration the consent order is pushing the city to cut. The city's own force main project between Sunrise Boulevard and the Lohmeyer plant is lining more than 13,000 feet of large pipe this year, and Superior Plumbing &amp; Pipe Lining also does spin cast lining for larger-diameter lines. Lining is not always the answer. A collapsed pipe, a belly that holds standing water, a joint that has separated and offset, or a run crushed under a driveway has no round host for a liner to follow. Those sections need pipe bursting or an open cut, and an honest contractor cameras the entire lateral before promising a liner.</p>\n<h2>Cast Iron Under the Slab: The 1950-1979 Problem</h2>\n<p>Fort Lauderdale has about 101,000 housing units, and the Census Bureau's 2023 five-year survey puts roughly 62 percent of them in homes built between 1950 and 1979. Only about 1.6 percent predate 1940 and about 23 percent have gone up since 2000, so this is a city of mid-century ranches, waterfront splits, and boom-era walk-ups. Homes of that era in South Florida were plumbed with cast iron drain lines set in the slab and cast iron or clay laterals out to the street. In Fort Lauderdale's wet, salty soil cast iron corrodes from the inside along the bottom of the pipe, a failure called channeling, until the invert is gone and the pipe is a trough. Because the top usually keeps its shape, those lines are often good liner candidates, and lining them is the difference between a day of work from the cleanout and a week of jackhammering through the floor of a 1962 house.</p>",
+    "faq": [
+      [
+        "Who owns the sewer lateral in Fort Lauderdale, the city or the homeowner?",
+        "The city code splits it at the property line. The service lateral from the main in the street to your lot line is the city's, and the building sewer from your house out to that line is the owner's to maintain under Chapter 28, Division 2 of the code."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer line in Fort Lauderdale?",
+        "Yes. Chapter 28 sets permit classifications for sewer work, requires a qualified licensee to perform it, lists prerequisites for licensed plumbers doing sewer installations, and gives the city the right to inspect. Work touching the street or swale also involves the engineering right-of-way permit process."
+      ],
+      [
+        "Is Fort Lauderdale still under a sewer consent order?",
+        "Yes. The city signed an FDEP consent order in 2017 and accepted an amendment in June 2020 after the 2019-20 force main breaks, and its FY 2026 budget lists a new sewer consent order focused on inflow and infiltration. Those orders bind the city's public system, not private laterals."
+      ],
+      [
+        "Why do older Fort Lauderdale homes have so many sewer line problems?",
+        "About six in ten housing units were built between 1950 and 1979, when cast iron drain lines were set directly in the slab. In wet, salty South Florida soil the bottom of the pipe corrodes away over decades, and roots and groundwater get in through the failed joints."
+      ],
+      [
+        "Can every failed sewer line in Fort Lauderdale be lined with CIPP?",
+        "No. A liner needs a host pipe that is still round and continuous. Collapsed sections, sags that hold water, separated or offset joints, and crushed runs must be burst or excavated. A contractor should camera the whole lateral first and show you the footage before recommending a liner."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "The City of Fort Lauderdale Public Works Utilities Division runs the sanitary sewer collection system and the regional George T. Lohmeyer Wastewater Treatment Plant, which treats an average of about 36.3 MGD (FY 2026 budget cites ~42 MGD) for Fort Lauderdale, Oakland Park, Wilton Manors, Port Everglades, and parts of Davie and Tamarac; the city has more than 1,400 miles of water mains, sewer force mains, and gravity lines across a 38-square-mile service area.",
+        "source": "https://www.fortlauderdale.gov/government/departments-i-z/public-works/utilities-division"
+      },
+      "lateral": {
+        "value": "City Code Sec. 28-26 defines the sewer/service lateral as the connection from the collecting sewer in the street to the customer's property line (or easement line), and the building sewer as the extension from the building drain to the public sewer; Division 2 (Building Sewers and Connections) includes Sec. 28-56, Maintenance by property owner.",
+        "source": "https://library.municode.com/fl/fort_lauderdale/codes/code_of_ordinances?nodeId=COOR_CH28WAWAST_ARTIISESEDI"
+      },
+      "permit": {
+        "value": "Chapter 28, Division 2 sets sewer permit classifications and applications (Sec. 28-51), requires work to be done by a qualified licensee (Sec. 28-53), lists prerequisites for licensed plumbers and contractors performing sewer installations (Sec. 28-54), and provides for inspection by the city (Sec. 28-55).",
+        "source": "https://library.municode.com/fl/fort_lauderdale/codes/code_of_ordinances?nodeId=COOR_CH28WAWAST_ARTIISESEDI"
+      },
+      "consent_order": {
+        "value": "Fort Lauderdale signed an FDEP consent order in September 2017; after roughly 211 million gallons of sewage spilled from force main breaks between December 2019 and February 2020, FDEP assessed about $1.8 million in penalties and the order was amended in June 2020. The city's FY 2026 Public Works budget request lists a new sewer-related consent order to address inflow and infiltration.",
+        "source": "https://www.fortlauderdale.gov/files/assets/public/v/1/office-of-management-and-budget/documents/budget/annual-budgets/prelim-public-works-department-fy-2026-budget-request.pdf"
+      },
+      "ii_program": {
+        "value": "By September 2020 the city's I&I program had rehabilitated about 216,600 feet (41 miles) of public sewer main and roughly 4,300 lateral connections in six priority pump station basins at a total program cost of about $33.3 million; current contracts cover smoke testing, CCTV, CIPP lining, point repairs, and manhole rehabilitation, and the city asks residents to keep cleanout caps intact, keep trees off laterals, and replace damaged private sewer sections.",
+        "source": "https://www.fortlauderdale.gov/Government/Departments/Public-Works/Engineering-Division/Inflow-Infiltration"
+      },
+      "city_cipp": {
+        "value": "The city's 2026 Sanitary Sewer Force Main Rehabilitation and Replacement Project covers about 23,370 feet of large sewer pipe from Sunrise Boulevard to the Lohmeyer plant, rehabilitating more than 13,000 feet with cured-in-place pipe lining and installing more than 10,000 feet of new pipe.",
+        "source": "https://www.fortlauderdale.gov/Residents/City-News/Sanitary-Sewer-Force-Main-Rehabilitation-and-Replacement-Project"
+      },
+      "housing_age": {
+        "value": "Fort Lauderdale has about 101,234 housing units (ACS 2023 5-year, B25034): 1.6% built before 1940, 24.4% before 1960, 43.0% built 1940-1969, 62.0% built 1950-1979, and 22.7% built since 2000.",
+        "source": "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1224000"
+      }
+    },
+    "sources": [
+      "https://www.fortlauderdale.gov/government/departments-i-z/public-works/utilities-division",
+      "https://www.fortlauderdale.gov/government/departments-i-z/utility-services/distribution-and-collection",
+      "https://www.fortlauderdale.gov/Government/Departments/Public-Works/Engineering-Division/Inflow-Infiltration",
+      "https://www.fortlauderdale.gov/home/showdocument?id=31988",
+      "https://www.fortlauderdale.gov/files/assets/public/v/1/office-of-management-and-budget/documents/budget/annual-budgets/prelim-public-works-department-fy-2026-budget-request.pdf",
+      "https://www.fortlauderdale.gov/Residents/City-News/Sanitary-Sewer-Force-Main-Rehabilitation-and-Replacement-Project",
+      "https://www.fortlauderdale.gov/Government/Departments/Public-Works/Engineering-Division/Fortify-Lauderdale",
+      "https://library.municode.com/fl/fort_lauderdale/codes/code_of_ordinances?nodeId=COOR_CH28WAWAST_ARTIISESEDI",
+      "https://fortlauderdale.legistar.com/View.ashx?GUID=21C11791-0688-4BDC-B64C-863063362795&ID=9803278&M=F",
+      "https://www.nbcmiami.com/news/local/fort-lauderdale-asked-to-pay-nearly-1-8-million-for-sewage-spills-fdep/2192944/",
+      "https://www.wlrn.org/news/2021-02-25/a-year-since-the-spills-fort-lauderdale-sewage-problems-a-sign-of-infrastructure-woes-for-other-coastal-cities",
+      "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1224000"
+    ]
+  },
+  {
+    "id": 157,
+    "stateId": 17,
+    "state": "Florida",
+    "stateSlug": "florida",
+    "name": "West Palm Beach",
+    "slug": "west-palm-beach",
+    "url": "/cipp-contractor/florida/west-palm-beach",
+    "metaTitle": "West Palm Beach, FL Sewer Lateral Rules & CIPP Lining",
+    "metaDescription": "West Palm Beach runs 500+ miles of sewer and the 70 MGD regional plant, plumbing always needs a permit, and a fifth of homes predate 1960. See where CIPP fits.",
+    "detailsBefore": "",
+    "code": "",
+    "detailsAfter": "",
+    "tips": "",
+    "article": "<h2>The City That Treats the Coast's Sewage</h2>\n<p>West Palm Beach is not just a customer on a regional sewer system; it runs the system. The city's Public Utilities Department maintains more than 500 miles of sanitary sewer and 127 lift stations, and it operates the East Central Regional Water Reclamation Facility, permitted to treat 70 million gallons a day for West Palm Beach, Lake Worth Beach, Riviera Beach, the Town of Palm Beach, and parts of unincorporated Palm Beach County. A board with one seat per government funds the plant, so every leak into a city lateral adds flow the city has to pump, treat, and account for on behalf of five partners. It is also why owners here price <a href=\"https://fla-trenchless.com/palm-beach-county/\">cured in place pipe lining</a> once a camera finds a cracked service line.</p>\n<h2>From Your Cleanout to a Deep Well</h2>\n<p>Wastewater here flows by gravity to one of those 127 lift stations, which run unattended and push it through force mains toward the regional plant. At the plant the flow passes through aerobic digestion basins, part of the effluent becomes reclaimed water, and the rest goes down deep injection wells rather than into a river or the ocean. The city's comprehensive plan sizes the collection system at 350 gallons a day per single-family home and bars new permits when added flow would overload treatment. Groundwater seeping into old pipe is flow nobody pays for, and it competes with the homes the plant was built to serve.</p>\n<h2>Where the City's Pipe Ends and Yours Begins</h2>\n<p>West Palm Beach does not publish a plain-language page on who owns the sewer lateral. What it does publish is a set of engineering standard details, revised in February 2025, with a house lateral connection drawing (GS-7) and a cleanout drawing (GS-8), the fixture that usually marks the public-private handoff. Palm Beach County Water Utilities, which serves the unincorporated pockets around the city, spells the rule out: its responsibility ends where the gravity lateral crosses the right-of-way line or the far side of an easement, and if the county clears its line and finds it open, the customer pays for anything on the private side. That matches general Florida practice, and an owner inside the city should plan on the same: the run from the house to the street cleanout is yours to repair. For a backup, call the city's 24-hour line at (561) 822-2210 first; if the main is clear, the next call is a licensed plumber.</p>\n<h2>Permits: Plumbing Work Is Never Exempt Here</h2>\n<p>The city's Building Division lets some small jobs skip a permit based on cost, but plumbing is carved out of that exemption, so a lateral repair, replacement, or liner needs a permit at any price. A state-licensed contractor registered with the city pulls it. A homeowner can pull the permit only under owner-builder rules: the property must be in the owner's own name, not rented, and not sold or rented for a year after completion, and the owner still has to hire licensed contractors for anything they do not do themselves. Skipping the permit costs four times the normal fee plus possible daily fines. On the utility side, the 2024 fee schedule lists a wastewater lateral tap-in at $2,195 and a $95 inspection for contractor-installed sewer work, and digging in the street needs a separate right-of-way permit from Engineering.</p>\n<h2>Wet Ground and the Case for a Sealed Lateral</h2>\n<p>West Palm Beach sits on a low coastal ridge beside Lake Worth Lagoon, and off the ridge the water table is shallow much of the year. Any joint or crack in a buried clay or cast-iron lateral below that water line is an inlet. The city's crews run smoke testing to find leaks and line breaks and a condition assessment program to rank pipe for rehabilitation, a sign the utility treats infiltration as a live problem. The public program stops at the right-of-way. The private lateral beyond it is often the same age, in the same wet soil, and just as cracked, and only the owner can fix it.</p>\n<h2>Where CIPP Fits, and When It Does Not</h2>\n<p>Cured-in-place pipe lining rebuilds a lateral from the inside. Working from the cleanout, the crew feeds a resin-wetted liner the length of the run, expands it against the host pipe, and hardens it there, leaving one continuous pipe with no joints for water to find. On a West Palm Beach lot that means no trench across a paver driveway or a mature yard, and the liner shuts out the groundwater and roots that made the pipe leak. Lining only works when the host pipe still has its shape. A collapsed run, a belly that holds water, joints pulled apart into an offset, or a section crushed by a root or a truck has to be burst out or dug up and replaced; a liner pushed through those defects just seals the problem in place. Superior Plumbing & Pipe Lining cameras every line before quoting, lines the laterals that qualify, and uses spin cast lining on larger-diameter pipe where a felt liner is the wrong tool.</p>\n<h2>Housing Age: 1920s Districts and Postwar Slabs</h2>\n<p>The American Community Survey counts about 60,800 housing units in West Palm Beach. Roughly eight percent were built before 1940, the boom-era bungalows in the historic districts north and south of downtown, and just over twenty percent predate 1960. Another eighteen percent went up between 1940 and 1969, and about 35 percent date from 2000 or later. The sewer trouble lives in the middle of that range. Florida homes built from the 1950s into the 1970s were typically plumbed with cast iron under a slab, and that iron corrodes from the bottom until the invert channels through. Replacing it means cutting the floor; lining it from an outside cleanout leaves the terrazzo alone. Add the clay laterals under the 1920s streets and a large share of the city is ground where a camera inspection and a liner are the first things worth pricing.</p>",
+    "faq": [
+      [
+        "Who runs the sewer system in West Palm Beach?",
+        "The City of West Palm Beach Public Utilities Department. It maintains the city's collection pipes and lift stations and also operates the East Central Regional Water Reclamation Facility, a 70 million gallon per day plant shared with Lake Worth Beach, Riviera Beach, the Town of Palm Beach, and parts of Palm Beach County."
+      ],
+      [
+        "Who is responsible for the sewer lateral at a West Palm Beach home?",
+        "The city has not posted a written rule, but its standard details place a cleanout at the house lateral connection, and Palm Beach County Water Utilities ends its responsibility at the right-of-way or easement line. Expect the pipe from your house to the street cleanout to be your repair."
+      ],
+      [
+        "Do I need a permit to line or replace a sewer line in West Palm Beach?",
+        "Yes. Plumbing work is excluded from the city's low-cost permit exemption, so a permit is required at any price. A state-licensed contractor registered with the city normally pulls it, and unpermitted work is billed at four times the standard fee."
+      ],
+      [
+        "Why does groundwater matter for sewer pipes in West Palm Beach?",
+        "Much of the city has a shallow water table, so every crack in a buried lateral lets groundwater in. That clean water is pumped through 127 lift stations and treated at the regional plant, using capacity the comprehensive plan budgets at 350 gallons per day for each single-family home."
+      ],
+      [
+        "Can a cast-iron drain under a slab be lined instead of dug up?",
+        "Often, yes. Cast iron in 1950s to 1970s Florida homes corrodes along the bottom but usually keeps its round shape, which is what a liner needs. A contractor should camera the line first; a collapsed or bellied pipe requires bursting or excavation rather than lining."
+      ]
+    ],
+    "facts": {
+      "utility": {
+        "value": "West Palm Beach Public Utilities maintains over 500 miles of sanitary sewer and 127 lift stations and operates the East Central Regional Water Reclamation Facility, permitted at 70 MGD, serving West Palm Beach, Lake Worth Beach, Riviera Beach, the Town of Palm Beach, and parts of Palm Beach County under a multi-entity board.",
+        "source": "https://www.wpb.org/Departments/Public-Utilities/Protecting-Water-Quality-Source-to-Tap/Our-Divisions"
+      },
+      "lateral": {
+        "value": "The city publishes no plain-language lateral ownership rule; its Feb. 2025 gravity sewer standard details include GS-7 House Lateral Connection and GS-8 Clean Out. Palm Beach County Water Utilities (UPAP Sec. 1.2.106) ends its responsibility where the gravity lateral meets the right-of-way line or the far easement line, and Sec. 2.1.18 puts work on the customer side of that point on the customer.",
+        "source": "https://discover.pbcgov.org/waterutilities/PubDoc/CH1.pdf"
+      },
+      "permit": {
+        "value": "Plumbing work is not eligible for the city's cost-based permit exemption; a licensed, city-registered contractor pulls the permit (owner-builder only under conditions); unpermitted work is penalized at 4x the permit fee. 2024 fee schedule: wastewater lateral tap-in $2,195; contractor-installed water/wastewater inspection $95.",
+        "source": "https://www.wpb.org/Departments/Development-Services/Building-Division/Permits-FAQ"
+      },
+      "program": {
+        "value": "The utility runs smoke testing to locate leaks and line breaks and a condition assessment program to prioritize sewer rehabilitation; the ECR plant uses aerobic digestion, produces reclaimed water, and disposes of remaining effluent by deep well injection. No consent order for the city's collection system was found in primary sources.",
+        "source": "https://www.wpb.org/Departments/Public-Utilities"
+      },
+      "housing_age": {
+        "value": "ACS 2023 5-year B25034: 60,786 housing units; 8.0% built before 1940, 20.5% before 1960, 18.0% built 1940-1969, 35.0% built 2000 or later.",
+        "source": "https://data.census.gov/table/ACSDT5Y2023.B25034?g=160XX00US1276600"
+      },
+      "level_of_service": {
+        "value": "Comprehensive Plan Utilities Element Policy 1.3.2 sets wastewater collection level of service at 350 gpd per single-family unit; Policy 1.3.4 bars permits when added flow would overload treatment facilities.",
+        "source": "https://www.wpb.org/files/assets/city/v/1/development-services/documents/comprehensive-plan/2024-comp-plan-elements/5-utilities-element.pdf"
+      },
+      "emergency_line": {
+        "value": "City utilities 24-hour water and sewer emergency line: (561) 822-2210.",
+        "source": "https://www.wpb.org/Departments/Public-Utilities/Report-Water-Sewer-Emergencies"
+      }
+    },
+    "sources": [
+      "https://www.wpb.org/Departments/Public-Utilities",
+      "https://www.wpb.org/Departments/Public-Utilities/Protecting-Water-Quality-Source-to-Tap/Our-Divisions",
+      "https://www.wpb.org/Departments/Public-Utilities/Report-Water-Sewer-Emergencies",
+      "https://www.wpb.org/Departments/Development-Services/Building-Division/Permits-FAQ",
+      "https://www.wpb.org/files/assets/city/v/1/public-utilities/documents/remediated-oct-2024-misc-rates-fees-charges.pdf",
+      "https://www.wpb.org/Departments/Engineering/Engineering-Standards-Details",
+      "https://www.wpb.org/files/assets/city/v/1/engineering/documents/2025.02.06_100-wpb-gravity-sewer-details.pdf",
+      "https://www.wpb.org/Departments/Engineering/Engineering-Forms-Permits-and-Applications",
+      "https://www.wpb.org/files/assets/city/v/1/development-services/documents/comprehensive-plan/2024-comp-plan-elements/5-utilities-element.pdf",
+      "https://discover.pbcgov.org/waterutilities/PubDoc/CH1.pdf",
+      "https://discover.pbcgov.org/waterutilities/PubDoc/CH2.pdf",
+      "https://discover.pbcgov.org/waterutilities/PubDoc/NewCustomerGuide.pdf",
+      "https://api.census.gov/data/2023/acs/acs5?get=NAME,group(B25034)&for=place:76600&in=state:12"
+    ]
   }
 ]

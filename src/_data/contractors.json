@@ -1023,5 +1023,135 @@
       }
     ],
     "reviews": []
+  },
+  {
+    "id": 110,
+    "slug": "superior-plumbing-pipe-lining",
+    "name": "Superior Plumbing & Pipe Lining",
+    "shortName": "Superior Plumbing & Pipe Lining",
+    "tagline": "Licensed, family-owned trenchless CIPP and spin cast lining across Florida, based in Sarasota",
+    "about": "Superior Plumbing & Pipe Lining is a family-owned plumbing and trenchless pipe rehabilitation company headquartered in Sarasota, Florida. Established in 2014, the company started as a full-service plumber for Sarasota and Manatee Counties and has grown into one of the Gulf Coast's most trusted names for restoring sewer and drain lines without excavation.\n\nThe company holds Florida Certified Plumbing Contractor license CFC1431426, is fully licensed, insured, and bonded, and keeps a certified master plumber on staff. That plumbing depth shows on lining jobs: the crew understands how a building's drainage system is put together, so access points, cleanouts, and branch-line reinstatements are planned correctly before a liner ever goes in.\n\nSuperior's trenchless work follows the complete sequence a proper cured-in-place pipe job requires. Every project begins with a sewer camera inspection to locate cracks, channeling, offset joints, root intrusion, and the heavy scale that builds up in Florida's older cast iron. The line is then hydro jetted and descaled so the liner bonds to a clean host pipe. The resin-saturated liner is positioned and cured into a smooth, jointless new pipe inside the old one, and a final camera pass verifies the result. For larger-diameter lines and structures, the company also offers spin cast lining.\n\nMuch of Superior's residential work is cast iron drain lines running under the slabs of homes built from the 1950s through the 1970s, where a conventional repair means breaking up the floors of the house. Commercial customers, including restaurants, condominium associations, hotels, and healthcare facilities, rely on the company to renew failing drain and sewer lines without closing for construction.\n\nSuperior backs its lining with a 10-year structural warranty on the installed liner and a 2-year warranty on craftsmanship and labor. Customers have responded: the company holds a perfect 5.0-star rating across 58 Google reviews, with homeowners repeatedly describing honest camera-based diagnoses and cast iron lines restored without tearing up floors or yards.\n\nBased in Sarasota, Superior serves Sarasota and Manatee Counties along with Tampa and St. Petersburg for general plumbing, and travels statewide for trenchless pipe lining, from the Panhandle to Miami-Dade.",
+    "certifications": "Florida Certified Plumbing Contractor CFC1431426; certified master plumber on staff; licensed, insured, and bonded; CIPP lining and spin cast lining; sewer camera inspection and hydro jetting; residential and commercial; 10-year structural liner warranty, 2-year labor warranty.",
+    "serviceAreasText": "We Service The Entire State of Florida\r\nSarasota, Bradenton, Tampa, St. Petersburg,\r\nOrlando, Jacksonville, Fort Myers, Miami,\r\nFort Lauderdale, West Palm Beach\r\nAnd All Surrounding Counties & Cities",
+    "website": "https://fla-trenchless.com",
+    "googleLink": "https://maps.google.com/?cid=14054436388127160547",
+    "googleRating": "5.0",
+    "googleReviewCount": 58,
+    "hqStreet": "753 Cattlemen Rd",
+    "hqCity": "Sarasota",
+    "hqState": "FL",
+    "hqPostalCode": "34232",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "/blog_images/superior-plumbing-pipe-lining-logo.png",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(941) 217-8139",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(941) 217-8139",
+        "sort": 0
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Sarasota",
+        "phone": "(941) 217-8139",
+        "sort": 1
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Tampa",
+        "phone": "(941) 217-8139",
+        "sort": 2
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "St. Petersburg",
+        "phone": "(941) 217-8139",
+        "sort": 3
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Orlando",
+        "phone": "(941) 217-8139",
+        "sort": 4
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Jacksonville",
+        "phone": "(941) 217-8139",
+        "sort": 5
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Fort Myers",
+        "phone": "(941) 217-8139",
+        "sort": 6
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Miami",
+        "phone": "(941) 217-8139",
+        "sort": 7
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Bradenton",
+        "phone": "(941) 217-8139",
+        "sort": 8
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Fort Lauderdale",
+        "phone": "(941) 217-8139",
+        "sort": 9
+      },
+      {
+        "stateId": 17,
+        "state": "Florida",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "West Palm Beach",
+        "phone": "(941) 217-8139",
+        "sort": 10
+      }
+    ],
+    "reviews": []
   }
 ]

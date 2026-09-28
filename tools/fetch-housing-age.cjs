@@ -69,7 +69,7 @@ const OUT = path.join(OUTDIR, '_housing-age.json');
 const FIPS = {
   California: '06', Colorado: '08', Georgia: '13', Illinois: '17',
   Massachusetts: '25', 'New Jersey': '34', Ohio: '39',
-  Pennsylvania: '42', Texas: '48', 'New York': '36', Alabama: '01',
+  Pennsylvania: '42', Texas: '48', Florida: '12', 'New York': '36', Alabama: '01',
 };
 
 const BASE = `https://api.census.gov/data/${YEAR}/acs/acs5`;
