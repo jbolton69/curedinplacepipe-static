@@ -6,6 +6,34 @@ layout: layouts/base.njk
     .breatcumb-area {
         background: #f1f6fc url("/images/resource/case.jpg");
     }
+
+    /* Featured image: fit the column, never crop. Logos (wide, on white) get letterboxed on white. */
+    .dreamit-sigle-tmumb {
+        background: #fff;
+        text-align: center;
+    }
+    .dreamit-sigle-tmumb img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 420px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+    /* Recent Post thumbnails: fixed square, whole image visible */
+    .popular-post-thumb {
+        flex: 0 0 90px;
+        width: 90px;
+        margin-right: 15px;
+    }
+    .popular-post-thumb img {
+        display: block;
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+        background: #fff;
+        border: 1px solid #eee;
+    }
 </style>
 
 <div class="breatcumb-area d-flex align-items-center">
