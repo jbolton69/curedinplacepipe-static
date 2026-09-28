@@ -21,6 +21,26 @@ eleventyComputed:
         }
     }
 
+    /* Installer card logo: cap the size so large logo files (Superior is 900px wide) do not overflow the card */
+    .single_blog_thumb2 {
+        max-width: 300px;
+        padding: 18px 0 8px 18px;
+    }
+    .single_blog_thumb2 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 160px;
+        object-fit: contain;
+        object-position: left center;
+    }
+    @media (max-width: 767px) {
+        .single_blog_thumb2 {
+            float: none !important;
+            margin-right: 0 !important;
+            max-width: 260px;
+        }
+    }
     /* Normalize spacing for city landing page content */
     .city-content p {
         margin: 0 0 10px;
