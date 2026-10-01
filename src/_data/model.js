@@ -421,13 +421,21 @@ const allContractors = [...states]
   .filter((d) => d.cities.length);
 
 /* ------------------------------------------------------- search overlay data */
+// A state may be split into regions for the picker (states.json "regions":
+// [{ name, contractors: [slug, ...] }]). Regions only affect this overlay;
+// city pages, URLs and coverage are untouched. A region with no contractors
+// still shows up so visitors see it is open.
 const findStates = states
   .filter((s) => contractors.some((c) => coversState(c, s.id)))
+  .flatMap((s) => (Array.isArray(s.regions) && s.regions.length ? s.regions.map((r) => ({ ...s, name: r.name, region: r })) : [s]))
   .sort((a, b) => a.name.localeCompare(b.name));
 const installersByState = Object.fromEntries(
   findStates.map((s) => [
     s.name,
-    contractors.filter((c) => coversState(c, s.id) && filled(c.slug)).sort((a, b) => a.name.localeCompare(b.name)).map((c) => ({ slug: c.slug, name: c.shortName })),
+    contractors
+      .filter((c) => coversState(c, s.id) && filled(c.slug) && (!s.region || (s.region.contractors || []).includes(c.slug)))
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map((c) => ({ slug: c.slug, name: c.shortName })),
   ])
 );
 

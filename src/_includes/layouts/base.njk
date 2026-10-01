@@ -419,7 +419,7 @@ function go_to_installer() {
 function fetch_installers(el) {
     var field = $("#find_contractors_field");
     var rows = INSTALLERS_BY_STATE[$(el).val()] || [];
-    if (!rows.length) { field.html("<option value=''>No verified installer yet</option>"); return; }
+    if (!rows.length) { field.html("<option value=''>No verified installer yet in this area</option>"); return; }
     var html = "<option value='' selected>Select a verified installer</option>";
     rows.forEach(function (r) { html += "<option value='" + r.slug + "'>" + $('<div>').text(r.name).html() + "</option>"; });
     field.html(html);

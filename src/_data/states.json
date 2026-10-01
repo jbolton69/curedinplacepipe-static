@@ -32,7 +32,19 @@
   {
     "id": 11,
     "name": "Ohio",
-    "slug": "ohio"
+    "slug": "ohio",
+    "regions": [
+      {
+        "name": "Ohio (North)",
+        "contractors": [
+          "the-trenchless-guys"
+        ]
+      },
+      {
+        "name": "Ohio (South)",
+        "contractors": []
+      }
+    ]
   },
   {
     "id": 12,
