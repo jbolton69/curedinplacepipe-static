@@ -833,7 +833,7 @@
     "tagline": "Family-owned trenchless sewer lining and pipe bursting out of Wooster, Ohio",
     "about": "The Trenchless Guys is a family-owned trenchless sewer contractor based in Wooster, Ohio, in business since 2011. The owner is a licensed plumber with more than two decades in the plumbing trade and roughly ten of those years spent specializing in trenchless technology. When you call, you reach the people who do the work, not a call center or a regional franchise.\n\nThe company self-performs epoxy cured-in-place pipe lining, pipe bursting, and slip lining, along with the sewer and drain work that goes with it: camera inspection and line locating, hydro jetting, root removal, storm drain repair, and water line replacement. When a line truly has to be dug, they handle the excavation themselves, so the recommendation you get is based on what the pipe needs rather than on which method the crew happens to own.\n\nFree consultation visits and up-front pricing are standard: you know the cost before any work begins, and the owner is reachable directly by phone, email, or text seven days a week. Customers consistently mention that directness and the quality of the finished repair.\n\nFrom their base in Wayne County, The Trenchless Guys serve Wooster, Akron, Massillon, Ashland, Mansfield, Dover, New Philadelphia, and the rest of Northeast Ohio, and take on lining and bursting projects across the state.",
     "certifications": "",
-    "serviceAreasText": "We Service The Entire State of Ohio\r\nFranklin County, Cuyahoga County, Hamilton County,\r\nSummit County, Montgomery County, Lucas County,\r\nButler County, Stark County, Lorain County, Warren County\r\nAnd All Other Surrounding Counties & Cities",
+    "serviceAreasText": "We Serve Northern Ohio\nHolmes County, Wayne County, Stark County,\nSummit County, Tuscarawas County, Ashland County,\nRichland County, Medina County, Cuyahoga County,\nPortage County, Lorain County, Lake County,\nMahoning County, Trumbull County, Ashtabula County, Lucas County\nAnd All Other Surrounding Counties & Cities",
     "website": "https://www.thetrenchless.com",
     "googleLink": "",
     "googleRating": null,
@@ -858,7 +858,13 @@
         "city": null,
         "areaLabel": "",
         "phone": "(877) 474-0056",
-        "sort": 0
+        "sort": 0,
+        "excludeCities": [
+          "cincinnati",
+          "columbus",
+          "dayton",
+          "springfield"
+        ]
       }
     ],
     "reviews": []

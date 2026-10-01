@@ -62,6 +62,9 @@ const stateCoverage = (c) => (c.coverage || []).filter((r) => !r.cityId);
 /** named service areas: state-level rows that carry a label */
 const serviceAreas = (c) => (c.coverage || []).filter((r) => !r.cityId && filled(r.areaLabel));
 const coversState = (c, stateId) => (c.coverage || []).some((r) => r.stateId === stateId && !r.cityId);
+/** state-level coverage can carve out cities: coverage row "excludeCities": [city slug, ...] */
+const coversCity = (c, city) =>
+  (c.coverage || []).some((r) => r.stateId === city.stateId && !r.cityId && !(r.excludeCities || []).includes(city.slug));
 
 const contractorUrl = (c) => `/contractor/${c.slug}`;
 const projectUrl = (p) => {
@@ -167,7 +170,7 @@ const cityPages = cities.map((city) => {
   const state = stateById[city.stateId];
   const cityProjects = published.filter((p) => p.cityId === city.id).sort(sortByCompleted);
   const stateContractors = contractors
-    .filter((c) => coversState(c, city.stateId))
+    .filter((c) => coversCity(c, city))
     .sort((a, b) => a.name.localeCompare(b.name));
   const featured = new Set(cityProjects.map((p) => p.contractorId));
   const cards = [...stateContractors].sort((a, b) => (featured.has(a.id) ? 0 : 1) - (featured.has(b.id) ? 0 : 1));
