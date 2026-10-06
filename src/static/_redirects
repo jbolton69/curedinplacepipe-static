@@ -209,3 +209,5 @@
 /back-office /  301
 /back-office/* / 301
 /admin/* / 301
+/contractor/simple-drain-repairs /contractor/the-trenchless-team 301
+/contractor/simple-drain-repairs/* /contractor/the-trenchless-team/:splat 301
