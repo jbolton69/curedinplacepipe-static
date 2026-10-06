@@ -911,7 +911,11 @@
         "city": null,
         "areaLabel": "",
         "phone": "(877) 739-3789",
-        "sort": 1
+        "sort": 1,
+        "excludeCities": [
+          "altoona",
+          "erie"
+        ]
       }
     ],
     "reviews": []
