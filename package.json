@@ -1,7 +1,7 @@
 {
   "name": "curedinplacepipe-static",
   "version": "1.0.0",
-  "description": "curedinplacepipe.net — static Eleventy build of the CIPP Verified Installer directory (migrated from Laravel/Hostinger to Cloudflare Pages)",
+  "description": "curedinplacepipe.net \u2014 static Eleventy build of the CIPP Verified Installer directory (migrated from Laravel/Hostinger to Cloudflare Pages)",
   "type": "module",
   "scripts": {
     "build": "eleventy",
@@ -10,11 +10,18 @@
     "blog:import": "node tools/import-soro.mjs",
     "check:urls": "node tools/check-urls.mjs",
     "indexnow:all": "node tools/indexnow.mjs --all",
-    "indexnow:dry": "node tools/indexnow.mjs --dry-run"
+    "indexnow:dry": "node tools/indexnow.mjs --dry-run",
+    "assets": "eleventy && node tools/build-assets.mjs && eleventy",
+    "images": "node tools/optimize-images.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
+    "@fontsource/poppins": "^5.3.0",
+    "csso": "^5.0.5",
+    "esbuild": "^0.28.2",
     "fast-xml-parser": "^5.11.1",
+    "purgecss": "^8.0.0",
+    "sharp": "^0.35.5",
     "turndown": "^7.2.4"
   }
 }

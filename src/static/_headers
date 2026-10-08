@@ -5,8 +5,12 @@
 
 /css/*
   Cache-Control: public, max-age=604800
+/css/site.*.css
+  Cache-Control: public, max-age=31536000, immutable
 /js/*
   Cache-Control: public, max-age=604800
+/js/site.*.js
+  Cache-Control: public, max-age=31536000, immutable
 /webfonts/*
   Cache-Control: public, max-age=31536000, immutable
 /fonts/*

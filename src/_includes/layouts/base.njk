@@ -35,25 +35,12 @@
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="56x56" href="{{ site.favicon }}">
 
-<!-- CSS Files -->
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/owl.carousel.min.css">
-<link rel="stylesheet" href="/css/nivo-slider.css">
-<link rel="stylesheet" href="/css/animate.css">
-<link rel="stylesheet" href="/css/animated-text.css">
-<link rel="stylesheet" href="/css/all.min.css">
-<link rel="stylesheet" href="/css/flaticon.css">
-<link rel="stylesheet" href="/css/theme-default.css">
-<link rel="stylesheet" href="/css/meanmenu.min.css">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/owl.transitions.css">
-<link rel="stylesheet" href="/venobox/venobox.css">
-<link rel="stylesheet" href="/css/widget.css">
-<link rel="stylesheet" href="/css/responsive.css">
-<link rel="stylesheet" href="/css/slick.css">
-<link rel="stylesheet" href="/css/slick-theme.css">
-
-<script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- CSS: one purged + minified bundle built by tools/build-assets.mjs (npm run assets) -->
+<link rel="preload" href="/fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+{% if preloadImage %}<link rel="preload" as="image" href="{{ preloadImage }}" fetchpriority="high">
+{% endif %}<link rel="stylesheet" href="{{ assets.css }}">
+<link rel="preconnect" href="https://www.googletagmanager.com">
 
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4 }}"></script>
@@ -68,6 +55,8 @@ gtag('config', '{{ site.ga4 }}');
 {% endif %}
 
 <style>
+    /* width/height attributes are added to every <img> at build time (no layout shift); keep CSS-sized images in proportion */
+    img[width][height] { height: auto; }
     .slider-content h1 { font-size: 45px; }
     .blog_area .owl-carousel .owl-item img,
     .single_blog_thumb img { height: 350px; width: 100%; object-fit: cover; }
@@ -368,45 +357,8 @@ gtag('config', '{{ site.ga4 }}');
 
 {% include "partials/video-lightbox.njk" %}
 
-<!--====================-->
-<!-- JS (Optimized Load) -->
-<!--====================-->
-<script src="/js/vendor/jquery-3.2.1.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/jquery.counterup.min.js"></script>
-<script src="/js/waypoints.min.js"></script>
-<script src="/js/wow.js"></script>
-<script src="/js/imagesloaded.pkgd.min.js"></script>
-<script src="/venobox/venobox.min.js"></script>
-<script src="/js/animated-text.js"></script>
-<script src="/js/isotope.pkgd.min.js"></script>
-<script src="/js/jquery.nivo.slider.pack.js"></script>
-<script src="/js/jquery.meanmenu.js"></script>
-<script src="/js/popper.min.js"></script>
-<script src="/js/rs6.min.js"></script>
-<script src="/js/rbtools.min.js"></script>
-<script src="/js/jquery.scrollUp.js"></script>
-<script src="/js/theme.js"></script>
-<script src="/js/jquery.barfiller.js"></script>
-
-<script>
-$(document).ready(function() {
-    $('.blog_list.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: true,
-        dots: false,
-        autoplay: true,
-        smartSpeed: 700,
-        responsive: {
-            0:   { items: 1 },
-            600: { items: 2 },
-            1000:{ items: 3 }
-        }
-    });
-});
-</script>
+<!-- JS: one bundle (jQuery, owl carousel, meanmenu, waypoints, counterup, scrollUp + theme init), deferred -->
+<script src="{{ assets.js }}" defer></script>
 
 <script>
 // Search overlay: verified installers covering a state → profile links.

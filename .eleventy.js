@@ -1,4 +1,33 @@
+import fs from "node:fs";
+
+// Intrinsic sizes for every image under src/static (written by `node tools/optimize-images.mjs`).
+// Used by the <img> transform below to add width/height (no layout shift) and lazy-loading.
+const imageDims = (() => {
+  try { return JSON.parse(fs.readFileSync(new URL("./tools/image-dims.json", import.meta.url), "utf8")); }
+  catch { return {}; }
+})();
+
 export default function (eleventyConfig) {
+  // Performance: give every <img> its width/height from tools/image-dims.json and lazy-load
+  // everything except the first image on the page (the header logo). Images that already
+  // carry width/height, loading= or fetchpriority= are left alone.
+  eleventyConfig.addTransform("img-attrs", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    let first = true;
+    return content.replace(/<img\b([^>]*?)\s*\/?>/g, (tag, attrs) => {
+      const src = (attrs.match(/\ssrc=["']([^"']+)["']/) || [])[1];
+      let extra = "";
+      if (src && imageDims[src] && !/\swidth=/.test(attrs) && !/\sheight=/.test(attrs)) {
+        extra += ` width="${imageDims[src][0]}" height="${imageDims[src][1]}"`;
+      }
+      if (!/\sloading=/.test(attrs) && !/\sfetchpriority=/.test(attrs)) {
+        extra += first ? ` fetchpriority="high"` : ` loading="lazy" decoding="async"`;
+      }
+      first = false;
+      return `<img${attrs}${extra}>`;
+    });
+  });
+
   // Theme assets + uploads keep the exact root paths Laravel served them at
   // (/css, /js, /images, /blog_images, /contractor_images, /fonts, /webfonts,
   // /venobox) so CMS HTML that references them keeps working unchanged.
