@@ -16,6 +16,7 @@ export default function (eleventyConfig) {
     let first = true;
     return content.replace(/<img\b([^>]*?)\s*\/?>/g, (tag, attrs) => {
       const src = (attrs.match(/\ssrc=["']([^"']+)["']/) || [])[1];
+      if (!src) return tag; // not a real image (e.g. "<img>" inside a comment)
       let extra = "";
       if (src && imageDims[src] && !/\swidth=/.test(attrs) && !/\sheight=/.test(attrs)) {
         extra += ` width="${imageDims[src][0]}" height="${imageDims[src][1]}"`;
