@@ -103,7 +103,10 @@ const purged = await new PurgeCSS().purge({
   keyframes: true,
   variables: true,
 });
-let finalCss = cssoMinify(purged[0].css).css;
+// restructure:false — csso's rule merging reorders declarations across rules, which broke
+// `background: linear-gradient(...)` + `-webkit-background-clip: text` (the heading gradient
+// rendered as a solid block). Plain minification only.
+let finalCss = cssoMinify(purged[0].css, { restructure: false }).css;
 
 // ---------- JS ----------
 const jsFiles = [
