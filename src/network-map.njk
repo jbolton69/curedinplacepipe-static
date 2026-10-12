@@ -69,6 +69,14 @@ clickcease: false
   .nm-open-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
   .nm-open-grid a { display: block; padding: 9px 12px; border: 1.5px solid #fc9615; background: #fff7ec; border-radius: 8px; color: #1c1c24; font-weight: 600; font-size: 14px; text-decoration: none; }
   .nm-open-grid a:hover { background: #fc9615; color: #fff; }
+  .nm-card .nm-contractor { margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee; font-size: 12px; color: #777; }
+  .nm-card .nm-contractor a { color: #1d3b6e; font-weight: 600; }
+  .nm-customer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; background: #fff7ec; border: 2px solid #fc9615; border-radius: 14px; padding: 24px 30px; margin-top: 28px; }
+  .nm-customer > div { flex: 1 1 420px; }
+  .nm-customer h3 { border: 0; margin: 0 0 6px; padding: 0; font-size: 22px; }
+  .nm-customer p { margin: 0; color: #444; max-width: 640px; }
+  .nm-customer a.btn-orange, .nm-recruit a.btn-orange { display: inline-block; background: #fc9615; color: #fff; font-weight: 700; padding: 12px 22px; border-radius: 6px; text-decoration: none; white-space: nowrap; }
+  .nm-customer a.btn-orange:hover, .nm-recruit a.btn-orange:hover { background: #e3850f; }
   .nm-recruit { background: #1c1c24; color: #fff; border-radius: 14px; padding: 28px 30px; margin-top: 28px; }
   .nm-recruit h3 { color: #fff; border: 0; margin: 0 0 8px; font-size: 24px; }
   .nm-recruit p { color: rgba(255,255,255,.8); margin: 0 0 14px; max-width: 760px; }
@@ -118,9 +126,17 @@ clickcease: false
       </div>
       <div class="col-lg-6 mb-4">
         <h3>Open territories</h3>
-        <p style="color:#666; font-size:14px;">One verified installer per territory. Prequalification: 5+ years in business and a 4.5+ Google rating. Tap a state to see what's open.</p>
+        <p style="color:#666; font-size:14px;">No verified installer here yet. Tap a state: property owners can request a contractor, and qualified CIPP contractors (5+ years, 4.5+ Google rating) can apply for the territory.</p>
         <div class="nm-open-grid" id="nm-open-list"></div>
       </div>
+    </div>
+
+    <div class="nm-customer">
+      <div>
+        <h3>Don't see a verified installer near you?</h3>
+        <p>Tell us where the property is and what the pipe is doing. We will locate a qualified cured-in-place pipe contractor who works your area and have them contact you for a camera inspection and a written estimate.</p>
+      </div>
+      <a class="btn-orange" href="/find-a-contractor">Find me a contractor</a>
     </div>
 
     <div class="nm-recruit">

@@ -1,0 +1,124 @@
+---
+layout: layouts/base.njk
+permalink: /find-a-contractor.html
+pageTitle: "Request a CIPP Contractor Near You"
+pageDescription: "No verified installer in your area yet? Tell us about your sewer or drain problem and we will locate a qualified cured-in-place pipe contractor near you."
+clickcease: true
+---
+{#-
+  /find-a-contractor — homeowner / property-owner request for areas with no verified installer.
+  Reached from open-state cards on /network-map (?state=Tennessee prefills the state).
+  Posts to Web3Forms on the site-wide (Joe-only) key; redirects to the customer /thank-you.
+-#}
+{%- set hero_image = "/images/cipp/cipp-camera-inspection.jpg" -%}
+{% include "partials/breadcrumb-css.njk" %}
+<style>
+  .fc-wrap { max-width: 900px; }
+  .fc-intro { max-width: 720px; margin: 0 auto 28px; text-align: center; color: #555; font-size: 17px; line-height: 1.7; }
+  .fc-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; max-width: 760px; margin: 0 auto 34px; }
+  .fc-steps div { background: #fff7ec; border: 1.5px solid #fc9615; border-radius: 10px; padding: 14px 16px; font-size: 14px; color: #1c1c24; }
+  .fc-steps b { display: block; font-size: 15px; margin-bottom: 2px; }
+  .fc-form { background: #fff; border: 1px solid #e9e9ef; border-radius: 14px; padding: 30px; box-shadow: 0 4px 24px rgba(0,0,0,.05); }
+  .fc-form label { display: block; font-size: 13px; font-weight: 600; color: #444; margin: 0 0 4px; }
+  .fc-form .from-box { margin-bottom: 16px; }
+  .fc-form .from-box input, .fc-form .from-box select, .fc-form .from-box textarea { width: 100%; border: 1px solid #d9dbe3; border-radius: 6px; padding: 11px 13px; font-size: 15px; background: #fff; }
+  .fc-form .from-box input:focus, .fc-form .from-box select:focus, .fc-form .from-box textarea:focus { outline: 2px solid #fc9615; border-color: #fc9615; }
+  .fc-form .chk { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 14px; margin: 4px 0 14px; }
+  .fc-form .chk label { display: flex; align-items: center; gap: 8px; font-weight: 500; font-size: 14px; color: #333; margin: 0; }
+  .fc-form .chk input { width: auto; }
+  .fc-form button[type="submit"] { background: #fc9615; color: #fff; font-weight: 700; border: 0; border-radius: 6px; padding: 14px 28px; font-size: 16px; cursor: pointer; }
+  .fc-form button[type="submit"]:hover { background: #e3850f; }
+  .fc-form button[disabled] { opacity: .6; cursor: default; }
+  .fc-call { text-align: center; margin: 22px 0 0; color: #333; font-size: 15px; }
+  .fc-call a { font-weight: 800; color: #fc9615; font-size: 22px; text-decoration: none; }
+  .fc-call small { display: block; color: #222; font-size: 13px; margin-top: 2px; }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breatcumb-content text-center">
+          <div class="breatcumb-title"><h1>Request a CIPP Contractor Near You</h1></div>
+          <div class="breatcumb-content-text">
+            <ul><li><a href="/">home</a> <i class="fas fa-angle-right"></i> <a href="/network-map">Network Map</a> <i class="fas fa-angle-right"></i> <span>Find a contractor</span></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blog_area style-two pt-5 pb-5">
+  <div class="container fc-wrap">
+    <p class="fc-intro">No verified installer in your state yet? That does not mean you are on your own. Tell us where the property is and what the pipe is doing, and we will locate a qualified cured-in-place pipe contractor near you and have them get in touch.</p>
+
+    <div class="fc-steps">
+      <div><b>1. Tell us about the job</b>City, type of property and what you are seeing.</div>
+      <div><b>2. We find the contractor</b>A licensed CIPP installer who works your area.</div>
+      <div><b>3. They contact you</b>Usually within one business day, for a camera inspection and a written estimate.</div>
+    </div>
+
+    <form class="fc-form" id="find-form" action="https://api.web3forms.com/submit" method="POST" data-w3f>
+      <input type="hidden" name="access_key" value="{{ site.form.defaultAccessKey }}">
+      <input type="hidden" name="subject" value="CONTRACTOR REQUEST (open territory) — CuredInPlacePipe.net">
+      <input type="hidden" name="from_name" value="{{ site.form.fromName }}">
+      <input type="hidden" name="redirect" value="{{ site.url }}/thank-you">
+      <input type="hidden" name="source_url" value="{{ site.url }}/find-a-contractor">
+      <input type="hidden" name="form" value="find a contractor (open territory)">
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+
+      <div class="row">
+        <div class="col-md-6"><div class="from-box"><label for="fc-name">Your name</label><input id="fc-name" type="text" name="name" required autocomplete="name"></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="fc-phone">Phone</label><input id="fc-phone" type="tel" name="phone" required autocomplete="tel"></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="fc-email">Email</label><input id="fc-email" type="email" name="email" required autocomplete="email"></div></div>
+        <div class="col-md-3"><div class="from-box"><label for="fc-city">City</label><input id="fc-city" type="text" name="city" required autocomplete="address-level2"></div></div>
+        <div class="col-md-3"><div class="from-box"><label for="fc-state">State</label><input id="fc-state" type="text" name="state" required autocomplete="address-level1"></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="fc-property">Property type</label>
+          <select id="fc-property" name="property_type" required>
+            <option value="">Choose one</option>
+            <option>Single-family home</option>
+            <option>Condo / townhome</option>
+            <option>Multi-family / apartment</option>
+            <option>Commercial building</option>
+            <option>Municipal / HOA / other</option>
+          </select></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="fc-urgency">How urgent is it?</label>
+          <select id="fc-urgency" name="urgency" required>
+            <option value="">Choose one</option>
+            <option>Emergency — backing up now</option>
+            <option>This week</option>
+            <option>Planning / getting estimates</option>
+            <option>Real estate transaction (escrow deadline)</option>
+          </select></div></div>
+      </div>
+      <label>What is the pipe doing? (check all that apply)</label>
+      <div class="chk">
+        <label><input type="checkbox" name="symptoms[]" value="Slow drains / repeated backups"> Slow drains / repeated backups</label>
+        <label><input type="checkbox" name="symptoms[]" value="Roots found on camera"> Roots found on camera</label>
+        <label><input type="checkbox" name="symptoms[]" value="Cracked / broken pipe on camera"> Cracked or broken pipe on camera</label>
+        <label><input type="checkbox" name="symptoms[]" value="Sewer smell / wet spot in yard"> Sewer smell or wet spot in yard</label>
+        <label><input type="checkbox" name="symptoms[]" value="Under slab / driveway / landscaping"> Pipe runs under slab, driveway or landscaping</label>
+        <label><input type="checkbox" name="symptoms[]" value="Already have a dig-and-replace quote"> Already have a dig-and-replace quote</label>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><div class="from-box"><label for="fc-message">Tell us a little more</label><textarea id="fc-message" name="message" rows="4" placeholder="Age of the house, what a plumber told you, footage if you know it…"></textarea></div></div>
+      </div>
+      {% if site.form.turnstileSiteKey %}<div class="cf-turnstile" data-sitekey="{{ site.form.turnstileSiteKey }}" data-size="flexible"></div>{% endif %}
+      <div class="text-center"><button type="submit">Find me a contractor</button></div>
+    </form>
+
+    <p class="fc-call">Prefer to talk? <a href="tel:+1{{ site.phone | phoneDigits }}">{{ site.phone }}</a><small>Estimates are free. Call now.</small></p>
+  </div>
+</div>
+
+<script>
+// Prefill the state from ?state= (open-state cards on the network map link here).
+(function () {
+  try {
+    var s = new URLSearchParams(location.search).get("state");
+    var el = document.getElementById("fc-state");
+    if (s && el && !el.value) el.value = s;
+  } catch (e) {}
+})();
+</script>

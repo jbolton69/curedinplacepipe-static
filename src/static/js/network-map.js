@@ -93,9 +93,10 @@
     var st = statusOf(abbr);
     var h;
     if (st === "open") {
-      h = '<div class="nm-card is-open"><h4>' + esc(name) + ' is open</h4>';
-      h += '<div class="nm-sub">No verified installer yet. One CIPP contractor will be placed here &mdash; 5+ years in business and a 4.5+ Google rating to prequalify.</div>';
-      h += '<a class="nm-apply" href="/apply">Apply for ' + esc(name) + '</a></div>';
+      h = '<div class="nm-card is-open"><h4>No verified installer in ' + esc(name) + ' yet</h4>';
+      h += '<div class="nm-sub">Have a sewer or drain problem here? Tell us about it and we will locate a qualified CIPP contractor near you.</div>';
+      h += '<a class="nm-apply" href="/find-a-contractor?state=' + encodeURIComponent(name) + '">Find me a contractor</a>';
+      h += '<div class="nm-contractor">CIPP contractor? <a href="/apply">Apply for the ' + esc(name) + ' territory</a></div></div>';
     } else {
       h = '<div class="nm-card"><h4>' + esc(name) + '</h4>';
       byState[abbr].forEach(function (c) {
@@ -103,7 +104,8 @@
       });
       if (st === "partial") {
         h += '<div class="nm-sub" style="margin-top:8px;color:#c66d00;font-weight:600">Open: ' + esc(openRegions[abbr].join(", ")) + '</div>';
-        h += '<a class="nm-apply" href="/apply">Apply for ' + esc(openRegions[abbr][0]) + '</a>';
+        h += '<a class="nm-apply" href="/find-a-contractor?state=' + encodeURIComponent(name) + '">Find me a contractor</a>';
+        h += '<div class="nm-contractor">CIPP contractor? <a href="/apply">Apply for ' + esc(openRegions[abbr][0]) + '</a></div>';
       }
       h += '</div>';
     }
