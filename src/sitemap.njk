@@ -18,6 +18,7 @@ excludeFromSitemap: true
 <url><loc>{{ site.url }}/blog</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.90</priority></url>
 <url><loc>{{ site.url }}/all-contractors</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.90</priority></url>
 <url><loc>{{ site.url }}/network-map</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.80</priority></url>
+<url><loc>{{ site.url }}/apply</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.60</priority></url>
 {%- for p in collections.infoPages %}
 <url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc><priority>0.70</priority></url>
 {%- endfor %}

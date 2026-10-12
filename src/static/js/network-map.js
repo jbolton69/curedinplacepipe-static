@@ -94,8 +94,8 @@
     var h;
     if (st === "open") {
       h = '<div class="nm-card is-open"><h4>' + esc(name) + ' is open</h4>';
-      h += '<div class="nm-sub">No verified installer yet &mdash; we are recruiting one CIPP contractor for this territory.</div>';
-      h += '<a class="nm-apply" href="/contact">Apply for ' + esc(name) + '</a></div>';
+      h += '<div class="nm-sub">No verified installer yet. One CIPP contractor will be placed here &mdash; 5+ years in business and a 4.5+ Google rating to prequalify.</div>';
+      h += '<a class="nm-apply" href="/apply">Apply for ' + esc(name) + '</a></div>';
     } else {
       h = '<div class="nm-card"><h4>' + esc(name) + '</h4>';
       byState[abbr].forEach(function (c) {
@@ -103,7 +103,7 @@
       });
       if (st === "partial") {
         h += '<div class="nm-sub" style="margin-top:8px;color:#c66d00;font-weight:600">Open: ' + esc(openRegions[abbr].join(", ")) + '</div>';
-        h += '<a class="nm-apply" href="/contact">Apply for ' + esc(openRegions[abbr][0]) + '</a>';
+        h += '<a class="nm-apply" href="/apply">Apply for ' + esc(openRegions[abbr][0]) + '</a>';
       }
       h += '</div>';
     }

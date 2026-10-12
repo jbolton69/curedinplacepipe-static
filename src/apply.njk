@@ -1,0 +1,135 @@
+---
+layout: layouts/base.njk
+permalink: /apply.html
+pageTitle: "Apply to Become a CIPP Verified Installer"
+pageDescription: "Contractor intake for the CIPP Verified Installer program. Prequalify with five or more years in business and a 4.5+ Google rating, then we verify your license, lining work and equipment."
+clickcease: false
+---
+{#-
+  /apply — contractor intake (prequalification) for the Verified Installer program.
+  Posts to Web3Forms on the site-wide (Joe-only) key; redirects to /apply-thank-you.
+  Browser-side gate: years >= 5 and Google rating >= 4.5 are enforced with min= on the inputs.
+-#}
+{%- set hero_image = "/images/cipp/cipp-liner-equipment.jpg" -%}
+{% include "partials/breadcrumb-css.njk" %}
+<style>
+  .ap-wrap { max-width: 980px; }
+  .ap-intro { max-width: 760px; margin: 0 auto 26px; text-align: center; color: #555; font-size: 17px; line-height: 1.7; }
+  .ap-req { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; max-width: 760px; margin: 0 auto 36px; }
+  .ap-req div { background: #fff7ec; border: 1.5px solid #fc9615; border-radius: 10px; padding: 14px 16px; font-size: 14px; color: #1c1c24; }
+  .ap-req b { display: block; font-size: 15px; margin-bottom: 2px; }
+  .ap-form { background: #fff; border: 1px solid #e9e9ef; border-radius: 14px; padding: 30px; box-shadow: 0 4px 24px rgba(0,0,0,.05); }
+  .ap-form h3 { font-size: 19px; margin: 6px 0 14px; padding-bottom: 6px; border-bottom: 2px solid #fc9615; }
+  .ap-form h3 + .row { margin-bottom: 10px; }
+  .ap-form label { display: block; font-size: 13px; font-weight: 600; color: #444; margin: 0 0 4px; }
+  .ap-form .from-box { margin-bottom: 16px; }
+  .ap-form .from-box input, .ap-form .from-box select, .ap-form .from-box textarea { width: 100%; border: 1px solid #d9dbe3; border-radius: 6px; padding: 11px 13px; font-size: 15px; background: #fff; }
+  .ap-form .from-box input:focus, .ap-form .from-box select:focus, .ap-form .from-box textarea:focus { outline: 2px solid #fc9615; border-color: #fc9615; }
+  .ap-form .hint { font-size: 12px; color: #777; margin-top: 3px; }
+  .ap-form fieldset { border: 0; padding: 0; margin: 0 0 12px; }
+  .ap-form .chk { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 14px; margin: 4px 0 12px; }
+  .ap-form .chk label { display: flex; align-items: center; gap: 8px; font-weight: 500; font-size: 14px; color: #333; margin: 0; }
+  .ap-form .chk input { width: auto; }
+  .ap-form .consent { font-size: 13px; color: #555; display: flex; gap: 10px; align-items: flex-start; margin: 10px 0 18px; }
+  .ap-form .consent input { margin-top: 4px; }
+  .ap-form button[type="submit"] { background: #fc9615; color: #fff; font-weight: 700; border: 0; border-radius: 6px; padding: 14px 28px; font-size: 16px; cursor: pointer; }
+  .ap-form button[type="submit"]:hover { background: #e3850f; }
+  .ap-form button[disabled] { opacity: .6; cursor: default; }
+  .ap-note { text-align: center; font-size: 13px; color: #777; margin-top: 14px; }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breatcumb-content text-center">
+          <div class="breatcumb-title"><h1>Apply to Become a CIPP Verified Installer</h1></div>
+          <div class="breatcumb-content-text">
+            <ul><li><a href="/">home</a> <i class="fas fa-angle-right"></i> <a href="/network-map">Network Map</a> <i class="fas fa-angle-right"></i> <span>Apply</span></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blog_area style-two pt-5 pb-5">
+  <div class="container ap-wrap">
+    <p class="ap-intro">One qualified cured-in-place pipe contractor is placed in each open territory. This form is the prequalification step. If you meet the two thresholds below, we follow up to verify your license, your lining work and your equipment before a listing goes live.</p>
+
+    <div class="ap-req">
+      <div><b>5+ years in business</b>Under the current company name or a documented predecessor.</div>
+      <div><b>4.5+ Google rating</b>On your Google Business Profile, with real sewer-lining reviews.</div>
+      <div><b>Verified before listing</b>License, references and equipment checked by us.</div>
+    </div>
+
+    <form class="ap-form" id="apply-form" action="https://api.web3forms.com/submit" method="POST" data-w3f>
+      <input type="hidden" name="access_key" value="{{ site.form.defaultAccessKey }}">
+      <input type="hidden" name="subject" value="Verified Installer APPLICATION — CuredInPlacePipe.net">
+      <input type="hidden" name="from_name" value="{{ site.form.fromName }}">
+      <input type="hidden" name="redirect" value="{{ site.url }}/apply-thank-you">
+      <input type="hidden" name="source_url" value="{{ site.url }}/apply">
+      <input type="hidden" name="form" value="verified installer application">
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+
+      <h3>Company</h3>
+      <div class="row">
+        <div class="col-md-6"><div class="from-box"><label for="ap-company">Company name</label><input id="ap-company" type="text" name="company" required autocomplete="organization"></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-website">Website</label><input id="ap-website" type="url" name="website" placeholder="https://" autocomplete="url"></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-years">Years in business</label><input id="ap-years" type="number" name="years_in_business" min="5" max="120" step="1" required><div class="hint">Five or more to prequalify.</div></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-crews">Number of lining crews</label><input id="ap-crews" type="number" name="crews" min="1" max="99" step="1" required></div></div>
+        <div class="col-md-8"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="street-address"></div></div>
+        <div class="col-md-4"><div class="from-box"><label for="ap-citystate">City, State</label><input id="ap-citystate" type="text" name="city_state" required placeholder="Nashville, TN"></div></div>
+      </div>
+
+      <h3>Google Business Profile</h3>
+      <div class="row">
+        <div class="col-md-6"><div class="from-box"><label for="ap-gbp">Google Business Profile link</label><input id="ap-gbp" type="url" name="google_profile_url" required placeholder="https://maps.google.com/…"><div class="hint">Search your company on Google Maps and paste the share link.</div></div></div>
+        <div class="col-md-3"><div class="from-box"><label for="ap-rating">Current rating</label><input id="ap-rating" type="number" name="google_rating" min="4.5" max="5" step="0.1" required><div class="hint">4.5 or better to prequalify.</div></div></div>
+        <div class="col-md-3"><div class="from-box"><label for="ap-reviews">Number of reviews</label><input id="ap-reviews" type="number" name="google_review_count" min="1" step="1" required></div></div>
+      </div>
+
+      <h3>License &amp; capabilities</h3>
+      <div class="row">
+        <div class="col-md-6"><div class="from-box"><label for="ap-license">Contractor license number</label><input id="ap-license" type="text" name="license_number" required></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-license-state">Licensing state / authority</label><input id="ap-license-state" type="text" name="license_state" required placeholder="e.g. Tennessee Board for Licensing Contractors"></div></div>
+      </div>
+      <fieldset>
+        <label>Trenchless methods you perform in-house</label>
+        <div class="chk">
+          <label><input type="checkbox" name="methods[]" value="CIPP lining (inversion)"> CIPP lining (inversion)</label>
+          <label><input type="checkbox" name="methods[]" value="CIPP lining (pull-in-place)"> CIPP lining (pull-in-place)</label>
+          <label><input type="checkbox" name="methods[]" value="UV-cured lining"> UV-cured lining</label>
+          <label><input type="checkbox" name="methods[]" value="Lateral / sectional point repair"> Lateral / sectional point repair</label>
+          <label><input type="checkbox" name="methods[]" value="Pipe bursting"> Pipe bursting</label>
+          <label><input type="checkbox" name="methods[]" value="Spin casting / CCP"> Spin casting / CCP</label>
+          <label><input type="checkbox" name="methods[]" value="Epoxy coating (potable / drain)"> Epoxy coating</label>
+          <label><input type="checkbox" name="methods[]" value="Hydro jetting + camera inspection"> Hydro jetting + camera</label>
+        </div>
+      </fieldset>
+      <div class="row">
+        <div class="col-md-12"><div class="from-box"><label for="ap-equipment">Lining systems and equipment</label><input id="ap-equipment" type="text" name="equipment" required placeholder="e.g. Perma-Liner inversion unit, MaxLiner, Picote cutter, RIDGID SeeSnake"></div></div>
+      </div>
+
+      <h3>Territory</h3>
+      <div class="row">
+        <div class="col-md-6"><div class="from-box"><label for="ap-territory">Territory you are applying for</label><input id="ap-territory" type="text" name="territory" required placeholder="State (or region, e.g. Ohio South)"><div class="hint">See the <a href="/network-map">network map</a> for what's open.</div></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-service-area">Counties / metros you actually cover</label><input id="ap-service-area" type="text" name="service_area" required placeholder="e.g. Davidson, Williamson, Rutherford"></div></div>
+      </div>
+
+      <h3>Contact</h3>
+      <div class="row">
+        <div class="col-md-4"><div class="from-box"><label for="ap-name">Your name</label><input id="ap-name" type="text" name="name" required autocomplete="name"></div></div>
+        <div class="col-md-4"><div class="from-box"><label for="ap-email">Email</label><input id="ap-email" type="email" name="email" required autocomplete="email"></div></div>
+        <div class="col-md-4"><div class="from-box"><label for="ap-phone">Phone</label><input id="ap-phone" type="tel" name="phone" required autocomplete="tel"></div></div>
+        <div class="col-md-12"><div class="from-box"><label for="ap-notes">Anything else we should know</label><textarea id="ap-notes" name="message" rows="4" placeholder="Notable projects, manufacturer certifications, association memberships…"></textarea></div></div>
+      </div>
+
+      <label class="consent"><input type="checkbox" name="consent" value="yes" required> I confirm the information above is accurate and that CuredInPlacePipe.net may contact me and check my license and references as part of verification.</label>
+
+      {% if site.form.turnstileSiteKey %}<div class="cf-turnstile" data-sitekey="{{ site.form.turnstileSiteKey }}" data-size="flexible"></div>{% endif %}
+      <div class="text-center"><button type="submit">Submit application</button></div>
+      <p class="ap-note">Applications are reviewed in the order received. Listings are not guaranteed; the program places one verified installer per territory.</p>
+    </form>
+  </div>
+</div>

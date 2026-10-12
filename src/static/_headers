@@ -28,3 +28,5 @@
 
 /thank-you
   X-Robots-Tag: noindex
+/apply-thank-you
+  X-Robots-Tag: noindex
