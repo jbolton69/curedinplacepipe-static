@@ -14,7 +14,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/allied-gardens-clay-lateral-lining-1200.jpg",
+        "alt": "87 ft of cracked clay sewer lateral lined in Allied Gardens — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -37,7 +43,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(949) 267-3595",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/anaheim-hills-cast-iron-lining-playground-1200.jpg",
+        "alt": "62 ft cast iron sewer lined under a front-yard playground in Anaheim Hills — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -60,7 +72,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/arcadia-119-ft-sewer-lining-1200.jpg",
+        "alt": "119 ft residential sewer lined after root damage in Arcadia — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -83,7 +101,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/beverly-hills-137-ft-pipe-bursting-1200.jpg",
+        "alt": "137 ft of mixed cast iron, clay and ABS replaced by pipe bursting in Beverly Hills — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -106,7 +130,13 @@
     "propertyType": "Multi-family / HOA",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/burbank-hoa-pipe-burst-and-liner-1200.jpg",
+        "alt": "Condo HOA: 140 ft pipe burst plus 86 ft CIPP liner under mature landscaping in Burbank — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -129,7 +159,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/canoga-park-55-ft-pipe-bursting-1200.jpg",
+        "alt": "55 ft cast iron sewer replaced by pipe bursting under trees in Canoga Park — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -152,7 +188,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/chula-vista-45-ft-lining-retaining-wall-1200.jpg",
+        "alt": "45 ft sewer lined behind an ornamental retaining wall in Chula Vista — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -175,7 +217,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/encino-86-ft-clay-pipe-bursting-1200.jpg",
+        "alt": "86 ft of root-filled clay sewer replaced by pipe bursting beneath garden statuary in Encino — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -198,7 +246,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(949) 267-3595",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/fountain-valley-44-ft-lining-family-tree-1200.jpg",
+        "alt": "44 ft cast iron sewer lined to save a family tree in Fountain Valley — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -221,7 +275,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/glendale-96-ft-hillside-pipe-bursting-1200.jpg",
+        "alt": "96 ft hillside sewer replaced by pipe bursting in Glendale — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -244,7 +304,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/granada-hills-64-ft-cast-iron-lining-1200.jpg",
+        "alt": "64 ft cast iron sewer cleaned and lined in Granada Hills — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -267,7 +333,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/hillcrest-73-ft-clay-lining-1200.jpg",
+        "alt": "73 ft clay sewer with roots at every joint lined in Hillcrest, San Diego — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -290,7 +362,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/la-jolla-75-ft-cast-iron-lining-1200.jpg",
+        "alt": "75 ft cast iron sewer lined same-day after a downstairs backup in La Jolla — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -313,7 +391,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/la-jolla-55-ft-lining-under-deck-1200.jpg",
+        "alt": "55 ft cast iron sewer lined under a deck and decades of landscaping in La Jolla — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -336,7 +420,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/la-mesa-38-ft-clay-lining-1200.jpg",
+        "alt": "38 ft of 50-year-old clay sewer lined in La Mesa — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -359,7 +449,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/la-mesa-22-ft-lining-home-sale-1200.jpg",
+        "alt": "22 ft sewer lined to close a home sale in La Mesa — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -382,7 +478,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(949) 267-3595",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/laguna-beach-80-ft-lining-under-bathrooms-1200.jpg",
+        "alt": "80 ft cast iron and clay sewer lined beneath two remodeled bathrooms in Laguna Beach — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -405,7 +507,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/los-angeles-brentwood-69-ft-lining-1200.jpg",
+        "alt": "69 ft cast iron sewer lined same-day after repeated jetting in Brentwood, Los Angeles — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -428,7 +536,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/los-angeles-82-ft-pipe-bursting-1200.jpg",
+        "alt": "82 ft cast iron sewer replaced by pipe bursting in Los Angeles — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -451,7 +565,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(877) 759-5082",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/oxnard-55-ft-pipe-bursting-1200.jpg",
+        "alt": "55 ft broken cast iron sewer replaced by pipe bursting before a baby arrived in Oxnard — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -474,7 +594,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/pacific-beach-65-ft-cast-iron-lining-1200.jpg",
+        "alt": "65 ft of rotted cast iron sewer lined without touching the patio in Pacific Beach — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -497,7 +623,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/pacific-beach-57-ft-relining-1200.jpg",
+        "alt": "57 ft sewer lateral jetted and relined after a basement backup in Pacific Beach — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -520,7 +652,13 @@
     "propertyType": "Residential development / sewer main",
     "completedOn": null,
     "phone": "(877) 759-5082",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/riverside-390-ft-8-inch-main-lining-1200.jpg",
+        "alt": "390 ft of 8-inch clay sewer main CIPP lined with 38 laterals robotically reinstated in Riverside — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -543,7 +681,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/san-diego-53-ft-lining-citrus-trees-1200.jpg",
+        "alt": "53 ft cast iron sewer lined without disturbing citrus trees in San Diego — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -566,7 +710,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/san-diego-68-ft-terra-cotta-lining-1200.jpg",
+        "alt": "68 ft terra cotta sewer lined under a driveway for a multi-property owner in San Diego — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -589,7 +739,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/santa-monica-60-ft-pipe-bursting-1200.jpg",
+        "alt": "60 ft root-cracked terra cotta sewer replaced by pipe bursting in Santa Monica — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -612,7 +768,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/santee-49-ft-lining-vineyard-1200.jpg",
+        "alt": "49 ft clay sewer lined from inside the house with zero digging in a Santee vineyard — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -635,7 +797,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/sherman-oaks-86-ft-lining-1200.jpg",
+        "alt": "86 ft sewer on the verge of collapse lined in Sherman Oaks — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -658,7 +826,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/studio-city-64-ft-pipe-bursting-1200.jpg",
+        "alt": "64 ft of root-broken terra cotta sewer replaced by pipe bursting in Studio City — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -681,7 +855,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(877) 759-5082",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/thousand-oaks-79-ft-pipe-bursting-1200.jpg",
+        "alt": "79 ft partially collapsed clay sewer replaced by pipe bursting in Thousand Oaks — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -704,7 +884,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(877) 759-5082",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/westlake-village-60-ft-pipe-bursting-1200.jpg",
+        "alt": "60 ft scaled and fractured cast iron sewer replaced by pipe bursting in Westlake Village — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -727,7 +913,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/woodland-hills-shared-sewer-pipe-bursting-1200.jpg",
+        "alt": "Shared 66 ft cast iron and clay sewer replaced by pipe bursting for two neighbors in Woodland Hills — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -750,7 +942,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/arvada-36-ft-cast-iron-lining-1200.jpg",
+        "alt": "36 ft cast iron sewer lined to the city main for a home builder in Arvada — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -773,7 +971,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/boulder-75-ft-pipe-bursting-rescue-1200.jpg",
+        "alt": "Abandoned excavation rescued: 75 ft cast iron sewer replaced by pipe bursting in Boulder — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -796,7 +1000,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/centennial-47-ft-lining-no-dig-1200.jpg",
+        "alt": "47 ft flaking cast iron sewer lined from inside the house, no digging, in Centennial — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -819,7 +1029,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/denver-55-ft-cast-iron-trenchless-replacement-1200.jpg",
+        "alt": "55 ft of root-cracked cast iron sewer replaced trenchlessly at a 70-year-old Denver home — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -842,7 +1058,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/denver-78-ft-terra-cotta-lining-1200.jpg",
+        "alt": "78 ft of root-filled terra cotta sewer lined in Denver from a customer-supplied inspection — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -865,7 +1087,13 @@
     "propertyType": "Commercial / institutional",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/denver-university-pool-200-ft-12-inch-lining-1200.jpg",
+        "alt": "University swimming pool: 200 ft of 12-inch drain line CIPP lined on the Denver campus — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -888,7 +1116,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/lafayette-44-ft-lining-vs-excavation-1200.jpg",
+        "alt": "44 ft of near-collapse cast iron sewer lined instead of tearing out the porch and driveway in Lafayette — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -911,7 +1145,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/lakewood-67-ft-cast-iron-same-day-lining-1200.jpg",
+        "alt": "Same-day rescue: 67 ft of 1950s cast iron with the bottom rotted out, lined in Lakewood — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -934,7 +1174,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/littleton-72-ft-clay-lining-from-inside-1200.jpg",
+        "alt": "72 ft of cracked clay sewer lined from inside the house under a yard full of cars in Littleton — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -957,7 +1203,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(720) 606-6223",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/thornton-48-ft-pipe-bursting-1200.jpg",
+        "alt": "48 ft cast iron sewer replaced by pipe bursting between mature shade trees in Thornton — All Sewer and Plumbing Services (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "",
     "metaDescription": "",
     "status": "published",
@@ -980,13 +1232,25 @@
     "propertyType": "Residential",
     "completedOn": "2026-09-18",
     "phone": "(949) 267-3595",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/san-juan-capistrano-76-ft-sewer-lined-1200.jpg",
+        "alt": "76 ft of root-cracked sewer lined in San Juan Capistrano for $9,800 — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "CIPP Sewer Lining in San Juan Capistrano, CA — $9,800 vs $18,000 Dig | TSR",
     "metaDescription": "A San Juan Capistrano homeowner was quoted $18,000 to excavate and replace 76 feet of sewer. TSR lined it for $9,800 in under six hours — no trenching, no yard damage.",
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-21 12:00:00",
-    "updatedAt": "2026-09-21 12:30:00"
+    "updatedAt": "2026-09-21 12:30:00",
+    "quote": {
+      "price": 9800,
+      "otherBid": 18000,
+      "otherBidType": "dig",
+      "otherBidNote": "The first plumber quoted $18,000 to excavate and replace the 76-foot run."
+    }
   },
   {
     "id": 44,
@@ -1003,7 +1267,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/pasadena-81-ft-clay-cipp-transition-liner-1200.jpg",
+        "alt": "81 ft of root-invaded clay sewer and drain line CIPP lined in Pasadena — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Pasadena CIPP Lining: 81 Ft Clay Sewer Lined",
     "metaDescription": "CIPP lining in Pasadena, CA: TSR Trenchless cleared roots and lined 51 ft of clay sewer plus 30 ft of drain line from one small pit, sealing the city connection.",
     "status": "published",
@@ -1026,7 +1296,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/los-angeles-70-ft-cipp-lining-size-change-cleanout-1200.jpg",
+        "alt": "70 ft sewer lateral with a pipe-size change CIPP lined to the city main in Los Angeles — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Los Angeles CIPP Lining: 70 Ft Lateral, Transition Liner",
     "metaDescription": "Los Angeles CIPP sewer lining by TSR Trenchless: 70 ft relined to the city main with a transition liner through a pipe-size change, plus a new two-way cleanout.",
     "status": "published",
@@ -1049,7 +1325,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(949) 267-3595",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/seal-beach-90-ft-cipp-lateral-and-under-slab-cast-iron-1200.jpg",
+        "alt": "90 ft of sewer CIPP lined in Seal Beach, from under the house out to the city sewer — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Seal Beach CIPP Lining: 90 Ft Incl. Under-Slab Cast Iron",
     "metaDescription": "Seal Beach CIPP lining: TSR Trenchless lined 70 ft to the city with a 4x6 transition liner and 20 ft of descaled cast iron under the home, from one small pit.",
     "status": "published",
@@ -1072,7 +1354,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(858) 212-0070",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/san-diego-100-ft-cast-iron-cipp-five-reinstatements-1200.jpg",
+        "alt": "100 ft of cast iron and clay sewer CIPP lined in San Diego with five branch reinstatements — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "San Diego CIPP Lining: 100 Ft Cast Iron, 5 Branches",
     "metaDescription": "San Diego cast iron CIPP lining by TSR Trenchless: 80 ft descaled (about 7 hours) and lined with 5 branch reinstatements, plus 20 ft of clay, from one driveway pit.",
     "status": "published",
@@ -1095,7 +1383,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(949) 267-3595",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/tustin-40-ft-2-inch-kitchen-line-cipp-under-house-1200.jpg",
+        "alt": "40 ft of 2-inch kitchen drain CIPP lined under a Tustin home without opening the floor — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Tustin Kitchen Drain CIPP Lining: 40 Ft of 2-Inch Line",
     "metaDescription": "Tustin 2-inch kitchen drain CIPP lining: TSR Trenchless tunneled under the home, descaled 40 ft (6 hours), lined it to the main and added an exterior wall cleanout.",
     "status": "published",
@@ -1118,7 +1412,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/tarzana-75-ft-cipp-lining-after-offset-grinding-1200.jpg",
+        "alt": "Offset joints ground out and 75 ft of sewer CIPP lined to the city in Tarzana — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Tarzana CIPP Lining: 75 Ft After Offset Grinding",
     "metaDescription": "Tarzana (Los Angeles) CIPP sewer lining: TSR Trenchless ground out offsets and cracks from inside the pipe, then lined 75 ft with a transition liner to the city.",
     "status": "published",
@@ -1141,7 +1441,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(877) 759-5082",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/ojai-50-ft-cracked-cast-iron-cipp-robotic-reinstatement-1200.jpg",
+        "alt": "50 ft of cracked, root-filled cast iron CIPP lined in Ojai with robotic reinstatement — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Ojai CIPP Lining: 50 Ft Cracked Cast Iron",
     "metaDescription": "Ojai, CA cast iron CIPP lining: TSR Trenchless descaled 50 ft of cracked, root-filled pipe (6 hours), lined it to the plastic section and robotically reopened 2 branches.",
     "status": "published",
@@ -1164,7 +1470,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(877) 759-5082",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/palm-springs-172-ft-cipp-lining-three-runs-one-pit-1200.jpg",
+        "alt": "172 ft of sewer CIPP lined in three directions from a single pit in Palm Springs — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Palm Springs CIPP Lining: 172 Ft, 3 Runs, 1 Pit",
     "metaDescription": "Palm Springs CIPP lining: from one pit at the wye, TSR Trenchless lined 172 ft of sewer in three runs, epoxy coated 10 ft at a tight bend and reinstated the neighbor's line.",
     "status": "published",
@@ -1187,7 +1499,13 @@
     "propertyType": "Residential",
     "completedOn": null,
     "phone": "(310) 340-2515",
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/projects/hermosa-beach-64-ft-cast-iron-cipp-and-branch-coating-1200.jpg",
+        "alt": "64 ft of coastal cast iron CIPP lined and a toilet branch epoxy coated in Hermosa Beach — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
     "metaTitle": "Hermosa Beach CIPP Lining: 64 Ft Cast Iron",
     "metaDescription": "Hermosa Beach cast iron CIPP lining: TSR Trenchless lined 64 ft from a single flower-bed pit and epoxy coated the toilet branch line. No trench, no floors opened.",
     "status": "published",

@@ -12,7 +12,8 @@
     "indexnow:all": "node tools/indexnow.mjs --all",
     "indexnow:dry": "node tools/indexnow.mjs --dry-run",
     "assets": "eleventy && node tools/build-assets.mjs && eleventy",
-    "images": "node tools/optimize-images.mjs"
+    "images": "node tools/optimize-images.mjs",
+    "projects:graphics": "node tools/make-project-graphics.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",

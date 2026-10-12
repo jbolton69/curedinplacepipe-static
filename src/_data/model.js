@@ -86,6 +86,36 @@ const monthYearLong = (d) => {
 /** ContractorReview::dateLabel — "Feb 2026" from "2026-02" */
 const reviewDateLabel = (d) => (d ? monthYear(String(d).slice(0, 7) + "-01") : null);
 
+/**
+ * Quote comparison for a project: p.quote = { price, otherBid, otherBidType: "dig" | "cipp" | "other", otherBidNote? }.
+ * Savings and percentage are always computed here, never typed into the data. No competitor is ever named.
+ */
+const usd = (n) => "$" + Math.round(Number(n)).toLocaleString("en-US");
+const OTHER_BID_LABEL = {
+  dig: "Traditional dig-and-replace bid",
+  cipp: "Another CIPP lining quote",
+  other: "Other contractor's bid",
+};
+const OTHER_BID_SHORT = { dig: "vs. dig bid", cipp: "vs. other CIPP quote", other: "vs. other bid" };
+function quoteCompare(p, c) {
+  const q = p.quote;
+  if (!q || !(Number(q.price) > 0) || !(Number(q.otherBid) > 0)) return null;
+  const price = Number(q.price), other = Number(q.otherBid);
+  const saved = other - price;
+  if (saved <= 0) return null;
+  const type = OTHER_BID_LABEL[q.otherBidType] ? q.otherBidType : "other";
+  return {
+    price, other, saved,
+    pct: Math.round((saved / other) * 100),
+    priceText: usd(price), otherText: usd(other), savedText: usd(saved),
+    otherLabel: OTHER_BID_LABEL[type],
+    priceLabel: `${c?.shortName || "Verified installer"} did the job for`,
+    shortLabel: OTHER_BID_SHORT[type],
+    type,
+    note: filled(q.otherBidNote) ? q.otherBidNote : null,
+  };
+}
+
 /** Project row view-model shared by every project list (contractor/_project_row) */
 function projectRow(p, showContractor = false) {
   const c = contractorById[p.contractorId];
@@ -107,6 +137,7 @@ function projectRow(p, showContractor = false) {
     statLabel: filled(p.footage) ? (filled(p.serviceType) ? p.serviceType : "lined") : "completed",
     completedLabel: monthYear(p.completedOn),
     contractorShort: c?.shortName,
+    savings: quoteCompare(p, c),
     cityName: city?.name,
     stateName: city ? stateById[city.stateId]?.name : null,
     serviceType: p.serviceType,
@@ -337,6 +368,7 @@ const projectPages = published.map((p) => {
     short: c.shortName,
     facts,
     photos,
+    quote: quoteCompare(p, c),
     more: more.map((q) => projectRow(q)),
     reviews: cityReviews,
     reviewsCity: cityReviews.length ? city : null,

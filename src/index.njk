@@ -257,6 +257,8 @@ preloadImage: /images/slider/slider1.jpg
     .home-project-title { font-size:17px; font-weight:700; color:#1c1c24; margin:0 0 8px; line-height:1.35; }
     .home-project-summary { font-size:14px; color:#555; line-height:1.55; margin:0 0 12px; flex:1; }
     .home-project-link { font-weight:700; color:#fc9615; font-size:14px; }
+    .project-savings { display:inline-block; background:#e8f7ee; color:#157347; border:1px solid #bfe6cf; border-radius:12px; font-size:12px; font-weight:700; padding:2px 10px; margin-bottom:8px; }
+    .project-savings b { font-weight:800; }
     .home-projects-more { text-align:center; margin-top:34px; }
     .home-projects-more a { display:inline-block; background:#1c1c24; color:#fff; padding:12px 30px; border-radius:5px; font-weight:600; }
     .home-projects-more a:hover { background:#fc9615; color:#fff; }
@@ -290,6 +292,7 @@ preloadImage: /images/slider/slider1.jpg
 						<div class="home-project-meta">
 							{% if row.contractorShort %}<span class="home-project-contractor">{{ row.contractorShort }}</span>{% if row.homeMeta %} · {% endif %} {% endif %}{{ row.homeMeta }}{% if row.completedLabel %} · {{ row.completedLabel }}{% endif %}
 						</div>
+						{% if row.savings %}<span class="project-savings">Saved <b>{{ row.savings.savedText }}</b> {{ row.savings.shortLabel }}</span>{% endif %}
 						<h4 class="home-project-title">{{ row.title }}</h4>
 						{% if row.summary %}<p class="home-project-summary">{{ row.summary120 }}</p>{% endif %}
 						<span class="home-project-link">View project <i class="fas fa-angle-right"></i></span>

@@ -12,6 +12,7 @@
     </div>
     <div class="project-row-body">
         <div class="project-row-meta">{{ row.meta }}{% if row.completedLabel %} · {{ row.completedLabel }}{% endif %}</div>
+        {% if row.savings %}<span class="project-savings">Saved <b>{{ row.savings.savedText }}</b> {{ row.savings.shortLabel }}</span>{% endif %}
         <h4 class="project-row-title">{{ row.title }}</h4>
         {% if row.summary %}<p class="project-row-summary">{{ row.summary170 }}</p>{% endif %}
         <span class="project-row-link">View project <i class="fas fa-angle-right"></i></span>
