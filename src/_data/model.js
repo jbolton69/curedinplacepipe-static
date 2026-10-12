@@ -357,7 +357,7 @@ const projectPages = published.map((p) => {
     ["Service", p.serviceType], ["Pipe material", p.pipeMaterial], ["Diameter", p.pipeDiameter],
     ["Footage lined", p.footage], ["Property", p.propertyType], ["Completed", monthYearLong(p.completedOn)],
   ].filter(([, v]) => filled(v));
-  const photos = (p.photos || []).filter((ph) => ph && ph.src).map((ph) => ({ src: ph.src.startsWith("/") || ph.src.startsWith("http") ? ph.src : "/" + ph.src, alt: ph.alt || `${p.title} — ${c.shortName}` }));
+  const photos = (p.photos || []).filter((ph) => ph && ph.src).map((ph) => ({ src: ph.src.startsWith("/") || ph.src.startsWith("http") ? ph.src : "/" + ph.src, alt: ph.alt || `${p.title} — ${c.shortName}`, generated: !!ph.generated }));
 
   return {
     p, c, city, state, phone, url,
