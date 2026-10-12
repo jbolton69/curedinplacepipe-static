@@ -78,7 +78,7 @@ clickcease: false
         <div class="col-md-6"><div class="from-box"><label for="ap-website">Website</label><input id="ap-website" type="text" name="website" placeholder="acmetrenchless.com" autocomplete="url" inputmode="url"></div></div>
         <div class="col-md-6"><div class="from-box"><label for="ap-years">Years in business</label><input id="ap-years" type="number" name="years_in_business" min="5" max="120" step="1" required><div class="hint">Five or more to prequalify.</div></div></div>
         <div class="col-md-6"><div class="from-box"><label for="ap-crews">Number of lining crews</label><input id="ap-crews" type="number" name="crews" min="1" max="99" step="1" required></div></div>
-        <div class="col-md-12"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="off" placeholder="Start typing the street address"><div class="hint" id="ap-address-hint">{% if site.googleMapsApiKey %}Pick the address from the list as you type.{% endif %}</div></div></div>
+        <div class="col-md-12"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="off" placeholder="Start typing the street address"><div class="hint" id="ap-address-hint">{% if site.googleMapsApiKey %}Start typing your company name or street address and pick it from the list. Choosing your business fills in your Google rating and review count for you.{% endif %}</div></div></div>
         <input type="hidden" name="city_state" id="ap-citystate"><input type="hidden" name="address_lat" id="ap-lat"><input type="hidden" name="address_lng" id="ap-lng">
       </div>
 
@@ -142,14 +142,22 @@ clickcease: false
   window.__apInitPlaces = async function () {
     try {
       var lib = await google.maps.importLibrary("places");
-      var pac = new lib.PlaceAutocompleteElement({ includedRegionCodes: ["us"], includedPrimaryTypes: ["street_address", "premise", "subpremise"] });
+      var pac = new lib.PlaceAutocompleteElement({ includedRegionCodes: ["us"] });
       pac.id = "ap-address-pac";
       pac.style.width = "100%";
       input.type = "hidden";
       input.insertAdjacentElement("beforebegin", pac);
       pac.addEventListener("gmp-select", async function (ev) {
         var place = ev.placePrediction.toPlace();
-        await place.fetchFields({ fields: ["addressComponents", "formattedAddress", "location"] });
+        await place.fetchFields({ fields: ["addressComponents", "formattedAddress", "location", "displayName", "websiteURI", "rating", "userRatingCount", "types"] });
+        var isBusiness = (place.types || []).indexOf("street_address") < 0 && (place.types || []).indexOf("premise") < 0 && !!place.displayName;
+        var fillIfEmpty = function (id, val) { var el = document.getElementById(id); if (el && val != null && val !== "" && !el.value) el.value = val; };
+        if (isBusiness) {
+          fillIfEmpty("ap-company", place.displayName);
+          fillIfEmpty("ap-website", place.websiteURI ? place.websiteURI.replace(/^https?:\/\//, "").replace(/\/$/, "") : "");
+          fillIfEmpty("ap-rating", place.rating != null ? place.rating.toFixed(1) : "");
+          fillIfEmpty("ap-reviews", place.userRatingCount != null ? place.userRatingCount : "");
+        }
         var comps = place.addressComponents || [];
         var get = function (t, short) { var c = comps.find(function (x) { return x.types.indexOf(t) >= 0; }); return c ? (short ? c.shortText : c.longText) : ""; };
         var num = get("street_number"), route = get("route"), zip = get("postal_code");
