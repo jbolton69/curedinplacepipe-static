@@ -112,7 +112,7 @@
 
   // ---- States layer
   var statesLayer;
-  fetch("/data/us-states.topo.json").then(function (r) { return r.json(); }).then(function (topo) {
+  fetch("/data/us-states.topo.json?v=" + (document.currentScript && document.currentScript.src.split("v=")[1] || "1")).then(function (r) { return r.json(); }).then(function (topo) {
     var geo = topojson.feature(topo, topo.objects.states);
     statesLayer = L.geoJSON(geo, {
       style: function (f) { return STYLE[statusOf(f.properties.abbr)]; },
