@@ -24,13 +24,16 @@ clickcease: false
   .nm-stat.is-open b { color: #fc9615; }
 
   .nm-map-shell { position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(12,24,44,.14); border: 1px solid #e3e6ee; background: #eef2f7; }
-  #network-map { height: 620px; width: 100%; background: #eef2f7; }
+  #network-map { height: 620px; width: 100%; background: #e9eef5; }
+  .nm-label { font: 700 11px/14px Poppins, sans-serif; color: #2b3a55; text-align: center; letter-spacing: .04em; text-shadow: 0 0 3px #fff, 0 0 3px #fff; pointer-events: none; }
+  .leaflet-container { font-family: inherit; }
   @media (max-width: 767px) { #network-map { height: 72vh; min-height: 420px; } }
 
   .nm-legend { position: absolute; left: 14px; bottom: 14px; z-index: 500; background: rgba(255,255,255,.95); border-radius: 10px; padding: 10px 14px; font-size: 13px; line-height: 1.5; box-shadow: 0 2px 12px rgba(0,0,0,.12); }
   .nm-legend div { display: flex; align-items: center; gap: 8px; margin: 3px 0; color: #333; }
   .nm-legend i { width: 18px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,.15); flex: 0 0 18px; }
   .nm-legend i.cov { background: rgba(29,59,110,.55); }
+  .leaflet-control-attribution { font-size: 10px; background: rgba(255,255,255,.7); }
   .nm-legend i.part { background: repeating-linear-gradient(135deg, rgba(29,59,110,.55) 0 4px, rgba(252,150,21,.55) 4px 8px); }
   .nm-legend i.open { background: rgba(252,150,21,.18); border-color: rgba(252,150,21,.7); }
   .nm-legend img { width: 18px; height: 18px; }

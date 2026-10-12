@@ -58,13 +58,10 @@
   }
 
   // ---- Map
-  var map = L.map(el, { scrollWheelZoom: false, zoomSnap: 0.25, attributionControl: true });
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: "abcd", maxZoom: 12
-  }).addTo(map);
-  var labels = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png", { subdomains: "abcd", maxZoom: 12, pane: "shadowPane" });
-  labels.addTo(map);
+  var map = L.map(el, { scrollWheelZoom: false, zoomSnap: 0.25, minZoom: 3, maxZoom: 9, attributionControl: true, zoomControl: true });
+  map.attributionControl.setPrefix('<a href="https://leafletjs.com" rel="noopener">Leaflet</a>');
+  map.attributionControl.addAttribution("State boundaries: U.S. Census Bureau");
+  map.setMaxBounds([[5, -170], [72, -40]]);
   map.fitBounds([[24.4, -125.0], [49.6, -66.9]], { padding: [8, 8] });
   map.on("focus", function () { map.scrollWheelZoom.enable(); });
   map.on("blur", function () { map.scrollWheelZoom.disable(); });
@@ -128,12 +125,26 @@
         layer.bindTooltip(name + (statusOf(abbr) === "open" ? " — open territory" : ""), { sticky: true, direction: "top", opacity: 0.9 });
       }
     }).addTo(map);
+    var TINY = { RI: 1, DE: 1, CT: 1, NJ: 1, MA: 1, NH: 1, VT: 1, MD: 1, DC: 1, HI: 1 };
+    statesLayer.eachLayer(function (layer) {
+      var abbr = layer.feature.properties.abbr;
+      if (TINY[abbr]) return;
+      var c = layer.getBounds().getCenter();
+      if (abbr === "FL") c = L.latLng(28.6, -81.8);
+      if (abbr === "MI") c = L.latLng(43.6, -84.7);
+      if (abbr === "LA") c = L.latLng(30.9, -92.4);
+      if (abbr === "ID") c = L.latLng(44.2, -114.6);
+      if (abbr === "CA") c = L.latLng(37.2, -119.8);
+      if (abbr === "AK") c = L.latLng(64.0, -152.0);
+      L.marker(c, { icon: L.divIcon({ className: "nm-label", html: abbr, iconSize: [30, 14], iconAnchor: [15, 7] }), interactive: false, keyboard: false }).addTo(labelsLayer);
+    });
     pinsLayer.bringToFront();
     renderLists();
   }).catch(function () { renderLists(); });
 
   // ---- Pins
   var badge = L.divIcon({ className: "nm-pin", html: '<img src="/images/cipp/cipp-verified-badge.webp" alt="">', iconSize: [46, 46], iconAnchor: [23, 23], popupAnchor: [0, -22] });
+  var labelsLayer = L.layerGroup().addTo(map);
   var pinsLayer = L.layerGroup().addTo(map);
   contractors.forEach(function (c) {
     L.marker([c.lat, c.lng], { icon: badge, title: c.name, alt: c.name + " — CIPP Verified Installer", riseOnHover: true })
