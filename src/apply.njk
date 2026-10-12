@@ -75,24 +75,23 @@ clickcease: false
       <h3>Company</h3>
       <div class="row">
         <div class="col-md-6"><div class="from-box"><label for="ap-company">Company name</label><input id="ap-company" type="text" name="company" required autocomplete="organization"></div></div>
-        <div class="col-md-6"><div class="from-box"><label for="ap-website">Website</label><input id="ap-website" type="url" name="website" placeholder="https://" autocomplete="url"></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-website">Website</label><input id="ap-website" type="text" name="website" placeholder="acmetrenchless.com" autocomplete="url" inputmode="url"></div></div>
         <div class="col-md-6"><div class="from-box"><label for="ap-years">Years in business</label><input id="ap-years" type="number" name="years_in_business" min="5" max="120" step="1" required><div class="hint">Five or more to prequalify.</div></div></div>
         <div class="col-md-6"><div class="from-box"><label for="ap-crews">Number of lining crews</label><input id="ap-crews" type="number" name="crews" min="1" max="99" step="1" required></div></div>
-        <div class="col-md-8"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="street-address"></div></div>
+        <div class="col-md-8"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="off" placeholder="Start typing the street address"><div class="hint" id="ap-address-hint">{% if site.googleMapsApiKey %}Pick the address from the list as you type.{% endif %}</div></div></div>
         <div class="col-md-4"><div class="from-box"><label for="ap-citystate">City, State</label><input id="ap-citystate" type="text" name="city_state" required placeholder="Nashville, TN"></div></div>
+        <input type="hidden" name="address_lat" id="ap-lat"><input type="hidden" name="address_lng" id="ap-lng">
       </div>
 
       <h3>Google Business Profile</h3>
       <div class="row">
-        <div class="col-md-6"><div class="from-box"><label for="ap-gbp">Google Business Profile link</label><input id="ap-gbp" type="url" name="google_profile_url" required placeholder="https://maps.google.com/…"><div class="hint">Search your company on Google Maps and paste the share link.</div></div></div>
-        <div class="col-md-3"><div class="from-box"><label for="ap-rating">Current rating</label><input id="ap-rating" type="number" name="google_rating" min="4.5" max="5" step="0.1" required><div class="hint">4.5 or better to prequalify.</div></div></div>
-        <div class="col-md-3"><div class="from-box"><label for="ap-reviews">Number of reviews</label><input id="ap-reviews" type="number" name="google_review_count" min="1" step="1" required></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-rating">Current Google rating</label><input id="ap-rating" type="number" name="google_rating" min="4.5" max="5" step="0.1" required placeholder="4.8"><div class="hint">4.5 or better to prequalify.</div></div></div>
+        <div class="col-md-6"><div class="from-box"><label for="ap-reviews">Number of Google reviews</label><input id="ap-reviews" type="number" name="google_review_count" min="1" step="1" required></div></div>
       </div>
 
       <h3>License &amp; capabilities</h3>
       <div class="row">
         <div class="col-md-6"><div class="from-box"><label for="ap-license">Contractor license number</label><input id="ap-license" type="text" name="license_number" required></div></div>
-        <div class="col-md-6"><div class="from-box"><label for="ap-license-state">Licensing state / authority</label><input id="ap-license-state" type="text" name="license_state" required placeholder="e.g. Tennessee Board for Licensing Contractors"></div></div>
       </div>
       <fieldset>
         <label>Trenchless methods you perform in-house</label>
@@ -133,3 +132,43 @@ clickcease: false
     </form>
   </div>
 </div>
+
+{% if site.googleMapsApiKey %}
+<script>
+// Google Places (New) address autocomplete. Swaps the plain address input for the
+// PlaceAutocompleteElement, then fills address / City, State / lat,lng on selection.
+(function () {
+  var input = document.getElementById("ap-address");
+  if (!input) return;
+  window.__apInitPlaces = async function () {
+    try {
+      var lib = await google.maps.importLibrary("places");
+      var pac = new lib.PlaceAutocompleteElement({ componentRestrictions: { country: ["us"] }, types: ["address"] });
+      pac.id = "ap-address-pac";
+      pac.style.width = "100%";
+      input.type = "hidden";
+      input.insertAdjacentElement("beforebegin", pac);
+      pac.addEventListener("gmp-select", async function (ev) {
+        var place = ev.placePrediction.toPlace();
+        await place.fetchFields({ fields: ["addressComponents", "formattedAddress", "location"] });
+        var comps = place.addressComponents || [];
+        var get = function (t, short) { var c = comps.find(function (x) { return x.types.indexOf(t) >= 0; }); return c ? (short ? c.shortText : c.longText) : ""; };
+        var num = get("street_number"), route = get("route"), zip = get("postal_code");
+        var city = get("locality") || get("sublocality") || get("postal_town") || get("administrative_area_level_2");
+        var st = get("administrative_area_level_1", true);
+        input.value = ((num + " " + route).trim() || place.formattedAddress || "") + (zip ? ", " + zip : "");
+        var cs = document.getElementById("ap-citystate"); if (cs && city && st) cs.value = city + ", " + st;
+        if (place.location) { document.getElementById("ap-lat").value = place.location.lat().toFixed(6); document.getElementById("ap-lng").value = place.location.lng().toFixed(6); }
+      });
+    } catch (e) { input.type = "text"; }
+  };
+  var s = document.createElement("script");
+  s.src = "https://maps.googleapis.com/maps/api/js?key={{ site.googleMapsApiKey }}&v=weekly&loading=async&callback=__apInitPlaces";
+  s.async = true; s.defer = true;
+  document.head.appendChild(s);
+})();
+</script>
+<style>
+  gmpx-place-autocomplete, gmp-place-autocomplete { display: block; width: 100%; --gmp-mat-color-surface: #fff; }
+</style>
+{% endif %}
