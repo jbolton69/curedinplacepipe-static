@@ -1279,7 +1279,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 8200,
+      "otherBid": 16000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $16,000. TSR lined the pipe for $8,200."
+    }
   },
   {
     "id": 45,
@@ -1308,7 +1314,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 10350,
+      "otherBid": 18500,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $18,500. TSR lined the pipe for $10,350."
+    }
   },
   {
     "id": 46,
@@ -1337,7 +1349,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 12750,
+      "otherBid": 22815,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $22,815. TSR lined the pipe for $12,750."
+    }
   },
   {
     "id": 47,
@@ -1366,7 +1384,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 14920,
+      "otherBid": 23000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $23,000. TSR lined the pipe for $14,920."
+    }
   },
   {
     "id": 48,
@@ -1395,7 +1419,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 7800,
+      "otherBid": 13000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $13,000. TSR lined the pipe for $7,800."
+    }
   },
   {
     "id": 49,
@@ -1424,7 +1454,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 12950,
+      "otherBid": 18000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $18,000. TSR lined the pipe for $12,950."
+    }
   },
   {
     "id": 50,
@@ -1453,7 +1489,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 8270,
+      "otherBid": 14000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $14,000. TSR lined the pipe for $8,270."
+    }
   },
   {
     "id": 51,
@@ -1482,7 +1524,13 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 22980,
+      "otherBid": 39000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $39,000. TSR lined the pipe for $22,980."
+    }
   },
   {
     "id": 52,
@@ -1511,6 +1559,12 @@
     "status": "published",
     "sort": 0,
     "createdAt": "2026-09-25 21:02:52",
-    "updatedAt": "2026-09-25 21:02:52"
+    "updatedAt": "2026-09-25 21:02:52",
+    "quote": {
+      "price": 9380,
+      "otherBid": 18000,
+      "otherBidType": "dig",
+      "otherBidNote": "The homeowner's dig-and-replace bid was $18,000. TSR lined the pipe for $9,380."
+    }
   }
 ]

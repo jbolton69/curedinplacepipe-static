@@ -70,12 +70,14 @@ function bigStat(footage) {
 }
 
 const usd = (n) => "$" + Math.round(Number(n)).toLocaleString("en-US");
-function detailLine(p) {
+function quoteOf(p) {
   const q = p.quote;
-  if (q && Number(q.otherBid) > Number(q.price) && Number(q.price) > 0) {
-    const kind = q.otherBidType === "dig" ? "Dig bid" : q.otherBidType === "cipp" ? "Other CIPP quote" : "Other bid";
-    return `${kind} ${usd(q.otherBid)} · Done for ${usd(q.price)} · Saved ${usd(q.otherBid - q.price)}`;
-  }
+  if (!q || !(Number(q.price) > 0) || !(Number(q.otherBid) > Number(q.price))) return null;
+  const saved = Number(q.otherBid) - Number(q.price);
+  const kind = q.otherBidType === "dig" ? "Dig-and-replace bid" : q.otherBidType === "cipp" ? "Other CIPP quote" : "Other bid";
+  return { saved, pct: Math.round((saved / Number(q.otherBid)) * 100), kind, other: Number(q.otherBid), price: Number(q.price) };
+}
+function detailLine(p) {
   const parts = [];
   if (/\+/.test(p.footage || "")) parts.push(p.footage.replace(/\bft\b/g, "ft"));
   if (filled(p.pipeDiameter) && !/size change/i.test(p.pipeDiameter)) parts.push(p.pipeDiameter + " pipe");
@@ -105,22 +107,62 @@ function svgFor(p, city, contractor) {
   const methodSize = fit(method, 30, 660, true, 18);
   const detailSize = fit(detail, 22, 640, false, 15);
   const whoSize = fit(who, 22, 600, true, 16);
-
-  // Vertical layout (left column)
-  let y = 86;
-  const eyebrowY = y; y += 70;
-  const placeY = y; y += 46;
-  const methodY = y; y += 30;
-  const statY = y + 132; y = statY + 52;
-  const detailY = y; y += 60;
-  const ruleY = y; y += 40;
-  const whoY = y; y += 34;
-  const phoneY = y;
+  const q = quoteOf(p);
 
   // Cracks on the old pipe ring
   const cracks = [
     "M924 203 l12 -22", "M1018 238 l24 -8", "M1040 352 l22 8", "M972 452 l-10 20", "M836 400 l-22 10", "M840 240 l-20 -12",
   ].map((d) => `<path d="${d}" stroke="#4a5563" stroke-width="5" stroke-linecap="round" fill="none"/>`).join("");
+
+  let left;
+  if (q) {
+    // Savings-first layout: the dollar figure is the hero, the footage rides on the method line.
+    const savedText = `SAVED ${usd(q.saved)}`;
+    const savedSize = fit(savedText, 92, 640, true, 48);
+    const line2 = `${q.kind} ${usd(q.other)}  →  Lined for ${usd(q.price)}`;
+    const line2Size = fit(line2, 24, 640, true, 15);
+    const topLine = stat ? `${method}  ·  ${stat}` : method;
+    const topSize = fit(topLine, 28, 640, true, 18);
+    left = `
+  <text x="86" y="80" font-family="${FONT}" font-size="20" font-weight="700" letter-spacing="5" fill="#fc9615">COMPLETED TRENCHLESS PROJECT</text>
+  <text x="86" y="146" font-family="${FONT}" font-size="${Math.min(placeSize, 64)}" font-weight="700" fill="#ffffff">${esc(place)}</text>
+  <text x="86" y="186" font-family="${FONT}" font-size="${topSize}" font-weight="700" fill="#dbe6f5">${esc(topLine)}</text>
+
+  <rect x="70" y="214" width="640" height="170" rx="18" fill="#17a35a"/>
+  <rect x="70" y="214" width="12" height="170" rx="6" fill="#0f7a42"/>
+  <text x="100" y="257" font-family="${FONT}" font-size="18" font-weight="700" letter-spacing="4" fill="#e3fbea">THE HOMEOWNER</text>
+  <text x="100" y="${257 + savedSize * 0.92}" font-family="${FONT}" font-size="${savedSize}" font-weight="800" fill="#ffffff">${esc(savedText)}</text>
+  <text x="100" y="364" font-family="${FONT}" font-size="${line2Size}" font-weight="700" fill="#ffffff">${esc(line2)}</text>
+  <rect x="592" y="230" width="104" height="36" rx="18" fill="#ffffff"/>
+  <text x="644" y="255" text-anchor="middle" font-family="${FONT}" font-size="19" font-weight="800" fill="#0f7a42">${q.pct}% LESS</text>
+
+  ${detail ? `<text x="86" y="428" font-family="${FONT}" font-size="${detailSize}" fill="#dbe6f5">${esc(detail)}</text>` : ""}
+  <line x1="86" y1="462" x2="520" y2="462" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="86" y="500" font-family="${FONT}" font-size="${whoSize}" font-weight="700" fill="#ffffff">${esc(who)}</text>
+  <text x="86" y="534" font-family="${FONT}" font-size="22" fill="#dbe6f5">${esc(phone)}${phone ? " · " : ""}Estimates are free. Call now.</text>`;
+  } else {
+    // Vertical layout (left column)
+    let y = 86;
+    const eyebrowY = y; y += 70;
+    const placeY = y; y += 46;
+    const methodY = y; y += 30;
+    const statY = y + 132; y = statY + 52;
+    const detailY = y; y += 60;
+    const ruleY = y; y += 40;
+    const whoY = y; y += 34;
+    const phoneY = y;
+    left = `
+  <text x="86" y="${eyebrowY}" font-family="${FONT}" font-size="20" font-weight="700" letter-spacing="5" fill="#fc9615">COMPLETED TRENCHLESS PROJECT</text>
+  <text x="86" y="${placeY}" font-family="${FONT}" font-size="${placeSize}" font-weight="700" fill="#ffffff">${esc(place)}</text>
+  <text x="86" y="${methodY + 26}" font-family="${FONT}" font-size="${methodSize}" font-weight="700" fill="#dbe6f5">${esc(method)}</text>
+  ${stat
+    ? `<text x="86" y="${statY}" font-family="${FONT}" font-size="128" font-weight="800" fill="#ffffff">${esc(stat)}</text>`
+    : `<text x="86" y="${statY - 30}" font-family="${FONT}" font-size="54" font-weight="800" fill="#ffffff">${esc(titleCaseMethod(p.serviceType || "Trenchless"))}</text>`}
+  ${detail ? `<text x="86" y="${detailY}" font-family="${FONT}" font-size="${detailSize}" fill="#dbe6f5">${esc(detail)}</text>` : ""}
+  <line x1="86" y1="${ruleY}" x2="520" y2="${ruleY}" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="86" y="${whoY}" font-family="${FONT}" font-size="${whoSize}" font-weight="700" fill="#ffffff">${esc(who)}</text>
+  <text x="86" y="${phoneY}" font-family="${FONT}" font-size="22" fill="#dbe6f5">${esc(phone)}${phone ? " · " : ""}Estimates are free. Call now.</text>`;
+  }
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <defs>
@@ -134,16 +176,7 @@ function svgFor(p, city, contractor) {
   <rect width="${W}" height="${H}" fill="url(#bg)"/>
   <circle cx="945" cy="315" r="240" fill="url(#glow)"/>
 
-  <text x="86" y="${eyebrowY}" font-family="${FONT}" font-size="20" font-weight="700" letter-spacing="5" fill="#fc9615">COMPLETED TRENCHLESS PROJECT</text>
-  <text x="86" y="${placeY}" font-family="${FONT}" font-size="${placeSize}" font-weight="700" fill="#ffffff">${esc(place)}</text>
-  <text x="86" y="${methodY + 26}" font-family="${FONT}" font-size="${methodSize}" font-weight="700" fill="#dbe6f5">${esc(method)}</text>
-  ${stat
-    ? `<text x="86" y="${statY}" font-family="${FONT}" font-size="128" font-weight="800" fill="#ffffff">${esc(stat)}</text>`
-    : `<text x="86" y="${statY - 30}" font-family="${FONT}" font-size="54" font-weight="800" fill="#ffffff">${esc(titleCaseMethod(p.serviceType || "Trenchless"))}</text>`}
-  ${detail ? `<text x="86" y="${detailY}" font-family="${FONT}" font-size="${detailSize}" fill="#dbe6f5">${esc(detail)}</text>` : ""}
-  <line x1="86" y1="${ruleY}" x2="520" y2="${ruleY}" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
-  <text x="86" y="${whoY}" font-family="${FONT}" font-size="${whoSize}" font-weight="700" fill="#ffffff">${esc(who)}</text>
-  <text x="86" y="${phoneY}" font-family="${FONT}" font-size="22" fill="#dbe6f5">${esc(phone)}${phone ? " · " : ""}Estimates are free. Call now.</text>
+  ${left}
 
   <!-- pipe cross-section -->
   <circle cx="945" cy="315" r="170" fill="#8b96a5"/>
