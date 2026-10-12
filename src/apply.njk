@@ -78,9 +78,8 @@ clickcease: false
         <div class="col-md-6"><div class="from-box"><label for="ap-website">Website</label><input id="ap-website" type="text" name="website" placeholder="acmetrenchless.com" autocomplete="url" inputmode="url"></div></div>
         <div class="col-md-6"><div class="from-box"><label for="ap-years">Years in business</label><input id="ap-years" type="number" name="years_in_business" min="5" max="120" step="1" required><div class="hint">Five or more to prequalify.</div></div></div>
         <div class="col-md-6"><div class="from-box"><label for="ap-crews">Number of lining crews</label><input id="ap-crews" type="number" name="crews" min="1" max="99" step="1" required></div></div>
-        <div class="col-md-8"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="off" placeholder="Start typing the street address"><div class="hint" id="ap-address-hint">{% if site.googleMapsApiKey %}Pick the address from the list as you type.{% endif %}</div></div></div>
-        <div class="col-md-4"><div class="from-box"><label for="ap-citystate">City, State</label><input id="ap-citystate" type="text" name="city_state" required placeholder="Nashville, TN"></div></div>
-        <input type="hidden" name="address_lat" id="ap-lat"><input type="hidden" name="address_lng" id="ap-lng">
+        <div class="col-md-12"><div class="from-box"><label for="ap-address">Shop / home-base address</label><input id="ap-address" type="text" name="address" required autocomplete="off" placeholder="Start typing the street address"><div class="hint" id="ap-address-hint">{% if site.googleMapsApiKey %}Pick the address from the list as you type.{% endif %}</div></div></div>
+        <input type="hidden" name="city_state" id="ap-citystate"><input type="hidden" name="address_lat" id="ap-lat"><input type="hidden" name="address_lng" id="ap-lng">
       </div>
 
       <h3>Google Business Profile</h3>
@@ -143,7 +142,7 @@ clickcease: false
   window.__apInitPlaces = async function () {
     try {
       var lib = await google.maps.importLibrary("places");
-      var pac = new lib.PlaceAutocompleteElement({ componentRestrictions: { country: ["us"] }, types: ["address"] });
+      var pac = new lib.PlaceAutocompleteElement({ includedRegionCodes: ["us"], includedPrimaryTypes: ["street_address", "premise", "subpremise"] });
       pac.id = "ap-address-pac";
       pac.style.width = "100%";
       input.type = "hidden";
@@ -169,6 +168,7 @@ clickcease: false
 })();
 </script>
 <style>
-  gmpx-place-autocomplete, gmp-place-autocomplete { display: block; width: 100%; --gmp-mat-color-surface: #fff; }
+  gmp-place-autocomplete { display: block; width: 100%; color-scheme: light; --gmp-mat-color-surface: #fff; --gmp-mat-color-on-surface: #1c1c24; --gmp-mat-color-primary: #fc9615; border: 1px solid #d9dbe3; border-radius: 6px; background: #fff; }
+  .ap-form .from-box { color-scheme: light; }
 </style>
 {% endif %}
