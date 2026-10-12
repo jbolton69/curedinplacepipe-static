@@ -56,7 +56,7 @@ gtag('config', '{{ site.ga4 }}');
 
 <style>
     /* width/height attributes are added to every image tag at build time (no layout shift); keep CSS-sized images in proportion */
-    img[width][height] { height: auto; }
+    img[width][height] { height: auto; object-fit: contain; }
     .slider-content h1 { font-size: 45px; }
     .blog_area .owl-carousel .owl-item img,
     .single_blog_thumb img { height: 350px; width: 100%; object-fit: cover; }
