@@ -145,6 +145,7 @@ gtag('config', '{{ site.ga4 }}');
                 <nav class="dreamit_menu">
                     <ul class="nav_scroll">
                         <li><a href="/">Home</a></li>
+                        <li><a href="/network-map">Network Map</a></li>
                         <li><a href="javascript:void(0)">Information</a>
                             <ul class="sub-menu">
                                 {% for info in collections.navPages %}
@@ -175,6 +176,7 @@ gtag('config', '{{ site.ga4 }}');
         <nav class="dreamit_menu">
             <ul class="nav_scroll">
                 <li><a href="/">Home</a></li>
+                <li><a href="/network-map">Network Map</a></li>
                 <li><a href="javascript:void(0)">Information</a>
                     <ul class="sub-menu">
                         {% for info in collections.navPages %}
@@ -231,6 +233,7 @@ gtag('config', '{{ site.ga4 }}');
                             <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
                             {% endfor %}
                             <li><a href="/all-contractors">All Contractors</a></li>
+                            <li><a href="/network-map">Network Map</a></li>
                         </ul>
                     </div>
                 </div>

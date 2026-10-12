@@ -1,0 +1,160 @@
+---
+layout: layouts/base.njk
+permalink: /network-map.html
+pageTitle: "CIPP Verified Installer Network Map"
+pageDescription: "Interactive map of the CIPP Verified Installer network: every license-checked cured-in-place pipe contractor in the directory, the states they cover, and the territories still open to qualified contractors."
+clickcease: false
+---
+{#-
+  /network-map — Leaflet map of the Verified Installer network.
+  Data: contractors.json (coverage) + states.json (regions) + mapPins.json (HQ coordinates).
+  Shaded states = covered; striped = partly covered (an open region); light = open territory.
+  Pins = CIPP Verified badge at each installer's home base.
+-#}
+{%- set hero_image = "/images/cipp/cipp-liner-equipment.jpg" -%}
+{% include "partials/breadcrumb-css.njk" %}
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+<style>
+  .nm-wrap { max-width: 1350px; }
+  .nm-intro { max-width: 760px; margin: 0 auto 28px; text-align: center; color: #555; font-size: 17px; line-height: 1.7; }
+  .nm-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin: 0 0 24px; }
+  .nm-stat { background: #fff; border: 1px solid #e9e9ef; border-radius: 12px; padding: 14px 22px; min-width: 150px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,.04); }
+  .nm-stat b { display: block; font-size: 30px; line-height: 1; color: #1c1c24; font-weight: 700; }
+  .nm-stat span { display: block; margin-top: 6px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: #777; font-weight: 600; }
+  .nm-stat.is-open b { color: #fc9615; }
+
+  .nm-map-shell { position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(12,24,44,.14); border: 1px solid #e3e6ee; background: #eef2f7; }
+  #network-map { height: 620px; width: 100%; background: #eef2f7; }
+  @media (max-width: 767px) { #network-map { height: 72vh; min-height: 420px; } }
+
+  .nm-legend { position: absolute; left: 14px; bottom: 14px; z-index: 500; background: rgba(255,255,255,.95); border-radius: 10px; padding: 10px 14px; font-size: 13px; line-height: 1.5; box-shadow: 0 2px 12px rgba(0,0,0,.12); }
+  .nm-legend div { display: flex; align-items: center; gap: 8px; margin: 3px 0; color: #333; }
+  .nm-legend i { width: 18px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,.15); flex: 0 0 18px; }
+  .nm-legend i.cov { background: rgba(29,59,110,.55); }
+  .nm-legend i.part { background: repeating-linear-gradient(135deg, rgba(29,59,110,.55) 0 4px, rgba(252,150,21,.55) 4px 8px); }
+  .nm-legend i.open { background: rgba(252,150,21,.18); border-color: rgba(252,150,21,.7); }
+  .nm-legend img { width: 18px; height: 18px; }
+
+  .nm-pin { width: 46px; height: 46px; margin-left: -23px !important; margin-top: -23px !important; border-radius: 50%; background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; transition: transform .15s; cursor: pointer; }
+  .nm-pin img { width: 40px; height: 40px; display: block; }
+  .nm-pin:hover { transform: scale(1.12); }
+
+  .leaflet-popup-content-wrapper { border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.2); }
+  .leaflet-popup-content { margin: 16px 18px; font-family: inherit; font-size: 14px; line-height: 1.5; min-width: 230px; }
+  .nm-card h4 { font-size: 17px; margin: 0 0 2px; color: #1c1c24; line-height: 1.25; }
+  .nm-card .nm-sub { color: #777; font-size: 13px; margin-bottom: 8px; }
+  .nm-card .nm-logo { max-height: 42px; max-width: 150px; display: block; margin-bottom: 8px; object-fit: contain; }
+  .nm-card .nm-rating { color: #1c1c24; font-size: 13px; margin-bottom: 6px; }
+  .nm-card .nm-rating b { color: #fc9615; }
+  .nm-card .nm-phone { font-weight: 700; font-size: 16px; }
+  .nm-card .nm-phone a { color: #1c1c24; text-decoration: none; }
+  .nm-card .nm-cta { font-size: 12px; color: #222; margin: 0 0 8px; }
+  .nm-card .nm-links a { display: inline-block; margin: 2px 10px 0 0; color: #1d3b6e; font-weight: 600; text-decoration: underline; font-size: 13px; }
+  .nm-card.is-open h4 { color: #c66d00; }
+  .nm-card .nm-apply { display: inline-block; margin-top: 8px; background: #fc9615; color: #fff !important; font-weight: 700; padding: 8px 14px; border-radius: 6px; text-decoration: none !important; font-size: 13px; }
+  .nm-card .nm-apply:hover { background: #e3850f; }
+
+  .nm-lists { margin-top: 48px; }
+  .nm-lists h3 { font-size: 22px; border-bottom: 2px solid #fc9615; padding-bottom: 6px; margin-bottom: 16px; }
+  .nm-installer { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #eee; }
+  .nm-installer img.badge { width: 34px; height: 34px; flex: 0 0 34px; }
+  .nm-installer .who { flex: 1; min-width: 0; }
+  .nm-installer .who a { font-weight: 700; color: #1c1c24; }
+  .nm-installer .who small { display: block; color: #777; }
+  .nm-installer .ph { font-weight: 700; white-space: nowrap; }
+  .nm-installer .ph a { color: #1c1c24; }
+  .nm-open-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .nm-open-grid a { display: block; padding: 9px 12px; border: 1.5px solid #fc9615; background: #fff7ec; border-radius: 8px; color: #1c1c24; font-weight: 600; font-size: 14px; text-decoration: none; }
+  .nm-open-grid a:hover { background: #fc9615; color: #fff; }
+  .nm-recruit { background: #1c1c24; color: #fff; border-radius: 14px; padding: 28px 30px; margin-top: 28px; }
+  .nm-recruit h3 { color: #fff; border: 0; margin: 0 0 8px; font-size: 24px; }
+  .nm-recruit p { color: rgba(255,255,255,.8); margin: 0 0 14px; max-width: 760px; }
+  .nm-recruit a.btn-orange { display: inline-block; background: #fc9615; color: #fff; font-weight: 700; padding: 12px 22px; border-radius: 6px; text-decoration: none; }
+  .nm-recruit a.btn-orange:hover { background: #e3850f; }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breatcumb-content text-center">
+          <div class="breatcumb-title"><h1>CIPP Verified Installer Network Map</h1></div>
+          <div class="breatcumb-content-text">
+            <ul><li><a href="/">home</a> <i class="fas fa-angle-right"></i> <span>Network Map</span></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blog_area style-two pt-5 pb-5">
+  <div class="container nm-wrap">
+    <p class="nm-intro">Every badge on this map is a cured-in-place pipe contractor whose license, work history and lining equipment we checked before listing them. Shaded states have a verified installer; the lighter ones are territories still open to a qualified CIPP contractor.</p>
+
+    <div class="nm-stats" id="nm-stats" aria-live="polite">
+      <div class="nm-stat"><b data-stat="installers">–</b><span>Verified installers</span></div>
+      <div class="nm-stat"><b data-stat="covered">–</b><span>States covered</span></div>
+      <div class="nm-stat is-open"><b data-stat="open">–</b><span>Open territories</span></div>
+    </div>
+
+    <div class="nm-map-shell">
+      <div id="network-map" role="application" aria-label="Map of CIPP Verified Installers across the United States"></div>
+      <div class="nm-legend" aria-hidden="true">
+        <div><img src="/images/cipp/cipp-verified-badge.webp" alt=""> Verified installer home base</div>
+        <div><i class="cov"></i> State with a verified installer</div>
+        <div><i class="part"></i> Partly covered — a region is open</div>
+        <div><i class="open"></i> Open territory — now recruiting</div>
+      </div>
+    </div>
+
+    <div class="row nm-lists">
+      <div class="col-lg-6 mb-4">
+        <h3>In the network</h3>
+        <div id="nm-installer-list"></div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <h3>Open territories</h3>
+        <p style="color:#666; font-size:14px;">One verified installer per territory. Tap a state to see what's open.</p>
+        <div class="nm-open-grid" id="nm-open-list"></div>
+      </div>
+    </div>
+
+    <div class="nm-recruit">
+      <h3>Run a CIPP crew in an open state?</h3>
+      <p>The CIPP Verified Installer badge is free. We check your license, your lining work and your equipment, then list you on this map and on every city page in your territory, with your own phone number on each one.</p>
+      <a class="btn-orange" href="/contact">Apply for your territory</a>
+    </div>
+  </div>
+</div>
+
+{#- Data for the map, built from the site's data files at build time. -#}
+<script type="application/json" id="nm-data">
+{
+  "states": {{ states | dump | safe }},
+  "contractors": [
+  {%- for c in contractors -%}
+    {%- if mapPins[c.slug] -%}
+      {%- set pin = mapPins[c.slug] %}
+      {
+        "slug": {{ c.slug | dump | safe }},
+        "name": {{ (c.shortName or c.name) | dump | safe }},
+        "url": {{ ("/contractor/" + c.slug) | dump | safe }},
+        "website": {{ (c.website or "") | dump | safe }},
+        "phone": {{ (c.phone or "") | dump | safe }},
+        "logo": {{ (c.logo or "") | dump | safe }},
+        "rating": {{ (c.googleRating or "") | dump | safe }},
+        "reviews": {{ (c.googleReviewCount or 0) | dump | safe }},
+        "place": {{ (pin.placeLabel or "") | dump | safe }},
+        "lat": {{ pin.lat }}, "lng": {{ pin.lng }},
+        "coverage": [{% for cov in c.coverage %}{{ (cov.state or "") | dump | safe }}{% if not loop.last %},{% endif %}{% endfor %}]
+      },
+    {%- endif -%}
+  {%- endfor %}
+    null
+  ]
+}
+</script>
+<script src="/vendor/leaflet/leaflet.js" defer></script>
+<script src="/vendor/topojson-client.min.js" defer></script>
+<script src="/js/network-map.js" defer></script>

@@ -1,0 +1,12 @@
+{
+  "_note": "HQ pin for each verified installer on /network-map, keyed by contractor slug. Coordinates are city-level unless a street address was known. Edit lat/lng to move a pin; a contractor with no entry here is skipped on the map.",
+  "tsr-trenchless":                  { "lat": 33.5017, "lng": -117.6625, "placeLabel": "San Juan Capistrano, CA" },
+  "cpc-trenchless":                  { "lat": 29.7604, "lng": -95.3698,  "placeLabel": "Houston, TX" },
+  "all-sewer-and-plumbing-services": { "lat": 39.8367, "lng": -105.0372, "placeLabel": "Westminster, CO" },
+  "the-trenchless-guys":             { "lat": 40.7978, "lng": -81.9378,  "placeLabel": "Wooster, OH" },
+  "the-trenchless-team":             { "lat": 39.8137, "lng": -74.9340,  "placeLabel": "West Berlin, NJ" },
+  "new-england-pipe-restoration":    { "lat": 42.5251, "lng": -71.7598,  "placeLabel": "Leominster, MA" },
+  "american-trenchless-technologies":{ "lat": 41.9206, "lng": -88.6887,  "placeLabel": "Cortland, IL" },
+  "fletch-barney-trenchless":        { "lat": 33.7490, "lng": -84.3880,  "placeLabel": "Atlanta, GA" },
+  "superior-plumbing-pipe-lining":   { "lat": 27.3364, "lng": -82.4620,  "placeLabel": "Sarasota, FL" }
+}

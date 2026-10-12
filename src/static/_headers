@@ -21,6 +21,10 @@
   Cache-Control: public, max-age=604800
 /contractor_images/*
   Cache-Control: public, max-age=604800
+/vendor/*
+  Cache-Control: public, max-age=604800
+/data/*
+  Cache-Control: public, max-age=86400
 
 /thank-you
   X-Robots-Tag: noindex
