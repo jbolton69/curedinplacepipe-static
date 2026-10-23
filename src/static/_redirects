@@ -1,3 +1,9 @@
+# Host canonicalization: www and the pages.dev production host -> apex (301). ------
+# Cloudflare Pages matches a full-URL source on the host; preview deployments
+# (<hash>.curedinplacepipe.pages.dev) are unaffected.
+https://www.curedinplacepipe.net/* https://curedinplacepipe.net/:splat 301
+https://curedinplacepipe.pages.dev/* https://curedinplacepipe.net/:splat 301
+
 # Legacy static-site URLs (recovered from routes/web.php) -----------------
 /akron.php /cipp-contractor/ohio/akron 301
 /arlington_tx.php /cipp-contractor/texas/arlington 301
