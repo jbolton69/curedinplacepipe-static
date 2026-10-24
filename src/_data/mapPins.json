@@ -8,5 +8,6 @@
   "new-england-pipe-restoration":    { "lat": 42.5251, "lng": -71.7598,  "placeLabel": "Leominster, MA" },
   "american-trenchless-technologies":{ "lat": 41.9206, "lng": -88.6887,  "placeLabel": "Cortland, IL" },
   "fletch-barney-trenchless":        { "lat": 33.7490, "lng": -84.3880,  "placeLabel": "Atlanta, GA" },
-  "superior-plumbing-pipe-lining":   { "lat": 27.3364, "lng": -82.4620,  "placeLabel": "Sarasota, FL" }
+  "superior-plumbing-pipe-lining":   { "lat": 27.3364, "lng": -82.4620,  "placeLabel": "Sarasota, FL" },
+  "sewer-techs":                     { "lat": 47.2485, "lng": -122.4386, "placeLabel": "Tacoma, WA" }
 }

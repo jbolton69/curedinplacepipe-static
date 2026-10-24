@@ -1163,5 +1163,160 @@
       }
     ],
     "reviews": []
+  },
+  {
+    "id": 111,
+    "slug": "sewer-techs",
+    "name": "SewerTechs, LLC",
+    "shortName": "Sewer Techs",
+    "tagline": "Veteran-owned trenchless sewer lining and pipe bursting across Washington State, based in Tacoma",
+    "about": "Sewer Techs is a veteran-owned trenchless sewer contractor that has worked out of Tacoma since 2010 and lines, bursts and replaces failing sewer lines anywhere in Washington State. The company is a licensed general contractor whose lining crews hold installer certifications for both the Perma-Liner and Easy Liner cured-in-place systems, and it keeps the camera, jetting, lining and bursting equipment in-house rather than subcontracting any step.\n\nThe work is almost entirely side sewers: the concrete and clay laterals laid under Puget Sound bungalows and ramblers before 1965, the cast iron drain lines under 1950s through 1970s houses, and the collection lines under hospitals, schools and shopping centers that cannot shut down for an excavation. Sixty wet winters on glacial till and clay leave those pipes with offset joints, root intrusion and bellies, and most of the repairs Sewer Techs makes go in through an existing cleanout or a single small access pit, so lawns, driveways, retaining walls and decks stay put.\n\nEvery job starts with a camera. The crew runs the line from the cleanout to the main, marks the trouble spots on the ground, and walks the owner through the footage before quoting anything. When the pipe still holds its shape, a CIPP liner is cured inside it to make a jointless new pipe; where only one joint or crack has failed, a short sectional liner covers that spot. A line that has lost its slope, collapsed or simply rotted away cannot be lined, and Sewer Techs says so in writing and bursts or replaces it instead. The camera goes back in after the cure so the owner can watch the finished line end to end and keep the recording.\n\nWashington side sewer rules differ from one city to the next: in most places the owner is responsible all the way to the public main, including the stretch under the street, and the city or sewer district issues the side sewer permit and inspects before backfill. Sewer Techs checks those requirements before a job is scheduled, pulls the permits and books the inspections, and flags up front where a city such as Seattle requires a registered side sewer contractor for the street side of the job.\n\nLining work carries a workmanship warranty, and a transferable version is available for owners who are preparing to sell. Customers rate the company 5.0 out of 5 on Google, and the reviews repeatedly mention crews that showed up when promised, trenchless repairs that saved thousands over a dig quote, and yards left clean. From its Commerce Street base in Tacoma the company serves Pierce, King, Snohomish, Thurston and Kitsap Counties daily and travels across the passes to Spokane, Yakima, the Tri-Cities and down to Clark County for lining projects.",
+    "certifications": "Licensed Washington general contractor; certified installer for Perma-Liner and Easy Liner CIPP systems; CIPP lining, sectional point repair and HDPE pipe bursting; sewer camera inspection, locating and hydro jetting; residential, commercial and institutional; workmanship warranty on lining (transferable option).",
+    "serviceAreasText": "We Service The Entire State of Washington\r\nTacoma, Seattle, Bellevue, Kent, Everett,\r\nOlympia, Bremerton, Vancouver, Spokane, Bellingham\r\nAnd All Surrounding Counties & Cities",
+    "website": "https://sewertechs-trenchless.com",
+    "googleLink": "",
+    "googleRating": "5.0",
+    "googleReviewCount": 14,
+    "hqStreet": "2502 Commerce St #1",
+    "hqCity": "Tacoma",
+    "hqState": "WA",
+    "hqPostalCode": "98402",
+    "yearsInBusiness": null,
+    "crews": null,
+    "logo": "/images/cipp/sewer-techs-logo.png",
+    "heroImage": "",
+    "verificationId": "",
+    "verifiedAt": "",
+    "phone": "(877) 811-9027",
+    "email": "",
+    "leadsToContractor": false,
+    "web3formsKey": "",
+    "coverage": [
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "",
+        "phone": "(877) 811-9027",
+        "sort": 0
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Tacoma",
+        "phone": "(877) 811-9027",
+        "sort": 1
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Seattle",
+        "phone": "(877) 811-9027",
+        "sort": 2
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Bellevue",
+        "phone": "(877) 811-9027",
+        "sort": 3
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Kent",
+        "phone": "(877) 811-9027",
+        "sort": 4
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Everett",
+        "phone": "(877) 811-9027",
+        "sort": 5
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Olympia",
+        "phone": "(877) 811-9027",
+        "sort": 6
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Bremerton",
+        "phone": "(877) 811-9027",
+        "sort": 7
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Vancouver",
+        "phone": "(877) 811-9027",
+        "sort": 8
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Spokane",
+        "phone": "(877) 811-9027",
+        "sort": 9
+      },
+      {
+        "stateId": 18,
+        "state": "Washington",
+        "cityId": null,
+        "city": null,
+        "areaLabel": "Bellingham",
+        "phone": "(877) 811-9027",
+        "sort": 10
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "cityId": null,
+        "cityName": null,
+        "author": "Google reviewer",
+        "stars": 5,
+        "reviewDate": "",
+        "service": "Trenchless sewer repair",
+        "body": "Sewer Techs was amazing. They were polite, professional, and showed up exactly when they said they would. They also saved me thousands of dollars (probably tens of thousands) by doing the trenchless repair. They worked hard and got the job done!",
+        "source": "google",
+        "sort": 0
+      },
+      {
+        "id": 2,
+        "cityId": null,
+        "cityName": null,
+        "author": "Google reviewer",
+        "stars": 5,
+        "reviewDate": "",
+        "service": "Sewer line repair",
+        "body": "Dover was very responsive and helpful in this process. Crews were friendly and professional.  The quoted price was fair and they were very considerate in making sure we had an operating toilet between work days and the yard was cleaned up well.",
+        "source": "google",
+        "sort": 1
+      }
+    ]
   }
 ]

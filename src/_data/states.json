@@ -70,5 +70,10 @@
     "id": 17,
     "name": "Florida",
     "slug": "florida"
+  },
+  {
+    "id": 18,
+    "name": "Washington",
+    "slug": "washington"
   }
 ]

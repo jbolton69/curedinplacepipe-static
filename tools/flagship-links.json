@@ -1,39 +1,132 @@
 {
   "_note": "One in-article follow link per city lander to the matching flagship city/county page. p = paragraph index (0-based) whose closing </p> the sentence is appended before.",
   "illinois.json": {
-    "Chicago": {"p": 1, "add": " American Trenchless Technologies, the verified installer for Cook County, fixes that failure from inside the pipe; its <a href=\"https://american-trenchless.com/cook-county/chicago/\">trenchless sewer repair in Chicago</a> page walks through how a liner bridges those pulled joints without opening the parkway."},
-    "Cicero": {"p": 1, "add": " American Trenchless Technologies reaches Cicero from its Cook County service area, and its <a href=\"https://american-trenchless.com/cook-county/\">sewer pipe lining across Cook County</a> is done through a single access point rather than a trench down the gangway."},
-    "Aurora IL": {"p": 1, "add": " That is the case American Trenchless Technologies makes for <a href=\"https://american-trenchless.com/kane-county/aurora/\">cured in place pipe in Aurora</a>: the liner runs out to the tap from a cleanout in the yard, and the pavement over the parkway never comes up."},
-    "Joliet": {"p": 1, "add": " On the private side, a sealed liner is the simplest way to stop that infiltration; American Trenchless Technologies describes its <a href=\"https://american-trenchless.com/will-county/joliet/\">trenchless sewer repair in Joliet</a> as exactly that kind of source control, one lateral at a time."},
-    "Rockford": {"p": 1, "add": " For those lines, <a href=\"https://american-trenchless.com/\">American Trenchless Technologies</a>, the Illinois CIPP Verified Installer, travels to Rockford from DeKalb County to line laterals rather than dig them up."},
-    "Peoria": {"p": 1, "add": " The same vote applies on the private side: <a href=\"https://american-trenchless.com/\">American Trenchless Technologies</a> lines Peoria laterals with the same cured-in-place process the district uses on its connections."},
-    "Elgin": {"p": 1, "add": " That is where American Trenchless Technologies comes in; its <a href=\"https://american-trenchless.com/kane-county/elgin/\">sewer lining in Elgin</a> renews the private lateral from inside while the city rebuilds the public sewer beside it."},
-    "Springfield": {"p": 1, "add": " A lined lateral is the private-side equivalent of that reinvestment, and <a href=\"https://american-trenchless.com/\">American Trenchless Technologies</a> brings its CIPP crews to Springfield for exactly that work."}
+    "Chicago": {
+      "p": 1,
+      "add": " American Trenchless Technologies, the verified installer for Cook County, fixes that failure from inside the pipe; its <a href=\"https://american-trenchless.com/cook-county/chicago/\">trenchless sewer repair in Chicago</a> page walks through how a liner bridges those pulled joints without opening the parkway."
+    },
+    "Cicero": {
+      "p": 1,
+      "add": " American Trenchless Technologies reaches Cicero from its Cook County service area, and its <a href=\"https://american-trenchless.com/cook-county/\">sewer pipe lining across Cook County</a> is done through a single access point rather than a trench down the gangway."
+    },
+    "Aurora IL": {
+      "p": 1,
+      "add": " That is the case American Trenchless Technologies makes for <a href=\"https://american-trenchless.com/kane-county/aurora/\">cured in place pipe in Aurora</a>: the liner runs out to the tap from a cleanout in the yard, and the pavement over the parkway never comes up."
+    },
+    "Joliet": {
+      "p": 1,
+      "add": " On the private side, a sealed liner is the simplest way to stop that infiltration; American Trenchless Technologies describes its <a href=\"https://american-trenchless.com/will-county/joliet/\">trenchless sewer repair in Joliet</a> as exactly that kind of source control, one lateral at a time."
+    },
+    "Rockford": {
+      "p": 1,
+      "add": " For those lines, <a href=\"https://american-trenchless.com/\">American Trenchless Technologies</a>, the Illinois CIPP Verified Installer, travels to Rockford from DeKalb County to line laterals rather than dig them up."
+    },
+    "Peoria": {
+      "p": 1,
+      "add": " The same vote applies on the private side: <a href=\"https://american-trenchless.com/\">American Trenchless Technologies</a> lines Peoria laterals with the same cured-in-place process the district uses on its connections."
+    },
+    "Elgin": {
+      "p": 1,
+      "add": " That is where American Trenchless Technologies comes in; its <a href=\"https://american-trenchless.com/kane-county/elgin/\">sewer lining in Elgin</a> renews the private lateral from inside while the city rebuilds the public sewer beside it."
+    },
+    "Springfield": {
+      "p": 1,
+      "add": " A lined lateral is the private-side equivalent of that reinvestment, and <a href=\"https://american-trenchless.com/\">American Trenchless Technologies</a> brings its CIPP crews to Springfield for exactly that work."
+    }
   },
   "texas.json": {
-    "Houston": {"p": 1, "add": " When it does, CPC Trenchless, the verified installer for Harris County, repairs the line from inside; its <a href=\"https://cpc-trenchless.com/harris-county/houston/\">trenchless sewer repair in Houston</a> page covers how a liner is installed through a cleanout with no trench across the yard."},
-    "San Antonio": {"p": 1, "add": " For the segment that is yours, CPC Trenchless offers <a href=\"https://cpc-trenchless.com/bexar-county/san-antonio/\">cured in place pipe in San Antonio</a>, a structural liner installed through the existing cleanout so the driveway and yard stay intact."},
-    "Dallas": {"p": 1, "add": " That is the condition CPC Trenchless lines against; its <a href=\"https://cpc-trenchless.com/dallas-county/dallas/\">sewer pipe lining in Dallas</a> installs a jointless liner that moves with the clay instead of pulling apart at the joints."},
-    "Fort Worth": {"p": 0, "add": " CPC Trenchless, the verified installer for Tarrant County, applies that same process on the private side with <a href=\"https://cpc-trenchless.com/tarrant-county/fort-worth/\">trenchless sewer repair in Fort Worth</a>."},
-    "Austin": {"p": 1, "add": " CPC Trenchless pulls that permit as part of every <a href=\"https://cpc-trenchless.com/travis-county/austin/\">cured in place pipe job in Austin</a>, so the lined P-Lat is on record with the city from the start."},
-    "El Paso": {"p": 1, "add": " <a href=\"https://cpc-trenchless.com/\">CPC Trenchless</a>, the Texas CIPP Verified Installer, works within that inspection process when it lines an El Paso service line rather than excavating it."},
-    "Arlington": {"p": 1, "add": " CPC Trenchless makes that case directly with its <a href=\"https://cpc-trenchless.com/tarrant-county/arlington/\">sewer lining in Arlington</a>, which carries a private lateral all the way to the main without cutting the right-of-way."},
-    "Plano": {"p": 1, "add": " CPC Trenchless, the verified installer for Collin County, renews those lines with <a href=\"https://cpc-trenchless.com/collin-county/plano/\">trenchless sewer repair in Plano</a>, lining the original pipe in place instead of digging up the established landscaping."},
-    "Garland": {"p": 1, "add": " A jointless liner is the answer to that movement, and CPC Trenchless installs it as <a href=\"https://cpc-trenchless.com/dallas-county/garland/\">cured in place pipe in Garland</a> through the existing cleanout."},
-    "Corpus Christi": {"p": 1, "add": " An epoxy-saturated liner is immune to that corrosion, which is why <a href=\"https://cpc-trenchless.com/\">CPC Trenchless</a> brings its CIPP crews to Corpus Christi for laterals the salt has already eaten into."}
+    "Houston": {
+      "p": 1,
+      "add": " When it does, CPC Trenchless, the verified installer for Harris County, repairs the line from inside; its <a href=\"https://cpc-trenchless.com/harris-county/houston/\">trenchless sewer repair in Houston</a> page covers how a liner is installed through a cleanout with no trench across the yard."
+    },
+    "San Antonio": {
+      "p": 1,
+      "add": " For the segment that is yours, CPC Trenchless offers <a href=\"https://cpc-trenchless.com/bexar-county/san-antonio/\">cured in place pipe in San Antonio</a>, a structural liner installed through the existing cleanout so the driveway and yard stay intact."
+    },
+    "Dallas": {
+      "p": 1,
+      "add": " That is the condition CPC Trenchless lines against; its <a href=\"https://cpc-trenchless.com/dallas-county/dallas/\">sewer pipe lining in Dallas</a> installs a jointless liner that moves with the clay instead of pulling apart at the joints."
+    },
+    "Fort Worth": {
+      "p": 0,
+      "add": " CPC Trenchless, the verified installer for Tarrant County, applies that same process on the private side with <a href=\"https://cpc-trenchless.com/tarrant-county/fort-worth/\">trenchless sewer repair in Fort Worth</a>."
+    },
+    "Austin": {
+      "p": 1,
+      "add": " CPC Trenchless pulls that permit as part of every <a href=\"https://cpc-trenchless.com/travis-county/austin/\">cured in place pipe job in Austin</a>, so the lined P-Lat is on record with the city from the start."
+    },
+    "El Paso": {
+      "p": 1,
+      "add": " <a href=\"https://cpc-trenchless.com/\">CPC Trenchless</a>, the Texas CIPP Verified Installer, works within that inspection process when it lines an El Paso service line rather than excavating it."
+    },
+    "Arlington": {
+      "p": 1,
+      "add": " CPC Trenchless makes that case directly with its <a href=\"https://cpc-trenchless.com/tarrant-county/arlington/\">sewer lining in Arlington</a>, which carries a private lateral all the way to the main without cutting the right-of-way."
+    },
+    "Plano": {
+      "p": 1,
+      "add": " CPC Trenchless, the verified installer for Collin County, renews those lines with <a href=\"https://cpc-trenchless.com/collin-county/plano/\">trenchless sewer repair in Plano</a>, lining the original pipe in place instead of digging up the established landscaping."
+    },
+    "Garland": {
+      "p": 1,
+      "add": " A jointless liner is the answer to that movement, and CPC Trenchless installs it as <a href=\"https://cpc-trenchless.com/dallas-county/garland/\">cured in place pipe in Garland</a> through the existing cleanout."
+    },
+    "Corpus Christi": {
+      "p": 1,
+      "add": " An epoxy-saturated liner is immune to that corrosion, which is why <a href=\"https://cpc-trenchless.com/\">CPC Trenchless</a> brings its CIPP crews to Corpus Christi for laterals the salt has already eaten into."
+    }
   },
   "colorado.json": {
-    "Denver": {"p": 1, "add": " All Sewer and Plumbing Services, the verified installer for Denver, works inside those rules; its <a href=\"https://asap-trenchless.com/denver/\">trenchless sewer repair in Denver</a> page explains how a liner is installed from the building sewer out to the tap with no cut in the right-of-way."},
-    "Aurora": {"p": 1, "add": " All Sewer and Plumbing Services lines that full run, tap included, with <a href=\"https://asap-trenchless.com/arapahoe-county/aurora/\">cured in place pipe in Aurora</a>, which satisfies the general manager's standard without an open trench."},
-    "Lakewood": {"p": 1, "add": " Whichever district a property falls in, the private lateral is the owner's, and All Sewer and Plumbing Services renews it with <a href=\"https://asap-trenchless.com/jefferson-county/lakewood/\">sewer pipe lining in Lakewood</a> from a single access point."},
-    "Colorado Springs": {"p": 0, "add": " <a href=\"https://asap-trenchless.com/\">All Sewer and Plumbing Services</a>, the Colorado CIPP Verified Installer, submits those calculations as part of every lining job it runs in Colorado Springs."},
-    "Fort Collins": {"p": 0, "add": " All Sewer and Plumbing Services can usually line a failed lateral inside that window; its <a href=\"https://asap-trenchless.com/larimer-county/fort-collins/\">trenchless sewer repair in Fort Collins</a> is typically a one-day install once the camera inspection is done."},
-    "Boulder": {"p": 1, "add": " Below that tap, All Sewer and Plumbing Services installs the same kind of structural liner as <a href=\"https://asap-trenchless.com/boulder-county/boulder/\">cured in place pipe in Boulder</a>, so the private line is renewed without disturbing the city's connection."},
-    "Arvada": {"p": 1, "add": " For everything on the owner's side of that main, All Sewer and Plumbing Services offers <a href=\"https://asap-trenchless.com/jefferson-county/arvada/\">sewer lining in Arvada</a> that renews pipe, fittings, and the run to the tap from inside."},
-    "Thornton": {"p": 1, "add": " Because the whole line is private, the owner also chooses the method, and All Sewer and Plumbing Services makes the case for <a href=\"https://asap-trenchless.com/adams-county/thornton/\">trenchless sewer repair in Thornton</a> over an open cut to the tap."},
-    "Grand Junction": {"p": 1, "add": " <a href=\"https://asap-trenchless.com/\">All Sewer and Plumbing Services</a> travels to Grand Junction for that private-side work, lining building sewers rather than trenching across the lot."},
-    "Centennial": {"p": 1, "add": " However the district draws it, All Sewer and Plumbing Services lines the owner's full segment with <a href=\"https://asap-trenchless.com/arapahoe-county/centennial/\">cured in place pipe in Centennial</a>, stopping at the district's fitting on the main."},
-    "Littleton": {"p": 1, "add": " The private lateral is the same no matter who sends the bill, and All Sewer and Plumbing Services repairs it with <a href=\"https://asap-trenchless.com/arapahoe-county/littleton/\">sewer pipe lining in Littleton</a> through the existing cleanout."},
-    "Lafayette": {"p": 1, "add": " All Sewer and Plumbing Services permits its work through that same chapter; its <a href=\"https://asap-trenchless.com/boulder-county/lafayette/\">trenchless sewer repair in Lafayette</a> renews the private line to the city's main without opening the street."}
+    "Denver": {
+      "p": 1,
+      "add": " All Sewer and Plumbing Services, the verified installer for Denver, works inside those rules; its <a href=\"https://asap-trenchless.com/denver/\">trenchless sewer repair in Denver</a> page explains how a liner is installed from the building sewer out to the tap with no cut in the right-of-way."
+    },
+    "Aurora": {
+      "p": 1,
+      "add": " All Sewer and Plumbing Services lines that full run, tap included, with <a href=\"https://asap-trenchless.com/arapahoe-county/aurora/\">cured in place pipe in Aurora</a>, which satisfies the general manager's standard without an open trench."
+    },
+    "Lakewood": {
+      "p": 1,
+      "add": " Whichever district a property falls in, the private lateral is the owner's, and All Sewer and Plumbing Services renews it with <a href=\"https://asap-trenchless.com/jefferson-county/lakewood/\">sewer pipe lining in Lakewood</a> from a single access point."
+    },
+    "Colorado Springs": {
+      "p": 0,
+      "add": " <a href=\"https://asap-trenchless.com/\">All Sewer and Plumbing Services</a>, the Colorado CIPP Verified Installer, submits those calculations as part of every lining job it runs in Colorado Springs."
+    },
+    "Fort Collins": {
+      "p": 0,
+      "add": " All Sewer and Plumbing Services can usually line a failed lateral inside that window; its <a href=\"https://asap-trenchless.com/larimer-county/fort-collins/\">trenchless sewer repair in Fort Collins</a> is typically a one-day install once the camera inspection is done."
+    },
+    "Boulder": {
+      "p": 1,
+      "add": " Below that tap, All Sewer and Plumbing Services installs the same kind of structural liner as <a href=\"https://asap-trenchless.com/boulder-county/boulder/\">cured in place pipe in Boulder</a>, so the private line is renewed without disturbing the city's connection."
+    },
+    "Arvada": {
+      "p": 1,
+      "add": " For everything on the owner's side of that main, All Sewer and Plumbing Services offers <a href=\"https://asap-trenchless.com/jefferson-county/arvada/\">sewer lining in Arvada</a> that renews pipe, fittings, and the run to the tap from inside."
+    },
+    "Thornton": {
+      "p": 1,
+      "add": " Because the whole line is private, the owner also chooses the method, and All Sewer and Plumbing Services makes the case for <a href=\"https://asap-trenchless.com/adams-county/thornton/\">trenchless sewer repair in Thornton</a> over an open cut to the tap."
+    },
+    "Grand Junction": {
+      "p": 1,
+      "add": " <a href=\"https://asap-trenchless.com/\">All Sewer and Plumbing Services</a> travels to Grand Junction for that private-side work, lining building sewers rather than trenching across the lot."
+    },
+    "Centennial": {
+      "p": 1,
+      "add": " However the district draws it, All Sewer and Plumbing Services lines the owner's full segment with <a href=\"https://asap-trenchless.com/arapahoe-county/centennial/\">cured in place pipe in Centennial</a>, stopping at the district's fitting on the main."
+    },
+    "Littleton": {
+      "p": 1,
+      "add": " The private lateral is the same no matter who sends the bill, and All Sewer and Plumbing Services repairs it with <a href=\"https://asap-trenchless.com/arapahoe-county/littleton/\">sewer pipe lining in Littleton</a> through the existing cleanout."
+    },
+    "Lafayette": {
+      "p": 1,
+      "add": " All Sewer and Plumbing Services permits its work through that same chapter; its <a href=\"https://asap-trenchless.com/boulder-county/lafayette/\">trenchless sewer repair in Lafayette</a> renews the private line to the city's main without opening the street."
+    }
+  },
+  "washington.json": {
+    "_baked": "Washington links were written directly into the articles in tools/city-articles/washington.json (2026-10-24), one per city to sewertechs-trenchless.com county/city pages — nothing for add-flagship-links.cjs to insert."
   }
 }

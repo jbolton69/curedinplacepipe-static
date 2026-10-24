@@ -1,0 +1,803 @@
+{
+  "Seattle": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/seattle",
+    "metaTitle": "Seattle, WA Side Sewer Rules & CIPP Lining Guide",
+    "metaDescription": "Seattle owners own the side sewer to the main, SDCI permits every repair, and only a Registered Side Sewer Contractor works the street. See where CIPP fits.",
+    "article": "<h2>Why Seattle Calls It a Side Sewer</h2>\n<p>In Seattle the pipe between a building and the public main is a side sewer, and the city has a code chapter, a dedicated permit, and a licensed trade built around it. Under Seattle Municipal Code 21.16.190 the owner of the property it serves owns and maintains that pipe whether it sits in the yard, under the sidewalk, or beneath the street, all the way to, but not including, the tee or wye on the main. That framework is the first thing Sewer Techs, the Washington CIPP Verified Installer, sorts out before quoting <a href=\"https://sewertechs-trenchless.com/king-county/seattle/\">Sewer Techs' Seattle side sewer lining</a>: who will hold the permit, and whether the street side of the job falls under the city's registration rule.</p>\n<h2>The Registered Side Sewer Contractor Rule</h2>\n<p>Most Washington cities accept any state-licensed, bonded contractor for right-of-way work. Seattle goes further. SMC 21.16.055 says side sewer work in a public place must be performed by a Registered Side Sewer Contractor, an RSSC, with a certified person from the city roster supervising on site, and 21.16.060 sets the bond and insurance behind the registration. SDCI Tip 503 applies the rule to trenchless work: lining in the right-of-way needs an RSSC even when nothing is excavated there, and the RSSC must hold the permit. The same requirement reaches work within five feet of a public main or inside a city easement. An owner can permit the yard portion, but once the job touches the street side, the permit belongs to a registered contractor.</p>\n<h2>What the SDCI Side Sewer Permit Covers</h2>\n<p>The Seattle Department of Construction and Inspections issues the permit, and the work that needs one includes installation, alteration, repair, capping, relocation, removal, and, named specifically, pipe lining and pipe bursting. An emergency repair can start first if the application reaches SDCI by the next business day. Every pipe must be seen by an SDCI inspector before it is covered, and 21.16.140 adds a tightness test in the inspector's presence to confirm the line neither takes in groundwater nor leaks sewage. An approved as-built drawing closes the permit, and street work adds an SDOT street use permit.</p>\n<h2>Two-Thirds Combined, One Consent Decree</h2>\n<p>Seattle's older neighborhoods still carry sewage and stormwater in the same pipe. SPU's capital plan counts 968 miles of combined sewer against 448 miles of sanitary sewer, roughly two-thirds combined. In a hard rain the excess spills from outfalls into the lakes, the Ship Canal, the Duwamish, and Puget Sound. On July 3, 2013 the city entered a federal consent decree with EPA and the Department of Ecology committing to a Long Term Control Plan that brings every outfall down to the state standard of one untreated overflow per year on average. King County, which runs the regional trunks and plants, signed its own decree that year. Ecology lists 85 Seattle outfalls and 38 county outfalls, nearly 70 percent of the state's permitted CSO points, and both deadlines moved from 2030 to 2037 after the agencies asked for more time in 2019.</p>\n<h2>The Ship Canal Tunnel and the Pipe Under Your Lawn</h2>\n<p>The largest piece of that plan is the Ship Canal Water Quality Project, a 29-million-gallon tunnel beneath Ballard, Fremont, Wallingford, and Queen Anne that holds combined flow until the plants can take it. EPA backed it with a $192.2 million WIFIA loan against $561.2 million in construction cost. None of that money touches a private side sewer, yet the decree also binds the city to a maintenance program targeting no more than four sanitary sewer overflows per 100 miles of pipe, and every cracked side sewer that drinks groundwater in a storm works against it. The tightness test on repaired pipe is the city's lever on the private side; a seamless liner that passes it is one less leak feeding a tunnel built to catch rain.</p>\n<h2>Where Lining Belongs in a Seattle Side Sewer</h2>\n<p>Cured-in-place pipe suits Seattle because so many side sewers run through steep yards, under mature trees, and beneath arterials where an open cut means pavement restored to SDOT standards under 21.16.280. A resin-saturated liner is pulled or inverted from a cleanout and cured into a continuous pipe with no joints for roots to find. A side sewer that has collapsed, sheared at a joint, lost its slope, or settled into a belly cannot be lined, because the liner takes the shape of whatever it cures against. Those sections are burst or dug, and the call comes from a camera run after cleaning. If the video shows a bad connection at the main, SPU procedure DWW-340.1 lets the owner submit the footage and ask the utility to rule on whether the tee is the city's defect to fix.</p>\n<h2>Houses Older Than the Treatment Plants</h2>\n<p>The 2009-2013 American Community Survey counted 309,205 housing units, with 89,639, or 29 percent, built in 1939 or earlier and another 30,204 from the 1940s. Add the 35,868 units of the 1950s and about half the city's homes predate any secondary treatment plant on Puget Sound. Beneath them run concrete and vitrified clay side sewers laid in short sections, often shared between neighbors under the joint-use rules in 21.16.250, with cast iron under postwar basements. Clay opens at every joint and old concrete erodes from the crown down. SPU tells owners to camera the line every eight to ten years, every two to three near big trees, and always before buying. Permit records thin out with age, so the camera, not the paperwork, decides whether a line can take a liner.</p>",
+    "faq": [
+      [
+        "Who is responsible for a side sewer in Seattle, including the part under the street?",
+        "The property owner. Seattle Municipal Code 21.16.190 assigns ownership, operation, and maintenance of the side sewer to the owner of the property it serves, in public and private places alike, up to but not including the tee or wye on the public main. SPU maintains the main and that connection fitting only."
+      ],
+      [
+        "Can any licensed plumber line my side sewer in Seattle?",
+        "Not if any part of the work is in the right-of-way, within five feet of a public main, or inside a city easement. Those jobs must be done, and the permit held, by a Registered Side Sewer Contractor on Seattle's roster under SMC 21.16.055. A plumber can still camera and clean the line without a permit."
+      ],
+      [
+        "Does CIPP lining need a permit from the City of Seattle?",
+        "Yes. SDCI Tip 503 names pipe lining and pipe bursting among the work types that require a side sewer permit, alongside repair, replacement, and capping. The line must be inspected before it is covered, pass a tightness test where one applies, and be documented with an approved as-built drawing before the permit closes."
+      ],
+      [
+        "How does Seattle's combined sewer system affect a homeowner's pipe?",
+        "About 968 of Seattle's 1,416 miles of wastewater pipe carry sewage and stormwater together. The 2013 federal consent decree requires the city to control overflows at all 85 of its outfalls, now by 2037. Groundwater entering through a cracked private side sewer adds to the storm flow the city is spending hundreds of millions to store."
+      ],
+      [
+        "When should a Seattle side sewer be replaced instead of lined?",
+        "When a camera inspection after cleaning shows collapse, a sheared joint, a belly holding water, or a run that has lost its fall toward the main. A liner copies the host pipe's shape, so it cannot restore slope or bridge a missing section. Those lengths are burst or excavated; the rest of the line can often still be lined."
+      ]
+    ],
+    "facts": {
+      "ownership": {
+        "value": "SMC 21.16.190: the owner or occupant of the property served owns, installs, operates, and maintains the side sewer whether in a public or private place, up to but not including the tee, wye, or connection to the public main; 21.16.030 defines the side sewer as a privately owned and maintained pipe system.",
+        "source": "https://seattle.gov/Documents/Departments/SDCI/Codes/SideSewerSeattleMunicipalCode.pdf"
+      },
+      "rssc": {
+        "value": "SMC 21.16.055 requires side sewer work in a public place to be performed by a Registered Side Sewer Contractor under direct onsite supervision of a certified person; SDCI Tip 503 (updated Aug. 12, 2019) extends the RSSC requirement to pipe lining and pipe bursting in the right-of-way, within 5 feet of a public main, in a city easement, or in a main's zone of influence, and requires the RSSC to be the permit applicant.",
+        "source": "https://www.seattle.gov/DPD/Publications/CAM/cam503.pdf"
+      },
+      "permit": {
+        "value": "SDCI issues the side sewer permit; it is required for installation, alteration, repair, pipe lining, pipe bursting, capping, relocation and removal; emergency work must be applied for by the next business day; permits last 18 months; all pipe must be inspected by an SDCI site inspector before cover and an inspector-approved as-built drawing is required to finalize.",
+        "source": "https://www.seattle.gov/DPD/Publications/CAM/cam503.pdf"
+      },
+      "tightness_test": {
+        "value": "SMC 21.16.140.D requires a tightness test in the Director's presence showing the pipe does not allow infiltration or exfiltration; 21.16.150.B bars covering new, repaired, or altered side sewers until inspected and approved.",
+        "source": "https://seattle.gov/Documents/Departments/SDCI/Codes/SideSewerSeattleMunicipalCode.pdf"
+      },
+      "consent_decree": {
+        "value": "Seattle's CSO consent decree with EPA and DOJ (on behalf of EPA and Ecology) was entered July 3, 2013; it requires a Long Term Control Plan, a CMOM program, and a target of four sanitary sewer overflows per 100 miles of pipe; SPU operates 968 miles of combined sewer and 448 miles of sanitary sewer.",
+        "source": "https://www.seattle.gov/documents/departments/financedepartment/1520adoptedcip/seattlepublicutilities-drainageandwastewater.pdf"
+      },
+      "outfalls": {
+        "value": "Ecology lists 85 Seattle CSO outfalls and 38 King County outfalls, nearly 70 percent of the state's permitted CSO outfalls; the standard under WAC 173-245 is an average of one untreated discharge per outfall per year; both 2013 consent decrees were modified to move the control deadline from 2030 to 2037 after 2019 requests.",
+        "source": "https://ecology.wa.gov/regulations-permits/permits-certifications/combined-sewer-overflows"
+      },
+      "ship_canal": {
+        "value": "Ship Canal Water Quality Project: 29-million-gallon offline storage tunnel, $561.2 million eligible construction cost, $192.2 million EPA WIFIA loan, designed to reduce overflows to one per year or fewer at six outfalls and cut pollutant discharge to the Ship Canal by an average of 84 percent per year.",
+        "source": "https://epa.gov/wifia/seattle-ship-canal-water-quality-project"
+      },
+      "housing_age": {
+        "value": "ACS 2009-2013 5-year DP04 for Seattle city: 309,205 housing units; 89,639 (29.0%) built 1939 or earlier, 30,204 (9.8%) 1940-1949, 35,868 (11.6%) 1950-1959, 28,608 (9.3%) 1960-1969, 29,082 (9.4%) 1970-1979.",
+        "source": "https://seattle.gov/Documents/Departments/OPCD/Demographics/AmericanCommunitySurvey/5YearSelectedHousingCharacteristics.pdf"
+      }
+    },
+    "sources": [
+      "https://seattle.gov/Documents/Departments/SDCI/Codes/SideSewerSeattleMunicipalCode.pdf",
+      "https://www.seattle.gov/DPD/Publications/CAM/cam503.pdf",
+      "https://www.seattle.gov/documents/departments/spu/services/drainagesewer/takingcareofyoursewerpipe.pdf",
+      "https://www.seattle.gov/documents/departments/spu/services/drainagesewer/troubleshootingyoursewerproblem.pdf",
+      "https://seattle.gov/documents/Departments/SPU/Documents/DWW3401ConditionAssessmentRequestsfortheFirstConnection.pdf",
+      "https://www.seattle.gov/documents/departments/financedepartment/1520adoptedcip/seattlepublicutilities-drainageandwastewater.pdf",
+      "https://ecology.wa.gov/regulations-permits/permits-certifications/combined-sewer-overflows",
+      "https://epa.gov/wifia/seattle-ship-canal-water-quality-project",
+      "https://seattle.gov/Documents/Departments/OPCD/Demographics/AmericanCommunitySurvey/5YearSelectedHousingCharacteristics.pdf"
+    ],
+    "_notes": "Census API (api.census.gov) and data.census.gov were unreachable through the proxy (CONNECT 403 / client error), so housing age uses the City of Seattle OPCD reprint of ACS 2009-2013 DP04 rather than a current 2023 5-year table; shares have likely shifted a few points toward newer stock since. The live Municode copy of SMC 21.16 and the current seattle.gov SDCI side sewer permit page both failed to load; code citations come from SDCI's own PDF of Chapter 21.16 (retrieved by SDCI in 2018, which warns it may not reflect later amendments) and SDCI Tip 503 (Aug. 2019). The tunnel's neighborhoods (Ballard, Fremont, Wallingford, Queen Anne) come from the SPU CIP narrative's description of planned Ballard and Fremont/Wallingford storage plus the EPA WIFIA page; the SPU project page itself returned only navigation. The 'two-thirds combined' figure is my arithmetic from SPU's 968 combined vs 448 sanitary miles. Typical Seattle side sewer materials (concrete, vitrified clay, cast iron) are stated from trade knowledge; SPU's pamphlets describe failure modes but do not name materials. Trenchless cost range is SPU's published estimate, not Sewer Techs pricing."
+  },
+  "Tacoma": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/tacoma",
+    "metaTitle": "Tacoma, WA Side Sewer Rules & CIPP Lining Guide",
+    "metaDescription": "Tacoma separated its sewers by 1993, yet owners still own the side sewer into the street. Permits, lining rules, till, old pipe. See where CIPP fits.",
+    "article": "<h2>A Sewer System That Finished Separating in 1993</h2>\n<p>Tacoma's first sewers, laid in 1880, ran straight to tidewater on Commencement Bay, and for seven decades rain and sewage shared those outfalls. A 1944 bond built the first treatment plant, finished in 1952 as today's Central plant; a 1955 report told the city to split storm flow from sewage, and the last storm drain came off the sewer in 1993, which is why Tacoma, unlike Seattle or Everett, has no combined sewer overflow outfalls on the Department of Ecology's list. That history shapes how <a href=\"https://sewertechs-trenchless.com/pierce-county/tacoma/\">trenchless sewer repair in Tacoma</a> is permitted and inspected. Sewer Techs, the Washington CIPP Verified Installer, is based in the city and works to that standard.</p>\n<h2>Separated Pipes Still Leak Into the Plants</h2>\n<p>Taking the storm drains off the sewer did not stop rain from getting in. Environmental Services says wet-weather flow can reach seven times normal, enough to overload the Central and North End plants, back sewage into basements, and send partially treated effluent into the bay. The inflow and infiltration program begun in 1995, at about $4 million a year, replaces leaking mains and smoke-tests for roof drains still tied to the sewer. The private half is the side sewer: groundwater seeping through broken joints is infiltration, a downspout plumbed into the line is inflow, and the Side Sewer Manual forbids either from entering the sanitary sewer.</p>\n<h2>Your Pipe Reaches the Middle of the Street</h2>\n<p>Tacoma's code defines the private side sewer as the owner's pipe from about two feet outside the building to the connection with the public system, and notes that most of that length lies under streets and alleys. The city maintains the main and the tee, wye, or riser where the side sewer joins it; everything upstream is the owner's to clear, repair, or replace, and 12.08B.530 adds that the owner rebuilds any curb, sidewalk, or pavement opened during the work. There is no property-line handoff: a root ball under the asphalt is as much the homeowner's problem as one under the porch, and the restoration bill makes digging there the costliest way to reach it.</p>\n<h2>The Permit Comes From PDS, the Rules From Environmental Services</h2>\n<p>TMC 12.08B.150 requires a city permit before anyone repairs, rehabilitates, replaces, or builds a private side sewer, and ties the work to the Side Sewer and Sanitary Sewer Availability Manual. Planning and Development Services issues it after Environmental Services review. Right-of-way work must be done by a state-licensed, bonded contractor who pulls the permit; a homeowner may permit and perform work confined to private property. A city inspector watches every job, prepares a record drawing, and tests new or repaired pipe before backfill with a ten-foot water column or an air test held at 3.5 psi. Old permit cards can be pulled through GovMe, though the city warns its files are thin for older homes.</p>\n<h2>How Tacoma Decides Whether a Liner Is Allowed</h2>\n<p>Few Washington cities write cured-in-place pipe into their standards as plainly as Tacoma. The Side Sewer Manual lists CIPP as an approved gravity material beside PVC, HDPE, and vitrified clay, then sets the conditions for accepting it. The host pipe must be televised first, with an inspector present on 24 hours' notice or by recorded video filed with the permit. The run may not sag more than a quarter of its diameter, turn more than 45 degrees at a bend, carry an offset joint over a tenth of the diameter, or be more than a quarter out of round. After curing, a second video is run with the inspector watching. Pipe bursting has its own gate: the same sag limit, no utility conflicts, and fused HDPE as the new pipe. Those numbers say what every honest installer says: a liner cannot fix a belly, a collapse, or a line that has lost its grade. That pipe is burst or dug out, and the pre-lining video is where the answer shows up.</p>\n<h2>Till, Slopes, and the Pipes Under Pre-1950 Houses</h2>\n<p>Pierce County's sewer plan maps Vashon till across northern Tacoma: dense, glacially compacted silty sand and gravel that water cannot pass easily. Winter rain moves sideways along the top of the till, so North End and West Slope yards weep for months and a clay side sewer with open joints sits in saturated ground half the year. The housing on that till is old: the city's 1995 Consolidated Plan found 52 percent of Tacoma's homes already predated 1950, and city sewer records only become reliable after that date. Concrete and clay side sewers of that vintage were laid in short sections whose joints roots in Proctor, Stadium, and Hilltop have had a century to find, while South Tacoma ranch houses carry cast iron corroding along the bottom.</p>\n<h2>Selling, Remodeling, and the Side Sewer Flyer</h2>\n<p>Tacoma tried a mandatory point-of-sale side sewer inspection in 2010 as part of its infiltration push. What survives in the code is an education rule: under 12.08B.530, real estate professionals must hand the city's side sewer flyer to buyer and seller before title transfers, and the city gives the same flyer to anyone permitting a substantial renovation, an addition, or a new building that may sit over the private line. The manual holds an addition or remodel worth 60 percent or more of the building's value to new-construction standards and requires a televised, pressure-tested line before an old side sewer can serve a new structure. A buyer who cameras the line before closing has the leverage; one who waits inherits the pipe. Qualified owners can finance repairs through the Environmental Services Conservation Loan Program; violations carry civil penalties up to $10,000 a day under 12.08B.500.</p>",
+    "faq": [
+      [
+        "Where does the City of Tacoma's responsibility for my sewer line begin?",
+        "At the public main. Tacoma maintains the main plus the tee, wye, or riser where your side sewer connects. The code defines the private side sewer as the owner's pipe from about two feet outside the building to that connection, and most of it runs under the street or alley, so the owner is responsible for the length beneath the pavement too."
+      ],
+      [
+        "Does Tacoma allow CIPP lining of a residential side sewer?",
+        "Yes, with conditions. The Side Sewer Manual lists cured-in-place pipe as an approved gravity material and requires a pre-lining video, no sag over 25 percent of the diameter, no bend over 45 degrees, no joint offset over 10 percent, and host pipe no more than 25 percent out of round, followed by a post-lining video with a city inspector present."
+      ],
+      [
+        "What permit do I need to repair a side sewer in Tacoma?",
+        "A side sewer permit under TMC 12.08B.150, issued by Planning and Development Services after Environmental Services review. Right-of-way work must be done by a state-licensed, bonded contractor who holds the permit; owners may permit work on their own property only. The pipe is inspected and tested before backfill. Clearing a clog needs no permit."
+      ],
+      [
+        "Is a side sewer inspection required when selling a house in Tacoma?",
+        "Not under the current code. TMC 12.08B.530 requires real estate professionals to give buyers and sellers the city's side sewer educational flyer before a sale closes, and the city hands the same flyer to permit applicants for substantial renovations and additions. The flyer explains that the owner alone is responsible for the private line."
+      ],
+      [
+        "Why does Tacoma care about rain getting into private side sewers if its sewers are separated?",
+        "Because storm flow still reaches the plants through cracks and illicit connections. Environmental Services reports wet-weather flows up to seven times normal in its separated system, which can cause basement backups and overflows to Commencement Bay. Its inflow and infiltration program, running since 1995, targets leaking mains, roof drains, and broken private side sewers."
+      ]
+    ],
+    "facts": {
+      "ownership": {
+        "value": "TMC 12.08B defines the private side sewer as the sewage conveyance pipe owned by the property owner, extending from approximately two feet outside the building to the connection at the POTW, most of its length lying in public streets or alleys; the city maintains the main and the tee, wye, and riser at the main.",
+        "source": "https://ecode360.com/48393102"
+      },
+      "permit": {
+        "value": "TMC 12.08B.150: repair, rehabilitation, replacement, or construction of a private side sewer requires a City permit and must follow the Side Sewer and Sanitary Sewer Availability Manual; the manual says Planning and Development Services issues the permit (747 Market Street) after Environmental Services review, right-of-way work requires a state-licensed and bonded contractor who obtains the permit, and work wholly on private property may be permitted and performed by the owner.",
+        "source": "https://ecode360.com/48393204"
+      },
+      "inspection_testing": {
+        "value": "Side Sewer Manual (Jan. 2016) Sec. 1.030 and 3.020L: all side sewer work is inspected by a City inspector who creates a record drawing; new and repaired pipe is tested before backfill in the inspector's presence by a static water test with at least 10 feet of head or an air test holding 3.5 psi.",
+        "source": "https://cityoftacoma.org/UserFiles/Servers/Server_6/File/cms/enviro/Wastewater/SideSewerManual.pdf"
+      },
+      "cipp_acceptance": {
+        "value": "Side Sewer Manual Table 3.1 lists CIPP among approved gravity materials; Sec. 3.030 requires television inspection before approving CIPP or pipe bursting (inspector present on 24-hour notice or recorded video submitted), a post-rehabilitation video with the inspector present, and for CIPP no sags over 25% of diameter, no bends over 45 degrees, no offset joints over 10% of diameter, and host pipe no more than 25% out-of-round; pipe bursting requires SDR 17 HDPE with butt-fused joints.",
+        "source": "https://cityoftacoma.org/UserFiles/Servers/Server_6/File/cms/enviro/Wastewater/SideSewerManual.pdf"
+      },
+      "flyer_rule": {
+        "value": "TMC 12.08B.530 (effective Dec. 1, 2010): real estate professionals must provide the City's side sewer educational flyer to buyer and seller before sale or title transfer of a building connected to the public main; the City provides the flyer at permit application for substantial renovations, additions, and new buildings that may be built over the side sewer; owners are solely responsible for building, maintaining, repairing, or replacing the private side sewer including surface reconstruction; 12.08B.500 sets civil penalties up to $10,000 per violation per day.",
+        "source": "https://ecode360.com/48393298"
+      },
+      "system_history": {
+        "value": "First community sewers 1880, routed to Commencement Bay tidewater; $3 million sewer and treatment bond approved 1944; first primary plant (now Central WWTP) completed 1952; 1955 engineering report recommended separating storm and sanitary systems; North End WWTP built 1968; all storm drains disconnected from the sewer system by 1993; I&I program began 1995 at about $4 million per year.",
+        "source": "https://cityoftacoma.org/government/city_departments/environmentalservices/wastewater/wastewater_system/tacomas_wastewater_history"
+      },
+      "iandi": {
+        "value": "Environmental Services I&I FAQ (July 2, 2010): Tacoma has a separated sewer system; rain and groundwater can push peak flows to as much as seven times normal, risking plant overload, backups, and partially treated overflows to Commencement Bay; owners are responsible for the side sewer up to the City main; right-of-way repairs require a contractor licensed and bonded in Tacoma; permits are required for side sewer repairs but not for root removal or unclogging.",
+        "source": "https://cms.cityoftacoma.org/enviro/Wastewater/I&IFAQJuly22010.pdf"
+      },
+      "soils_housing": {
+        "value": "Pierce County Unified Sewer Plan Update (Dec. 2010) Sec. 3.1.2: Vashon till, described as very dense, hard, glacially compacted silty sands and gravelly silts, covers northern portions of the City of Tacoma; the 1995 Tacoma Consolidated Plan reported 52 percent of the city's housing units built before 1950 and 99 percent before 1980.",
+        "source": "https://www.piercecountywa.gov/DocumentCenter/View/1093"
+      }
+    },
+    "sources": [
+      "https://ecode360.com/48393102",
+      "https://ecode360.com/48393204",
+      "https://ecode360.com/48393298",
+      "https://cityoftacoma.org/UserFiles/Servers/Server_6/File/cms/enviro/Wastewater/SideSewerManual.pdf",
+      "https://cityoftacoma.org/sidesewer",
+      "https://cityoftacoma.org/sewerhelp",
+      "https://cms.cityoftacoma.org/enviro/Wastewater/I&IFAQJuly22010.pdf",
+      "https://cityoftacoma.org/government/city_departments/environmentalservices/wastewater/wastewater_system/tacomas_wastewater_history",
+      "https://ecology.wa.gov/regulations-permits/permits-certifications/combined-sewer-overflows",
+      "https://www.piercecountywa.gov/DocumentCenter/View/1093",
+      "https://archives.hud.gov/reports/plan/wa/tacomawa.html"
+    ],
+    "_notes": "Housing age: api.census.gov and data.census.gov were blocked by the proxy, and the City's current housing documents (One Tacoma Housing element, 2025 Housing Baseline Conditions draft, 2020-2024 Consolidated Plan PDFs) were robots-disallowed to WebFetch and curl; the only retrievable primary figure is the 1995 Consolidated Plan on HUD's archive (52% pre-1950, 99% pre-1980), so the housing paragraph is written qualitatively around that dated figure and the City's own statement that its side sewer records are reliable mainly for homes built after 1950. Old TMC Chapter 12.08 is shown as repealed in the April 2026 Title 12 index; the ownership definition, permit rule, and flyer requirement were verified in the current 12.08B on eCode360, but the Manual (Jan. 2016) still cites 12.08.030 for the prohibition on stormwater connections, so the article attributes that prohibition to the Manual and names 12.08B.100 for the current interference rule. The 2010 point-of-sale Certificate of Inspection program is documented in the July 2010 I&I FAQ; the current code (12.08B.530) contains only the flyer requirement, and I could not find the ordinance that dropped the certificate, so the article says the inspection mandate 'was tried' and describes only the present rule. The Right-of-Way Restoration Policy is referenced in the Manual's FAQ 7 but its text was not retrieved. Neighborhood names (North End, West Slope, Proctor, Stadium, Hilltop, South Tacoma, East Side) and typical pipe materials by era are local/trade knowledge, not from the cited sources. The Side Sewer Manual fetch covered the first 100,000 characters; Chapter 6 maintenance text was not read."
+  },
+  "Spokane": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/spokane",
+    "metaTitle": "Spokane, WA Side Sewer Rules & CIPP Lining Guide",
+    "metaDescription": "Spokane owners maintain the side sewer to the main, stub included. Permits, the no-backfill rule, CSO tanks, basalt, pre-1960 clay pipe. See where CIPP fits.",
+    "article": "<h2>A Combined Sewer City With a River Running Through It</h2>\n<p>Spokane still moves sewage and storm runoff through the same pipes across much of town. The City's Wastewater Management division says more than 400 miles of combined sewer remain in service, concentrated on the South Side, and in a hard rain those pipes used to spill a mix of stormwater and sewage into the Spokane River at numbered outfalls along the gorge. Every private side sewer on the South Hill and in Browne's Addition feeds that network. When a homeowner here asks about <a href=\"https://sewertechs-trenchless.com/spokane-county/spokane/\">cured in place pipe in Spokane</a>, the work being quoted by Sewer Techs, the Washington CIPP Verified Installer, is a private lateral draining into a system the City has spent two decades trying to keep out of the river.</p>\n<h2>Twenty Tanks Under the Streets</h2>\n<p>The fix the City chose was storage. Rather than tear up the South Side to separate every combined line, Spokane built twenty underground concrete tanks that catch the storm surge and release it back to the Riverside Park Water Reclamation Facility once the pipes have room. The tank beneath Spokane Falls Boulevard holds 2.2 million gallons; the last of the twenty went into service in August 2020. The permit target is blunt: no more than one overflow per year at each discharge location. The tanks belong to the Integrated Clean Water Plan adopted by the City Council in May 2014, roughly $300 million in projects that also added membrane treatment at the plant for phosphorus and PCBs. That storage is finite, and clear water leaking into cracked laterals during a storm eats into it.</p>\n<h2>The Side Sewer Is Yours, Stub Included</h2>\n<p>Under SMC 13.03.0187 a side sewer is a privately maintained line that begins two feet outside the building wall and runs to the public sewer, expressly including the stretch inside the public right-of-way. The October 2025 Side Sewer Installation Handbook spells out the consequence: the owner maintains and repairs the entire side sewer to the main, and once connected, the stub between the main and the property line is the owner's problem too. SMC 13.03.0312 adds a deadline. If a blocked or broken private sewer is not corrected within two days of notice and the Wastewater Director or Health Officer finds a public health risk, the City can do the repair and bill the parcel.</p>\n<h2>Permits, Inspectors, and the Two-Day Rule</h2>\n<p>Any work on the line, whether new construction, repair, alteration, extension, or abandonment, needs a Sewer Connection Permit from Developer Services, good for twelve months. Work in the street adds a Street Obstruction Permit. The handbook requires at least one working day's notice to book a Wastewater inspector, and SMC 13.03.0624 forbids backfilling until the installation has passed; an owner who covers the trench early pays to open it again. Only Washington licensed and bonded contractors may build side sewers; owners doing their own work must first meet an inspector on site and may not touch the right-of-way.</p>\n<h2>What the City Says About Lining</h2>\n<p>Spokane's handbook addresses rehabilitation directly, which few Washington cities do. Vitrified clay or concrete pipe that is cracked but still straight may be lined or replaced by trenchless methods, and when a new foundation lands over an existing sewer, lining, slip-lining, or bursting is accepted before footings go in. Reusing an old service requires a Relay/Repair Permit and camera video proving the pipe is viable. Orangeburg and other bituminous fiber pipe cannot be reused at all, and the City's belly agreement states what every honest installer knows: lining and bursting do not fix a sag. A low spot stays a low spot under a liner, and so does a lost grade, a collapsed section, or a sheared joint. Those runs are excavated or burst, not lined.</p>\n<h2>Basalt Knobs and a Gravel Aquifer</h2>\n<p>The USGS maps Columbia River basalt exposed in knobs along Dean Street near Washington and along Perry Street near Third Avenue, and Five Mile Prairie is a basalt-capped plateau. On the lower ground the valley is filled with sand, gravel, cobbles, and boulders left by the Missoula floods, the deposits that form the Spokane Valley-Rathdrum Prairie Aquifer. EPA named it a Sole Source Aquifer in 1978, it supplies drinking water to more than 500,000 people, and near the river the water table sits less than fifty feet down. Rock makes an open trench slow and costly; gravel means a leaking lateral is losing sewage into the ground that feeds the city's wells. Both favor a liner installed from a cleanout, with no trench, when the lateral is cracked but still round.</p>\n<h2>Seventy-Year-Old Houses, Seventy-Year-Old Pipe</h2>\n<p>The City's analysis for the 2021 Housing Action Plan put the average detached house in Spokane at about seventy years old, using 2020 assessor data, and a 2016 Housing Quality Task Force briefing reported 69 percent of the city's housing built before 1960. The Hillyard, Logan, West Central, and South Hill grids are full of pre-war houses whose laterals were laid in vitrified clay with mortar or tar joints; postwar tracts added concrete and, in some years, Orangeburg. A camera run before any quote tells you which you have. If the pipe holds its shape, CIPP is usually the least disruptive answer. If not, the City's low-interest Utility Service Line Repair and Replacement loan, run through SNAP for owners at or below 80 percent of area median income, can help pay for the dig.</p>",
+    "faq": [
+      [
+        "How far does my responsibility for a Spokane side sewer go?",
+        "All the way to the public main. Spokane Municipal Code 13.03.0187 defines the side sewer as private from two feet outside the building to the public sewer, including the length under the street, and the City's Side Sewer Installation Handbook says the stub between the main and the property line becomes the owner's once it is connected."
+      ],
+      [
+        "Which permit covers a side sewer repair or liner in Spokane?",
+        "A Sewer Connection Permit from the City's Developer Services office, which covers construction, repair, alteration, extension, and abandonment and stays valid for twelve months. Work in the street adds a Street Obstruction Permit. Reusing an inactive service requires a Relay/Repair Permit plus camera video showing the pipe is sound."
+      ],
+      [
+        "Does Spokane allow trenchless lining of an old clay side sewer?",
+        "Yes, when the clay or concrete pipe is cracked but still straight. The City handbook names lining, slip-lining, and pipe bursting as acceptable ways to deal with such pipe. It also states that these methods do not correct bellies, and Orangeburg pipe may not be reused under any method."
+      ],
+      [
+        "What do Spokane's CSO tanks have to do with my lateral?",
+        "Most of the South Side still drains sewage and stormwater through shared pipes. The City built twenty underground tanks, finished in 2020, to hold storm flows and keep overflows to one per year per location. Groundwater leaking into cracked private laterals during storms uses up that storage, which is why a sealed lateral matters here."
+      ],
+      [
+        "Is there help paying for a side sewer repair in Spokane?",
+        "The City's Utility Service Line Repair and Replacement Program, run through SNAP, offers low-interest loans repaid on the monthly utility bill to owners in the City's service area with household income at or below 80 percent of area median. It covers crushed, broken, or leaking side sewer pipe, permits, excavation, and related street or sidewalk restoration."
+      ]
+    ],
+    "facts": {
+      "side_sewer_definition": {
+        "value": "SMC 13.03.0187 defines a side sewer as a privately maintained sewer, not controlled or maintained by a public authority, beginning two feet outside the building's outer wall or foundation and carrying wastewater from the building drain to a public or private sewer, including portions within the public right-of-way.",
+        "source": "https://my.spokanecity.org/smc/?Section=13.03.0187"
+      },
+      "owner_responsibility": {
+        "value": "The City's Side Sewer Installation Handbook (October 2025) states that the property owner is responsible for maintenance and repair of the entire side sewer, including the portion in the public right-of-way, and that the side sewer stub between the main and the property line becomes the owner's responsibility after connection.",
+        "source": "https://static.spokanecity.org/documents/business/resources/engineeringpolicies/side-sewer-installation-handbook-october-2025.pdf"
+      },
+      "permit_and_inspection": {
+        "value": "A Sewer Connection Permit (valid 12 months) is required to connect, construct, repair, alter, extend, or abandon a sewer; inspections need at least one working day's notice; SMC 13.03.0624 requires that the trench not be backfilled until the installation passes inspection, with the owner or contractor paying for any re-excavation. Side sewers must be built by Washington licensed and bonded contractors; owners may do their own work only with Director approval and never in the right-of-way.",
+        "source": "https://my.spokanecity.org/smc/?Section=13.03.0624"
+      },
+      "prompt_repair_rule": {
+        "value": "SMC 13.03.0312 (ORD C36776, effective Jan. 18, 2026) makes the owner, customer, or occupant responsible for fixing a blocked or broken private sewer; if not corrected within two days of notice and the Health Officer or Wastewater Director finds a public health risk, the City may repair it and charge the owner.",
+        "source": "https://my.spokanecity.org/smc/?Section=13.03.0312"
+      },
+      "cso_program": {
+        "value": "Over 400 miles of combined sewer remain in use, mostly on the South Side; the City built 20 underground CSO storage tanks (the Spokane Falls Blvd. tank holds 2.2 million gallons), the last activated in August 2020, to meet a limit of no more than one overflow per year per location; a 1980s separation program in north Spokane cut CSO volume by about 85 percent.",
+        "source": "https://my.spokanecity.org/publicworks/wastewater/cso/"
+      },
+      "integrated_plan": {
+        "value": "The Integrated Clean Water Plan, adopted by City Council May 5, 2014, anticipated about $300 million in projects (CSO tanks, stormwater work including the Cochran Basin, and tertiary treatment at the Riverside Park Water Reclamation Facility) targeting PCBs, heavy metals, suspended solids, and phosphorus; an EPA case study reports 25 managed storage tanks totaling 16 million gallons and no overflows in 2023.",
+        "source": "https://my.spokanecity.org/publicworks/wastewater/integrated-plan/"
+      },
+      "aquifer_and_basalt": {
+        "value": "The Spokane Valley-Rathdrum Prairie Aquifer is Missoula-flood sand, gravel, cobbles, and boulders bounded by granite, metasedimentary rock, or basalt, designated a Sole Source Aquifer by EPA in 1978, with depth to water under about 50 feet near the Spokane River in the city; USGS Bulletin 1413 maps Columbia River basalt exposed in knobs on Dean Street near Washington Street and on Perry Street near Third Avenue.",
+        "source": "https://pubs.usgs.gov/sir/2005/5227/section2.html"
+      },
+      "housing_age": {
+        "value": "City Housing Action Plan working-group data (Spokane County Assessor, 2020): detached single-family homes are 69 percent of city housing and average about 70 years old; a 2016 Mayor's Housing Quality Task Force recap reported 69 percent of Spokane housing built before 1960.",
+        "source": "https://static.spokanecity.org/documents/projects/spokane-housing-action-plan/working-group/spokane-housing-action-plan-working-group-ppt-meeting-2-2020-10-21.pdf"
+      }
+    },
+    "sources": [
+      "https://my.spokanecity.org/smc/?Title=13&Chapter=13.03",
+      "https://my.spokanecity.org/smc/?Section=13.03.0187",
+      "https://my.spokanecity.org/smc/?Section=13.03.0312",
+      "https://my.spokanecity.org/smc/?Section=13.03.0316",
+      "https://my.spokanecity.org/smc/?Section=13.03.0604",
+      "https://my.spokanecity.org/smc/?Section=13.03.0624",
+      "https://my.spokanecity.org/publicworks/wastewater/side-sewer-connection/",
+      "https://static.spokanecity.org/documents/business/resources/engineeringpolicies/side-sewer-installation-handbook-october-2025.pdf",
+      "https://my.spokanecity.org/publicworks/wastewater/",
+      "https://my.spokanecity.org/publicworks/wastewater/cso/",
+      "https://my.spokanecity.org/publicworks/wastewater/integrated-plan/",
+      "https://static.spokanecity.org/documents/publicworks/wastewater/utility-service-line-repair-and-replacement-program-2024-12-02.pdf",
+      "https://19january2025snapshot.epa.gov/system/files/documents/2025-01/cso-spokane-case-study.pdf",
+      "https://pubs.usgs.gov/sir/2005/5227/section2.html",
+      "https://pubs.usgs.gov/bul/1413/report.pdf",
+      "https://www.spokaneaquifer.org/wp-content/uploads/2012/04/p2-intro.pdf",
+      "https://static.spokanecity.org/documents/projects/spokane-housing-action-plan/working-group/spokane-housing-action-plan-working-group-ppt-meeting-2-2020-10-21.pdf",
+      "https://static.spokanecity.org/documents/projects/mayors-housing-quality-task-force/meeting-presentations/2016/05/may-2nd-2016-meeting-recap.pdf"
+    ],
+    "_notes": "Census ACS B25034 could not be pulled (api.census.gov returned 403 through the proxy; data.census.gov is JS-only), so housing age rests on two City documents: the 2020 Housing Action Plan working-group slide (detached homes average ~70 years, assessor data) and the 2016 Housing Quality Task Force recap (69% built before 1960; that recap is internally inconsistent about the cutoff year, so the article uses it once with attribution). Tank count differs by source: the City CSO page says 20 tanks (last active Aug. 2020) while the EPA case study counts 25 managed storage tanks totaling 16 MG; the article uses the City's 20 and the facts entry notes both. The City's one-overflow limit is phrased 'per location' on the CSO page, not 'per outfall'. SMC 13.03.0604 lists construction/connection/extension as permit triggers; the repair/alteration/abandonment triggers come from the 2025 handbook, not the code section. No primary source quantifies how much of the South Hill has basalt within trench depth; the article cites only the specific USGS-mapped exposures and says 'near-surface rock' generally. Orangeburg prevalence in postwar Spokane tracts is stated qualitatively; the handbook bans its reuse but gives no counts. Loan amounts and interest rate for the SNAP program are not published in the program PDF."
+  },
+  "Vancouver": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/vancouver",
+    "metaTitle": "Vancouver, WA Sewer Lateral Rules & CIPP Lining Guide",
+    "metaDescription": "City sewer or Clark Regional Wastewater District? Who owns the lateral under VMC 14.04.100, the trenchless repair permit, river plants. See where CIPP fits.",
+    "article": "<h2>Which Utility Owns the Main Under Your Street</h2>\n<p>The City of Vancouver's wastewater utility runs about 791 miles of pipe and 48 pump stations and, as of mid-2023, served close to 244,000 people across 58.6 square miles, inside and outside the city limits. Clark Regional Wastewater District, a separate special-purpose district, serves about 100,000 people from Hazel Dell and Felida out to Orchards and Ridgefield, and it owns mains on some blocks inside city limits. Each issues its own permits. Before scheduling <a href=\"https://sewertechs-trenchless.com/clark-county/vancouver/\">Sewer Techs' Vancouver side sewer lining</a>, the Washington CIPP Verified Installer will want to know which agency's main your lateral taps, because that decides who inspects the work.</p>\n<h2>The Lateral Belongs to the Customer, Street and All</h2>\n<p>For City customers the rule is written into Vancouver Municipal Code 14.04.100. Subsection G makes the customer responsible for installing, owning, and maintaining the sewer lateral from the premises to the public main at their own cost, which puts the segment under the sidewalk and roadway on the homeowner. The City carves out one narrow exception: if a lateral inside dedicated right-of-way is damaged by the City's own crews or its contractors, the owner can file an itemized claim within ten days and be reimbursed up to the cost of a new lateral from the main to the property line. Root damage from the owner's trees, storms, and the owner's contractors are excluded, so in practice the City pays for very few lateral repairs.</p>\n<h2>A Permit Written for Trenchless Work</h2>\n<p>Vancouver stands apart from most Washington cities in having a permit built around lining and bursting rather than open trenches. The City's Trenchless Service Lateral Repair Permit, backed by a January 2024 requirements document, governs relining, bursting, or directional drilling of a lateral inside public right-of-way or a sewer easement in the City's service area. The contractor files a narrative and a diagram showing the method, pipe material, DR rating, diameter, cure method, pit locations and dimensions, the length of work inside the right-of-way, and a bypass pumping plan. Engineering staff aim to review a complete package in two business days before the Right-of-Way Permit issues. The on-lot portion is permitted separately as plumbing work through the Building Department, and VMC 14.04.100(I) requires a licensed contractor as the owner's agent for everything in the street.</p>\n<h2>What the City Checks on a Finished Liner</h2>\n<p>The requirements read like a punch list for a CIPP crew. The cured liner may not protrude into the public main, and no annular gap may remain between the liner and the host pipe. No new cleanout may be added inside the right-of-way, and the liner may not introduce any change of direction or slope there. When the job is done, Construction Services expects a video showing the full lined length within the right-of-way through to the main connection, and the repair must pass its testing and inspection before the permit closes. In District territory the track is different: a District side sewer permit, with the trench left open until a District inspector approves it.</p>\n<h2>When the Pipe Cannot Be Lined</h2>\n<p>Vancouver's trenchless rules say nothing about bellies or sags, and that silence is not permission. A liner takes the shape of whatever it is installed in. A lateral that has dropped into a low spot where water stands, lost its grade, split open and let soil in, or telescoped at a joint will produce a liner with those same defects, and the City's video will show them. Those pipes are candidates for pipe bursting, which pulls a new pipe through the old alignment, or for an open-cut replacement permitted the ordinary way. Cracks, root intrusion at joints, light offsets, and corroded cast iron under a slab are where a camera inspection usually confirms lining is the right tool.</p>\n<h2>Two Plants on the Columbia</h2>\n<p>Everything a Vancouver lateral carries ends up in the Columbia River. The City treats its flow at two facilities: the Marine Park plant east of downtown, opened alongside the Water Resources Education Center in 1996 on a bond package of about $40 million, which releases treated water near the Renaissance Trail, and the Westside plant, whose discharge permit, WA0024350, Ecology circulated for renewal in spring 2026 with an outfall at river marker 105.1. Forty-eight pump stations lift flow from the low ground along the river to gravity mains, and every gallon of groundwater that seeps into a broken lateral is pumped and treated alongside sewage. Near the river and in Fruit Valley the water table is shallow enough that a cracked clay lateral can run half full of clean water all winter.</p>\n<h2>Houses From the Shipyard Boom</h2>\n<p>Vancouver's housing has a sharp age divide. The Hough neighborhood northwest of downtown holds the city's largest surviving collection of pre-World War II houses, built roughly 1890 to 1945 and listed on the Washington Heritage Register in 2003; Arnada and Carter Park are similar. Then came the war. The National Park Service records that Kaiser's shipyard drew about 38,000 workers to the riverfront, the city's population roughly doubled to around 50,000 between 1940 and 1948, and the Vancouver Housing Authority built some 12,000 units, including the thousand-acre McLoughlin Heights east of the old city. Much of that wartime and early postwar housing is still occupied, on laterals of clay, concrete, and sometimes Orangeburg laid in a hurry. East of I-205 the stock is newer; the state counted 85,511 housing units citywide in 2022, up 21 percent in a decade. The old core is where the lining calls come from.</p>",
+    "faq": [
+      [
+        "Does the City of Vancouver or Clark Regional Wastewater District serve my house?",
+        "It depends on who owns the main in your street, not on your mailing address. The City's service area extends beyond the city limits, and the District owns mains on some blocks inside the city. Your utility bill names the agency. The City's trenchless lateral rules apply only where the City owns the main."
+      ],
+      [
+        "Who is responsible for a broken sewer lateral in Vancouver, Washington?",
+        "The customer. VMC 14.04.100(G) assigns installation, ownership, and maintenance of the lateral from the building to the public main to the property owner, including the part under the street. The City reimburses right-of-way repairs only when its own crews or contractors caused the damage, and only on a claim filed within ten days."
+      ],
+      [
+        "What permit does a CIPP lateral liner need in Vancouver?",
+        "Inside the public right-of-way or a sewer easement, a Right-of-Way Permit issued under the City's Trenchless Service Lateral Repair Permit process, which requires a narrative, a diagram of the method and pit locations, and a bypass plan reviewed by Engineering Services. The on-lot portion needs a plumbing permit from the Building Department."
+      ],
+      [
+        "What does Vancouver inspect after a lateral is lined?",
+        "Construction Services requires a post-construction video covering the entire liner within the right-of-way and its connection to the main. The liner may not stick into the main or leave an annular gap, no new cleanout may be placed in the right-of-way, and no new change in direction or slope is allowed."
+      ],
+      [
+        "Which Vancouver neighborhoods have the oldest sewer laterals?",
+        "The pre-war core: Hough, listed on the Washington Heritage Register with houses from about 1890 to 1945, plus Arnada, Carter Park, and the blocks around Esther Short. The World War II shipyard boom added thousands of units such as McLoughlin Heights. Laterals of that era are typically clay or concrete, with some Orangeburg."
+      ]
+    ],
+    "facts": {
+      "city_system": {
+        "value": "The City of Vancouver sewer utility operates about 791 miles of sewer lines and 48 pump stations and two treatment facilities; as of mid-2023 it served almost 244,000 residents across 58.6 square miles. The City and Clark Regional Wastewater District approved two new treatment and services agreements shifting their relationship from customer/provider to partners.",
+        "source": "https://www.cityofvancouver.us/waste"
+      },
+      "lateral_ownership": {
+        "value": "VMC 14.04.100(G): the customer installs, owns, and maintains the sewer lateral from the premises to the public sewer main at their own expense and must obtain building and right-of-way permits; (H) requires a cleanout within six inches of finish grade at or within 30 feet of the property line; (I) requires a licensed contractor as the owner's agent for right-of-way work. Reimbursement for right-of-way repairs applies only when City or City-hired third-party acts caused the damage, on a claim filed within 10 days, capped at the cost of a new lateral from the main to the property line.",
+        "source": "https://vancouver.municipal.codes/VMC/14.04.100"
+      },
+      "trenchless_permit": {
+        "value": "The City's Trenchless Service Lateral Repair Permit requires a Right-of-Way Permit for trenchless lateral repair (relining, bursting) or construction (directional drilling) within public right-of-way or public sewer easements in the City sewer service area, inside and outside city limits; it does not apply to laterals inside city limits served by Clark Regional Wastewater District.",
+        "source": "https://www.cityofvancouver.us/?p=5196"
+      },
+      "trenchless_requirements": {
+        "value": "January 2024 requirements: proposal (narrative plus diagram with pipe material, DR rating, diameter, cure method, pit locations and dimensions, bypass pumping plan) approved before permit issuance, typical review two business days; liner may not protrude into the main; no annular space; no new cleanouts, direction changes, or slope changes in the right-of-way; diameter reductions need prior approval; CIPP requires post-construction video of the full liner length in the right-of-way and the main connection; Construction Services inspects and approves.",
+        "source": "https://www.cityofvancouver.us/wp-content/uploads/2024/03/Trenchless-Service-Lateral-Repair-Design-and-Construction-Requirements.pdf"
+      },
+      "district_service_area": {
+        "value": "Clark Regional Wastewater District serves unincorporated Clark County and Ridgefield, 47+ square miles from Hazel Dell to Ridgefield and Felida to Brush Prairie/Orchards, about 100,000 people, 40,000+ customers, 775+ miles of pipe, 77 pump stations; its side sewer permit process requires that the contractor not backfill the trench until a District inspector approves.",
+        "source": "https://www.crwwd.com/about/service-area/"
+      },
+      "westside_plant": {
+        "value": "Westside Wastewater Treatment Facility, NPDES permit WA0024350, discharges treated domestic wastewater to the Columbia River at River Marker 105.1; Ecology's draft reissuance was open for comment March 19 to April 20, 2026.",
+        "source": "https://ecology.wa.gov/events/wq/npdes-discharge-permit/city-of-vancouver-56c5cda8ae3686455dcacb5bf7d9918c"
+      },
+      "marine_park_plant": {
+        "value": "The Marine Park treatment facility opened with the Water Resources Education Center (February 1996), funded in part by a $40 million bond package; it releases treated water to the Columbia River near the Renaissance Trail.",
+        "source": "https://www.cityofvancouver.us/?p=40987"
+      },
+      "housing_age": {
+        "value": "Hough Neighborhood Historic District (Washington Heritage Register, 2003) holds the largest surviving collection of pre-WWII housing in Vancouver, built roughly 1890-1945; per the National Park Service, Kaiser's shipyard brought about 38,000 workers, the city's population rose to about 50,000 by 1948 (nearly double three years earlier), and the Vancouver Housing Authority built about 12,000 wartime units including the ~1,000-acre McLoughlin Heights; OFM counted 85,511 housing units citywide in 2022, up 21 percent from 2012.",
+        "source": "https://clark.wa.gov/community-planning/hough-neighborhood-historic-district"
+      }
+    },
+    "sources": [
+      "https://www.cityofvancouver.us/waste",
+      "https://www.cityofvancouver.us/?p=17246",
+      "https://www.cityofvancouver.us/?p=5196",
+      "https://www.cityofvancouver.us/wp-content/uploads/2024/03/Trenchless-Service-Lateral-Repair-Design-and-Construction-Requirements.pdf",
+      "https://vancouver.municipal.codes/VMC/14.04.100",
+      "https://vancouver.municipal.codes/VMC/14.08.010",
+      "https://www.crwwd.com/about/service-area/",
+      "https://www.crwwd.com/about/services/",
+      "https://www.crwwd.com/connect-to-sewer/",
+      "https://ecology.wa.gov/events/wq/npdes-discharge-permit/city-of-vancouver-56c5cda8ae3686455dcacb5bf7d9918c",
+      "https://www.cityofvancouver.us/?p=40987",
+      "https://www.cityofvancouver.us/?p=52284",
+      "https://clark.wa.gov/community-planning/hough-neighborhood-historic-district",
+      "https://www.nps.gov/articles/fovaclrworldwarii.htm",
+      "https://media-assets-eng.zencity.io/builder-documents/ddaaf43f-8650-442c-8121-8d51de18726b-1774542118553-Housing_Needs_Assessment.pdf",
+      "https://pubs.usgs.gov/sim/3017/camas_text.pdf"
+    ],
+    "_notes": "Census ACS B25034 could not be retrieved (api.census.gov 403 through the proxy; data.census.gov JS-only; HUD archive CHAS page also failed), and none of the City's housing documents fetched (2024 Housing Report, 2019 Consolidated Plan profile, Housing Needs Assessment, Housing Action Plan deck) publish a year-built breakdown, so the housing section is qualitative, built from the Hough historic district page and the NPS Fort Vancouver WWII history, with the OFM total unit count from the Housing Needs Assessment. Design capacities (MGD) for the Marine Park and Westside plants were not found on a primary source; the Ecology page gives only the permit number and outfall location, and the City pages name the plants without capacities. The claim that the District owns mains on some blocks inside city limits comes from the City's trenchless permit page (which excludes CRWWD-served laterals inside city limits), not from a District map; the District's own service-area page does not mention Vancouver city limits. The District's lateral-ownership rule was not found on crwwd.com; only its no-backfill-before-inspection rule is cited. Water-table depth in Fruit Valley and near the river is stated qualitatively; the USGS Camas quadrangle text covers the area east of the city and does not give depths for Vancouver itself. VMC 14.08.010 was fetched but contains only the general permit-required clause; the side sewer definitions in VMC Title 14 were not located."
+  },
+  "Bellevue": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/bellevue",
+    "metaTitle": "Bellevue, WA Side Sewer Stubs, Permits & CIPP Lining",
+    "metaDescription": "Bellevue owns the side sewer stub under the street; you own the rest. BCC 24.04.115, the side sewer permit, 1960s-70s pipe, lake lines. See where CIPP fits.",
+    "article": "<h2>The Stub Belongs to the City, the Run Belongs to You</h2>\n<p>Bellevue draws its sewer boundary where most Washington cities do not. Under Bellevue City Code 24.04.115 the utility owns every sewer facility in public right-of-way or an accepted easement, and the code names side sewer stubs among them: the stretch of your side sewer between the public main and the right-of-way or easement line. Everything on the house side of that line is private, and the same section makes the owner responsible for maintaining and repairing it along with its cleanouts, check valves, and pumps. In most of the region the owner is on the hook all the way to the main, pavement included, so a Bellevue homeowner researching <a href=\"https://sewertechs-trenchless.com/king-county/bellevue/\">cured in place pipe in Bellevue</a> starts with a smaller problem than a neighbor in Seattle or Kirkland. Sewer Techs, the Washington CIPP Verified Installer, lines the private run; the stub under the asphalt is Bellevue Utilities' asset.</p>\n<h2>What the Boundary Means When a Camera Finds a Defect</h2>\n<p>The value of 24.04.115 shows up on inspection day. A crushed section or root ball under the planting strip or the travel lane is city pipe; Bellevue describes the utility maintaining mains and service connections inside right-of-way and dedicated easements, and it counts more than 120 miles of lateral pipe tying mainlines to customer side sewers. A defect under your lawn, driveway, or slab is yours. The city will not locate pipe on private property, though staff will share the as-built drawings they have, with the caveat that they must be field verified.</p>\n<h2>The Side Sewer Permit and the Inspector's Hold on Backfill</h2>\n<p>Any new side sewer, and any addition, repair, or connection to an existing one, needs a side sewer permit under BCC 24.04.120, filed through MyBuildingPermit by the owner or by a licensed, bonded contractor who is also registered with Bellevue's tax office. Permits run two years. Bellevue Utilities' permit conditions are blunt about sequencing: nothing gets backfilled until the utilities inspector has looked at it, tested it, and signed off, and pipe covered early is dug back up at no cost to the city. A repair permit cannot include right-of-way work; touching the stub or the street needs a separate Right of Way permit and crushed-rock backfill with a compaction report. A lining job inside the property line needs the side sewer permit, a call to 811, and an inspection that reviews the post-cure video instead of an open trench.</p>\n<h2>Where the Flow Goes: Renton, by Way of 34 Connections</h2>\n<p>Bellevue has never run its own treatment plant. Its roughly 520 miles of mains and 13,000-plus maintenance holes deliver wastewater to 34 major connections with King County's Wastewater Treatment Division, and from there to the South Treatment Plant in Renton, operating since 1965 and averaging about 90 million gallons a day from Bellevue, Kent, Auburn, Renton, Issaquah, and Sammamish. King County's charge is the largest item on a Bellevue sewer bill, and it tracks volume. Groundwater seeping into a cracked private side sewer in a November storm is water Bellevue pays the county to treat.</p>\n<h2>Infiltration Was Worse Than the Models Assumed</h2>\n<p>Bellevue's Wastewater System Plan leans on a 2002 King County infiltration study, and on the city's follow-up work, which found far more rainwater and groundwater entering the pipes than earlier planning had assumed. The plan warns that unchecked inflow and infiltration eats downstream capacity, raises overflow risk, and drives capital spending, and it calls for targeted reduction. The lake lines are the most visible symptom: about 15 miles of pipe along the Lake Washington shoreline and 4 more in Lake Sammamish, built in the late 1950s and 1960s, flat enough to need daily flushing, with the oldest asbestos-cement segments in Meydenbauer Bay dating to about 1952. Those lines have their own replacement program. The private side sewers draining toward them do not.</p>\n<h2>Postwar Ranches on Glacial Ground</h2>\n<p>Of Bellevue's roughly 61,000 housing units, only about 2 percent predate 1950; 11 percent went up in the 1950s and 39 percent in the 1960s and 1970s. Those two boom decades produced the ramblers and split-levels of Lake Hills, Newport Hills, Eastgate, and Crossroads, built as the sewer district pushed mains into former farmland. Their side sewers are concrete or vitrified clay in short joints, often with cast iron for the first few feet out of the foundation, bedded in glacial till that holds water all winter. Fifty to sixty years on, the joints have opened, roots from mature firs and maples have followed the moisture in, and the cast iron has scaled and channeled. The pipe usually still holds round, which is the fact that matters most for what comes next.</p>\n<h2>When Lining Is Right in Bellevue, and When It Is Not</h2>\n<p>Cured-in-place lining suits the typical Bellevue failure: an intact clay or concrete side sewer with leaking joints, roots, and scattered cracks between the house and the right-of-way line. The resin-saturated liner goes in through a cleanout, is pressed against the host pipe, and cures into a continuous wall with no joints for roots or groundwater to find, and no trench through a landscaped yard or a concrete driveway. Lining is the wrong answer for pipe that has lost its shape. A collapsed section, a joint sheared by settlement, a belly holding standing water, or a run that has lost its slope cannot be corrected by a liner that simply follows the host; those defects call for pipe bursting or open-cut replacement under the permit rules above. A recorded pre-lining camera survey is what separates the two.</p>",
+    "faq": [
+      [
+        "Does the City of Bellevue own any part of my side sewer?",
+        "Yes. Bellevue City Code 24.04.115 puts the side sewer stub, the portion in the public right-of-way or an accepted utility easement between the main and the property line, under city ownership. The side sewer from that line to your building is private, and you are responsible for maintaining and repairing it along with its cleanouts and any check valve or pump."
+      ],
+      [
+        "Is a permit needed to line a sewer pipe on private property in Bellevue?",
+        "Yes. BCC 24.04.120 requires a side sewer permit for any repair, addition, or connection to an existing side sewer, applied for through MyBuildingPermit by the owner or a licensed, bonded contractor registered with the city. The work is inspected by Bellevue Utilities, and a repair permit cannot include right-of-way work, which needs its own permit."
+      ],
+      [
+        "Who do I call when sewage backs up in a Bellevue house?",
+        "If sewage is rising inside while no water is being used, call Bellevue Utilities Wastewater Operations at 425-452-7840; crews respond around the clock. If only one drain is slow or the backup follows a shower or laundry load, the city treats it as a private side sewer problem and expects you to bring in a plumber or a camera inspection first."
+      ],
+      [
+        "Where does Bellevue's sewage actually get treated?",
+        "Not in Bellevue. The city's mains feed 34 connections to King County's regional system, and the flow is treated at the South Treatment Plant in Renton, which has operated since 1965 and handles about 90 million gallons a day. King County's treatment charge is the largest piece of a Bellevue sewer bill and is tied to the volume the city sends."
+      ],
+      [
+        "Why are 1960s and 1970s Bellevue homes the most common lining candidates?",
+        "Because 39 percent of the city's housing was built in those two decades, on sewer mains extended through former farmland, with clay or concrete side sewers in short jointed sections and cast iron near the foundation. After five or six decades the joints leak and roots follow, but the pipe usually still holds its shape, which is the condition a liner needs. Collapsed or bellied pipe must be replaced instead."
+      ]
+    ],
+    "facts": {
+      "ownership_boundary": {
+        "value": "BCC 24.04.115: the utility owns sewer facilities in public right-of-way and accepted easements, including side sewer stubs (the portion between the main and the right-of-way or easement line); side sewers on private property are owned by the property owner, who is responsible for their development, maintenance and repair including check valves, cleanouts and pumps.",
+        "source": "https://bellevue.municipal.codes/BCC/24.04.115"
+      },
+      "side_sewer_definition": {
+        "value": "BCC 24.04.050 defines a side sewer as the conduit from the public sewer main to the connection with a building's plumbing, and the side sewer stub as the part of it lying in right-of-way or an easement dedicated to the utility.",
+        "source": "https://bellevue.municipal.codes/BCC/24.04.050"
+      },
+      "permit": {
+        "value": "BCC 24.04.120: a side sewer permit is required to construct, add to, repair, or connect to a side sewer; the application is filed and certified by the owner or a licensed, bonded contractor; contractors must be state-licensed and registered with the city tax office; permits expire after two years.",
+        "source": "https://bellevue.municipal.codes/BCC/24.04.120"
+      },
+      "permit_conditions": {
+        "value": "Bellevue Utilities side sewer permit conditions: no backfill until the utilities inspector has inspected, tested and approved the work; covered work must be re-exposed at no cost to the city; repair permits cannot include right-of-way work, which needs a separate Right of Way permit; right-of-way excavations are backfilled with 5/8-inch minus crushed rock with a compaction report.",
+        "source": "https://bellevuewa.gov/city-government/departments/utilities/utilities-projects-plans-standards/utilities-codes-and-standards/side-sewer-permit-conditions"
+      },
+      "system_size": {
+        "value": "About 520 miles of mainline pipe, 19 miles of lake lines, 13,000+ maintenance holes, 34 major connections to the King County system, about 37,000 customers over 37 square miles; the city maintains mains and service connections within right-of-way and dedicated easements, and does not locate pipes on private property.",
+        "source": "https://bellevuewa.gov/city-government/departments/utilities/manage-your-utility-services/sewer/"
+      },
+      "treatment": {
+        "value": "King County's South Treatment Plant in Renton, operating since 1965, treats wastewater from Bellevue, Auburn, Issaquah, Kent, Renton and Sammamish at an average of roughly 90 million gallons per day.",
+        "source": "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/facilities/south"
+      },
+      "iandi_and_lake_lines": {
+        "value": "Wastewater System Plan Vol. 2: a 2002 King County infiltration study and later city work found I&I much higher than assumed; the plan recommends targeted I&I investigation and reduction; 18.7 miles of lake line follow the Lake Washington and Lake Sammamish shorelines, need daily flushing, and the oldest asbestos-cement segments in Meydenbauer Bay date to about 1952.",
+        "source": "https://bellevuewa.gov/sites/default/files/media/pdf_document/Wastewater_System_Plan_Vol_2_11-15.pdf"
+      },
+      "housing_age": {
+        "value": "City demographic page (ACS 2015 1-year): about 61,128 housing units; roughly 2% built before 1950, 11% in the 1950s, 39% in the 1960s-1970s, 16% in the 1980s, 14% in the 1990s, 13% in the 2000s, 5% since 2010; about 49% of units are single-family.",
+        "source": "https://bellevuewa.gov/city-government/departments/community-development/data/demographic-data/households-and-housing"
+      }
+    },
+    "sources": [
+      "https://bellevue.municipal.codes/BCC/24.04.115",
+      "https://bellevue.municipal.codes/BCC/24.04.050",
+      "https://bellevue.municipal.codes/BCC/24.04.120",
+      "https://bellevue.municipal.codes/BCC/24.04.210",
+      "https://bellevue.municipal.codes/BCC/24.04",
+      "https://bellevuewa.gov/city-government/departments/development/permits/utilities-permits/side-sewer-permit",
+      "https://bellevuewa.gov/city-government/departments/utilities/utilities-projects-plans-standards/utilities-codes-and-standards/side-sewer-permit-conditions",
+      "https://bellevuewa.gov/city-government/departments/utilities/manage-your-utility-services/sewer/",
+      "https://bellevuewa.gov/city-government/departments/utilities/manage-your-utility-services/sewer/preventing-sewer-backups",
+      "https://bellevuewa.gov/sites/default/files/media/pdf_document/Wastewater_System_Plan_Vol_2_11-15.pdf",
+      "https://bellevuewa.gov/sites/default/files/media/pdf_document/2025/2025-utilties-business-profile-web.pdf",
+      "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/facilities/south",
+      "https://bellevuewa.gov/city-government/departments/community-development/data/demographic-data/households-and-housing"
+    ],
+    "_notes": "Census ACS B25034 could not be pulled (api.census.gov returned 403 through the proxy and data.census.gov is JS-only), so housing age uses the City of Bellevue demographic page's ACS 2015 1-year chart (61,128 units; 39% built 1960s-70s). The 2025 Utilities Business Profile says 46 pump and flush stations and 120+ miles of lateral pipe, while the Wastewater System Plan says 36 pump stations and 10 flush stations; the article avoids a single pump-station count. The side sewer stub ownership in BCC 24.04.115 is verified; the claim in the research prompt that Bellevue takes over the lateral at the property line is correct only in the sense that the right-of-way or easement line is the boundary, not a fixed property-line rule, and the article is worded that way. Bellevue publishes no formal private lateral or I&I rebate program; the System Plan's I&I recommendation is the only program-level reference, and the article says so. Pipe materials by decade for side sewers are not published by the city; the clay/concrete/cast iron description is written qualitatively from the housing-age data and regional practice. The South Plant page gives average flow, not design capacity. Wastewater System Plan Vol. 1 redirected to the utility-billing page and could not be read; Vol. 2 was used."
+  },
+  "Everett": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/everett",
+    "metaTitle": "Everett, WA Side Sewers, CSO Rules & CIPP Lining Guide",
+    "metaDescription": "North Everett still runs on combined sewers built 1890-1963. Side sewer ownership (EMC 14.08.260), backwater valves, the 2027 CSO deadline. Where CIPP fits.",
+    "article": "<h2>A City Split Between Two Kinds of Sewer</h2>\n<p>Everett's sewer map has a seam in it. The north end runs on combined pipes that carry roof runoff, street drainage, and sewage together, most laid between 1890 and 1963, starting with clay pipe down Broadway in 1890. South Everett came later on separated sewers. On a combined block a December storm fills the main to the crown and pushes back toward every connected basement; a separated main sees only what the houses send. Which side of the seam a home sits on is the first thing Sewer Techs, the Washington CIPP Verified Installer, checks before quoting <a href=\"https://sewertechs-trenchless.com/snohomish-county/everett/\">Sewer Techs' Everett side sewer lining</a>, because it decides whether a liner alone solves the problem or a backwater valve has to go in beside it.</p>\n<h2>Thirteen Outfalls and a 2027 Deadline</h2>\n<p>When the combined system overfills, the surplus leaves through 13 outfalls into the Snohomish River and Port Gardner Bay. Everett has been cutting those discharges since its 1987 CSO Control Plan and reports annual overflow volume down more than 95 percent. The current push is governed by Ecology Agreed Order 11638, which allows no more than one overflow per outfall per year by the end of 2027. The centerpiece is the Port Gardner Storage Facility, a roughly $200 million conversion of the former Kimberly-Clark industrial treatment plant into wet-weather storage for four bayside outfalls, due to be operating by December 31, 2027. On the river side, a 1.8-million-gallon tank under 36th Street will hold excess flow from two basins. All of it is about keeping rainwater out of sanitary flow, which a sealed private side sewer does at a smaller scale.</p>\n<h2>The Right-of-Way Line Is the Line</h2>\n<p>Everett Municipal Code 14.08.260 settles ownership cleanly: once a side sewer connection is installed and approved, the sewer department owns and maintains the part inside the public right-of-way and takes no responsibility for the part outside it. EMC 14.08.270 assigns each abutting owner the side sewer from the premises to the right-of-way. The code also scripts a blockage: the owner pays to investigate first, with a cable machine or camera, to show which side of the line the stoppage is on; if it points to the street, the city investigates and the public works director decides. When the cause is a broken service line in the right-of-way, the sewer fund reimburses the owner's last drain-cleaning bill, so keep the invoice. Ignore an order to fix a broken private drain for two days and the city may do the work and lien the property.</p>\n<h2>Permits Are Cheap; Skipping Them Is Not</h2>\n<p>Under EMC 14.08.060 no one may open, alter, or repair a sewer tied into the municipal system without a permit, and 14.08.140 prices it: $30 for repairs to an existing side sewer, $60 plus $10 for a new connection, and nothing for root cutting through an existing cleanout. Permits run 180 days. Section 14.08.160 puts all permitted work under city inspection and acceptance, and a licensed sewer contractor who refuses an inspector's correction forfeits the license. Public Works now handles this work as Site Work permits. A liner is a repair to an existing side sewer and carries the $30 permit; digging that reaches the street needs separate right-of-way approval.</p>\n<h2>Backwater Valves and the Surcharge Rule</h2>\n<p>Everett wrote its basement-flooding experience into EMC 14.08.180 in 2014. The department can designate at-risk connections in the combined area and mail owners a deadline, at least six months out, to install an approved backwater prevention device; new connections with fixtures below the upstream manhole rim need one regardless. The leverage is in the claims rules: past the deadline, a designated property without a working valve collects nothing from the city for a storm backup, and no owner can recover for damage a disconnected downspout would have prevented. A rebate program helps with the valve. The liner enters at a cleanout and the valve sits at the house outlet, so doing both in one mobilization avoids opening the same pit twice.</p>\n<h2>Bluffs, Fill, and a Pre-1950 Housing Stock</h2>\n<p>North Everett sits on a peninsula of glacial sediment that drops steeply to the bay on the west and the Snohomish River lowlands on the east. The city publishes landslide and erosion hazard maps and treats drainage as what moves those slopes; a side sewer leaking into a bluff feeds the groundwater that lubricates a slide. The housing on top is old: the 2024 housing element counts about 15 percent of Everett's 43,800 units as built before 1940 and another 12 percent from the 1940s and 1950s, and an earlier element put the pre-1950 share at 23 percent against 9 percent countywide. Those Riverside, Bayside, Northwest, and Delta houses have clay side sewers with mortar or tar joints, often running to alley mains, under foundations that have shifted for a century. Roots, offsets, and infiltration are the norm, and on a combined block each opening lets surcharged sewage back toward the basement.</p>\n<h2>Where Lining Earns Its Place in Everett</h2>\n<p>A cured-in-place liner is a good match for a century-old clay side sewer that still holds its circle: the resin tube is inverted or pulled from a cleanout, cured against the host, and leaves a seamless pipe roots and groundwater cannot re-enter, without trenching a 1910 foundation, a brick retaining wall, or a steep lot where an excavator cannot sit. It is not a cure for geometry. A sag that pools water, a joint sheared by bluff creep, a collapsed barrel, or a run that has lost its fall will fail the same way after lining, because the liner takes the shape it is given; those need pipe bursting or replacement. The camera recording made before any quote tells an Everett owner which repair they are buying.</p>",
+    "faq": [
+      [
+        "Who owns the side sewer under the street in Everett?",
+        "The city. Everett Municipal Code 14.08.260 gives the sewer department ownership and maintenance of approved side sewer connections inside the public right-of-way, and no responsibility beyond it. Under EMC 14.08.270 the abutting owner maintains everything from the building to the right-of-way line, which in older north Everett neighborhoods often runs to an alley rather than the street."
+      ],
+      [
+        "If my Everett sewer backs up, who pays the drain cleaner?",
+        "You do, at first. The code requires the owner to investigate with a cable machine or camera to show which side of the right-of-way line the blockage is on. If it turns out to be a broken city service line in the street, the city sewer fund reimburses your last drain-cleaning invoice. If the problem is on your property, the repair and the bill stay with you."
+      ],
+      [
+        "What permit does a sewer lining job need in Everett?",
+        "EMC 14.08.140 lists a $30 permit for repairs or alterations to an existing side sewer, which is how a liner is classified; cleaning and root cutting through a cleanout need none. Permits last 180 days, must be posted on site, and the work is inspected and accepted by Public Works. Any digging that reaches the street requires separate right-of-way approval from the city engineer."
+      ],
+      [
+        "Why does Everett push backwater valves in north Everett?",
+        "Because the north end still runs on combined sewers built between 1890 and 1963 that surcharge in heavy rain. EMC 14.08.180 lets the city designate at-risk connections and set an installation deadline; after that date, a designated property without a working valve cannot collect from the city for a backup. A rebate program helps with the cost, and downspouts must stay off the combined sewer."
+      ],
+      [
+        "What is the Port Gardner Storage Facility and why does it matter to homeowners?",
+        "It is a roughly $200 million conversion of the old Kimberly-Clark industrial treatment plant into wet-weather storage for four of Everett's 13 combined sewer outfalls, required by Ecology Agreed Order 11638 to be running by December 31, 2027. It exists to keep stormwater-swollen flow out of the bay, the same reason a leaking private side sewer in the combined area is worth sealing."
+      ]
+    ],
+    "facts": {
+      "ownership": {
+        "value": "EMC 14.08.260: after approved installation the city sewer department owns, operates and maintains side sewer connections within the public right-of-way and is not responsible for side sewers outside it; a customer with a blockage must first investigate at their own expense (roto-rooter-type equipment or approved method) to determine which side of the line it is on; if the cause is a broken side service line in the right-of-way, the sewer fund pays or reimburses the last roto-rooter contractor's bill.",
+        "source": "https://everett.municipal.codes/EMC/14.08.260"
+      },
+      "owner_duty": {
+        "value": "EMC 14.08.270: each abutting owner maintains the side sewer serving the property from the premises to the right-of-way; if an obstructed, broken or out-of-order private drain is not repaired within two days of notice, the city may repair or reconstruct it and charge the cost as a lien on the property.",
+        "source": "https://everett.municipal.codes/EMC/14.08.270"
+      },
+      "permit_fees": {
+        "value": "EMC 14.08.140: $60 per direct connection plus $10 per building-drain-to-building-sewer connection; $30 for alterations or repair of an existing side sewer; no permit for normal cleanout or root cutting through a cleanout; permits expire 180 days after issue and must be posted at the job site.",
+        "source": "https://everett.municipal.codes/EMC/14.08.140"
+      },
+      "inspection": {
+        "value": "EMC 14.08.160: all work under a sewer permit, new or repair, is subject to city inspection, approval and acceptance to standards approved by the public works director; a licensed sewer contractor who refuses to correct work when instructed forfeits its license.",
+        "source": "https://everett.municipal.codes/EMC/14.08.160"
+      },
+      "backwater_rule": {
+        "value": "EMC 14.08.180: the department may designate at-risk sewer connections and mail owners a deadline of at least six months to install an approved backwater prevention device; new connections with fixtures below the upstream manhole rim need one; after the deadline the city pays no backup claims for a designated connection lacking a proper device; settlement caps are $25,000 per served property per event plus $5,000 per tenant unit; stormwater from new impervious surfaces may not be routed into a combined sewer.",
+        "source": "https://everett.municipal.codes/EMC/14.08.180"
+      },
+      "cso_program": {
+        "value": "Everett has 13 CSO outfalls to the Snohomish River and Port Gardner Bay; the north end is a combined system largely built 1890-1963 and the south end is separated; annual CSO volume is down more than 95% since 1987; the 1987 CSO Control Plan was approved by Ecology in March 1988; under Ecology Agreed Order 11638 the Port Gardner Storage Facility must be operational by December 31, 2027; a 1.8-million-gallon 36th Street storage tank for the SRO7/SRO8 basins is scheduled for fall 2027.",
+        "source": "https://www.everettwa.gov/592/Combined-Sewer-Overflows"
+      },
+      "port_gardner_facility": {
+        "value": "The Port Gardner Storage Facility converts the former Kimberly-Clark industrial wastewater treatment plant near West Marine View Drive and 22nd Street into combined-sewer storage plus regional stormwater treatment for 200+ acres of north Everett; cost about $200 million; the Ecology agreed order requires no more than one overflow per outfall per year by the end of 2027; construction 2025-2027.",
+        "source": "https://www.everettwa.gov/2763/Port-Gardner-Storage-Facility"
+      },
+      "housing_age": {
+        "value": "2024 Housing Element staff memo (ACS 2022 5-year, S2504): 43,800 units; 6,400 (15%) built 1939 or earlier, 5,100 (12%) 1940-1959, 10,400 (24%) 1960-1979, 13,100 (30%) 1980-1999, 8,400 (19%) 2000-2019; 46% detached houses. The earlier housing element put the pre-1950 share at about 23% versus 9% countywide.",
+        "source": "https://www.everettwa.gov/DocumentCenter/View/38783/Staff-Memo---Housing-Element-July-16-2024"
+      }
+    },
+    "sources": [
+      "https://everett.municipal.codes/EMC/14.08.260",
+      "https://everett.municipal.codes/EMC/14.08.270",
+      "https://everett.municipal.codes/EMC/14.08.140",
+      "https://everett.municipal.codes/EMC/14.08.160",
+      "https://everett.municipal.codes/EMC/14.08.060",
+      "https://everett.municipal.codes/EMC/14.08.180",
+      "https://everett.municipal.codes/EMC/14.08.010",
+      "https://www.everettwa.gov/592/Combined-Sewer-Overflows",
+      "https://www.everettwa.gov/2763/Port-Gardner-Storage-Facility",
+      "https://www.everettwa.gov/588/Sewer",
+      "https://www.everettwa.gov/326/Backwater-Device-Program",
+      "https://www.everettwa.gov/169/Permit-Services",
+      "https://www.everettwa.gov/658/How-Landslides-Affect-Your-Property",
+      "https://www.everettwa.gov/3228/The-facility",
+      "https://www.everettwa.gov/3231/History-of-the-WPCF",
+      "https://www.everettwa.gov/DocumentCenter/View/38783/Staff-Memo---Housing-Element-July-16-2024",
+      "https://www.ezview.wa.gov/Portals/_1976/Documents/ElementExamples/Everett%20Housing%20Element.pdf"
+    ],
+    "_notes": "Census ACS B25034 could not be pulled (api.census.gov returned 403 through the proxy), so housing age uses the city's July 2024 Housing Element staff memo (ACS 2022 5-year S2504) plus the earlier housing element's 23% pre-1950 figure. The dividing line between combined and separated sewer areas is not published on the city CSO page beyond 'north end' vs 'south end', so the article says only 'north end'. Everett's code refers to a 'licensed sewer contractor' (14.08.160) and the Everett MA site mentions a drainlayer bond, but no Everett WA page describing a separate side sewer contractor license or registration was found, so the article does not claim one is required. Ecology Agreed Order 11638 itself was not retrieved (lfportal.everettwa.gov disallows fetching); its terms are taken from the city's CSO and Port Gardner pages. The 2024 Comprehensive Sewer Plan (Resolution 8245) could not be read for pipe-material statistics; the clay/cast iron description of pre-1950 side sewers is qualitative. Landslide hazard specifics (which bluffs) come from the city's landslide landing page, which links maps that were not rendered; the hillside paragraph is kept general. The Backwater Device Program page does not state rebate amounts."
+  },
+  "Kent": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/kent",
+    "metaTitle": "Kent, WA Side Sewer Rules & CIPP Lining Guide",
+    "metaDescription": "Three sewer agencies serve Kent, each with its own lateral ownership rule and permit desk. Valley alluvium vs. hill till, 1960s housing. See where CIPP fits.",
+    "article": "<h2>One Kent Address, Three Possible Sewer Utilities</h2>\n<p>In Kent, the agency that owns the pipe under your street depends on which hill you live on. The valley floor and much of both hills are served by the City of Kent's own sewer utility. A long stretch of the East Hill plateau, including territory annexed around Panther Lake, is inside Soos Creek Water and Sewer District, a district founded in 1939 that lists Kent among the six cities it serves. A slice of the West Hill falls inside Midway Sewer District, which treats its own flow at the Des Moines Creek plant on Puget Sound. Before anyone quotes <a href=\"https://sewertechs-trenchless.com/king-county/kent/\">trenchless sewer repair in Kent</a>, read your utility bill and learn which of the three you pay, because the ownership line and the permit desk change with the answer. Sewer Techs, the Washington CIPP Verified Installer, works in all three.</p>\n<h2>The Side Stub Is Yours in Kent, Not in Soos Creek</h2>\n<p>Kent City Code 7.04.040(B) puts the entire side sewer on the owner: once the city approves a connection, the owner and every later owner must maintain, repair, unclog and operate the line, and that duty runs through the right-of-way to the public main, tee and side stub included. Accepting the connection creates no duty on the city. Soos Creek draws the line differently. It describes a connection as a stub from the main to the property line plus a side sewer from the stub to the house, and it maintains the main and the stub while the customer maintains the side sewer. A Soos Creek customer with a backup calls the district first so a crew can say which side the fault is on; a City of Kent customer owns the same problem out to the middle of the street.</p>\n<h2>Pulling a Sewer Permit at 400 West Gowe</h2>\n<p>KCC 7.04.050 requires a permit for any work that builds, extends, relays or repairs a building sewer or side sewer, on private ground or in the right-of-way. Applications go through the Permit Center at 400 W. Gowe Street with a scaled site plan showing the full side sewer route. The contractor must hold a Washington contractor registration under RCW 18.27 and a Kent business license. The applicant must call for inspection before any underground work is covered, street work adds a separate Street Use Permit, permits expire after six months, and starting without one doubles the base fee. Soos Creek issues its own Repair Permit with the as-built drawing.</p>\n<h2>Everything Drains Toward Renton</h2>\n<p>Kent and Soos Creek flows both end at King County's South Treatment Plant on Monster Road in Renton, running since 1965 and treating about 90 million gallons a day. King County bills the local agencies, not homeowners, and that regional arrangement is why it cares about private laterals. Its Infiltration and Inflow program estimates that clear water leaking into sanitary pipes makes up roughly three-quarters of winter peak flow and names aging side sewers on private property as the main contributor. Every open joint in a Kent lateral is a small storm drain feeding a plant built for sewage, and sealing it is the one I&I fix a homeowner can order directly.</p>\n<h2>Valley Floor Alluvium Versus Hill Till</h2>\n<p>The valley floor is Green River floodplain, flat and water-logged, the saturated low ground King County's hazard plan ranks as most prone to liquefaction. Soos Creek's hazard annex reports about 40 percent of its sewer service area and 19 of its lift stations in mapped liquefaction zones. Pipes laid in that material settle unevenly, which is how a lateral develops a belly, a low spot that holds water and solids. Up on the hills the ground is glacial till, firmer but cut by ravines where KCC 11.06.375 flags slopes of 40 percent or more with ten feet of relief as landslide hazard areas. Hill laterals tend to crack and offset at joints rather than sag, and the two failure modes call for different repairs.</p>\n<h2>What a Liner Can and Cannot Do Under a Kent Lot</h2>\n<p>Cured-in-place pipe installs a resin-wetted tube through an existing cleanout, presses it against the host pipe, and hardens it into a jointless new wall. Sewer Techs installs Perma-Liner and Easy Liner systems sized for the four- and six-inch laterals Kent's standards call for, usually without opening the driveway or street. The method has hard limits. A valley lateral with a real belly cannot be lined; the liner follows the sag and the low spot stays. A pipe that has collapsed, sheared at a joint, or lost its grade needs pipe bursting or an open trench. Cracked, root-bound or corroded pipe that still holds its round shape is the right candidate, and only a recorded camera run from house to main tells which you have. Estimates are free. Call now at (877) 811-9027.</p>\n<h2>Houses From the Boeing Boom and the Panther Lake Annexation</h2>\n<p>Kent's housing element reports that more than 40 percent of the city's homes were already over 30 years old when it counted 41,481 units in 2012, about 5,000 of them added by the Panther Lake annexation. The ranch houses and split-levels that filled the hills during the 1960s and 1970s aerospace expansion are now past 50, and King County notes that a side sewer is usually the same age as the house above it and may be clay, concrete, iron or plastic. Concrete and clay of that era separate at joints under root pressure; cast iron under slabs thins along the bottom. Both commonly stay round enough to line, which is why a camera-verified liner is often the least disruptive fix for a Kent owner.</p>",
+    "faq": [
+      [
+        "Who owns the sewer pipe under the street in front of my Kent house?",
+        "If the City of Kent is your sewer utility, you do. Kent City Code 7.04.040(B) makes the owner responsible for the whole side sewer out to the public main, including the tee and side stub inside the right-of-way. If Soos Creek Water and Sewer District serves you, the district maintains the stub from the main to the property line and you maintain the rest."
+      ],
+      [
+        "How do I know whether Kent, Soos Creek or Midway is my sewer provider?",
+        "Look at who bills you for sewer. The City of Kent utility covers the valley and much of both hills, Soos Creek Water and Sewer District covers parts of the East Hill plateau and the Panther Lake area, and Midway Sewer District covers a portion of the West Hill. The three have separate permit desks, so confirm before scheduling any lateral work."
+      ],
+      [
+        "What permit does a side sewer repair or lining job need in Kent?",
+        "In the city's service area, KCC 7.04.050 requires a sewer permit for repairing or relaying a side sewer, pulled at the Permit Center at 400 W. Gowe with a scaled site plan. The contractor needs state registration and a Kent business license, inspection must happen before anything is covered, and street work adds a Street Use Permit. Soos Creek issues its own Repair Permit."
+      ],
+      [
+        "Why does King County care about my private sewer lateral in Kent?",
+        "Because Kent's wastewater goes to the county's South Treatment Plant in Renton, and the county estimates that groundwater and stormwater leaking into sanitary pipes make up about 75 percent of winter peak flow, mostly through aging private side sewers. A sealed lateral keeps clear water out of a regional plant that treats roughly 90 million gallons a day."
+      ],
+      [
+        "Can a sewer line in the Kent valley be lined if it has a low spot?",
+        "Usually not. Valley-floor laterals sit in soft Green River alluvium that settles, and a liner installed through a belly simply hardens in the same sagging shape, so solids keep collecting there. A bellied or collapsed section has to be burst or dug and regraded. Cracked or root-damaged pipe that still holds its shape is a good lining candidate; a camera inspection settles it."
+      ]
+    ],
+    "facts": {
+      "lateral_ownership_city": {
+        "value": "KCC 7.04.040(B): after a side sewer connection is approved, the owner and all subsequent owners are responsible for maintenance, repair, obstruction removal, cleaning and operation of the side sewer, including the portion in the city right-of-way up to and including the tee and side stub at the public sewer; city acceptance creates no duty on the city.",
+        "source": "https://www.codepublishing.com/WA/Kent/html/Kent07/Kent0704.html"
+      },
+      "permit": {
+        "value": "KCC 7.04.050 requires a permit to construct, extend, relay or repair a building or side sewer on private property or in the right-of-way; contractors need an RCW 18.27 registration and a Kent business license; the director must be notified before underground work is covered; permits last six months; unpermitted work doubles the base fee; stormwater, groundwater and roof runoff discharges to the sanitary sewer are prohibited (7.04.180).",
+        "source": "https://www.codepublishing.com/WA/Kent/html/Kent07/Kent0704.html"
+      },
+      "permit_center": {
+        "value": "City of Kent sewer permit application (new service or repair) is filed with the Permit Center, 400 W. Gowe, Kent WA 98032, (253) 856-5300; requires two copies of a scaled site plan showing the full side sewer route; work in the right-of-way needs a separate Street Use Permit.",
+        "source": "https://kentwa.gov/home/showpublisheddocument/14276/637829325206700000"
+      },
+      "soos_creek": {
+        "value": "Soos Creek Water and Sewer District (est. 1939, HQ 14616 SE 192nd St, Renton) serves Auburn, Black Diamond, Covington, Kent, Maple Valley, Renton and unincorporated King County; over 520 miles of sewer main and 34,000+ connections; the district maintains the main and the stub to the property line, the customer maintains the side sewer; side sewer repairs require a district Repair Permit; flow goes to King County's South Treatment Plant.",
+        "source": "https://www.sooscreek.com/225/Your-Sewer"
+      },
+      "midway": {
+        "value": "Midway Sewer District serves parts of SeaTac, Des Moines, Normandy Park, Burien, Federal Way and Kent (about 10 square miles, 152 miles of sewer main, 13 pump stations) and treats at its own Des Moines Creek Wastewater Treatment Plant (9 MGD since 2000) discharging to Puget Sound.",
+        "source": "https://cdn.kingcounty.gov/-/media/king-county/depts/executive-services/emergency-management/plans/hazard-mitigation/special-purpose-districts/07_midway-sewer-district-rhmp-annex-2025.pdf"
+      },
+      "treatment": {
+        "value": "King County's South Treatment Plant, 1200 Monster Road SW, Renton, has operated since 1965 and treats an average of 90 million gallons per day for a service area including Auburn, Bellevue, Issaquah, Kent, Renton and Sammamish; King County bills local agencies, not homeowners.",
+        "source": "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/facilities/south"
+      },
+      "iandi": {
+        "value": "King County estimates infiltration and inflow makes up 75 percent of peak sewer flows in winter and attributes most of it to aging infrastructure, particularly side sewers on private property.",
+        "source": "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/programs/infiltration-inflow"
+      },
+      "liquefaction": {
+        "value": "Soos Creek's 2025 hazard mitigation annex: about 40 percent of the district's sewer service area and 19 sewer lift stations lie in low-to-high liquefaction zones; less than 1 percent is in landslide hazard areas. KCC 11.06.375 defines landslide hazard areas to include slopes of 40 percent or more with at least 10 feet of vertical relief.",
+        "source": "https://cdn.kingcounty.gov/-/media/king-county/depts/executive-services/emergency-management/plans/hazard-mitigation/special-purpose-districts/12_soos-creek-water-and-sewer-district-rhmp-annex-2025.pdf"
+      },
+      "housing_age": {
+        "value": "Kent Housing Element: 41,481 dwelling units in 2012 (about 5,000 added by the Panther Lake annexation), roughly half single-family and half multifamily; over 40 percent of the stock was more than 30 years old and may need repair or rehabilitation.",
+        "source": "https://www.ezview.wa.gov/Portals/_1976/Documents/ElementExamples/Kent%20Housing%20Element.pdf"
+      }
+    },
+    "sources": [
+      "https://www.codepublishing.com/WA/Kent/html/Kent07/Kent0704.html",
+      "https://www.codepublishing.com/WA/Kent/html/Kent11/Kent1106.html",
+      "https://kentwa.gov/home/showpublisheddocument/14276/637829325206700000",
+      "https://kentwa.gov/home/showpublisheddocument/16108/638029720315270000",
+      "https://geoservices.kentwa.gov/public/rest/services/PUB_ADMIN_KentSewerServiceArea/MapServer/0/iteminfo",
+      "https://www.sooscreek.com/225/Your-Sewer",
+      "https://www.sooscreek.com/27/Your-District",
+      "https://cdn.kingcounty.gov/-/media/king-county/depts/executive-services/emergency-management/plans/hazard-mitigation/special-purpose-districts/12_soos-creek-water-and-sewer-district-rhmp-annex-2025.pdf",
+      "https://cdn.kingcounty.gov/-/media/king-county/depts/executive-services/emergency-management/plans/hazard-mitigation/special-purpose-districts/07_midway-sewer-district-rhmp-annex-2025.pdf",
+      "https://kingcounty.gov/en/dept/executive-services/governance-leadership/emergency-management/plans/regional-hazard-mitigation",
+      "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/facilities/south",
+      "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/about/local-sewer-agencies",
+      "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/programs/infiltration-inflow",
+      "https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/education/learn-about-water/protect-water/maintain-side-sewer",
+      "https://www.ezview.wa.gov/Portals/_1976/Documents/ElementExamples/Kent%20Housing%20Element.pdf",
+      "https://www.census.gov/quickfacts/fact/table/kentcitywashington,olympiacitywashington/PST045224"
+    ],
+    "_notes": "ACS B25034 (year built) could not be pulled: api.census.gov returned 403 through the proxy and data.census.gov is JS-only, so the housing section is qualitative, built from the Kent Housing Element (41,481 units in 2012, >40% older than 30 years) and King County's side sewer guidance; the '1960s-70s aerospace expansion' framing is general regional history, not a cited statistic. The exact street-by-street boundaries among City of Kent, Soos Creek and Midway service areas could not be confirmed from a published map (Kent's GIS layer page confirms only that the city utility does not serve the whole city); 'East Hill plateau / Panther Lake' for Soos Creek and 'West Hill' for Midway are inferred from district geography and the Panther Lake annexation and should be checked against the King County sewer service area map before publication. City of Kent sewer system size (miles of pipe, pump stations) was not found in a public document and is not stated. KCC 7.04 does not name the office that issues the initial sewer permit; the Permit Center address comes from the city's application form (dated 2009). Liquefaction figures are from Soos Creek's annex, not a city-wide Kent map; the King County regional plan page describes river valleys generally as liquefaction-susceptible without naming Kent. kentwa.gov sewer utility pages returned client errors and were not read."
+  },
+  "Olympia": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/olympia",
+    "metaTitle": "Olympia, WA Side Sewer Rules & CIPP Lining Guide",
+    "metaDescription": "LOTT treats it, Olympia owns the mains, and a right-of-way cleanout decides who owns your lateral. Downtown fill, 1900s houses. See where CIPP fits.",
+    "article": "<h2>Four Partners, One Plant on Budd Inlet</h2>\n<p>Olympia built its first treatment plant on the Budd Inlet waterfront in 1952. Tumwater bought in by contract in 1955, Lacey tied in during 1969, and in 1976 the three cities and Thurston County signed the interlocal agreement that produced the acronym LOTT, made a standalone nonprofit in 2000. LOTT owns the Budd Inlet Treatment Plant, which handles about 12 million gallons a day and has removed nitrogen since 1994, plus 18 miles of interceptors under Plum Street, Capitol Boulevard and Martin Way. Everything smaller, from the collector in your street to the pipe at your foundation, is City of Olympia or private property, which matters when a homeowner is weighing <a href=\"https://sewertechs-trenchless.com/thurston-county/olympia/\">Sewer Techs' Olympia side sewer lining</a>: LOTT never touches a lateral, and the rules come from Olympia Municipal Code. Sewer Techs, the Washington CIPP Verified Installer, knows them well.</p>\n<h2>The Cleanout Decides Who Owns the Pipe</h2>\n<p>Olympia moved its ownership line in 2016, with a condition attached. Under OMC 13.08.040(B), a gravity side sewer that has a cleanout at the right-of-way or easement line belongs to the owner only from the house to that cleanout; the city owns the run from the cleanout to the main. Without that cleanout the owner owns the whole pipe to the main, as every Olympia owner did before 2016, and the owner must install and keep up the boundary cleanout so city crews can reach it. One clause cuts against the grain: 13.08.040(C) says that whoever owns the pipe, the owner clears any blockage between house and main if the cause began on private property, roots, grease or broken pipe included.</p>\n<h2>Permits, Taps and the 48-Hour Rule</h2>\n<p>OMC 13.08.030 forbids opening or connecting any sewer without a permit from Community Planning and Development. The Engineering Design and Development Standards, Section 7B.080, add a sewer lateral permit before any connection, six-inch minimum pipe from the main to the right-of-way line, a cleanout at the boundary and at every 100 feet or 90-degree turn, and a city inspector notified two working days ahead to witness any tap. New laterals are jetted and televised from the boundary cleanout to the main, with no standing water anywhere in the run. Street work requires a licensed contractor bonded to the City Engineer's satisfaction under 13.08.080. The same standards require trenchless rehabilitation of an existing side sewer to follow ASTM F1216, the cured-in-place specification, so lining is an anticipated repair, not an exotic one.</p>\n<h2>Downtown Sits on 1911 Dredge Spoil</h2>\n<p>Much of the downtown peninsula is not original ground. The 1910-1911 dredging campaign pulled roughly two million tons of mud out of Budd Inlet to create new waterfront blocks and bury the Swantown Slough that once separated the Eastside from downtown. That low 450-acre district now holds the Port and LOTT's plant, and the city's 2019 Sea Level Rise Response Plan, written jointly with LOTT and the Port, plans for 24 inches of rise by 2050 and 68 by 2100. Downtown still runs a combined storm and sewer system that strains in big storms, and the plan warns that six inches of rise could push flooding into it and overwhelm the plant. Fill also shakes badly, as the 1949, 1965 and 2001 earthquakes showed. For a lateral in that soil, settlement and offset joints are the expected defects.</p>\n<h2>Concrete, Clay and 1,800 STEP Tanks</h2>\n<p>The city's Wastewater Management Plan counts about 187 miles of gravity sewer and 31 lift stations. By length, 47 percent of the gravity pipe is PVC, 41 percent is concrete and 9 percent is vitrified clay, with traces of asbestos cement and cast iron. PVC only became standard in the mid-1970s, so that concrete and clay half is the older network, and private laterals nearby are usually the same vintage. Olympia also runs roughly 1,800 septic tank effluent pumping systems and 280 private grinder pumps on flat, low ground, and about 4,225 septic systems remain in the city and its growth area; OMC 13.08.020 requires connection once a main is within 200 feet.</p>\n<h2>Where CIPP Earns Its Place in Olympia</h2>\n<p>A cured-in-place liner is a resin-saturated tube inverted or pulled through the lateral from a cleanout, inflated against the host pipe, and cured into a smooth, jointless wall. For an Olympia owner the appeal is practical: no trench across a 1920s sidewalk in South Capitol, no street cut that triggers the bonding rules, and a sealed pipe that stops admitting the groundwater OMC 13.08.150 forbids sending to the sanitary system. Sewer Techs lines with Perma-Liner and Easy Liner materials and verifies each job by camera. Lining is a gravity-pipe repair; pressurized STEP and grinder lines are a different trade. A lateral that has collapsed, dropped into a belly, or lost its slope cannot be lined, because the liner would freeze the defect in place; those runs need pipe bursting or excavation. Estimates are free, so call now: (877) 811-9027.</p>\n<h2>Streetcar Suburbs and Postwar Blocks</h2>\n<p>Olympia's oldest neighborhoods predate its sewer plant by half a century. The city's historic preservation plan dates South Capitol's houses mostly to 1900 through 1928, with one from 1878; Bigelow Highlands grew as a working-class district after 1900; the Eastside filled in once electric streetcars ran in 1892; and the West Side developed after 1880. Those houses were plumbed with cast iron inside and clay outside, and their laterals have absorbed a century of roots, settlement and three major earthquakes. The postwar ring around the 1952 plant added concrete laterals under houses now past 70. Both generations commonly remain round enough to line, so a camera inspection, not the age of the house, should decide between a liner and a trench.</p>",
+    "faq": [
+      [
+        "Does LOTT Clean Water Alliance fix sewer laterals in Olympia?",
+        "No. LOTT owns the Budd Inlet Treatment Plant, 18 miles of interceptors and three major pump stations, and it bills through the partner cities. The collector mains in Olympia streets are City of Olympia property, and the side sewer from your house is governed by Olympia Municipal Code 13.08, so lateral questions, permits and repairs go through the city, not LOTT."
+      ],
+      [
+        "Who owns the side sewer under the street in Olympia?",
+        "It depends on whether a cleanout exists at the right-of-way or easement line. If it does, OMC 13.08.040(B) gives the city the segment from the cleanout to the main and leaves the owner the run from the house to the cleanout. If there is no boundary cleanout, the owner owns the entire pipe to the main until one is installed."
+      ],
+      [
+        "Do I need a permit to line a sewer lateral in Olympia?",
+        "Yes. OMC 13.08.030 requires a permit from Community Planning and Development before opening or connecting to any sewer, and the city's engineering standards require a sewer lateral permit, boundary cleanouts, and CCTV video of the finished line. Those standards specifically require trenchless side sewer rehabilitation to follow ASTM F1216, the cured-in-place pipe standard."
+      ],
+      [
+        "Why is downtown Olympia a special case for sewer pipes?",
+        "Downtown sits on roughly 450 acres of fill, much of it dredged from Budd Inlet in 1910 and 1911, served by a combined storm and sanitary system. The 2019 Sea Level Rise Response Plan projects 24 inches of rise by 2050 and warns that six inches could flood that system and the LOTT plant. Fill settles and shakes, so offset joints and sags are common lateral defects there."
+      ],
+      [
+        "Can my Olympia STEP system or grinder pump line be lined with CIPP?",
+        "Generally no. Cured-in-place lining is a repair for gravity pipe that still holds its shape. The pressurized small-diameter lines from a septic tank effluent pump or grinder pump, which the owner maintains under OMC 13.08.040, are replaced rather than lined. Gravity laterals from the house to a STEP tank or to a city main are candidates once a camera confirms they are not collapsed or bellied."
+      ]
+    ],
+    "facts": {
+      "lateral_ownership": {
+        "value": "OMC 13.08.040(B): with a cleanout at the right-of-way or easement line, the owner owns the gravity side sewer from the premises to that cleanout and the city owns it from the cleanout to the main; with no boundary cleanout the owner owns the entire side sewer to the main until one is installed; the owner must install and maintain the boundary cleanout. 13.08.040(C): regardless of ownership, the owner must clear blockages between the premises and the main caused from private property (roots, debris, broken pipe, grease).",
+        "source": "https://www.codepublishing.com/WA/Olympia/html/Olympia13/Olympia1308.html"
+      },
+      "policy_change": {
+        "value": "City Wastewater Management Plan: before 2016 Olympia property owners owned and maintained the entire side sewer; the 2016 policy adopted the cleanout-based split now in OMC 13.08.040.",
+        "source": "https://www.codepublishing.com/WA/Olympia/wm/OlympiaWM03.html"
+      },
+      "permit": {
+        "value": "OMC 13.08.030: no person may open a public or private sewer or connect to a public sewer without a permit from the Community Planning and Development Department; 13.08.080: work in streets requires a licensed contractor with a bond acceptable to the City Engineer; 13.08.020: connection required when a public main is within 200 feet; 13.08.150(B): stormwater, surface water, groundwater and roof runoff may not be discharged to the sanitary sewer.",
+        "source": "https://www.codepublishing.com/WA/Olympia/html/Olympia13/Olympia1308.html"
+      },
+      "edds_side_sewer": {
+        "value": "EDDS Section 7B.080 (Side Sewer): sewer lateral permit required before connecting; 6-inch minimum from main to right-of-way line; cleanout at the right-of-way/easement line and at 100-foot intervals and 90-degree bends; existing side sewers need a boundary cleanout when repaired by open dig near the right-of-way; City Inspector notified 48 hours ahead to witness taps; trenchless rehabilitation of existing side sewers must follow ASTM F1216. Section 7A.070(B): new laterals jetted and CCTV-inspected from the boundary cleanout to the main with footage counter, no bellies holding water.",
+        "source": "https://www.codepublishing.com/WA/Olympia/edds/OlympiaEDDS07.html"
+      },
+      "system": {
+        "value": "Olympia Wastewater Management Plan Ch. 3: about 187 miles of gravity sewer (47% PVC, 41% concrete, 9% vitrified clay, ~1% AC, ~1% cast/ductile iron), 31 city lift stations, 9.5 miles of force main, about 1,800 STEP systems and 280 private grinder pumps, about 4,225 septic systems in the city and UGA; LOTT owns 18 miles of interceptors and 2 lift stations in the service area; PVC became standard in the mid-1970s.",
+        "source": "https://www.codepublishing.com/WA/Olympia/wm/OlympiaWM03.html"
+      },
+      "lott": {
+        "value": "Olympia's plant opened 1952 (primary treatment); Tumwater contracted 1955, Lacey connected 1969; 1976 interlocal agreement among Lacey, Olympia, Tumwater and Thurston County; 2000 agreement made LOTT a stand-alone nonprofit with a four-member board; secondary treatment added 1983, nitrogen removal by 1994; two Class A reclaimed water plants built in the early 2000s.",
+        "source": "https://www.lottcleanwater.org/what-we-do/"
+      },
+      "sea_level_rise": {
+        "value": "City of Olympia SLR page: downtown covers about 450 acres; the Sea Level Rise Response Plan was completed March 2019 by the City, LOTT and the Port of Olympia; planning figures are 24 inches of rise by 2050 and 68 inches by 2100 (most likely 12 inches by 2050); downtown's combined storm/sewer system is already stressed in large storms and at 6 inches of rise overland flooding could enter it and overwhelm the LOTT Budd Inlet Treatment Plant.",
+        "source": "https://www.olympiawa.gov/slr"
+      },
+      "downtown_fill": {
+        "value": "City of Olympia Historic Preservation Plan, Section 2: harbor dredging began in the 1890s; the 1910-1911 campaign removed roughly 2 million tons of mud from Budd Inlet to create new waterfront blocks and fill the Swantown Slough, finished by 1911; earthquakes in 1949 (M7.1), 1965 (6.5) and 2001 (6.8) altered the city's buildings; South Capitol houses date mostly 1900-1928 (oldest 1878), Bigelow Highlands developed after 1900, the Eastside grew after streetcars began in 1892, West Olympia after 1880.",
+        "source": "https://olympiahistory.org/wp-content/uploads/2024/03/04_PresPlan_Sec2_HistoricResourcesOlympia.pdf"
+      }
+    },
+    "sources": [
+      "https://www.codepublishing.com/WA/Olympia/html/Olympia13/Olympia1308.html",
+      "https://www.codepublishing.com/WA/Olympia/edds/OlympiaEDDS07.html",
+      "https://www.codepublishing.com/WA/Olympia/wm/OlympiaWM03.html",
+      "https://www.olympiawa.gov/slr",
+      "https://www.lottcleanwater.org/what-we-do/",
+      "https://www.lottcleanwater.org/treatment-facilities/",
+      "https://washington.apwa.org/wp-content/uploads/sites/61/2024/04/Addressing-Sea-Level-Rise-in-Olympia-WA-Pamela-Braff.pdf",
+      "https://fortress.wa.gov/ecy/ezshare/wq/WaterQualityImprovement/PublicWorkshop2022BuddInlet-TMDL.pdf",
+      "https://olympiahistory.org/wp-content/uploads/2024/03/04_PresPlan_Sec2_HistoricResourcesOlympia.pdf",
+      "https://www.trpc.org/DocumentCenter/View/11434/Olympia"
+    ],
+    "_notes": "ACS B25034 (year built) could not be retrieved (api.census.gov returned 403 through the proxy; data.census.gov is JS-only), and TRPC's Olympia 2025 Statistical Profile gives unit totals but no year-built table, so the housing section is qualitative and built from the City's Historic Preservation Plan (Section 2, hosted on olympiahistory.org rather than olympiawa.gov) plus LOTT's plant chronology; 'cast iron inside and clay outside' and 'concrete laterals under postwar houses' are inferences from the city's pipe-material inventory, not a counted statistic. The 12 MGD average flow for the Budd Inlet plant comes from a 2024 City of Olympia staff presentation to APWA Washington, not LOTT's own site, which gives no capacity figure. The olympiawa.gov wastewater utility pages returned client errors, so no city plain-language side sewer page is cited; OMC 13.08 and the EDDS stand in. The Wastewater Management Plan chapter on codepublishing does not state its adoption year (it references 2018 data). The 1910-1911 dredge tonnage and the 'Swantown Slough' fill are from the preservation plan; the fill acreage was not found, so the article uses the city's 450-acre downtown figure as the area in question rather than claiming all 450 acres are fill."
+  },
+  "Bremerton": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/bremerton",
+    "metaTitle": "Bremerton, WA Sewer Lateral Rules & CIPP Lining Guide",
+    "metaDescription": "Bremerton owns the sewer lateral to your property line; you own the rest. Permits, the five-day repair rule, beach sewers, wartime homes. See where CIPP fits.",
+    "article": "<h2>Bremerton Draws Its Ownership Line at the Property Line</h2>\n<p>Most Washington cities hand the homeowner the whole pipe out to the main. Bremerton does not. Under Bremerton Municipal Code 15.03.090, the connection from the wastewater main to the property line belongs to the City, stays under its exclusive control, and is maintained by Public Works. The engineering standards repeat it: City to the property line, owner from there to the structure. That split changes what a camera inspection means here. A defect between the property-line cleanout and the main is Bremerton's problem. A defect between the cleanout and the house is yours, and that is the stretch where Sewer Techs, the Washington CIPP Verified Installer, offers <a href=\"https://sewertechs-trenchless.com/kitsap-county/bremerton/\">Sewer Techs' Bremerton side sewer lining</a> as an alternative to digging up the yard.</p>\n<h2>Twenty Years and Fifty Million Dollars of Overflow Work</h2>\n<p>Bremerton's older neighborhoods were sewered like most pre-1945 Puget Sound towns: one pipe for sewage and rain, with relief outfalls to the water. The City counts fifteen designated combined sewer overflow outfalls. Planning began in 1989, Ecology approved the first CSO Reduction Plan in 1992, and by 2009 every outfall met the state limit of one overflow a year; Ecology closed out the plan in February 2011. The bill came to roughly $50 million across 23 projects, including 12.5 miles of new pipe, 275,000 gallons of storage, and a new Eastside treatment plant. Overflow volume fell by more than 99 percent, and the state reopened Dyes Inlet shellfish beds in 2003 citing that progress. A $450,000 cooperative program also disconnected residents' downspouts and driveway drains from the sewer.</p>\n<h2>Sewer Mains Buried Under the Beach</h2>\n<p>The strangest feature of Bremerton's system is how much of it was laid along the shoreline. Mains run under beaches along the Narrows and the bays, where tides make them hard to reach, grit washes in, and sewage sits one break from salt water. Since 2014 the City has been retiring those lines: 12,500 feet so far in Manette, along Washington Avenue, at Pump Station CW-4, and in Oyster Bay, with 9,600 feet more planned and Ostrich Bay next, a program priced near $28 million. Homes that drained downhill to a beach main are re-plumbed uphill with a small pump; the City pays installation and the owner pays a monthly maintenance charge. Over 200 such pumps are running, and the standards forbid new connections to any remaining beach sewer.</p>\n<h2>What the Permit Office Expects</h2>\n<p>The City's wastewater standards require a permit, held by the property owner, to connect, cap, or repair a side sewer, good for 180 days. The contractor gives 24 hours' notice, and nothing may be covered until the inspector approves it; work buried early is dug back up at the owner's expense. City crews video repaired laterals before acceptance. The design rules are specific: four-inch minimum residential side sewer, two percent slope, cleanouts at the property line and within five feet of the building, and a backwater valve wherever grades or a pressure main create backflow risk under BMC 15.03.120. Pressure side sewers and grinder pump work require a Washington-licensed contractor.</p>\n<h2>Five Days, Then the Water Goes Off</h2>\n<p>Bremerton's code is blunt about private pipe that has failed. BMC 15.03.170 gives an owner five days from notice to repair a side sewer that is obstructed, broken, or failing; miss it and the Director may shut off water to the property. Two other provisions push toward replacement. When a house is rebuilt on the same lot, BMC 15.03.200 requires the old side sewer to be videoed and approved before reuse, with anything substandard replaced. When an owner reactivates a dormant lateral, the City videos it free, and an inadequate one must be replaced with new six-inch pipe or, where feasible, reconditioned by trenchless methods. In other words, the City's own standards accept trenchless rehabilitation as a code-compliant fix.</p>\n<h2>Shipyard Houses on Shipyard Hills</h2>\n<p>Bremerton grew up around the Puget Sound Naval Shipyard, and the Second World War built much of its housing in a rush. Population jumped from about 15,000 to 72,500 during the war, and the draft housing appendix to the 2044 Comprehensive Plan reports that nearly 36 percent of occupied homes predate 1950, with another 23 percent from the 1960s and 1970s. Sinclair Park alone added 280 houses above Sinclair Inlet in 1943 and was gone by 1948. What survives sits on steep ground above the Narrows and the inlets, with clay or concrete side sewers and, under the house, cast iron that has spent seventy or eighty years corroding from within. The Manette conversion shows the terrain: shoreline lots now pump up to the main on Wheaton Way.</p>\n<h2>Choosing Between a Liner and a Trench in Bremerton</h2>\n<p>Cured-in-place lining threads a resin-saturated tube through the side sewer from a cleanout, inflates it against the old wall, and cures it into a seamless pipe that bridges open joints, root holes, and eaten-away invert. The City trusts the method enough to spend about $700,000 a year lining its own mains against infiltration. On a terraced Bremerton lot that means no trench down the slope and no rebuilt retaining wall. It is not always the right call. A side sewer that has collapsed, telescoped at a joint, sagged into a standing belly, or lost its slope on a creeping hillside cannot be lined, because the liner would copy the failure; those runs need pipe bursting or open excavation. A camera inspection settles it before anyone quotes a price. Estimates are free. Call now: (877) 811-9027.</p>",
+    "faq": [
+      [
+        "Who fixes a broken sewer lateral under the street in Bremerton?",
+        "The City does. Bremerton Municipal Code 15.03.090 places ownership of the connection from the wastewater main to the property line with the City, and Public Works maintains that segment. The property owner is responsible only for the side sewer from the property-line cleanout to the building, which is the portion a private contractor would line or replace."
+      ],
+      [
+        "Does Bremerton require a permit to line or repair a side sewer?",
+        "Yes. The City's wastewater engineering standards require a permit, in the owner's name, to connect, cap, or repair a side sewer. The contractor must give 24 hours' notice, nothing can be backfilled until inspected, and the permit lapses after 180 days. Pressure side sewers and grinder pump work must be performed by a Washington-licensed contractor."
+      ],
+      [
+        "What happens if I ignore a City notice about my failed side sewer?",
+        "Under BMC 15.03.170 you have five days from notice to repair a side sewer that is obstructed, broken, or failing. If the work is not done, the Director may terminate water service to the property until it is. Owners sharing a private sewer are jointly liable for any work the City has to perform."
+      ],
+      [
+        "Why is Bremerton removing sewer mains from its beaches?",
+        "Older mains were laid under the shoreline, where tides make them difficult to maintain, grit enters the system, and a break discharges straight to the water. Since 2014 the City has retired about 12,500 feet in Manette, along Washington Avenue, and in Oyster Bay, with roughly 9,600 feet more planned, moving affected homes to small pumps that push uphill to street mains."
+      ],
+      [
+        "Can a hillside Bremerton home have its sewer lined instead of dug up?",
+        "Often, yes. If the camera shows the pipe still holds its round shape and slope, a cured-in-place liner can be installed from a cleanout without trenching down the slope. If the hillside has shifted the pipe, broken it, or created a belly where water stands, lining will not correct it and the run must be burst or replaced."
+      ]
+    ],
+    "facts": {
+      "lateral_ownership": {
+        "value": "BMC 15.03.090: connections from the wastewater main to the property line are owned by the City and remain under its exclusive control; BMC 15.03.080 says the Department maintains them. The City's Engineering Design and Construction Standards, Division 6, state the City maintains the lateral from main to property line and the owner maintains the side sewer from property line to structure.",
+        "source": "https://ecode360.com/47231558"
+      },
+      "permit_and_inspection": {
+        "value": "Engineering standards Division 6: owner must obtain a permit to connect, cap, or repair a side sewer (6-10.1); permits valid 180 days; 24 hours' notice before work and no cover until the City inspector approves (6-10.2); new or repaired laterals video-inspected by City forces before acceptance (6-30.2); 4-inch residential side sewer, 2% minimum slope, cleanouts at property line and within 5 feet of building (6-60); inadequate reactivated laterals may be reconditioned by trenchless methods if feasible (6-60.6); no new connections to beach sewer mains (6-60.1).",
+        "source": "https://bremertonwa.gov/DocumentCenter/View/1095"
+      },
+      "repair_deadline": {
+        "value": "BMC 15.03.170: obstructed, broken, or failing private systems must be repaired within five days of notice from the health officer or Director, or water service may be terminated. BMC 15.03.200: a side sewer reused after a structure is rebuilt must be videoed and approved, and substandard sewer replaced at owner expense. BMC 15.03.120: backwater valve required where backflow danger exists.",
+        "source": "https://ecode360.com/47231558"
+      },
+      "cso_program": {
+        "value": "15 designated CSO outfalls; CSO planning began 1989, Ecology approved the first CSO Reduction Plan in 1992 and determined obligations fulfilled in February 2011; about $50 million spent on separation, I&I elimination, private-property stormwater removal, and pump station upgrades; 99% reduction in CSO volume and frequency.",
+        "source": "https://bremertonwa.gov/469/Combined-Sewer-Overflows-CSOs"
+      },
+      "cso_program_detail": {
+        "value": "$50.3M program total (23 capital projects $48.5M, $450K cooperative downspout/driveway-drain removal program); 12.5 miles of new sanitary and storm sewers, 275,000 gallons of storage, 2 new and 7 upgraded pump stations; state one-overflow-per-year compliance achieved 2009; Dyes Inlet shellfish beds reopened 2003; ongoing roughly $700K/year CIPP main lining program and in-house lateral replacement program.",
+        "source": "https://bremertonwa.gov/DocumentCenter/View/7992/PowerPoint-on-CSO-Reduction-Program-PDF"
+      },
+      "beach_sewers": {
+        "value": "Since 2014 the City has decommissioned 12,500 feet of beach sewer (Eastside beach main 2014, Washington Ave 2014 and 2016, CW-4 2020, Oyster Bay OB-2 to OB-1 2022, Manette OF-4 to EB-2 2026) with 9,600 feet upcoming and Ostrich Bay planning underway; total program estimate $27.95 million; beach mains were hard to maintain, admitted grit, and were susceptible to discharges to water bodies.",
+        "source": "https://bremertonwa.gov/1297/Beach-Sewer-Decommissioning-Projects"
+      },
+      "grinder_conversion": {
+        "value": "Manette beach sewer decommissioning: about 1,300 feet of beach main retired; each property reconnected via a small pump to the main on Wheaton Way; City pays installation, owner pays about $12/month maintenance plus $1-2/month electricity; over 200 such pumps already installed citywide.",
+        "source": "https://bremertonwa.gov/DocumentCenter/View/9300/Decommission-Manette-Beach-Sewer-FAQ-PDF"
+      },
+      "housing_age": {
+        "value": "Draft Housing Appendix, Bremerton 2044 Comprehensive Plan: nearly 36% of occupied units built before 1950, 23% from 1960-1979, 18% from 1980-1999, 14.7% since 2000; wartime population grew roughly fivefold; Sinclair Park (280 homes, 1943) built for shipyard workers and demolished 1948.",
+        "source": "https://bremertonwa.gov/DocumentCenter/View/169"
+      }
+    },
+    "sources": [
+      "https://ecode360.com/47231558",
+      "https://ecode360.com/47231273",
+      "https://bremertonwa.gov/DocumentCenter/View/1095",
+      "https://bremertonwa.gov/DocumentCenter/View/1080",
+      "https://bremertonwa.gov/469/Combined-Sewer-Overflows-CSOs",
+      "https://bremertonwa.gov/DocumentCenter/View/7992/PowerPoint-on-CSO-Reduction-Program-PDF",
+      "https://www.bremertonwa.gov/946/Wastewater",
+      "https://bremertonwa.gov/1354/Wastewater-Comprehensive-Plan-Update",
+      "https://bremertonwa.gov/1297/Beach-Sewer-Decommissioning-Projects",
+      "https://bremertonwa.gov/DocumentCenter/View/9300/Decommission-Manette-Beach-Sewer-FAQ-PDF",
+      "https://bremertonwa.gov/DocumentCenter/View/169",
+      "https://www.ezview.wa.gov/Portals/_1976/Documents/ElementExamples/Bremerton%20Housing%20Element.pdf",
+      "https://apps.ecology.wa.gov/publications/documents/1110052.pdf"
+    ],
+    "_notes": "Census ACS B25034 could not be retrieved (api.census.gov returned 403 through the proxy, and data.census.gov is JS-only), so housing-age figures come from the City's draft 2044 Comprehensive Plan Housing Appendix (DocumentCenter/View/169), which gives shares but no 1950-1959 figure. The City's CSO page names 'Puget Sound' generically; Dyes Inlet is the only receiving water named in City documents I could reach, so Sinclair Inlet and the Port Washington Narrows are mentioned only as geography, not as named CSO receiving waters. No formal Ecology consent decree or agreed order for Bremerton's CSOs was found; the program ran under the 1992 Ecology-approved CSO Reduction Plan and the NPDES permit, and the article is worded accordingly. Pipe materials for pre-1950 side sewers (clay/concrete, cast iron under houses) are era-typical and not from a Bremerton-specific source. The Bremerton permit is referenced as the side sewer permit under the Engineering Design and Construction Standards (Division 6, rev. 2010); I could not locate a current fee schedule or online application page for it, and the standards do not require a registered side sewer contractor for gravity side sewers (only for pressure/grinder work). Hillside terrain is supported only indirectly (beach-to-Wheaton-Way pump conversions); no slope-hazard source was cited."
+  },
+  "Bellingham": {
+    "state": "Washington",
+    "url": "/cipp-contractor/washington/bellingham",
+    "metaTitle": "Bellingham, WA Side Sewer Rules & CIPP Lining Guide",
+    "metaDescription": "Bellingham's side sewer is yours all the way to the main, street included. Permits, smoke tests, Post Point, Lake Whatcom dig season. See where CIPP fits.",
+    "article": "<h2>Yours All the Way to the Main</h2>\n<p>Bellingham Municipal Code 15.12.060(E) makes the property owner responsible for the entire service connection, including the portion inside the public right-of-way, up to where it joins the City main, and adds that the City is not liable for damage from blockage or deterioration anywhere along that run. Public Works says the same on its sewer page: the owner maintains the side service, tap included, and the City does not repair it. With more than 19,000 side services on roughly 300 miles of mains, that is a lot of private pipe under public streets. That is why Sewer Techs, the Washington CIPP Verified Installer, treats <a href=\"https://sewertechs-trenchless.com/whatcom-county/bellingham/\">CIPP lining for Bellingham side sewers</a> as a street-to-house job: the liner can run the full length, through the right-of-way, without opening the pavement.</p>\n<h2>What Happens When You Report a Backup</h2>\n<p>Public Works takes backup calls around the clock, and the response follows a fixed logic. A crew checks the main on either side of your connection; if it flows freely upstream and downstream, the stoppage is judged to be in the side service and the owner is called to arrange the repair. There is no shared-cost program and no exception for the stretch under the sidewalk. Owners also hear from the City in quieter moments: crews running cameras or smoke through a main note side services with roots or holes and tell the owner. That notice is the cue for your own camera inspection before the first winter backup.</p>\n<h2>The Water/Sewer Permit and the Inspector's Visit</h2>\n<p>Bellingham's Development Guidelines and Improvement Standards require a Water/Sewer Permit to connect, repair, or modify any connection to the City sewer, issued by Public Works through the Permit Center either with a building permit or as a General Public Works Permit, after connection and inspection fees are paid. Section 15.12.060 adds the field rules: a state-licensed contractor makes the connection, materials come from the City's accepted list, and nothing is covered until Public Works has inspected it. Opening the street adds an obstruction bond. Bellingham keeps no registered side sewer contractor roster the way Seattle does, but a lining job that reaches the main still goes through the same permit and inspection.</p>\n<h2>Smoke in the Lettered Streets</h2>\n<p>Bellingham's sewers date to 1892, when one network carried sewage and rain straight to Whatcom Creek and the bay. The systems were separated over the following decades, but the oldest neighborhoods still send rainwater into the sanitary side through cracked laterals and drains that were never disconnected. When flow meters show the sewers swelling during storms, Public Works runs an inflow and infiltration investigation: smoke testing on G Street and the West North Street area of the Lettered Streets and Cornwall Park neighborhoods was a recent pilot. The City has also tried the direct route. In one neighborhood program it replaced private side sewers with new four-inch pipe at its own cost, disconnected the roof and yard drains it found, and handed the finished pipe back under a signed agreement that maintenance from house to main was the owner's from that day on.</p>\n<h2>Post Point and the Bay at the End of the Pipe</h2>\n<p>Everything the side sewers collect ends up at the Post Point Resource Recovery Plant on McKenzie Avenue. Primary treatment began in 1947 near the mouth of Whatcom Creek; Post Point replaced that plant in 1974, sized for a 55-million-gallon-a-day peak. A $55 million upgrade brought secondary treatment in 1993, and a capacity expansion finished in 2014. Treated water leaves through an outfall roughly a quarter mile out in Bellingham Bay at a depth of 60 feet. Behind it run about 318 miles of gravity sewer, 6 miles of pressure main, and 29 lift stations, and a new Comprehensive Sewer Plan begun in 2026 and due in 2028 will size the next round of investment. Groundwater leaking into a Lettered Streets lateral rides all the way there and takes up room built for sewage.</p>\n<h2>Digging Inside the Lake Whatcom Watershed</h2>\n<p>Part of the city drains to Lake Whatcom, the drinking water source for more than 100,000 people, and the rules there change how a sewer repair gets done. Ground-disturbing work in the watershed, meaning clearing, grading, filling, or exposing soil, is allowed only from June 1 through September 30, and bare soil must be covered by October 1. The City's standards drop the land disturbance permit threshold there to 120 square feet, which a single trench crosses quickly. A lateral that fails in January cannot wait for summer; a liner installed through an existing cleanout disturbs almost no soil, which is the practical way around that calendar when the pipe qualifies.</p>\n<h2>Houses From 1900 and the Pipe Beneath Them</h2>\n<p>Bellingham's historic districts tell you where the oldest laterals are. Fairhaven's core dates from about 1890 to the First World War, the Lettered Streets filled in around 1900, York was built out before the Depression, and South Hill's working-class houses went up as the century opened. The 2016 Comprehensive Plan counts more than half the city's housing as built before 1980 and nearly a third as more than fifty years old. Under those houses the side sewers are vitrified clay or concrete in short lengths, a joint every few feet for roots to find, running through glacial soils to mains often as old. Cured-in-place lining suits that pipe when the camera shows it still round and sloping: a resin-saturated tube is inverted from the cleanout, cured hard, and the joints disappear. It does not suit pipe that has collapsed, separated, or bellied, which must be burst or replaced. Estimates are free. Call now: (877) 811-9027.</p>",
+    "faq": [
+      [
+        "Does the City of Bellingham maintain any part of my sewer lateral?",
+        "No. BMC 15.12.060(E) places the entire service connection, including the part under the street or in a utility easement, on the property owner, up to the connection with the City main. Public Works will check that the main is flowing when you report a backup, but repairing the side service, wherever the defect sits, is the owner's job."
+      ],
+      [
+        "What permit covers a side sewer repair or lining job in Bellingham?",
+        "A Water/Sewer Permit from Public Works, obtained through the Permit Center, is required to connect, repair, or modify any connection to the City sewer. The work must be done by a state-licensed contractor, use City-accepted materials, and stay uncovered until a Public Works inspector approves it. Work in the street may also require a street obstruction bond."
+      ],
+      [
+        "Why is Bellingham smoke testing sewers in older neighborhoods?",
+        "Flow monitoring showed sewer flows rising during rain, so Public Works ran an inflow and infiltration pilot in the Lettered Streets and Cornwall Park neighborhoods. Smoke blown into the main escapes wherever rainwater can get in, revealing cracked laterals and connected roof or yard drains. The goal is to keep clean water out of Post Point."
+      ],
+      [
+        "Can I dig up a sewer line on a Lake Whatcom watershed lot in winter?",
+        "Watershed rules limit clearing, grading, and soil exposure to June 1 through September 30, and Bellingham's land disturbance permit threshold inside the watershed is only 120 square feet. A winter emergency should go through the Permit Center first. Lining through an existing cleanout avoids most of that disturbance and is often the workable option."
+      ],
+      [
+        "Where does Bellingham's wastewater go after it leaves my house?",
+        "To the Post Point Resource Recovery Plant on McKenzie Avenue, which replaced the 1947 Whatcom Creek plant in 1974, gained secondary treatment in 1993, and was expanded in 2014. Treated effluent is discharged through an outfall about a quarter mile into Bellingham Bay at 60 feet of depth."
+      ]
+    ],
+    "facts": {
+      "lateral_ownership": {
+        "value": "BMC 15.12.060(E): the property owner is responsible for maintenance of the entire service connection, including the portion within City right-of-way or utility easement, up to the connection with the City main; the City is not liable for damages from blockage or deterioration of the service up to the main. 15.12.060(C) requires a state-licensed contractor; (D) the connection may not be covered until inspected and approved by Public Works.",
+        "source": "https://bellingham.municipal.codes/BMC/15.12.060"
+      },
+      "city_sewer_page": {
+        "value": "Over 19,000 wastewater side services and about 300 miles of mains; property owners own and maintain the side service from the main to the property including the connection to the main; City does not operate, maintain, or repair side services (BMC 15.12.060); on a backup call crews check the main upstream and downstream and, if it flows freely, contact the owner to repair the side service; smoke and dye testing used to find I&I and cross-connections.",
+        "source": "https://cob.org/services/utilities/sewer"
+      },
+      "permit": {
+        "value": "Development Guidelines and Improvement Standards 2.6.2: a Water/Sewer Permit is required to connect, repair, or modify connections to the City sewer system, issued with a consolidated building permit or a General Public Works Permit after connection and inspection fees; 2.6.1 street obstruction bond for right-of-way work; 2.6.3 land disturbance permit threshold of 500 sq ft, reduced to 120 sq ft in the Lake Whatcom watershed; 5.4.1(8) all side sewers owned and maintained by the property owner including within rights-of-way.",
+        "source": "https://cob.org/wp-content/uploads/pw-dgi-standards-narrative-only-temp.pdf"
+      },
+      "smoke_testing": {
+        "value": "Smoke testing is an inflow and infiltration investigation triggered when flow monitoring shows higher sewer flows during rainfall; a pilot covered G Street (Phase 1) and the W North Street area (Phase 2) in the Lettered Streets and Cornwall Park neighborhoods.",
+        "source": "https://cob.org/services/utilities/smoke-testing"
+      },
+      "side_sewer_replacement_program": {
+        "value": "City side sewer replacement agreement: the City replaced private side sewers with four-inch pipe at no cost to owners in a neighborhood program to reduce infiltration and inflow, disconnected unapproved drains, and after restoration the owner resumed responsibility for inspection, maintenance, and repair of the side sewer from the building to the City-owned main; term ended December 31, 2013.",
+        "source": "https://www.cob.org/wp-content/uploads/side-sewer-replacement-agreement.pdf"
+      },
+      "post_point": {
+        "value": "Sewer construction began 1892 with combined sewers to Whatcom Creek and Bellingham Bay; primary treatment began 1947 near the mouth of Whatcom Creek; Post Point plant at 200 McKenzie Avenue opened 1974 with primary treatment for a 55 MGD peak; $55 million secondary upgrade in 1993; capacity expansion completed 2014; outfall about a quarter mile offshore at 60 feet depth; more than 250 miles of mains feed the plant.",
+        "source": "https://cob.org/services/utilities/waste-water-treatment"
+      },
+      "system_size": {
+        "value": "About 318 miles of gravity sewer, 29 lift stations, about 6 miles of pressure main, roughly 40 square mile service area; Comprehensive Sewer Plan update (project EU203) started May 2026 with Carollo Engineers, expected completion 2028, under WAC 173-240-050.",
+        "source": "https://cob.org/project/comprehensive-sewer-plan-update"
+      },
+      "lake_whatcom_rules": {
+        "value": "Lake Whatcom supplies drinking water to more than 100,000 people; in the watershed, ground-disturbing work (clearing, grading, filling, exposing soil) is allowed only June 1 through September 30 and exposed soil must be covered by October 1; City of Bellingham requires mitigation for new or replaced hard surface of 120 sq ft or more; Bellingham projects go through the City Permit Center.",
+        "source": "https://lakewhatcom.whatcomcounty.org/about-the-lake/watershed-regulations"
+      }
+    },
+    "sources": [
+      "https://bellingham.municipal.codes/BMC/15.12",
+      "https://bellingham.municipal.codes/BMC/15.12.040",
+      "https://bellingham.municipal.codes/BMC/15.12.060",
+      "https://cob.org/services/utilities/sewer",
+      "https://cob.org/services/utilities/smoke-testing",
+      "https://cob.org/services/utilities/waste-water-treatment",
+      "https://cob.org/project/comprehensive-sewer-plan-update",
+      "https://cob.org/wp-content/uploads/pw-dgi-standards-narrative-only-temp.pdf",
+      "https://www.cob.org/wp-content/uploads/side-sewer-replacement-agreement.pdf",
+      "https://cob.org/services/environment/lake-whatcom",
+      "https://lakewhatcom.whatcomcounty.org/about-the-lake/watershed-regulations",
+      "https://cob.org/services/planning/historic/national-districts",
+      "https://cob.org/services/planning/neighborhoods/lettered-streets-2",
+      "https://cob.org/wp-content/uploads/2016-housing.pdf?pdftype=e"
+    ],
+    "_notes": "Lateral ownership verified: Bellingham does NOT take over at the property line; BMC 15.12.060(E) and the City sewer page both put the whole side service, right-of-way included, on the owner (the City page's wording 'from the main to the property line' describes the public-street segment the owner also owns, consistent with 15.12.060 and DGI 5.4.1(8)). Census ACS B25034 could not be retrieved (api.census.gov 403 through the proxy; data.census.gov is JS-only), so housing age uses the 2016 Comprehensive Plan Housing Chapter (more than half pre-1980, nearly a third over 50 years old; no decade table) plus the City's historic-district and neighborhood pages for construction eras. The Lake Whatcom June 1-September 30 work window comes from the multi-agency Lake Whatcom Management Program page (county-hosted, City is a partner); the 120 sq ft Lake Whatcom land-disturbance threshold is confirmed in the City's DGI 2.6.3, but I could not pull the seasonal rule's exact BMC section (15.42 section pages did not render it). The 2016 Wastewater Conveyance Plan and the older Comprehensive Sewer Plan PDFs on cob.org returned errors, so no basin-level I&I rates or pipe-material inventory are cited; clay/concrete lateral materials are stated as era-typical. The side sewer replacement agreement PDF does not name the neighborhood or date beyond its 2013 expiration, so the article calls it 'one neighborhood program'. A third-party listing describes a City side sewer repair loan (up to $15,000 at 3%, repaid on the utility bill); I could not confirm it on cob.org, so it is omitted. Bellingham has no registered side sewer contractor program that I could find; the article says so and relies on the state-license requirement in 15.12.060(C)."
+  }
+}
