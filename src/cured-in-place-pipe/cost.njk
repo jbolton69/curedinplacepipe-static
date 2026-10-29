@@ -1,0 +1,86 @@
+---
+title: "Cured In Place Pipe Cost: Real Lining Prices vs. Dig-and-Replace Bids"
+shortTitle: "Cost Guide"
+pageTitle: "Cured In Place Pipe Cost: Real CIPP Lining Prices vs. Excavation Bids"
+pageDescription: "What cured in place pipe costs, from completed residential jobs: lining prices next to the dig-and-replace bids they beat, per-foot ranges, what drives the price up or down, and how to compare quotes."
+heroImage: "/images/cipp/cipp-old-pipe.jpg"
+lastReviewed: "2026-10-29"
+faqTitle: "Cost questions"
+faq:
+  - q: "How much does cured in place pipe cost per foot?"
+    a: "The per-foot section above works it out from completed residential jobs: lining came in at roughly half the per-foot cost of the excavation bids on the same pipes, with the exact ranges shown there and updated as new projects are posted. Short runs and small diameters cost more per foot because set-up, cleaning and reinstatement are fixed costs spread over fewer feet."
+  - q: "Why is CIPP cheaper than digging when the materials cost more?"
+    a: "The liner and resin do cost more per foot than a stick of PVC. What they eliminate is everything around the trench: saw-cutting and hauling concrete, excavating and shoring, backfill, compaction, re-pouring a driveway or slab, re-landscaping, traffic control and the days of labor all of that takes. On most lots the restoration is the biggest line item in a replacement bid, and lining removes it."
+  - q: "Does homeowners insurance pay for sewer lining?"
+    a: "Standard policies usually exclude wear, root damage and gradual deterioration, which is what most failed sewers are. Some carriers sell a service-line endorsement that covers the lateral; check your declarations page. A few utilities and cities also run lateral assistance or low-interest loan programs. Your contractor's written estimate is what any of those will ask for."
+  - q: "What is a fair deposit and payment schedule?"
+    a: "Common practice for a one-day residential lining job is a modest deposit at scheduling and the balance on completion, after you have watched the final camera recording. Be cautious of anyone asking for most of the money up front on a job that will be finished the same day it starts."
+  - q: "Is a cheaper lining quote a red flag?"
+    a: "Not by itself, but a quote far below the others on the same pipe usually means something was left out: cleaning, a reinstatement, a cleanout installation, or a thinner liner than the pipe calls for. Ask every bidder to state the liner and resin system, the design thickness, the number of reinstatements included and the warranty in writing, then compare."
+  - q: "Can I get a cost estimate without a camera inspection?"
+    a: "You can get a ballpark by the foot, but no responsible installer will give a firm price without seeing the pipe. The inspection tells them the length, the diameter, how many connections to reopen, how much cleaning is needed and whether any section has to be excavated first. Many installers on this site waive or credit the inspection fee when you proceed with the work."
+---
+<p class="cl-lead">Most pages about cured in place pipe cost give you a range and a shrug. This one shows the actual numbers from completed jobs: what the homeowner was quoted to dig and replace the sewer, and what a verified installer lined the same pipe for. The installers post these themselves, with footage and the work involved, and nothing about the other bidder beyond the dollar amount.</p>
+
+<p>The short version: across the {{ savings.count }} jobs below, excavation bids totaled {{ savings.totalOtherText }} and the lining work was done for {{ savings.totalPriceText }}, a saving of {{ savings.totalSavedText }} or {{ savings.avgPct }} percent. The spread ran from {{ savings.pctMin }} to {{ savings.pctMax }} percent on individual jobs. If you want the process behind these prices first, start with the <a href="/cured-in-place-pipe">cured in place pipe</a> overview.</p>
+
+<h2>Real jobs: lining price vs. the dig bid</h2>
+<p>Every row links to the project write-up, which describes the pipe condition, the access point and what else the job included.</p>
+<div style="overflow-x:auto;">
+<table class="cl-table">
+  <thead>
+    <tr><th>Project</th><th class="num">Length</th><th class="num">Dig bid</th><th class="num">Lined for</th><th class="num">Saved</th></tr>
+  </thead>
+  <tbody>
+    {% for r in savings.rows %}
+    <tr>
+      <td>{% if r.url %}<a href="{{ r.url }}">{{ r.city }}, {{ r.state }}</a>{% else %}{{ r.city }}, {{ r.state }}{% endif %}<br><small style="color:#666;">{{ r.service }}{% if r.material %} &middot; {{ r.material }}{% endif %} &middot; {{ r.contractor }}</small></td>
+      <td class="num">{{ r.ftText }}</td>
+      <td class="num">{{ r.otherText }}</td>
+      <td class="num">{{ r.priceText }}</td>
+      <td class="num pos">{{ r.savedText }}<br><small>{{ r.pct }}%</small></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr><th>{{ savings.count }} jobs</th><th class="num">{{ savings.totalFt | default(0) }} ft</th><th class="num">{{ savings.totalOtherText }}</th><th class="num">{{ savings.totalPriceText }}</th><th class="num pos">{{ savings.totalSavedText }}<br><small>{{ savings.avgPct }}%</small></th></tr>
+  </tfoot>
+</table>
+</div>
+<p><small>Dig bids are the written quotes the property owner had in hand before calling a lining contractor; the other company is never identified. Lining prices are what the job was invoiced at, including cleaning, reinstatements and the final inspection. Jobs are residential laterals and under-slab drains of {{ savings.ftMin }} to {{ savings.ftMax }} feet.</small></p>
+
+<h2>What that works out to per foot</h2>
+<p>Dividing each invoice by its footage gives a lined cost of about <strong>${{ savings.linedPerFtMin }} to ${{ savings.linedPerFtMax }} per foot</strong>, with a footage-weighted average near ${{ savings.linedPerFtAvg }}. The excavation bids on the same pipes worked out to <strong>${{ savings.digPerFtMin }} to ${{ savings.digPerFtMax }} per foot</strong>, averaging about ${{ savings.digPerFtAvg }}. Treat the per-foot figure as a sanity check, not a price list: the shortest job in the table has the highest per-foot cost, because the truck, the crew, the cleaning and the reinstatement cost the same whether the pipe is 40 feet or 100.</p>
+
+<div class="cl-callout"><b>Want a number for your pipe?</b> Call <a href="tel:{{ site.phone | phoneDigits }}">{{ site.phone }}</a> and a verified installer in your area will schedule a camera inspection and give you a written price. Estimates are free. Call now.</div>
+
+<h2>What moves the price</h2>
+<h3>Up</h3>
+<ul>
+  <li><strong>Length and diameter.</strong> More liner, more resin, longer cure. A 6-inch line costs more per foot than a 4-inch.</li>
+  <li><strong>Branch connections.</strong> Each one the liner covers has to be reopened with a robotic cutter. A main-line lateral with one connection is simple; a building drain with six is a different job.</li>
+  <li><strong>Heavy cleaning.</strong> Cast iron with thick scale, dense roots or grease can add hours of descaling before the liner can go in.</li>
+  <li><strong>No access.</strong> If there is no cleanout, the crew installs one, which usually means a small excavation.</li>
+  <li><strong>Pre-repairs.</strong> A collapsed or badly offset section has to be fixed by a point excavation before lining; the <a href="/cured-in-place-pipe/repair">cured in place pipe repair</a> page explains when that is unavoidable.</li>
+  <li><strong>Size changes and bends.</strong> A transition liner that steps from 4-inch to 6-inch, or a run with several 45-degree bends, takes more engineering and more care.</li>
+</ul>
+<h3>Down</h3>
+<ul>
+  <li><strong>Existing cleanouts</strong> at both ends.</li>
+  <li><strong>Clay or PVC host pipe</strong> that cleans quickly.</li>
+  <li><strong>Longer straight runs</strong>, which spread the fixed costs.</li>
+  <li><strong>Bundling</strong> the lateral with the under-slab drains in one mobilization.</li>
+</ul>
+
+<h2>What a replacement bid hides</h2>
+<p>A dig-and-replace quote for a residential sewer typically includes excavation, pipe, bedding, backfill and compaction. What it often does not spell out, or lists as "by others," is the restoration: the driveway section, the sidewalk the city requires a permit and a licensed concrete contractor to replace, the mature tree whose roots were the problem in the first place, the irrigation lines, the slab inside the house and the flooring on top of it. When you compare a lining quote to a replacement quote, add those back in. That is the arithmetic behind the table above.</p>
+
+<h2>How to compare lining quotes with each other</h2>
+<ol>
+  <li>Ask each bidder for the <strong>liner and resin system</strong> by brand and the <strong>design thickness</strong>. Thinner is cheaper and sometimes fine, but you should know.</li>
+  <li>Confirm the quote includes <strong>cleaning, all reinstatements and the final camera recording</strong>, and whether a cleanout installation is in or out.</li>
+  <li>Ask what the <strong>warranty</strong> covers and for how long, in writing. Manufacturer material warranties and the installer's workmanship warranty are two different documents.</li>
+  <li>Ask about their <strong>training on the specific system</strong>; the <a href="/cured-in-place-pipe/training-and-certifications">training and certifications</a> page lists what to look for.</li>
+  <li>Ask for the <strong>cure method</strong> (hot water, steam or UV) and how they verify cure. The <a href="/cured-in-place-pipe/installation">installation page</a> explains why that matters to the finished pipe.</li>
+</ol>
+<p>Every installer on this site has already been checked on the first and fourth points. You can <a href="/all-contractors">browse them by state</a> or, if your state is not covered yet, <a href="/find-a-contractor">ask us to locate a qualified contractor</a> near you.</p>

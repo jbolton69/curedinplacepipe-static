@@ -225,7 +225,7 @@ preloadImage: /images/slider/slider1.jpg
 								<i class="flaticon-electrician-6"></i>
 							</div>
 							<div class="{{ 'dreamit-service-title' if even else 'dreamit-service-title1' }}">
-								<h2>{{ info.data.title }}</h2>
+								<h2>{{ info.data.navTitle or info.data.title }}</h2>
 								<p>{{ info.data.shortDescription }}</p>
 							</div>
 						</div>

@@ -6,7 +6,7 @@ excludeFromSitemap: true
 {#-
   Same inclusion rules and order as app/Services/SitemapGenerator.php, minus
   /find-contractors (it returned 500 and now 301s to /all-contractors):
-  home, static pages, every /p/ page (including unpublished, as before), published
+  home, static pages, every /p/ page, the cured-in-place-pipe cluster (including unpublished, as before), published
   posts (newest first, lastmod = posted_on), every city, profiles WITH about copy,
   landers of those profiles. URLs have no trailing slash and no .html.
 -#}
@@ -21,7 +21,10 @@ excludeFromSitemap: true
 <url><loc>{{ site.url }}/find-a-contractor</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.70</priority></url>
 <url><loc>{{ site.url }}/apply</loc><lastmod>{{ "" | dateISO }}</lastmod><priority>0.60</priority></url>
 {%- for p in collections.infoPages %}
-<url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc><priority>0.70</priority></url>
+<url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc>{% if p.data.lastReviewed %}<lastmod>{{ p.data.lastReviewed }}</lastmod>{% endif %}<priority>{{ "0.90" if p.data.clusterSlug is defined else "0.70" }}</priority></url>
+{%- endfor %}
+{%- for p in collections.clusterPages %}
+<url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc>{% if p.data.lastReviewed %}<lastmod>{{ p.data.lastReviewed }}</lastmod>{% endif %}<priority>0.80</priority></url>
 {%- endfor %}
 {%- for p in collections.posts %}
 <url><loc>{{ site.url }}{{ p.url | cleanUrl }}</loc><lastmod>{{ p.date | isoDate }}</lastmod><priority>0.80</priority></url>

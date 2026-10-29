@@ -148,7 +148,7 @@ gtag('config', '{{ site.ga4 }}');
                         <li><a href="javascript:void(0)">Information</a>
                             <ul class="sub-menu">
                                 {% for info in collections.navPages %}
-                                <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
+                                <li><a href="{{ info.url | cleanUrl }}">{{ info.data.navTitle or info.data.title }}</a></li>
                                 {% endfor %}
                             </ul>
                         </li>
@@ -178,7 +178,7 @@ gtag('config', '{{ site.ga4 }}');
                 <li><a href="javascript:void(0)">Information</a>
                     <ul class="sub-menu">
                         {% for info in collections.navPages %}
-                        <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
+                        <li><a href="{{ info.url | cleanUrl }}">{{ info.data.navTitle or info.data.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
@@ -228,7 +228,7 @@ gtag('config', '{{ site.ga4 }}');
                     <div class="menu-quick-link-content">
                         <ul class="menu">
                             {% for info in collections.navPages %}
-                            <li><a href="{{ info.url | cleanUrl }}">{{ info.data.title }}</a></li>
+                            <li><a href="{{ info.url | cleanUrl }}">{{ info.data.navTitle or info.data.title }}</a></li>
                             {% endfor %}
                             <li><a href="/all-contractors">All Contractors</a></li>
                             <li><a href="/network-map">Network Map</a></li>

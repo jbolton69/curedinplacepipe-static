@@ -9,8 +9,8 @@ https://curedinplacepipe.pages.dev/* https://curedinplacepipe.net/:splat 301
 /arlington_tx.php /cipp-contractor/texas/arlington 301
 /austin.php /cipp-contractor/texas/austin 301
 /cipp_contractors.php /p/cipp-contractors 301
-/cipp_equipment.php /p/cipp-equipment 301
-/cipp_lining_process.php /p/cipp-lining-process 301
+/cipp_equipment.php /cured-in-place-pipe/equipment 301
+/cipp_lining_process.php /cured-in-place-pipe/installation 301
 /CIPP_Specifications.pdf /p/cipp-specifications 301
 /corpus_christi.php /cipp-contractor/texas/corpus-christi 301
 /cured_in_place_sewer_liners.php /p/cipp-sewer-liners 301
@@ -21,6 +21,14 @@ https://curedinplacepipe.pages.dev/* https://curedinplacepipe.net/:splat 301
 /houston.php /cipp-contractor/texas/houston 301
 /plano.php /cipp-contractor/texas/plano 301
 /san_antonio.php /cipp-contractor/texas/san-antonio 301
+
+# "Cured in place pipe" topic cluster (2026-10-29): the legacy /p/ articles that split the
+# head term are folded into the new pillar + sub-pages. ----------------------------
+/p/cipp /cured-in-place-pipe 301
+/p/cured-in-place-pipe-the-permanent-solution-for-sewer-pipe-repairs /cured-in-place-pipe 301
+/p/cipp-lining-process /cured-in-place-pipe/installation 301
+/p/cipp-equipment /cured-in-place-pipe/equipment 301
+/cured-in-place-pipe/ /cured-in-place-pipe 301
 
 # Generated /{city_with_underscores}.php -> city page for every city -----------
 # Cities whose name exists in more than one state are listed with a ?? comment;

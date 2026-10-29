@@ -1,0 +1,20 @@
+{
+  "_note": "Registry for the /cured-in-place-pipe topic cluster. The pillar lives at src/cured-in-place-pipe.njk; sub-pages in src/cured-in-place-pipe/. Order here = order in the cluster sidebar, the pillar's hub cards and the sitemap.",
+  "pillar": {
+    "url": "/cured-in-place-pipe",
+    "title": "Cured In Place Pipe",
+    "navTitle": "Cured In Place Pipe Guide",
+    "anchor": "cured in place pipe"
+  },
+  "pages": [
+    { "slug": "installation", "title": "Installation, Step by Step", "anchor": "cured in place pipe installation", "blurb": "Camera, clean, measure, wet-out, invert or pull in, cure, reinstate, inspect: what happens on lining day and how long each step takes.", "icon": "fas fa-list-ol" },
+    { "slug": "cost", "title": "Cost Guide", "anchor": "cured in place pipe cost", "blurb": "Real lining prices next to the dig-and-replace bids they beat, per-foot ranges and what moves the number up or down.", "icon": "fas fa-dollar-sign" },
+    { "slug": "near-me", "title": "Find a Contractor Near Me", "anchor": "cured in place pipe near me", "blurb": "How to find a verified CIPP contractor in your state, what to ask on the first call and what to do when nobody near you lines pipe yet.", "icon": "fas fa-map-marker-alt" },
+    { "slug": "repair", "title": "Repair vs. Replacement", "anchor": "cured in place pipe repair", "blurb": "When a liner is the right repair, when a spot repair is enough and when the pipe has to come out of the ground.", "icon": "fas fa-tools" },
+    { "slug": "equipment", "title": "Equipment", "anchor": "cured in place pipe equipment", "blurb": "The gear a lining crew brings: inversion units, wet-out tables, boilers and steam, UV light trains, robotic cutters and crawler cameras.", "icon": "fas fa-truck" },
+    { "slug": "liner-testing", "title": "Liner Testing", "anchor": "cured in place pipe liner testing", "blurb": "Why a sample is cut from the cured liner, which ASTM tests it goes through and what the numbers on the lab report mean.", "icon": "fas fa-vial" },
+    { "slug": "training-and-certifications", "title": "Training & Certifications", "anchor": "cured in place pipe training and certifications", "blurb": "What to look for before you hire: licenses, manufacturer training, NASSCO programs and the paperwork a good crew hands over.", "icon": "fas fa-certificate" },
+    { "slug": "cast-in-place-vs-cured-in-place", "title": "Cast in Place vs. Cured in Place", "anchor": "cast in place pipe vs cured in place pipe", "blurb": "Two names one letter apart that describe completely different pipes. Which one you actually need.", "icon": "fas fa-exchange-alt" },
+    { "slug": "video", "title": "Video: How CIPP Works", "anchor": "cured in place pipe video", "blurb": "A short animation of the lining process with a written, timestamped walkthrough underneath.", "icon": "fas fa-play-circle" }
+  ]
+}

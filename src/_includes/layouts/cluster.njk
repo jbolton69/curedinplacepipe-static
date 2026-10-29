@@ -1,0 +1,164 @@
+---
+layout: layouts/base.njk
+---
+{#-
+  Layout for the "cured in place pipe" topic cluster (pillar + /cured-in-place-pipe/* sub-pages).
+  Page front matter: title, pageTitle, pageDescription, heroImage, clusterSlug ("" for the pillar),
+  faq: [{ q, a }] (a may contain HTML), optional lastReviewed (YYYY-MM-DD).
+  Renders: hero + breadcrumb, article column with FAQ + "keep reading" cards, sidebar with cluster
+  nav, phone CTA ("Estimates are free. Call now.") and the site-wide estimate form.
+  Schema: BreadcrumbList + Article (+ FAQPage when faq is present).
+-#}
+{%- set hero_image = heroImage or "/images/cipp/cipp-lined-pipe.jpg" -%}
+{%- set isPillar = (clusterSlug == "" or not clusterSlug) -%}
+{%- set thisUrl = page.url | cleanUrl -%}
+{% include "partials/breadcrumb-css.njk" %}
+<style>
+  .cl-wrap { padding: 70px 0 40px; }
+  .cl-article { font-size: 17px; line-height: 1.75; color: #333; }
+  .cl-article h2 { font-size: 28px; line-height: 1.25; margin: 38px 0 14px; color: #1c1c24; }
+  .cl-article h3 { font-size: 21px; line-height: 1.3; margin: 28px 0 10px; color: #1c1c24; }
+  .cl-article p { margin: 0 0 16px; }
+  .cl-article ul, .cl-article ol { margin: 0 0 18px 22px; }
+  .cl-article li { margin-bottom: 8px; }
+  .cl-article a { color: #d97c08; text-decoration: underline; text-underline-offset: 2px; }
+  .cl-article a:hover { color: #1c1c24; }
+  .cl-lead { font-size: 19px; color: #444; margin-bottom: 22px; }
+  .cl-table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 10px 0 22px; }
+  .cl-table th, .cl-table td { border: 1px solid #e3e6ee; padding: 9px 11px; text-align: left; vertical-align: top; }
+  .cl-table th { background: #f1f6fc; font-weight: 600; color: #1c1c24; }
+  .cl-table td.num, .cl-table th.num { text-align: right; white-space: nowrap; }
+  .cl-table .pos { color: #1c7c3e; font-weight: 700; }
+  .cl-callout { background: #fff7ec; border-left: 4px solid #fc9615; padding: 16px 18px; margin: 22px 0; border-radius: 0 8px 8px 0; }
+  .cl-callout b { color: #1c1c24; }
+  .cl-steps { counter-reset: step; list-style: none; margin: 0 0 24px; padding: 0; }
+  .cl-steps li { counter-increment: step; position: relative; padding: 0 0 18px 54px; margin: 0; }
+  .cl-steps li:before { content: counter(step); position: absolute; left: 0; top: 2px; width: 38px; height: 38px; border-radius: 50%; background: #fc9615; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 17px; }
+  .cl-steps li b { display: block; font-size: 18px; color: #1c1c24; margin-bottom: 4px; }
+  .cl-faq { margin-top: 44px; border-top: 1px solid #e9e9ef; padding-top: 24px; }
+  .cl-faq h2 { margin-top: 0; }
+  .cl-faq details { border: 1px solid #e3e6ee; border-radius: 8px; margin-bottom: 10px; background: #fff; }
+  .cl-faq summary { cursor: pointer; padding: 14px 16px; font-weight: 600; color: #1c1c24; font-size: 17px; list-style: none; position: relative; padding-right: 40px; }
+  .cl-faq summary::-webkit-details-marker { display: none; }
+  .cl-faq summary:after { content: "+"; position: absolute; right: 16px; top: 10px; font-size: 22px; color: #fc9615; }
+  .cl-faq details[open] summary:after { content: "\2013"; }
+  .cl-faq .cl-faq-a { padding: 0 16px 14px; color: #444; }
+  .cl-hub { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; margin: 26px 0 8px; }
+  .cl-hub a { display: block; background: #fff; border: 1px solid #e3e6ee; border-top: 4px solid #fc9615; border-radius: 10px; padding: 18px 18px 16px; color: inherit; text-decoration: none; transition: box-shadow .15s, transform .15s; }
+  .cl-hub a:hover { box-shadow: 0 8px 26px rgba(0,0,0,.10); transform: translateY(-2px); color: inherit; }
+  .cl-hub i { color: #fc9615; font-size: 22px; margin-bottom: 8px; display: block; }
+  .cl-hub b { display: block; font-size: 17px; color: #1c1c24; margin-bottom: 6px; line-height: 1.3; }
+  .cl-hub span { font-size: 14px; color: #555; line-height: 1.5; }
+  .cl-next { margin-top: 40px; }
+  .cl-next h2 { font-size: 22px; }
+  .cl-side { position: sticky; top: 100px; }
+  .cl-side-box { background: #fff; border: 1px solid #e3e6ee; border-radius: 10px; padding: 18px 18px 12px; margin-bottom: 22px; }
+  .cl-side-box h4 { font-size: 17px; margin: 0 0 12px; color: #1c1c24; }
+  .cl-side-nav { list-style: none; margin: 0; padding: 0; }
+  .cl-side-nav li { border-top: 1px solid #f0f0f4; }
+  .cl-side-nav li:first-child { border-top: 0; }
+  .cl-side-nav a { display: block; padding: 9px 0; color: #333; font-size: 15px; text-decoration: none; }
+  .cl-side-nav a:hover, .cl-side-nav a.current { color: #fc9615; font-weight: 600; }
+  .cl-side-nav a.pillar { font-weight: 700; color: #1c1c24; }
+  .cl-call { text-align: center; background: #1c1c24; color: #fff; border-radius: 10px; padding: 22px 18px; margin-bottom: 22px; }
+  .cl-call small { display: block; font-size: 13px; opacity: .85; margin-bottom: 4px; letter-spacing: .5px; text-transform: uppercase; }
+  .cl-call a { display: block; color: #fc9615; font-size: 28px; font-weight: 800; text-decoration: none; line-height: 1.2; }
+  .cl-call p { margin: 8px 0 0; font-size: 15px; font-weight: 600; color: #fff; }
+  .cl-updated { font-size: 13px; color: #777; margin: 0 0 18px; }
+  @media (max-width: 991px) { .cl-side { position: static; margin-top: 40px; } .cl-article h2 { font-size: 24px; } }
+</style>
+
+<div class="breatcumb-area d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breatcumb-content text-center">
+          <div class="breatcumb-title"><h1>{{ title | safe }}</h1></div>
+          <div class="breatcumb-content-text">
+            <ul><li><a href="/">home</a> <i class="fas fa-angle-right"></i> {% if isPillar %}<span>{{ cluster.pillar.title }}</span>{% else %}<a href="{{ cluster.pillar.url }}">{{ cluster.pillar.title }}</a> <i class="fas fa-angle-right"></i> <span>{{ shortTitle or title | safe }}</span>{% endif %}</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cl-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <article class="cl-article">
+          {% if lastReviewed %}<p class="cl-updated">Last reviewed {{ lastReviewed | dateMDY }}</p>{% endif %}
+          {{ content | safe }}
+
+          {% if faq and faq.length %}
+          <section class="cl-faq" id="faq">
+            <h2>{{ faqTitle or "Frequently asked questions" }}</h2>
+            {% for item in faq %}
+            <details{% if loop.first %} open{% endif %}>
+              <summary>{{ item.q | safe }}</summary>
+              <div class="cl-faq-a">{{ item.a | safe }}</div>
+            </details>
+            {% endfor %}
+          </section>
+          {% endif %}
+
+          {% if not isPillar %}
+          <section class="cl-next">
+            <h2>Keep reading</h2>
+            <div class="cl-hub">
+              <a href="{{ cluster.pillar.url }}"><i class="fas fa-book-open"></i><b>{{ cluster.pillar.title }}: the complete guide</b><span>Back to the main article on what cured in place pipe is, how it works and when it is the right call.</span></a>
+              {% for pg in cluster.pages %}{% if pg.slug != clusterSlug and loop.index0 < 4 %}
+              <a href="{{ cluster.pillar.url }}/{{ pg.slug }}"><i class="{{ pg.icon }}"></i><b>{{ pg.title }}</b><span>{{ pg.blurb }}</span></a>
+              {% endif %}{% endfor %}
+            </div>
+          </section>
+          {% endif %}
+        </article>
+      </div>
+
+      <div class="col-lg-4">
+        <aside class="cl-side">
+          <div class="cl-call">
+            <small>Talk to a verified CIPP installer</small>
+            <a href="tel:{{ site.phone | phoneDigits }}">{{ site.phone }}</a>
+            <p>Estimates are free. Call now.</p>
+          </div>
+
+          <div class="cl-side-box">
+            <h4>In this guide</h4>
+            <ul class="cl-side-nav">
+              <li><a class="pillar{% if isPillar %} current{% endif %}" href="{{ cluster.pillar.url }}">{{ cluster.pillar.title }}: overview</a></li>
+              {% for pg in cluster.pages %}
+              <li><a href="{{ cluster.pillar.url }}/{{ pg.slug }}"{% if pg.slug == clusterSlug %} class="current"{% endif %}>{{ pg.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          {% set est_contractor = null %}
+          {% set est_phone = site.phone %}
+          {% set est_city = null %}
+          {% set est_state = null %}
+          {% set est_project = null %}
+          {% include "partials/estimate-sidebar.njk" %}
+
+          <div class="cl-side-box">
+            <h4>Find a contractor</h4>
+            <ul class="cl-side-nav">
+              <li><a href="/all-contractors">Browse all verified installers</a></li>
+              <li><a href="/network-map">See the network map</a></li>
+              <li><a href="/find-a-contractor">No installer near you? Request one</a></li>
+              <li><a href="/p/cipp-specifications">CIPP specifications</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ (site.url + "/") | dump | safe }}},{"@type":"ListItem","position":2,"name":{{ cluster.pillar.title | dump | safe }},"item":{{ (site.url + cluster.pillar.url) | dump | safe }}}{% if not isPillar %},{"@type":"ListItem","position":3,"name":{{ (shortTitle or title) | plain | dump | safe }},"item":{{ (site.url + thisUrl) | dump | safe }}}{% endif %}]}</script>
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "Article", "headline": (title | plain), "description": pageDescription, "url": site.url + thisUrl, "image": site.url + hero_image, "dateModified": lastReviewed or ("" | dateISO), "author": { "@type": "Organization", "name": "CuredInPlacePipe.net", "url": site.url + "/" }, "publisher": { "@type": "Organization", "name": "CuredInPlacePipe.net", "url": site.url + "/", "logo": { "@type": "ImageObject", "url": site.url + site.logo } }, "mainEntityOfPage": site.url + thisUrl } | jsonld | safe }}</script>
+{%- if faq and faq.length %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in faq %}{"@type":"Question","name":{{ item.q | plain | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | plain | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
+{%- endif %}

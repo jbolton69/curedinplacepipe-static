@@ -36,7 +36,7 @@ layout: layouts/base.njk
 						<ul>
                             {% for info in collections.navPages %}
 							<li>
-                                <a class="{{ 'current' if info.url == page.url else '' }}" href="{{ info.url | cleanUrl }}">{{ info.data.title }} <i class="fas fa-angle-right"></i></a>
+                                <a class="{{ 'current' if info.url == page.url else '' }}" href="{{ info.url | cleanUrl }}">{{ info.data.navTitle or info.data.title }} <i class="fas fa-angle-right"></i></a>
                             </li>
                             {% endfor %}
 						</ul>
