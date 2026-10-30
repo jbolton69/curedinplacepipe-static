@@ -378,6 +378,8 @@ const projectPages = published.map((p) => {
     contractorUrl: cpage.url,
     inSitemap: cpage.inSitemap,   // SitemapGenerator: landers of thin profiles are skipped too
     noindex: false,
+    // Walt-branded share card (static/images/share/<slug>.jpg, built by trenchless-shorts/share_cards.py); base.njk falls back to site.ogImage
+    ogImage: fs.existsSync(path.join(here, "..", "static", "images", "share", `${p.slug}.jpg`)) ? `/images/share/${p.slug}.jpg` : undefined,
     schema: {
       "@context": "https://schema.org",
       "@graph": [
