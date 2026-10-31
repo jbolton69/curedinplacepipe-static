@@ -1250,6 +1250,10 @@
       "otherBid": 18000,
       "otherBidType": "dig",
       "otherBidNote": "The first plumber quoted $18,000 to excavate and replace the 76-foot run."
+    },
+    "video": {
+      "youtube": "nKBl2y7wyis",
+      "title": "Walt \"Dug\" Dugan tells the story"
     }
   },
   {
@@ -1285,6 +1289,10 @@
       "otherBid": 16000,
       "otherBidType": "dig",
       "otherBidNote": "The homeowner's dig-and-replace bid was $16,000. TSR lined the pipe for $8,200."
+    },
+    "video": {
+      "youtube": "X7qzd4raHHY",
+      "title": "Walt \"Dug\" Dugan tells the story"
     }
   },
   {
@@ -1355,6 +1363,10 @@
       "otherBid": 22815,
       "otherBidType": "dig",
       "otherBidNote": "The homeowner's dig-and-replace bid was $22,815. TSR lined the pipe for $12,750."
+    },
+    "video": {
+      "youtube": "P-2XgmJLFB4",
+      "title": "Walt \"Dug\" Dugan tells the story"
     }
   },
   {
@@ -1390,6 +1402,10 @@
       "otherBid": 23000,
       "otherBidType": "dig",
       "otherBidNote": "The homeowner's dig-and-replace bid was $23,000. TSR lined the pipe for $14,920."
+    },
+    "video": {
+      "youtube": "zVeukokvBVk",
+      "title": "Walt \"Dug\" Dugan tells the story"
     }
   },
   {
@@ -1530,6 +1546,10 @@
       "otherBid": 39000,
       "otherBidType": "dig",
       "otherBidNote": "The homeowner's dig-and-replace bid was $39,000. TSR lined the pipe for $22,980."
+    },
+    "video": {
+      "youtube": "AZhibwE_XTk",
+      "title": "Walt \"Dug\" Dugan tells the story"
     }
   },
   {
@@ -1565,6 +1585,43 @@
       "otherBid": 18000,
       "otherBidType": "dig",
       "otherBidNote": "The homeowner's dig-and-replace bid was $18,000. TSR lined the pipe for $9,380."
+    },
+    "video": {
+      "youtube": "3dtRBrQT-bg",
+      "title": "Walt \"Dug\" Dugan tells the story"
+    }
+  },
+  {
+    "id": 53,
+    "contractorId": 2,
+    "cityId": 42,
+    "slug": "garden-grove-87-ft-cipp-sewer-main-one-pit",
+    "title": "87 ft of sewer main lined in Garden Grove through one small pit — the front yard stayed put",
+    "summary": "A Garden Grove homeowner was told the entire front yard had to come up to replace 87 feet of failing sewer. TSR lined the pipe in place instead: one small access pit, about six hours, and $7,085 less than the dig quote. Lawn, walkway and driveway untouched.",
+    "body": "<h3>The situation</h3><p>The first plumber to look at this Garden Grove sewer line delivered the kind of news no homeowner wants: the 4-inch main was failing along most of its run, and the only fix on offer was to trench from the house to the street and replace it. That meant the lawn, the walkway and a stretch of driveway all coming up, several days of an excavator parked out front, and a bill to match.</p><p>Eighty-seven feet is a long trench. Before signing off on it, the homeowner looked for another way and found cured-in-place pipe lining, then called TSR for a second opinion.</p><h3>The fix</h3><p>A camera inspection showed a pipe that was cracked and deteriorated but still holding its shape, which is exactly what CIPP needs. Instead of digging the length of the yard, the crew opened one small access pit, cleaned the line, and pulled a resin-saturated liner through all 87 feet of the old pipe. The liner was cured in place to form a new, jointless pipe inside the old one.</p><p>The job ran about six hours, start to finish, and the homeowner was at work for most of it. The only evidence afterward was a single patched access point.</p><h3>What it saved</h3><p>The lining came in $7,085 under the dig-and-replace quote, and that number leaves out what excavation would have destroyed: a mature lawn, a concrete walkway and part of the driveway, all of which would have been extra to put back.</p><p>Not every sewer qualifies for lining. A pipe that has collapsed or has a severe belly still needs bursting or excavation, and the camera is what tells the difference. Here it showed a pipe worth saving, and lining saved the yard along with it.</p>",
+    "serviceType": "CIPP lining",
+    "pipeMaterial": "",
+    "pipeDiameter": "4\"",
+    "footage": "87 ft",
+    "propertyType": "Residential",
+    "completedOn": "",
+    "phone": "(949) 267-3595",
+    "photos": [
+      {
+        "src": "/images/projects/garden-grove-87-ft-cipp-sewer-main-one-pit-1200.jpg",
+        "alt": "87 ft of sewer main lined in Garden Grove through one small pit — the front yard stayed put — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
+    "metaTitle": "CIPP Sewer Lining in Garden Grove, CA — 87 ft, One Pit, No Trench | TSR",
+    "metaDescription": "Told the whole front yard had to come up to replace 87 feet of sewer, a Garden Grove homeowner had TSR line it in place instead: one small pit, about six hours, $7,085 saved.",
+    "status": "published",
+    "sort": 0,
+    "createdAt": "2026-10-31 13:40:00",
+    "updatedAt": "2026-10-31 13:40:00",
+    "video": {
+      "youtube": "8_pqZpvE09M",
+      "title": "Walt \"Dug\" Dugan tells the story"
     }
   }
 ]

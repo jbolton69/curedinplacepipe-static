@@ -369,6 +369,8 @@ const projectPages = published.map((p) => {
     facts,
     photos,
     quote: quoteCompare(p, c),
+    // Walt Short for this job (projects.json "video": {youtube, title}); project.njk renders a click-to-play embed
+    video: p.video && p.video.youtube ? { id: p.video.youtube, title: p.video.title || `Walt "Dug" Dugan tells the story of this ${city.name} job` } : null,
     more: more.map((q) => projectRow(q)),
     reviews: cityReviews,
     reviewsCity: cityReviews.length ? city : null,
