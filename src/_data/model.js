@@ -71,6 +71,7 @@ const projectUrl = (p) => {
   const c = contractorById[p.contractorId];
   return c ? `/contractor/${c.slug}/projects/${p.slug}` : "/all-contractors";
 };
+const STATE_ABBR = { California: "CA", Colorado: "CO", Florida: "FL", Georgia: "GA", Illinois: "IL", Massachusetts: "MA", "New Jersey": "NJ", Ohio: "OH", Pennsylvania: "PA", Texas: "TX" };
 const published = projects.filter((p) => p.status === "published" && contractorById[p.contractorId]);
 
 const monthYear = (d) => {
@@ -369,8 +370,16 @@ const projectPages = published.map((p) => {
     facts,
     photos,
     quote: quoteCompare(p, c),
-    // Walt Short for this job (projects.json "video": {youtube, title}); project.njk renders a click-to-play embed
-    video: p.video && p.video.youtube ? { id: p.video.youtube, title: p.video.title || `Walt "Dug" Dugan tells the story of this ${city.name} job` } : null,
+    // Walt Short for this job (projects.json "video": {youtube, title}); project.njk renders the Walt box as the lander's only card
+    video: p.video && p.video.youtube ? {
+      id: p.video.youtube,
+      title: p.video.title || `Walt "Dug" Dugan tells the story of this ${city.name} job`,
+      place: `${city.name}, ${STATE_ABBR[state.name] || state.name}`,
+      method: p.serviceType || "Trenchless sewer repair",
+      footage: filled(p.footage) ? String(p.footage).replace(/\s*ft\b/i, " FT").toUpperCase() : null,
+      pits: typeof p.pits === "number" ? p.pits : null,
+      saved: quoteCompare(p, c) ? quoteCompare(p, c).savedText : (p.savedAmount ? usd(p.savedAmount) : null),
+    } : null,
     more: more.map((q) => projectRow(q)),
     reviews: cityReviews,
     reviewsCity: cityReviews.length ? city : null,

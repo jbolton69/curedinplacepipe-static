@@ -1254,7 +1254,8 @@
     "video": {
       "youtube": "nKBl2y7wyis",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 0
   },
   {
     "id": 44,
@@ -1293,7 +1294,8 @@
     "video": {
       "youtube": "X7qzd4raHHY",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 1
   },
   {
     "id": 45,
@@ -1367,7 +1369,8 @@
     "video": {
       "youtube": "P-2XgmJLFB4",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 1
   },
   {
     "id": 47,
@@ -1406,7 +1409,8 @@
     "video": {
       "youtube": "zVeukokvBVk",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 1
   },
   {
     "id": 48,
@@ -1550,7 +1554,8 @@
     "video": {
       "youtube": "AZhibwE_XTk",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 1
   },
   {
     "id": 52,
@@ -1589,7 +1594,8 @@
     "video": {
       "youtube": "3dtRBrQT-bg",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 1
   },
   {
     "id": 53,
@@ -1622,6 +1628,8 @@
     "video": {
       "youtube": "8_pqZpvE09M",
       "title": "Walt \"Dug\" Dugan tells the story"
-    }
+    },
+    "pits": 1,
+    "savedAmount": 7085
   }
 ]

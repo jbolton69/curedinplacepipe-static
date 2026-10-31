@@ -26,15 +26,32 @@ eleventyComputed:
     .project-facts dd { margin: 0; color: #555; }
     .project-gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 6px; margin-bottom: 14px; }
     .project-gallery img.generated { height: auto; aspect-ratio: 40 / 21; object-fit: contain; }
-    .walt-video { display:flex; gap:20px; align-items:center; background:#0d1f3f; color:#fff; border-radius:8px; padding:18px 20px; margin-bottom:20px; }
-    .walt-video .wv-frame { flex:0 0 220px; aspect-ratio:9/16; border-radius:10px; overflow:hidden; position:relative; background:#000; cursor:pointer; }
+    .walt-video { display:flex; gap:22px; align-items:stretch; background:#0d1f3f; color:#fff; border-radius:8px; padding:20px 22px; margin-bottom:22px; }
+    .walt-video .wv-frame { flex:0 0 220px; aspect-ratio:9/16; border-radius:10px; overflow:hidden; position:relative; background:#000; cursor:pointer; align-self:flex-start; }
     .walt-video .wv-frame img, .walt-video .wv-frame iframe { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border:0; }
     .walt-video .wv-play { position:absolute; left:50%; top:50%; width:64px; height:64px; margin:-32px 0 0 -32px; border-radius:50%; background:rgba(255,212,0,.95); display:flex; align-items:center; justify-content:center; box-shadow:0 6px 20px rgba(0,0,0,.45); }
     .walt-video .wv-play:after { content:""; border-style:solid; border-width:13px 0 13px 22px; border-color:transparent transparent transparent #0d1f3f; margin-left:5px; }
+    .walt-video .wv-copy { flex:1; min-width:0; display:flex; flex-direction:column; }
+    .walt-video .wv-copy p.wv-eyebrow { color:#fc9615; font-size:12px; font-weight:600; letter-spacing:3px; text-transform:uppercase; margin:0 0 4px; }
+    .walt-video .wv-copy p.wv-city { color:#ffd400; font-size:38px; line-height:1.05; font-weight:700; margin:0 0 4px; }
+    .walt-video .wv-copy p.wv-sub { color:#dbe6f5; font-size:16px; font-weight:500; margin:0 0 14px; }
     .walt-video .wv-copy h3 { color:#ffd400; font-size:20px; margin:0 0 8px; }
     .walt-video .wv-copy p { margin:0 0 8px; color:#dbe6f5; line-height:1.5; }
-    .walt-video .wv-copy a { color:#fff; text-decoration:underline; }
-    @media (max-width:575px) { .walt-video { flex-direction:column; } .walt-video .wv-frame { flex-basis:auto; width:100%; max-width:260px; } }
+    .walt-video .wv-copy a { color:#fff; }
+    .walt-video .wv-cta { margin-top:auto; padding-top:14px; border-top:1px solid rgba(255,255,255,.18); }
+    .walt-video .wv-stats { display:flex; gap:10px; flex-wrap:wrap; margin:0 0 12px; }
+    .walt-video .wv-stat { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.18); border-radius:8px; padding:8px 12px; text-align:center; min-width:92px; }
+    .walt-video .wv-stat b { display:block; font-size:22px; line-height:1; font-weight:700; color:#fff; }
+    .walt-video .wv-stat span { display:block; font-size:11px; font-weight:500; letter-spacing:1.5px; text-transform:uppercase; color:#dbe6f5; margin-top:4px; }
+    .walt-video .wv-stat.saved b { color:#ffd400; }
+    .walt-video .wv-btns { display:flex; gap:10px; flex-wrap:wrap; }
+    .walt-video .wv-btn { display:inline-block; padding:12px 18px; border-radius:6px; font-size:16px; font-weight:700; text-decoration:none; line-height:1.2; }
+    .walt-video .wv-btn.call { background:#fc9615; color:#0d1f3f; }
+    .walt-video .wv-btn.call:hover { background:#ffd400; color:#0d1f3f; }
+    .walt-video .wv-btn.form { background:transparent; color:#fff; border:2px solid #fff; }
+    .walt-video .wv-btn.form:hover { background:#fff; color:#0d1f3f; }
+    .walt-video p.wv-fine { color:#dbe6f5; font-size:13px; margin:8px 0 0; }
+    @media (max-width:767px) { .walt-video { flex-direction:column; } .walt-video .wv-frame { flex-basis:auto; width:100%; max-width:240px; margin:0 auto; } .walt-video .wv-copy p.wv-city { font-size:30px; } }
     .installer-card { border:1px solid #fc9615; padding: 16px; margin-bottom: 24px; }
     .installer-card img.logo { max-height: 60px; max-width: 200px; }
     .placeholder-note { background:#fff7ec; border-left:4px solid #fc9615; padding:10px 14px; margin-bottom:20px; font-size:14px; }
@@ -111,7 +128,7 @@ eleventyComputed:
 
             {# CENTER: the project #}
             <div class="col-lg-7 col-md-6 col-sm-12">
-                {% if pg.quote %}
+                {% if pg.quote and not pg.video %}
                 <div class="quote-compare">
                     <div class="quote-compare-head">What the homeowner saved</div>
                     <div class="quote-compare-grid">
@@ -133,7 +150,7 @@ eleventyComputed:
                 </div>
                 {% endif %}
 
-                {% if pg.facts.length %}
+                {% if pg.facts.length and not pg.video %}
                 <div class="project-facts">
                     <dl>
                         {% for f in pg.facts %}
@@ -143,7 +160,7 @@ eleventyComputed:
                 </div>
                 {% endif %}
 
-                {% if pg.photos.length %}
+                {% if pg.photos.length and not pg.video %}
                 <div class="row project-gallery">
                     {% for ph in pg.photos %}
                         <div class="{{ 'col-12' if pg.photos.length == 1 else 'col-md-6' }}">
@@ -160,9 +177,23 @@ eleventyComputed:
                         <span class="wv-play" aria-hidden="true"></span>
                     </div>
                     <div class="wv-copy">
+                        <p class="wv-eyebrow">Completed trenchless project</p>
+                        <p class="wv-city">{{ pg.video.place }}</p>
+                        <p class="wv-sub">{{ pg.video.method }} &middot; completed by {{ short }}</p>
                         <h3>Watch Walt tell the story</h3>
                         <p>Walt &ldquo;Dug&rdquo; Dugan spent 40 years in sewers. Now he tells one real trenchless job per episode &mdash; this is the {{ pg.city.name }} one, in under a minute.</p>
-                        <p><a href="https://www.youtube.com/@curedinplacepipenet" target="_blank" rel="noopener">More episodes on Walt&rsquo;s channel</a></p>
+                        <div class="wv-cta">
+                            <div class="wv-stats">
+                                {% if pg.video.footage %}<div class="wv-stat"><b>{{ pg.video.footage }}</b><span>Pipe lined</span></div>{% endif %}
+                                {% if pg.video.pits === 0 %}<div class="wv-stat"><b>0</b><span>Holes dug</span></div>{% elif pg.video.pits %}<div class="wv-stat"><b>{{ pg.video.pits }}</b><span>Access pit{{ 's' if pg.video.pits > 1 }}</span></div>{% endif %}
+                                {% if pg.video.saved %}<div class="wv-stat saved"><b>{{ pg.video.saved }}</b><span>Saved vs. dig bid</span></div>{% endif %}
+                            </div>
+                            <div class="wv-btns">
+                                {% if pg.phone %}<a class="wv-btn call" href="tel:{{ pg.phone | phoneDigits }}">Call {{ pg.phone }}</a>{% endif %}
+                                <a class="wv-btn form" href="#estimate">Get a free estimate</a>
+                            </div>
+                            <p class="wv-fine">Estimates are free. Same crew, same no-dig method, anywhere {{ short }} works.</p>
+                        </div>
                     </div>
                 </div>
                 <script>
@@ -200,7 +231,7 @@ eleventyComputed:
             </div>
 
             {# RIGHT: attributed estimate form #}
-            <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="col-lg-3 col-md-3 col-sm-12" id="estimate">
                 {% set est_contractor = c %}
                 {% set est_phone = pg.phone %}
                 {% set est_city = pg.city %}
