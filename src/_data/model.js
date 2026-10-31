@@ -398,6 +398,8 @@ const projectPages = published.map((p) => {
     noindex: false,
     // Walt-branded share card (static/images/share/<slug>.jpg, built by trenchless-shorts/share_cards.py); base.njk falls back to site.ogImage
     ogImage: fs.existsSync(path.join(here, "..", "static", "images", "share", `${p.slug}.jpg`)) ? `/images/share/${p.slug}.jpg` : undefined,
+    // Walt page hero (static/images/heroes/<slug>.jpg, built by trenchless-shorts/hero_cards.py — named after the project slug, the standard for every project hero); project.njk swaps the stock-photo hero for it
+    heroImage: fs.existsSync(path.join(here, "..", "static", "images", "heroes", `${p.slug}.jpg`)) ? `/images/heroes/${p.slug}.jpg` : null,
     schema: {
       "@context": "https://schema.org",
       "@graph": [
