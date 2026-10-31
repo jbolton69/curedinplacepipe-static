@@ -27,7 +27,28 @@ eleventyComputed:
     .project-gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 6px; margin-bottom: 14px; }
     .project-gallery img.generated { height: auto; aspect-ratio: 40 / 21; object-fit: contain; }
     .walt-video { display:flex; gap:22px; align-items:stretch; background:#0d1f3f; color:#fff; border-radius:8px; padding:20px 22px; margin-bottom:22px; }
-    .walt-video .wv-frame { flex:0 0 220px; aspect-ratio:9/16; border-radius:10px; overflow:hidden; position:relative; background:#000; cursor:pointer; align-self:flex-start; }
+    .walt-video .wv-left { flex:0 0 220px; display:flex; flex-direction:column; gap:10px; align-self:flex-start; }
+    .walt-video .wv-frame { width:220px; aspect-ratio:9/16; border-radius:10px; overflow:hidden; position:relative; background:#000; cursor:pointer; }
+    .walt-video .wv-pills { display:flex; flex-direction:column; gap:8px; }
+    .walt-video .wv-pill { display:flex; align-items:center; gap:10px; width:100%; padding:5px 12px 5px 5px; border-radius:999px; border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.1); color:#fff; font:inherit; font-size:13px; font-weight:700; line-height:1.15; text-align:left; text-decoration:none; cursor:pointer; transition:background .15s,border-color .15s; }
+    .walt-video .wv-pill:hover { background:rgba(255,255,255,.16); border-color:rgba(255,212,0,.7); color:#fff; text-decoration:none; }
+    .walt-video .wv-pill-icon { flex:0 0 36px; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(0,0,0,.35); }
+    .walt-video .wv-pill-play { background:#fc9615; }
+    .walt-video .wv-pill-play:after { content:""; border-style:solid; border-width:7px 0 7px 12px; border-color:transparent transparent transparent #0d1f3f; margin-left:3px; }
+    .walt-video .wv-pill-score { background:#fff; color:#0d1f3f; font-size:15px; font-weight:800; }
+    .walt-video .wv-pill-text { display:flex; flex-direction:column; min-width:0; }
+    .walt-video .wv-pill-text small { font-size:11px; font-weight:400; color:rgba(255,255,255,.7); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .walt-video .wv-stars { color:#ffd400; font-size:11px; letter-spacing:1px; }
+    .wv-modal { position:fixed; inset:0; z-index:1100; display:flex; align-items:center; justify-content:center; padding:16px; background:rgba(5,12,28,.92); }
+    .wv-modal[hidden] { display:none; }
+    .wv-modal-box { position:relative; width:100%; max-width:960px; margin-top:40px; }
+    .wv-modal-close { position:absolute; top:-40px; right:0; background:transparent; color:#fff; border:1px solid rgba(255,255,255,.3); border-radius:999px; padding:6px 14px; font:inherit; font-size:14px; font-weight:700; cursor:pointer; }
+    .wv-modal-close:hover { background:rgba(255,255,255,.12); }
+    .wv-modal-video { position:relative; aspect-ratio:16/9; width:100%; background:#000; border-radius:14px; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,.6); }
+    .wv-modal-video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+    .wv-modal-foot { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-top:14px; }
+    .wv-modal-foot p { margin:0; color:rgba(255,255,255,.8); font-size:14px; }
+    .wv-modal-foot .wv-btn { display:inline-block; padding:10px 16px; border-radius:6px; font-size:15px; font-weight:700; text-decoration:none; background:#fc9615; color:#0d1f3f; }
     .walt-video .wv-frame img, .walt-video .wv-frame iframe { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border:0; }
     .walt-video .wv-play { position:absolute; left:50%; top:50%; width:64px; height:64px; margin:-32px 0 0 -32px; border-radius:50%; background:rgba(255,212,0,.95); display:flex; align-items:center; justify-content:center; box-shadow:0 6px 20px rgba(0,0,0,.45); }
     .walt-video .wv-play:after { content:""; border-style:solid; border-width:13px 0 13px 22px; border-color:transparent transparent transparent #0d1f3f; margin-left:5px; }
@@ -55,7 +76,7 @@ eleventyComputed:
     .walt-video p.wv-fine { color:#dbe6f5; font-size:13px; margin:8px 0 0; }
     .walt-video p.wv-disc { font-size:11.5px; opacity:.75; line-height:1.4; }
     .walt-video p.wv-disc a { color:#ffd400; }
-    @media (max-width:767px) { .walt-video { flex-direction:column; } .walt-video .wv-frame { flex-basis:auto; width:100%; max-width:240px; margin:0 auto; } .walt-video .wv-copy p.wv-city { font-size:30px; } }
+    @media (max-width:767px) { .walt-video { flex-direction:column; } .walt-video .wv-left { flex-basis:auto; width:100%; max-width:240px; margin:0 auto; } .walt-video .wv-frame { width:100%; } .walt-video .wv-copy p.wv-city { font-size:30px; } }
     .installer-card { border:1px solid #fc9615; padding: 16px; margin-bottom: 24px; }
     .installer-card img.logo { max-height: 60px; max-width: 200px; }
     .placeholder-note { background:#fff7ec; border-left:4px solid #fc9615; padding:10px 14px; margin-bottom:20px; font-size:14px; }
@@ -176,9 +197,27 @@ eleventyComputed:
 
                 {% if pg.video %}
                 <div class="walt-video">
-                    <div class="wv-frame" data-yt="{{ pg.video.id }}" role="button" tabindex="0" aria-label="Play: {{ pg.video.title }}">
-                        <img src="https://i.ytimg.com/vi/{{ pg.video.id }}/oar2.jpg" alt="{{ pg.video.title }}" loading="lazy" width="220" height="391" onerror="this.src='https://i.ytimg.com/vi/{{ pg.video.id }}/hqdefault.jpg'">
-                        <span class="wv-play" aria-hidden="true"></span>
+                    <div class="wv-left">
+                        <div class="wv-frame" data-yt="{{ pg.video.id }}" role="button" tabindex="0" aria-label="Play: {{ pg.video.title }}">
+                            <img src="https://i.ytimg.com/vi/{{ pg.video.id }}/oar2.jpg" alt="{{ pg.video.title }}" loading="lazy" width="220" height="391" onerror="this.src='https://i.ytimg.com/vi/{{ pg.video.id }}/hqdefault.jpg'">
+                            <span class="wv-play" aria-hidden="true"></span>
+                        </div>
+                        {% if pg.video.explainer or pg.video.reviews %}
+                        <div class="wv-pills">
+                            {% if pg.video.explainer %}
+                            <button type="button" class="wv-pill" data-explainer-open aria-haspopup="dialog" aria-controls="explainer-modal">
+                                <span class="wv-pill-icon wv-pill-play" aria-hidden="true"></span>
+                                <span class="wv-pill-text"><span>See how it works</span><small>{% if pg.video.explainer.length %}{{ pg.video.explainer.length }} &middot; {% endif %}no digging, start to finish</small></span>
+                            </button>
+                            {% endif %}
+                            {% if pg.video.reviews %}
+                            <a class="wv-pill" href="{{ pg.video.reviews.url }}" target="_blank" rel="noopener nofollow">
+                                <span class="wv-pill-icon wv-pill-score" aria-hidden="true">{{ pg.video.reviews.rating }}</span>
+                                <span class="wv-pill-text"><span><span class="wv-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> {{ pg.video.reviews.count }} Google reviews</span><small>Read our reviews on Google &rarr;</small></span>
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
                     </div>
                     <div class="wv-copy">
                         <p class="wv-eyebrow">Completed trenchless project</p>
@@ -201,7 +240,29 @@ eleventyComputed:
                         </div>
                     </div>
                 </div>
+                {% if pg.video.explainer %}
+                <div id="explainer-modal" class="wv-modal" hidden role="dialog" aria-modal="true" aria-label="{{ pg.video.explainer.title }}">
+                    <div class="wv-modal-box">
+                        <button type="button" class="wv-modal-close" data-explainer-close aria-label="Close video">Close &times;</button>
+                        <div class="wv-modal-video" data-yt="{{ pg.video.explainer.id }}"></div>
+                        <div class="wv-modal-foot">
+                            <p>{{ pg.video.explainer.title }}</p>
+                            {% if pg.phone %}<a class="wv-btn call" href="tel:{{ pg.phone | phoneDigits }}">Estimates are free. Call {{ pg.phone }}</a>{% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
                 <script>
+                document.addEventListener("DOMContentLoaded",function(){
+                  var m=document.getElementById("explainer-modal");
+                  if(m){var box=m.querySelector(".wv-modal-video"),last=null;
+                    function open(){last=document.activeElement;m.hidden=false;document.body.style.overflow="hidden";if(!box.firstChild){var i=document.createElement("iframe");i.src="https://www.youtube-nocookie.com/embed/"+box.dataset.yt+"?autoplay=1&rel=0";i.allow="autoplay; encrypted-media; picture-in-picture";i.allowFullscreen=true;i.title=m.getAttribute("aria-label");box.appendChild(i);}m.querySelector("[data-explainer-close]").focus();}
+                    function close(){m.hidden=true;document.body.style.overflow="";box.innerHTML="";if(last)last.focus();}
+                    document.querySelectorAll("[data-explainer-open]").forEach(function(b){b.addEventListener("click",open);});
+                    m.querySelector("[data-explainer-close]").addEventListener("click",close);
+                    m.addEventListener("click",function(e){if(e.target===m)close();});
+                    document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!m.hidden)close();});}
+                });
                 document.addEventListener("DOMContentLoaded",function(){var f=document.querySelector(".walt-video .wv-frame");if(!f)return;function go(){if(f.dataset.on)return;f.dataset.on=1;var i=document.createElement("iframe");i.src="https://www.youtube-nocookie.com/embed/"+f.dataset.yt+"?autoplay=1&playsinline=1&rel=0";i.allow="autoplay; encrypted-media; picture-in-picture";i.allowFullscreen=true;i.title=f.getAttribute("aria-label");f.innerHTML="";f.appendChild(i);}f.addEventListener("click",go);f.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();go();}});});
                 </script>
                 {% endif %}

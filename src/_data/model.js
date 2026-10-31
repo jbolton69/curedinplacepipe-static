@@ -383,6 +383,9 @@ const projectPages = published.map((p) => {
       pits: typeof p.pits === "number" ? p.pits : null,
       saved: quoteCompare(p, c) ? quoteCompare(p, c).savedText : (p.savedAmount ? usd(p.savedAmount) : null),
       savedLabel: quoteCompare(p, c) ? quoteCompare(p, c).chipLabel : "Est. savings vs. dig",
+      // two pills under the Short (same as the contractor's flagship hero): explainer video modal + Google reviews
+      explainer: filled(c.explainerVideo) ? { id: c.explainerVideo, title: c.explainerTitle || "See how trenchless sewer lining works", length: c.explainerLength || null } : null,
+      reviews: (filled(c.googleLink) && c.googleRating && c.googleReviewCount) ? { url: c.googleLink, rating: Number(c.googleRating).toFixed(1), count: c.googleReviewCount } : null,
     } : null,
     more: more.map((q) => projectRow(q)),
     reviews: cityReviews,
