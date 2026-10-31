@@ -292,7 +292,7 @@ preloadImage: /images/slider/slider1.jpg
 						<div class="home-project-meta">
 							{% if row.contractorShort %}<span class="home-project-contractor">{{ row.contractorShort }}</span>{% if row.homeMeta %} · {% endif %} {% endif %}{{ row.homeMeta }}{% if row.completedLabel %} · {{ row.completedLabel }}{% endif %}
 						</div>
-						{% if row.savings %}<span class="project-savings">Saved <b>{{ row.savings.savedText }}</b> {{ row.savings.shortLabel }}</span>{% endif %}
+						{% if row.savings %}<span class="project-savings">Est. savings <b>{{ row.savings.savedText }}</b> {{ row.savings.shortLabel }}</span>{% endif %}
 						<h4 class="home-project-title">{{ row.title }}</h4>
 						{% if row.summary %}<p class="home-project-summary">{{ row.summary120 }}</p>{% endif %}
 						<span class="home-project-link">View project <i class="fas fa-angle-right"></i></span>

@@ -20,16 +20,16 @@ faq:
   - q: "Can I get a cost estimate without a camera inspection?"
     a: "You can get a ballpark by the foot, but no responsible installer will give a firm price without seeing the pipe. The inspection tells them the length, the diameter, how many connections to reopen, how much cleaning is needed and whether any section has to be excavated first. Many installers on this site waive or credit the inspection fee when you proceed with the work."
 ---
-<p class="cl-lead">Most pages about cured in place pipe cost give you a range and a shrug. This one shows the actual numbers from completed jobs: what the homeowner was quoted to dig and replace the sewer, and what a verified installer lined the same pipe for. The installers post these themselves, with footage and the work involved, and nothing about the other bidder beyond the dollar amount.</p>
+<p class="cl-lead">Most pages about cured in place pipe cost give you a range and a shrug. This one shows numbers from completed jobs: the approximate cost of digging up and replacing the sewer, and what a verified installer lined the same pipe for, with footage and the work involved. The dig figure is an estimate of a conventional dig-and-replace including the collateral costs a trench brings: re-landscaping, repaving, structural rebuilds, porches, stairs and similar restoration.</p>
 
-<p>The short version: across the {{ savings.count }} jobs below, excavation bids totaled {{ savings.totalOtherText }} and the lining work was done for {{ savings.totalPriceText }}, a saving of {{ savings.totalSavedText }} or {{ savings.avgPct }} percent. The spread ran from {{ savings.pctMin }} to {{ savings.pctMax }} percent on individual jobs. If you want the process behind these prices first, start with the <a href="/cured-in-place-pipe">cured in place pipe</a> overview.</p>
+<p>The short version: across the {{ savings.count }} jobs below, estimated excavation costs totaled {{ savings.totalOtherText }} and the lining work was done for {{ savings.totalPriceText }}, a saving of {{ savings.totalSavedText }} or {{ savings.avgPct }} percent. The spread ran from {{ savings.pctMin }} to {{ savings.pctMax }} percent on individual jobs. If you want the process behind these prices first, start with the <a href="/cured-in-place-pipe">cured in place pipe</a> overview.</p>
 
-<h2>Real jobs: lining price vs. the dig bid</h2>
+<h2>Real jobs: lining price vs. the estimated dig cost</h2>
 <p>Every row links to the project write-up, which describes the pipe condition, the access point and what else the job included.</p>
 <div style="overflow-x:auto;">
 <table class="cl-table">
   <thead>
-    <tr><th>Project</th><th class="num">Length</th><th class="num">Dig bid</th><th class="num">Lined for</th><th class="num">Saved</th></tr>
+    <tr><th>Project</th><th class="num">Length</th><th class="num">Est. dig cost</th><th class="num">Lined for</th><th class="num">Saved</th></tr>
   </thead>
   <tbody>
     {% for r in savings.rows %}
@@ -47,10 +47,10 @@ faq:
   </tfoot>
 </table>
 </div>
-<p><small>Dig bids are the written quotes the property owner had in hand before calling a lining contractor; the other company is never identified. Lining prices are what the job was invoiced at, including cleaning, reinstatements and the final inspection. Jobs are residential laterals and under-slab drains of {{ savings.ftMin }} to {{ savings.ftMax }} feet.</small></p>
+<p><small>Savings shown are estimates based on an approximate conventional dig-and-replace, which includes collateral costs such as re-landscaping, repaving, structural rebuilds, porches, stairs and similar restoration. Actual costs vary by property. Lining prices are the price for the job as completed, including cleaning, reinstatements and the final inspection. See <a href="/p/how-we-calculate-savings">how we calculate savings</a>. Jobs are residential laterals and under-slab drains of {{ savings.ftMin }} to {{ savings.ftMax }} feet.</small></p>
 
 <h2>What that works out to per foot</h2>
-<p>Dividing each invoice by its footage gives a lined cost of about <strong>${{ savings.linedPerFtMin }} to ${{ savings.linedPerFtMax }} per foot</strong>, with a footage-weighted average near ${{ savings.linedPerFtAvg }}. The excavation bids on the same pipes worked out to <strong>${{ savings.digPerFtMin }} to ${{ savings.digPerFtMax }} per foot</strong>, averaging about ${{ savings.digPerFtAvg }}. Treat the per-foot figure as a sanity check, not a price list: the shortest job in the table has the highest per-foot cost, because the truck, the crew, the cleaning and the reinstatement cost the same whether the pipe is 40 feet or 100.</p>
+<p>Dividing each invoice by its footage gives a lined cost of about <strong>${{ savings.linedPerFtMin }} to ${{ savings.linedPerFtMax }} per foot</strong>, with a footage-weighted average near ${{ savings.linedPerFtAvg }}. The estimated excavation costs on the same pipes worked out to <strong>${{ savings.digPerFtMin }} to ${{ savings.digPerFtMax }} per foot</strong>, averaging about ${{ savings.digPerFtAvg }}. Treat the per-foot figure as a sanity check, not a price list: the shortest job in the table has the highest per-foot cost, because the truck, the crew, the cleaning and the reinstatement cost the same whether the pipe is 40 feet or 100.</p>
 
 <div class="cl-callout"><b>Want a number for your pipe?</b> Call <a href="tel:{{ site.phone | phoneDigits }}">{{ site.phone }}</a> and a verified installer in your area will schedule a camera inspection and give you a written price. Estimates are free. Call now.</div>
 

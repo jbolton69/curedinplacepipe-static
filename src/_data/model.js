@@ -93,11 +93,13 @@ const reviewDateLabel = (d) => (d ? monthYear(String(d).slice(0, 7) + "-01") : n
  */
 const usd = (n) => "$" + Math.round(Number(n)).toLocaleString("en-US");
 const OTHER_BID_LABEL = {
-  dig: "Traditional dig-and-replace bid",
+  dig: "Dig-and-replace cost",
   cipp: "Another CIPP lining quote",
   other: "Other contractor's bid",
 };
-const OTHER_BID_SHORT = { dig: "vs. dig bid", cipp: "vs. other CIPP quote", other: "vs. other bid" };
+const OTHER_BID_SHORT = { dig: "vs. est. dig cost", cipp: "vs. other CIPP quote", other: "vs. other bid" };
+// Dig figures are always the installer's ESTIMATE of digging + restoring surfaces (never attributed to a homeowner or another company) — see /p/how-we-calculate-savings
+const DIG_LABEL = "Approx. dig-and-replace cost";
 function quoteCompare(p, c) {
   const q = p.quote;
   if (!q || !(Number(q.price) > 0) || !(Number(q.otherBid) > 0)) return null;
@@ -106,10 +108,11 @@ function quoteCompare(p, c) {
   if (saved <= 0) return null;
   const type = OTHER_BID_LABEL[q.otherBidType] ? q.otherBidType : "other";
   return {
+    chipLabel: type === "dig" ? "Est. savings vs. dig" : "Est. savings " + OTHER_BID_SHORT[type],
     price, other, saved,
     pct: Math.round((saved / other) * 100),
     priceText: usd(price), otherText: usd(other), savedText: usd(saved),
-    otherLabel: OTHER_BID_LABEL[type],
+    otherLabel: type === "dig" ? DIG_LABEL : OTHER_BID_LABEL[type],
     priceLabel: `${c?.shortName || "Verified installer"} did the job for`,
     shortLabel: OTHER_BID_SHORT[type],
     type,
@@ -379,6 +382,7 @@ const projectPages = published.map((p) => {
       footage: filled(p.footage) ? String(p.footage).replace(/\s*ft\b/i, " FT").toUpperCase() : null,
       pits: typeof p.pits === "number" ? p.pits : null,
       saved: quoteCompare(p, c) ? quoteCompare(p, c).savedText : (p.savedAmount ? usd(p.savedAmount) : null),
+      savedLabel: quoteCompare(p, c) ? quoteCompare(p, c).chipLabel : "Est. savings vs. dig",
     } : null,
     more: more.map((q) => projectRow(q)),
     reviews: cityReviews,
