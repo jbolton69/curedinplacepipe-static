@@ -401,6 +401,8 @@ const projectPages = published.map((p) => {
     // Walt page hero (static/images/heroes/<slug>.jpg, built by trenchless-shorts/hero_cards.py — named after the project slug, the standard for every project hero); project.njk swaps the stock-photo hero for it
     heroImage: fs.existsSync(path.join(here, "..", "static", "images", "heroes", `${p.slug}.jpg`)) ? `/images/heroes/${p.slug}.jpg` : null,
     // optional sidecar <slug>.json {width,height} so the <img> can reserve its box (defaults to the 1920x520 banner)
+    // cache-buster: the file keeps its slug name when replaced, so the URL carries its mtime (Cloudflare caches images for a long time)
+    heroVer: (() => { try { return Math.floor(fs.statSync(path.join(here, "..", "static", "images", "heroes", `${p.slug}.jpg`)).mtimeMs / 1000); } catch (e) { return 0; } })(),
     heroSize: (() => { try { return JSON.parse(fs.readFileSync(path.join(here, "..", "static", "images", "heroes", `${p.slug}.json`), "utf8")); } catch (e) { return { width: 1920, height: 520 }; } })(),
     schema: {
       "@context": "https://schema.org",

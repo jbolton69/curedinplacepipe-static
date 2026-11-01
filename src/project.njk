@@ -111,8 +111,8 @@ eleventyComputed:
 </style>
 <div class="walt-hero">
     <picture>
-        <source media="(max-width: 767px)" srcset="{{ pg.heroImage | replace('.jpg', '-960.jpg') }}">
-        <img src="{{ pg.heroImage }}" width="{{ pg.heroSize.width }}" height="{{ pg.heroSize.height }}" alt="Walt &ldquo;Dug&rdquo; Dugan &mdash; {{ pg.city.name }}, {{ pg.state.name }}: free estimates, no digging. Trenchless sewer repair by {{ short }}." fetchpriority="high">
+        <source media="(max-width: 767px)" srcset="{{ pg.heroImage | replace('.jpg', '-960.jpg') }}?v={{ pg.heroVer }}">
+        <img src="{{ pg.heroImage }}?v={{ pg.heroVer }}" width="{{ pg.heroSize.width }}" height="{{ pg.heroSize.height }}" alt="Walt &ldquo;Dug&rdquo; Dugan &mdash; {{ pg.city.name }}, {{ pg.state.name }}: free estimates, no digging. Trenchless sewer repair by {{ short }}." fetchpriority="high">
     </picture>
     <div class="walt-hero-band">
         <h1>{{ p.title }}</h1>
