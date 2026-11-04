@@ -120,6 +120,12 @@ function quoteCompare(p, c) {
   };
 }
 
+
+/** Cache-buster for an image under src/static: the file keeps its name when redrawn, so the URL carries its mtime (Cloudflare caches /images/* for 7 days) */
+function imgVer(src) {
+  try { return "?v=" + Math.floor(fs.statSync(path.join(here, "..", "static", String(src).replace(/^\//, ""))).mtimeMs / 1000); } catch (e) { return ""; }
+}
+
 /** Project row view-model shared by every project list (contractor/_project_row) */
 function projectRow(p, showContractor = false) {
   const c = contractorById[p.contractorId];
@@ -135,7 +141,7 @@ function projectRow(p, showContractor = false) {
     summary170: strLimit(p.summary, 170),
     summary160: strLimit(p.summary, 160),
     summary120: strLimit(p.summary, 120),
-    photo: photo ? { src: photo.src.startsWith("http") || photo.src.startsWith("/") ? photo.src : "/" + photo.src, alt: photo.alt || p.title } : null,
+    photo: photo ? (() => { const src = photo.src.startsWith("http") || photo.src.startsWith("/") ? photo.src : "/" + photo.src; return { src: src + (src.startsWith("/") ? imgVer(src) : ""), alt: photo.alt || p.title }; })() : null,
     meta: meta.join(" · "),
     stat: filled(p.footage) ? p.footage : filled(p.serviceType) ? p.serviceType : "CIPP",
     statLabel: filled(p.footage) ? (filled(p.serviceType) ? p.serviceType : "lined") : "completed",
@@ -361,7 +367,7 @@ const projectPages = published.map((p) => {
     ["Service", p.serviceType], ["Pipe material", p.pipeMaterial], ["Diameter", p.pipeDiameter],
     ["Footage lined", p.footage], ["Property", p.propertyType], ["Completed", monthYearLong(p.completedOn)],
   ].filter(([, v]) => filled(v));
-  const photos = (p.photos || []).filter((ph) => ph && ph.src).map((ph) => ({ src: ph.src.startsWith("/") || ph.src.startsWith("http") ? ph.src : "/" + ph.src, alt: ph.alt || `${p.title} — ${c.shortName}`, generated: !!ph.generated }));
+  const photos = (p.photos || []).filter((ph) => ph && ph.src).map((ph) => ({ src: ph.src.startsWith("/") || ph.src.startsWith("http") ? ph.src : "/" + ph.src, alt: ph.alt || `${p.title} — ${c.shortName}`, generated: !!ph.generated })).map((ph) => ({ ...ph, src: ph.src + (ph.src.startsWith("/") ? imgVer(ph.src) : "") }));
 
   return {
     p, c, city, state, phone, url,

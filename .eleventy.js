@@ -18,8 +18,9 @@ export default function (eleventyConfig) {
       const src = (attrs.match(/\ssrc=["']([^"']+)["']/) || [])[1];
       if (!src) return tag; // not a real image (e.g. "<img>" inside a comment)
       let extra = "";
-      if (src && imageDims[src] && !/\swidth=/.test(attrs) && !/\sheight=/.test(attrs)) {
-        extra += ` width="${imageDims[src][0]}" height="${imageDims[src][1]}"`;
+      const srcKey = src.split("?")[0];
+      if (src && imageDims[srcKey] && !/\swidth=/.test(attrs) && !/\sheight=/.test(attrs)) {
+        extra += ` width="${imageDims[srcKey][0]}" height="${imageDims[srcKey][1]}"`;
       }
       if (!/\sloading=/.test(attrs) && !/\sfetchpriority=/.test(attrs)) {
         extra += first ? ` fetchpriority="high"` : ` loading="lazy" decoding="async"`;
