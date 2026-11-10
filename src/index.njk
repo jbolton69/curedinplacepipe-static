@@ -8,10 +8,24 @@ preloadImage: /images/slider/hero-cipp-front-yard.jpg
 {#- Port of resources/views/home/index.blade.php -#}
 <style>
 	.home-hero.slider-area {
+		position: relative;
 		background: url("/images/slider/hero-cipp-front-yard.jpg") !important;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
+	}
+	/* Dark-to-transparent fade on the left so the headline stays readable over the photo */
+	.home-hero.slider-area::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(90deg, rgba(8,12,18,.78) 0%, rgba(8,12,18,.55) 32%, rgba(8,12,18,.18) 55%, rgba(8,12,18,0) 72%);
+		pointer-events: none;
+		z-index: 1;
+	}
+	.home-hero.slider-area > .container {
+		position: relative;
+		z-index: 2;
 	}
 </style>
 
