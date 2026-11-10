@@ -1631,5 +1631,124 @@
     },
     "pits": 1,
     "savedAmount": 7085
+  },
+  {
+    "id": 54,
+    "contractorId": 2,
+    "cityId": 168,
+    "slug": "san-clemente-105-ft-cipp-lining-escrow",
+    "title": "105 ft of San Clemente sewer lined in one visit to clear an escrow sewer scope",
+    "summary": "A pre-sale inspection flagged a scaled, aging cast iron lateral in San Clemente. TSR opened one pit at the cleanout and lined 105 feet in both directions, closing out the sewer scope before the sale's closing date.",
+    "body": "<h3>The situation</h3><p>A sewer lateral inspection ahead of a San Clemente home sale turned up exactly the kind of finding that can stall escrow: an old cast iron line, scaled down and rough for most of its length, stepping to a smaller size partway to the street. Nothing had collapsed, but the clock on the transaction was running and a full excavation wasn't going to fit the timeline.</p><p>TSR ran its own camera down the line through the existing cleanout to confirm the pipe's condition before quoting the job. It held its shape well enough to reline rather than replace, which kept the repair to a single access point instead of a trench the length of the lateral.</p><h3>The fix</h3><p>From one pit dug at the home's existing cleanout, the crew descaled and hydro jetted 53 feet of cast iron running toward the house, then installed a transition liner sized to step down where the pipe changes diameter partway through the run. Working the other direction from the same pit, they cleared 52 feet of roots and pipe offsets out to the city connection and lined that section too, carrying the liner a couple of inches into the public main and trimming it flush to seal the last joint. One branch line feeding a bathroom, covered by the liner, was reopened afterward with a robotic cutting tool.</p><p>Both runs were cured, reconnected and backfilled in a single visit, and the sewer scope that had been sitting on the transaction was resolved without a trench or a delay to the closing date.</p><h3>Why it mattered for the sale</h3><p>A sewer scope rarely surfaces with enough runway left for a multi-day dig, and a trenchless repair through one small pit usually fits inside a normal escrow window where an excavation and replacement would not. TSR's lining work on this job carries its standard 25-year warranty, which transfers to the new owner along with the house. More on this job, including the full breakdown of both lined sections, is on <a href=\"https://tsrtrenchless.com/projects/san-clemente-sewer-lining-105-ft/\" target=\"_blank\" rel=\"noopener\">TSR Trenchless's San Clemente project page</a>.</p>",
+    "serviceType": "CIPP lining",
+    "pipeMaterial": "Cast iron",
+    "pipeDiameter": "4\"/3\"",
+    "footage": "105 ft",
+    "propertyType": "Residential",
+    "completedOn": "",
+    "phone": "(949) 267-3595",
+    "photos": [
+      {
+        "src": "/images/projects/san-clemente-105-ft-cipp-lining-escrow-1200.jpg",
+        "alt": "105 ft of San Clemente sewer lined in one visit to clear an escrow sewer scope — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
+    "metaTitle": "CIPP Sewer Lining in San Clemente, CA — 105 Ft for an Escrow Sale | TSR",
+    "metaDescription": "A San Clemente escrow sewer scope flagged a scaled cast iron lateral. TSR lined 105 ft from one pit, both directions, closing it out before the sale's closing date.",
+    "status": "published",
+    "sort": 0,
+    "createdAt": "2026-11-10 09:00:00",
+    "updatedAt": "2026-11-10 09:00:00"
+  },
+  {
+    "id": 55,
+    "contractorId": 2,
+    "cityId": 169,
+    "slug": "valencia-100-ft-commercial-cipp-lining",
+    "title": "100 ft commercial sewer main relined in Valencia with 11 branches reinstated",
+    "summary": "A Valencia commercial building had a scaled 100-foot cast iron main feeding eleven branch connections to its restrooms. TSR lined the entire run from a single pit near the entrance, keeping the business open through the job.",
+    "body": "<h3>The situation</h3><p>Commercial sewer mains carry more branch connections than a typical house line, and this Valencia building's 4-inch cast iron main was a clear example: about 100 feet of pipe running from the front entrance back to the restrooms, picking up eleven separate branches along the way. A conventional trench long enough to replace that run would have meant tearing up the approach to the building's entrance and closing the restrooms for the better part of a week.</p><h3>The fix</h3><p>TSR dug a single access pit outside the building, near the entrance, and worked the entire run from that one opening. The cast iron was scaled enough that it needed about 12 hours of mechanical descaling and a full hydro jet pass before it would take a liner, longer than the lining itself took. Once the pipe was clean, the crew installed a cured-in-place epoxy liner over the full 100 feet, then sent a robotic cutting tool back through to reinstate all eleven branch connections the liner had covered, restoring flow to each one without a separate excavation per branch. The line was reconnected with new ABS pipe at the pit, and the dirt and cement at the entrance were backfilled and patched.</p><h3>What it saved</h3><p>The building owner's estimate put the lining at roughly $10,000 less than quotes to trench and replace the main, before counting what a multi-day closure of the entrance and restrooms would have cost a business that depends on customers walking through that door. More on this job is on <a href=\"https://tsrtrenchless.com/projects/valencia-commercial-sewer-lining-100-ft/\" target=\"_blank\" rel=\"noopener\">TSR Trenchless's Valencia project page</a>.</p>",
+    "serviceType": "CIPP lining",
+    "pipeMaterial": "Cast iron",
+    "pipeDiameter": "4\"",
+    "footage": "100 ft",
+    "propertyType": "Commercial",
+    "completedOn": "",
+    "phone": "(310) 340-2515",
+    "photos": [
+      {
+        "src": "/images/projects/valencia-100-ft-commercial-cipp-lining-1200.jpg",
+        "alt": "100 ft commercial sewer main relined in Valencia with 11 branches reinstated — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
+    "metaTitle": "Commercial CIPP Lining in Valencia, CA — 100 Ft, 11 Branches | TSR",
+    "metaDescription": "A Valencia commercial building's 100-foot cast iron main served 11 branch lines. TSR lined the full run from one pit and reinstated every branch, restrooms open the whole time.",
+    "status": "published",
+    "sort": 0,
+    "createdAt": "2026-11-10 09:00:00",
+    "updatedAt": "2026-11-10 09:00:00",
+    "savedAmount": 10000
+  },
+  {
+    "id": 56,
+    "contractorId": 2,
+    "cityId": 19,
+    "slug": "placentia-45-ft-kitchen-line-epoxy-coating",
+    "title": "45 ft Placentia kitchen line epoxy coated after every other bid called for trenching",
+    "summary": "Every company that cameraed this Placentia homeowner's kitchen line recommended trenching the house to replace it. TSR cleaned and epoxy coated the 2-inch cast iron line instead, with no digging at all.",
+    "body": "<h3>The situation</h3><p>A slow, backing-up kitchen drain sent this Placentia homeowner looking for bids, and the answer kept coming back the same: the 2-inch cast iron line looked rough enough on camera that every company wanted to trench the house to replace it. TSR's own inspection told a different story — the pipe was scaled and narrowed, which explained the backups, but the cast iron wall underneath was still sound.</p><h3>The fix</h3><p>Working from the existing kitchen cleanout, TSR descaled the full 45-foot run back to the main line, a process that took six to seven hours given how narrow and heavily scaled the pipe was, then hydro jetted the loosened debris clear. Rather than pull a full liner tube through a line this narrow, the crew applied an epoxy coating directly to the cleaned interior wall — a different trenchless technique suited to shorter, narrower runs like a kitchen branch, where a tube liner's clearance requirements aren't practical. No pit was dug and no flooring was opened; the kitchen was back in normal use the same day.</p><h3>What it saved</h3><p>Comparing the coating to the excavation bids collected beforehand, the homeowner's estimate put the savings at around $9,000, not counting whatever flooring or cabinetry a trench through the kitchen would have disturbed. More on this job is on <a href=\"https://tsrtrenchless.com/projects/placentia-kitchen-line-epoxy-coating-45-ft/\" target=\"_blank\" rel=\"noopener\">TSR Trenchless's Placentia project page</a>.</p>",
+    "serviceType": "Epoxy pipe coating",
+    "pipeMaterial": "Cast iron",
+    "pipeDiameter": "2\"",
+    "footage": "45 ft",
+    "propertyType": "Residential",
+    "completedOn": "",
+    "phone": "(949) 267-3595",
+    "photos": [
+      {
+        "src": "/images/projects/placentia-45-ft-kitchen-line-epoxy-coating-1200.jpg",
+        "alt": "45 ft Placentia kitchen line epoxy coated after every other bid called for trenching — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
+    "metaTitle": "Trenchless Kitchen Line Repair in Placentia, CA — 45 Ft Epoxy Coated | TSR",
+    "metaDescription": "Every bid on this Placentia kitchen line called for trenching. TSR descaled and epoxy coated 45 ft of 2-inch cast iron instead, no digging, same-day repair.",
+    "status": "published",
+    "sort": 0,
+    "createdAt": "2026-11-10 09:00:00",
+    "updatedAt": "2026-11-10 09:00:00",
+    "savedAmount": 9000
+  },
+  {
+    "id": 57,
+    "contractorId": 2,
+    "cityId": 130,
+    "slug": "laguna-beach-50-ft-orangeburg-cast-iron-lining",
+    "title": "50 ft of Orangeburg and cast iron sewer lined under a Laguna Beach porch in one day",
+    "summary": "An aging mix of cast iron and Orangeburg pipe ran under this Laguna Beach home's cement porch. TSR cut one pit through the concrete and lined 50 feet in both directions, finishing in a single day.",
+    "body": "<h3>The situation</h3><p>This Laguna Beach lateral was old enough, and showing its age clearly enough, that the homeowner didn't want to wait for a failure. The pipe was a mix of cast iron and Orangeburg, a bituminized fiber material common in homes built in the late 1940s, and both sections were due for attention. Orangeburg has a reputation for needing full replacement, but that isn't TSR's experience — the deciding factor is whether the pipe has deformed or collapsed, not simply its age or material.</p><h3>The fix</h3><p>The line ran directly under the home's cement front porch, so the crew cut and dug a single pit through the concrete to reach it, then descaled roughly 50 feet of pipe, cast iron on one side and Orangeburg on the other, and hydro jetted the debris clear. A camera check confirmed the Orangeburg sections hadn't deformed, which kept bursting or replacement off the table. From that one pit, TSR epoxy lined 30 feet downstream and 20 feet upstream, both runs stopping where the pipe transitions to plastic, and reinstated four branch connections the liner had covered. The crew backfilled the dirt and patched the concrete porch the same day.</p><h3>What it saved</h3><p>The homeowner's estimate put the savings at around $5,000 against the cost of trenching through the porch and front yard to replace the line, not counting the concrete and landscaping that excavation would have disturbed. More on this job is on <a href=\"https://tsrtrenchless.com/projects/laguna-beach-orangeburg-cast-iron-lining-50-ft/\" target=\"_blank\" rel=\"noopener\">TSR Trenchless's Laguna Beach project page</a>.</p>",
+    "serviceType": "CIPP lining",
+    "pipeMaterial": "Cast iron / Orangeburg",
+    "pipeDiameter": "4\"",
+    "footage": "50 ft",
+    "propertyType": "Residential",
+    "completedOn": "",
+    "phone": "(949) 267-3595",
+    "photos": [
+      {
+        "src": "/images/projects/laguna-beach-50-ft-orangeburg-cast-iron-lining-1200.jpg",
+        "alt": "50 ft of Orangeburg and cast iron sewer lined under a Laguna Beach porch in one day — TSR Trenchless (illustration)",
+        "generated": true
+      }
+    ],
+    "metaTitle": "CIPP Lining in Laguna Beach, CA — 50 Ft of Orangeburg and Cast Iron | TSR",
+    "metaDescription": "An old cast iron and Orangeburg line under a Laguna Beach porch was lined in one day: one pit through the concrete, 50 ft relined, four branches reinstated.",
+    "status": "published",
+    "sort": 0,
+    "createdAt": "2026-11-10 09:00:00",
+    "updatedAt": "2026-11-10 09:00:00",
+    "savedAmount": 5000
   }
 ]
