@@ -6042,11 +6042,9 @@ div#particles .slider1.index2-slider-area {
     display: flex !important;
     justify-content: center;
 }
-.slider_list .owl-item { display: block !important; }
-.slider_list .slider-area { width: 100%; }
 /* Home hero: keep the three CTA buttons on one row */
-.slider_list .slider-content .slider-button,
-.slider_list .slider-content .slider-button1 {
+.home-hero .slider-content .slider-button,
+.home-hero .slider-content .slider-button1 {
     float: none;
     display: inline-block;
     vertical-align: top;

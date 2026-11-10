@@ -29,13 +29,6 @@
   });
   $('.go-top').on('click', function () { $('html, body').animate({ scrollTop: '0' }, 1200); });
 
-  // Hero slider (home)
-  $('.slider_list').owlCarousel({
-    loop: true, autoplay: false, autoplayTimeout: 10000, dots: false, nav: true,
-    navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-    responsive: { 0: { items: 1 } }
-  });
-
   // Blog carousel (home) — same options the inline script in base.njk used
   $('.blog_list.owl-carousel').owlCarousel({
     loop: true, margin: 30, nav: true, dots: false, autoplay: true, smartSpeed: 700,

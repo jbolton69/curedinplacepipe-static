@@ -69,8 +69,9 @@ css = css.replace(/url\((['"]?)https?:\/\/wp\.dreamitsolution\.net[^)]*\)/g, "no
 // Metric-compatible fallback (Arial, size-adjusted to Poppins) so text doesn't jump when the webfont swaps in
 const poppinsFallback = `@font-face{font-family:"Poppins Fallback";src:local("Arial");size-adjust:112.16%;ascent-override:93.77%;descent-override:31.26%;line-gap-override:8.92%}`;
 css = css.replace(/(['"]?)Poppins\1\s*,\s*sans-serif/g, `Poppins,"Poppins Fallback",sans-serif`);
-// Before the carousel script runs, stack only the FIRST hero slide (otherwise both slides render, then collapse = layout shift)
-const preInit = `.slider_list.owl-carousel:not(.owl-loaded)>.slider-area:not(:first-child),.blog_list.owl-carousel:not(.owl-loaded)>*:nth-child(n+4){display:none!important}.owl-carousel:not(.owl-loaded){display:block}@media (max-width:990px){.mobile-menu-area{min-height:89px}.mobile-menu .dreamit_menu{display:none}}`;
+// Before the carousel script runs, stack only the first few blog cards (otherwise all render, then collapse = layout shift).
+// The hero is a single static image now (no carousel), so it needs no pre-init rule.
+const preInit = `.blog_list.owl-carousel:not(.owl-loaded)>*:nth-child(n+4){display:none!important}.owl-carousel:not(.owl-loaded){display:block}@media (max-width:990px){.mobile-menu-area{min-height:89px}.mobile-menu .dreamit_menu{display:none}}`;
 css = poppins + "\n" + poppins800 + "\n" + poppinsFallback + "\n" + css + "\n" + preInit;
 
 // Purge against the built HTML. Dynamic classes added by JS are safelisted.

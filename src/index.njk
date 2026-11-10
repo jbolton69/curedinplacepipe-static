@@ -3,68 +3,45 @@ layout: layouts/base.njk
 permalink: /index.html
 pageTitle: "Verified Cured In Place Pipe Contractors"
 pageDescription: "We help you find experienced contractors for CIPP cured in place pipe services, specializing in residential & commercial repairs & installations."
-preloadImage: /images/slider/slider1.jpg
+preloadImage: /images/slider/hero-cipp-front-yard.jpg
 ---
 {#- Port of resources/views/home/index.blade.php -#}
 <style>
-	.slider1.slider-area {
-		background: url("/images/slider/slider1.jpg") !important;
-	}
-
-	.slider2.slider-area {
-		background: url("/images/slider/slider.jpg") !important;
+	.home-hero.slider-area {
+		background: url("/images/slider/hero-cipp-front-yard.jpg") !important;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 </style>
 
 <!--==================================================-->
-<!-- Start slider Area -->
+<!-- Start hero Area (single static image, no slider/arrows) -->
 <!--==================================================-->
-<div class="slider_list owl-carousel">
-	<div class="slider-area slider1 d-flex align-items-center">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="slider-content">
-						<h4>Welcome to Cured In Place Pipe</h4>
-						<h1>Your Top Source For <br> Cured In Place Pipe Contractors</h1>
-						<p>Industrial, Commercial and Residential Sewer Main Restorations Using "No Dig" Technology.</p>
-						<div class="slider-button">
-							<a href="/contact">Get A Free Quote</a>
-						</div>
-						<div class="search-box-outer slider-button1">
-							<a href="javascript:void(0)" class="">Find Contractors</a>
-						</div>
-						<div class="slider-button1" style="display:inline-block;">
-							<a href="{{ video.embedPage }}" class="cipp-video-btn" onclick="openCippVideo(); return false;"><i class="fas fa-play"></i>Watch How It Works</a>
-						</div>
+<div class="home-hero slider-area slider1 d-flex align-items-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="slider-content">
+					<h4>Welcome to Cured In Place Pipe</h4>
+					<h1>Your Top Source For <br> Cured In Place Pipe Contractors</h1>
+					<p>Industrial, Commercial and Residential Sewer Main Restorations Using "No Dig" Technology.</p>
+					<div class="slider-button">
+						<a href="/contact">Get A Free Quote</a>
 					</div>
-				 </div>
-			</div>
-		</div>
-	</div>
-	<div class="slider-area slider2 d-flex align-items-center">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-6 col-sm-12">
-					<div class="slider-content">
-						<h4> Welcome to Cured In Place Pipe</h4>
-						<h1>Seamless Liners For</h1>
-						<h1>Rehabilitation of Old Pipes</h1>
-						<p>Available For Industrial, Commercial and Residential Applications.</p>
-						<div class="slider-button">
-							<a href="/contact">Get A Quote</a>
-						</div>
-						<div class="search-box-outer slider-button1">
-							<a href="javascript:void(0)">Find Contractors</a>
-						</div>
+					<div class="search-box-outer slider-button1">
+						<a href="javascript:void(0)" class="">Find Contractors</a>
 					</div>
-				 </div>
-			</div>
+					<div class="slider-button1" style="display:inline-block;">
+						<a href="{{ video.embedPage }}" class="cipp-video-btn" onclick="openCippVideo(); return false;"><i class="fas fa-play"></i>Watch How It Works</a>
+					</div>
+				</div>
+			 </div>
 		</div>
 	</div>
 </div>
 <!--==================================================-->
-<!--End slider Area  -->
+<!--End hero Area  -->
 <!--==================================================-->
 
 <!--==================================================-->
