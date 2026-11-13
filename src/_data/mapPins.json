@@ -1,13 +1,19 @@
 {
   "_note": "HQ pin for each verified installer on /network-map, keyed by contractor slug. Coordinates are city-level unless a street address was known. Edit lat/lng to move a pin; a contractor with no entry here is skipped on the map.",
-  "tsr-trenchless":                  { "lat": 33.5017, "lng": -117.6625, "placeLabel": "San Juan Capistrano, CA" },
-  "cpc-trenchless":                  { "lat": 29.7604, "lng": -95.3698,  "placeLabel": "Houston, TX" },
+  "tsr-trenchless": { "lat": 33.5017, "lng": -117.6625, "placeLabel": "San Juan Capistrano, CA" },
+  "cpc-trenchless": { "lat": 29.7604, "lng": -95.3698, "placeLabel": "Houston, TX" },
   "all-sewer-and-plumbing-services": { "lat": 39.8367, "lng": -105.0372, "placeLabel": "Westminster, CO" },
-  "the-trenchless-guys":             { "lat": 40.7978, "lng": -81.9378,  "placeLabel": "Wooster, OH" },
-  "the-trenchless-team":             { "lat": 39.8137, "lng": -74.9340,  "placeLabel": "West Berlin, NJ" },
-  "new-england-pipe-restoration":    { "lat": 42.5251, "lng": -71.7598,  "placeLabel": "Leominster, MA" },
-  "american-trenchless-technologies":{ "lat": 41.9206, "lng": -88.6887,  "placeLabel": "Cortland, IL" },
-  "fletch-barney-trenchless":        { "lat": 33.7490, "lng": -84.3880,  "placeLabel": "Atlanta, GA" },
-  "superior-plumbing-pipe-lining":   { "lat": 27.3364, "lng": -82.4620,  "placeLabel": "Sarasota, FL" },
-  "sewer-techs":                     { "lat": 47.2485, "lng": -122.4386, "placeLabel": "Tacoma, WA" }
+  "the-trenchless-guys": { "lat": 40.7978, "lng": -81.9378, "placeLabel": "Wooster, OH" },
+  "the-trenchless-team": { "lat": 39.8137, "lng": -74.934, "placeLabel": "West Berlin, NJ" },
+  "new-england-pipe-restoration": { "lat": 42.5251, "lng": -71.7598, "placeLabel": "Leominster, MA" },
+  "american-trenchless-technologies": { "lat": 41.9206, "lng": -88.6887, "placeLabel": "Cortland, IL" },
+  "fletch-barney-trenchless": { "lat": 33.749, "lng": -84.388, "placeLabel": "Atlanta, GA" },
+  "superior-plumbing-pipe-lining": { "lat": 27.3364, "lng": -82.462, "placeLabel": "Sarasota, FL" },
+  "sewer-techs": { "lat": 47.2485, "lng": -122.4386, "placeLabel": "Tacoma, WA" },
+  "environmental-pipe-cleaning": { "lat": 37.7759, "lng": -77.4874, "placeLabel": "Ashland, VA" },
+  "slb-pipe-solutions": { "lat": 38.8595, "lng": -86.4871, "placeLabel": "Bedford, IN" },
+  "plumber-of-tucson": { "lat": 32.2828, "lng": -110.9859, "placeLabel": "Tucson, AZ" },
+  "lining-and-coating-solutions": { "lat": 34.9612, "lng": -89.8295, "placeLabel": "Olive Branch, MS" },
+  "jeff-roderfeld-construction": { "lat": 38.7881, "lng": -90.4974, "placeLabel": "St. Charles, MO" },
+  "hill-services": { "lat": 35.2224, "lng": -89.9711, "placeLabel": "Memphis, TN" }
 }

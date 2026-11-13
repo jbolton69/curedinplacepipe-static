@@ -75,5 +75,45 @@
     "id": 18,
     "name": "Washington",
     "slug": "washington"
+  },
+  {
+    "id": 19,
+    "name": "Virginia",
+    "slug": "virginia"
+  },
+  {
+    "id": 20,
+    "name": "North Carolina",
+    "slug": "north-carolina"
+  },
+  {
+    "id": 21,
+    "name": "Indiana",
+    "slug": "indiana"
+  },
+  {
+    "id": 22,
+    "name": "Arizona",
+    "slug": "arizona"
+  },
+  {
+    "id": 23,
+    "name": "Mississippi",
+    "slug": "mississippi"
+  },
+  {
+    "id": 24,
+    "name": "Missouri",
+    "slug": "missouri"
+  },
+  {
+    "id": 25,
+    "name": "Tennessee",
+    "slug": "tennessee"
+  },
+  {
+    "id": 26,
+    "name": "Arkansas",
+    "slug": "arkansas"
   }
 ]
